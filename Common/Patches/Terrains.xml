@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName="RV2_FertilizedSoil"]/costList</xpath>
+        <value>
+            <RV2_Manufactured_Fertilizer>1</RV2_Manufactured_Fertilizer>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName="RV2_FertilizedSoil"]/fertility</xpath>
+        <value>
+            <fertility>1.6</fertility>
+        </value>
+    </Operation>
+</Patch>

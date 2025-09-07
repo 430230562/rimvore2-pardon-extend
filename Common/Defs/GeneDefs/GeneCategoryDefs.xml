@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <GeneCategoryDef>
+        <defName>RV2_Vore_StorageCapacity</defName>
+        <label>Storage Capacity</label>
+        <displayPriorityInXenotype>610</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+</Defs>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RimVore2.RollPresetDef ParentName="IncreaseCosmeticHediff">
+    <defName>Heal_Prey</defName>
+    <strengthModifiers>
+      <li Class="RimVore2.RollModifier_Stat">
+        <target>Prey</target>
+        <stat>InjuryHealingFactor</stat>
+      </li>
+      <li Class="RimVore2.RollModifier_Value">
+        <value>1.33</value>
+      </li>
+    </strengthModifiers>
+    <strength>0.02</strength>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_Heal">
+        <target>Prey</target>
+      </li>
+      <li Class="RimVore2.RollAction_IncreaseHediffSeverity">
+        <target>Prey</target>
+        <hediff>RV2_FasterRecover</hediff>
+        <addHediffIfNotPresent>true</addHediffIfNotPresent>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+</Defs>

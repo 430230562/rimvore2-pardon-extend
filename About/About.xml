@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+    <name>RimVore2-pardon's-Extend</name>
+    <author>pardon</author>
+    <packageId>pardon.RV2Extend</packageId>
+    <description>
+        添加了和吞噬有关的基因和植入物.
+    </description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>Nabber.RimVore2</packageId>
+            <displayName>RimVore-2</displayName>
+            <downloadUrl>https://gitlab.com/Nabber/rimvore-2.git</downloadUrl>
+        </li>
+    </modDependencies>
+    <incompatibleWith>
+    </incompatibleWith>
+    <loadAfter>
+        <li>Nabber.RimVore2</li>
+    </loadAfter>
+</ModMetaData>

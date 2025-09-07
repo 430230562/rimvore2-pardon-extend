@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef>
+        <defName>RV2_QuirkForce_StorageCapacity_Godlike</defName>
+        <label>Godlike Capacity</label>
+        <description>[PAWN_label]'s skin is supernaturally stretchy, able to expand to sizes that defy all logic and reason. No matter how full [PAWN_pronoun] gets, [PAWN_pronoun] seemingly always has room for one more.</description>
+        <iconPath>UI/Icons/Genes/StorageCapacity_Godlike</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StorageCapacity_Godlike</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <displayCategory>RV2_Vore</displayCategory>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <biostatMet>-4</biostatMet>
+    </GeneDef>
+</Defs>

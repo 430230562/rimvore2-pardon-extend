@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 这不是一个高效的方法 -->
+<Defs>
+    <!-- 容量 -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StorageCapacity_Godlike</defName>
+        <label>Godlike Capacity</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StorageCapacity_Godlike</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StorageCapacity_VeryGood</defName>
+        <label>Cavernous</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StorageCapacity_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StorageCapacity_Good</defName>
+        <label>Stretchy</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StorageCapacity_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StorageCapacity_Normal</defName>
+        <label>Normal capacity</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StorageCapacity_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StorageCapacity_Bad</defName>
+        <label>Tight</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StorageCapacity_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StorageCapacity_VeryBad</defName>
+        <label>Claustrophobic</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StorageCapacity_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+</Defs>
