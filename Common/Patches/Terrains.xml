@@ -13,4 +13,12 @@
             <fertility>1.6</fertility>
         </value>
     </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[@Name='RV2_VoreEnabledPart_Base']/stages/li/minSeverity</xpath>
+        <value>
+            <minSeverity>0.5</minSeverity>
+        </value>
+    </Operation>
+
 </Patch>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pardon.iml" filepath="$PROJECT_DIR$/.idea/pardon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/rimvore2-pardon-extend.iml" filepath="$PROJECT_DIR$/.idea/rimvore2-pardon-extend.iml" />
     </modules>
   </component>
 </project>

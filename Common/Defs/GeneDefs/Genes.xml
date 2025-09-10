@@ -3,7 +3,7 @@
     <GeneDef>
         <defName>RV2_QuirkForce_StorageCapacity_Godlike</defName>
         <label>Godlike Capacity</label>
-        <description>[PAWN_label]'s skin is supernaturally stretchy, able to expand to sizes that defy all logic and reason. No matter how full [PAWN_pronoun] gets, [PAWN_pronoun] seemingly always has room for one more.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
         <iconPath>UI/Icons/Genes/StorageCapacity_Godlike</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
@@ -13,8 +13,98 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
-        <displayCategory>RV2_Vore</displayCategory>
+        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
         <displayOrderInCategory>1</displayOrderInCategory>
-        <biostatMet>-4</biostatMet>
+        <biostatMet>-3</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StorageCapacity_VeryGood</defName>
+        <label>Cavernous</label>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StorageCapacity_VeryGood</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StorageCapacity_VeryGood</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StorageCapacity_Good</defName>
+        <label>Stretchy</label>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StorageCapacity_Good</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StorageCapacity_Good</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StorageCapacity_Normal</defName>
+        <label>Normal capacity</label>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StorageCapacity_Normal</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StorageCapacity_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayOrderInCategory>4</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StorageCapacity_Bad</defName>
+        <label>Tight</label>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StorageCapacity_Bad</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StorageCapacity_Bad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StorageCapacity_VeryBad</defName>
+        <label>Claustrophobic</label>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StorageCapacity_VeryBad</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StorageCapacity_VeryBad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayOrderInCategory>6</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
     </GeneDef>
 </Defs>
