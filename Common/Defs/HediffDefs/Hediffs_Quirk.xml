@@ -2,7 +2,21 @@
 
 <!-- 这不是一个高效的方法 -->
 <Defs>
+
     <!-- 容量 -->
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_Cheat_InfiniteCapacity</defName>
+        <label>Infinite Capacity</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Cheat_InfiniteCapacity</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_QuirkForce_StorageCapacity_Godlike</defName>
         <label>Godlike Capacity</label>
@@ -13,6 +27,17 @@
                 </quirks>
             </li>
         </comps>
+
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>RV2_Capacity</capacity>
+                        <setMin>4</setMin>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">

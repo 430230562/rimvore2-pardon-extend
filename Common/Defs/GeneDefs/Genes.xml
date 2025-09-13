@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
     <GeneDef>
+        <defName>RV2_QuirkForce_Cheat_InfiniteCapacity</defName>
+        <label>Infinite Capacity</label>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StorageCapacity_Infinite</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_Cheat_InfiniteCapacity</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <capMods>
+            <li>
+                <capacity>RV2_Capacity</capacity>
+                <setMin>9999</setMin>
+            </li>
+        </capMods>
+        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatArc>1</biostatArc>
+    </GeneDef>
+
+    <GeneDef>
         <defName>RV2_QuirkForce_StorageCapacity_Godlike</defName>
         <label>Godlike Capacity</label>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -13,6 +38,12 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <capMods>
+            <li>
+                <capacity>RV2_Capacity</capacity>
+                <setMin>4</setMin>
+            </li>
+        </capMods>
         <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
         <displayOrderInCategory>1</displayOrderInCategory>
         <biostatMet>-3</biostatMet>
@@ -70,6 +101,7 @@
         <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
         <displayOrderInCategory>4</displayOrderInCategory>
         <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
     </GeneDef>
 
     <GeneDef>
