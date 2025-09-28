@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<XmlExtensions.SettingsMenuDef>
+		<modId>Pardon.RV2Extend</modId>
+		<!-- Mod identifier, PackageID is standard -->
+		<label>RimVore2-pardon's-Extend</label>
+		<!-- This is what displays as your mod's name -->
+		
+		<settings>
+			<!-- This is where you define what settings are in the settings menu -->
+			<li Class="XmlExtensions.Setting.SplitColumn">
+				<leftCol>
+					<li Class="XmlExtensions.Setting.SetColor">
+						<color>(255,255,0)</color>
+					</li>
+					<li Class="XmlExtensions.Setting.Text">
+						<text>Please remember to restart Rimworld after finalizing changes.</text>
+						<tKey>RVP_SettingsNeedReloadGame</tKey>
+						<anchor>Middle</anchor>
+					</li>
+					<li Class="XmlExtensions.Setting.SetColor"/>
+				</leftCol>
+				
+				<rightCol>
+					<li Class="XmlExtensions.Setting.ResetSettings"/>
+				</rightCol>
+			</li>
+
+			<li Class="XmlExtensions.Setting.GapLine"/>
+
+			<li Class="XmlExtensions.Setting.Section">
+				<settings>
+					<!--
+					<li Class="XmlExtensions.Setting.Text">
+						<text></text>
+						<tKey></tKey>
+						<anchor>Middle</anchor>
+					</li>
+					-->
+					<li Class="XmlExtensions.Setting.SplitColumn">
+						<leftCol>
+							<li Class="XmlExtensions.Setting.Checkbox">
+								<key>HideLightGenitals</key>
+								<label>Hide Light Genitals</label>
+								<tKey>RVP_HideLightGenitals</tKey>
+								<defaultValue>false</defaultValue>
+							</li>
+						</leftCol>
+						
+						<rightCol>
+							
+						</rightCol>
+					</li>
+				</settings>
+			</li>
+
+
+		</settings>
+	</XmlExtensions.SettingsMenuDef>
+</Defs>

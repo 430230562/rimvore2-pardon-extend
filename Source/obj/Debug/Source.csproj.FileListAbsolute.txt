@@ -1,0 +1,6 @@
+D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\bin\Debug\Source.dll
+D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\bin\Debug\Source.pdb
+D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\obj\Debug\Source.csproj.AssemblyReference.cache
+D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\obj\Debug\Source.csproj.CoreCompileInputs.cache
+D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\obj\Debug\Source.dll
+D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\obj\Debug\Source.pdb

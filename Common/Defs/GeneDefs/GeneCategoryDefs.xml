@@ -2,8 +2,8 @@
 <Defs>
 
     <GeneCategoryDef>
-        <defName>RV2_Vore_StorageCapacity</defName>
-        <label>Storage Capacity</label>
+        <defName>RV2_Vore_Capacity</defName>
+        <label>Vore Capacity</label>
         <displayPriorityInXenotype>610</displayPriorityInXenotype>
     </GeneCategoryDef>
 

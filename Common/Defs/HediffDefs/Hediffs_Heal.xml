@@ -11,7 +11,7 @@
     <priceImpact>false</priceImpact>
     <comps>
         <li Class="HediffCompProperties_SeverityPerDay">
-            <severityPerDay>-1</severityPerDay>
+            <severityPerDay>-2</severityPerDay>
         </li>
     </comps>
     <stages>

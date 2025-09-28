@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>Pardon.RV2Extend</modId>
+		<!-- String that XML Extensions can identify your mod with (use your PackageID) -->
+		<key>HideLightGenitals</key>
+		<!-- Key to identify the setting (only used internally, invisible to user) -->
+		<defaultValue>false</defaultValue>
+		<apply>
+			<Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+				<xpath>/Defs/HediffDef[@Name='LightGenitals_GenitalBase']/stages/li</xpath>
+				<value>
+					<becomeVisible>true</becomeVisible>
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+	
+</Patch>
+

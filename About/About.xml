@@ -3,7 +3,7 @@
 <ModMetaData>
     <name>RimVore2-pardon's-Extend</name>
     <author>pardon</author>
-    <packageId>pardon.RV2Extend</packageId>
+    <packageId>Pardon.RV2Extend</packageId>
     <description>
         添加了和吞噬有关的基因和植入物.
     </description>
@@ -16,10 +16,37 @@
             <displayName>RimVore-2</displayName>
             <downloadUrl>https://gitlab.com/Nabber/rimvore-2.git</downloadUrl>
         </li>
-    </modDependencies>
+		<li>
+			<packageId>MamaHorseteeth.RimVore2ExtraVores</packageId>
+			<displayName>RimVore-2 (Overstuffed)</displayName>
+			<downloadUrl>https://gitlab.com/MamaHorseteeth/rimvore-2-overstuffed.git</downloadUrl>
+		</li>
+		
+	</modDependencies>
     <incompatibleWith>
     </incompatibleWith>
-    <loadAfter>
-        <li>Nabber.RimVore2</li>
-    </loadAfter>
+	<loadAfter>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>Ludeon.RimWorld.Odyssey</li>
+
+		<li>brrainz.harmony</li>
+		<li>imranfish.xmlextensions</li>
+
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>Nabber.RimVore2</li>
+		<li>MamaHorseteeth.RimVore2ExtraVores</li>
+		<li>RimVore - 2Bulges</li>
+		<li>MisTF.Piss</li>
+		<li>MisTF.Scat</li>
+		<li>Nabber.CarnivorousPlants</li>
+		<li>Whatif12.RV2Reformers</li>
+		<li>Nabber.CumSlimes</li>
+		<li>Nabber.CumSlimesArePeopleToo</li>
+		<li>Rutrix.RimVore2Interactions</li>
+		<li>Rutrix.RutsRimVoreStuff</li>
+		<li>Esegn.RV2EADD</li>
+
+	</loadAfter>
 </ModMetaData>
