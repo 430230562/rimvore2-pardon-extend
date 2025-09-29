@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+    <RecipeDef>
+    <defName>MakeNeutroamine</defName>
+    <label>make neutroamine</label>
+    <description>Make a neutroamine.</description>
+    <jobString>Making neutroamine.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1000</workAmount>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>RV2_VoreProduct</li>
+          </categories>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>RV2_VoreProduct</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <Neutroamine>1</Neutroamine>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
+    </RecipeDef>
+</Defs>

@@ -13,7 +13,7 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
-        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
         <displayOrderInCategory>0</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatArc>1</biostatArc>
@@ -32,7 +32,7 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
-        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
         <displayOrderInCategory>1</displayOrderInCategory>
         <biostatMet>-3</biostatMet>
     </GeneDef>
@@ -50,7 +50,7 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
-        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
         <displayOrderInCategory>2</displayOrderInCategory>
         <biostatMet>-2</biostatMet>
     </GeneDef>
@@ -68,7 +68,7 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
-        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
         <displayOrderInCategory>3</displayOrderInCategory>
         <biostatMet>-1</biostatMet>
     </GeneDef>
@@ -86,7 +86,7 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
-        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
         <displayOrderInCategory>4</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
@@ -105,7 +105,7 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
-        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
         <displayOrderInCategory>5</displayOrderInCategory>
         <biostatMet>1</biostatMet>
     </GeneDef>
@@ -123,7 +123,7 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
-        <displayCategory>RV2_Vore_StorageCapacity</displayCategory>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
         <displayOrderInCategory>6</displayOrderInCategory>
         <biostatMet>3</biostatMet>
     </GeneDef>

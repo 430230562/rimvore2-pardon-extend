@@ -4,9 +4,7 @@
     <name>RimVore2-pardon's-Extend</name>
     <author>pardon</author>
     <packageId>Pardon.RV2Extend</packageId>
-    <description>
-        添加了和吞噬有关的基因和植入物.
-    </description>
+    <description>添加了和吞噬有关的基因和植入物.</description>
     <supportedVersions>
         <li>1.6</li>
     </supportedVersions>
