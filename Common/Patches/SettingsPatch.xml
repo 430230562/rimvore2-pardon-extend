@@ -8,8 +8,15 @@
         <defaultValue>false</defaultValue>
         <caseTrue>
             <Operation Class="PatchOperationAdd">
-                <xpath>Defs/HediffDef[@Name='LightGenitals_GenitalBase']/stages</xpath>
-                <value> <becomeVisible>true</becomeVisible> </value>
+                <xpath>Defs/HediffDef[@Name='LightGenitals_GenitalBase']</xpath>
+                <value> 
+                    <stages>
+                        <li>
+                            <becomeVisible>false</becomeVisible>
+                            <minSeverity>0</minSeverity>
+                        </li>
+                    </stages>
+                </value>
             </Operation>
         </caseTrue>
     </Operation>

@@ -1,5 +1,182 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+    <!-- 其他 -->
+    
+    <GeneDef>
+        <DefName>RV2_Ability_VoreSkip</DefName>
+        <label>Vore Skip</label>
+        <description>Carriers can teleport a target into another target (either can be self). Body part and vore goal are selected randomly.</description>
+        <iconPath>UI/Icons/Abilities/VoreSkip</iconPath>
+        <displayCategory>Ability</displayCategory>
+        <abilities>
+            <li>RV2_Ability_VoreSkip</li>
+        </abilities>
+        <descriptionHyperlinks>
+            <AbilityDef>RV2_Ability_VoreSkip</AbilityDef>
+        </descriptionHyperlinks>
+        <biostatMet>-2</biostatMet>
+    </GeneDef>
+
+    <!-- 机动性 -->
+    <GeneDef>
+        <defName>RV2_QuirkForce_Cheat_Hammerspace</defName>
+        <label>Hammerspace</label>
+        <description>This pawn’s body compresses its prey down to an incredible degree. You can’t quite tell how many prey has inside this pawn at any given time, though you can guess if you know its limit.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Mobility_Cheat</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_Cheat_Hammerspace</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Mobility</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatArc>1</biostatArc>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_Mobility_Godlike</defName>
+        <label>Godlike Agility</label>
+        <description>this pawn makes walking around with the weight of multiple full grown people hanging off of its look effortless, in a way that seems to defy the laws of physics.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Mobility_Godlike</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_Mobility_Godlike</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Mobility</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_Mobility_VeryGood</defName>
+        <label>Belly acrobat</label>
+        <description>this pawn moves freely while full of prey, as though its belly wasn't there.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Mobility_VeryGood</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_Mobility_VeryGood</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Mobility</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_Mobility_Good</defName>
+        <label>Belly-nimble</label>
+        <description>this pawn knows how to keep its balance with a bulging belly.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Mobility_Good</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_Mobility_Good</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Mobility</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_Mobility_Normal</defName>
+        <label>Belly-functional</label>
+        <description>this pawn is affected by its prey's weight like anyone else.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Mobility_Normal</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_Mobility_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Mobility</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
+        <displayOrderInCategory>4</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_Mobility_Bad</defName>
+        <label>Belly-clumsy</label>
+        <description>this pawn is unsteady with a big belly and prone to tumbling whenever its prey decide to kick around.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Mobility_Bad</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_Mobility_Bad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Mobility</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+    </GeneDef>
+
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_Mobility_VeryBad</defName>
+        <label>Belly-dysfunctional</label>
+        <description>this pawn can barely stay on its feet with a big, round belly, let alone jog around.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Mobility_VeryBad</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_Mobility_VeryBad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Mobility</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Capacity</displayCategory>
+        <displayOrderInCategory>6</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+    </GeneDef>
+
+    <!-- 容量 -->
+
     <GeneDef>
         <defName>RV2_QuirkForce_Cheat_InfiniteCapacity</defName>
         <label>Infinite Capacity</label>
@@ -14,8 +191,11 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <exclusionTags>
+            <li>Capacity</li>
+        </exclusionTags>
         <displayCategory>RV2_Vore_Capacity</displayCategory>
-        <displayOrderInCategory>0</displayOrderInCategory>
+        <displayOrderInCategory>10</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatArc>1</biostatArc>
     </GeneDef>
@@ -34,8 +214,11 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <exclusionTags>
+            <li>Capacity</li>
+        </exclusionTags>
         <displayCategory>RV2_Vore_Capacity</displayCategory>
-        <displayOrderInCategory>1</displayOrderInCategory>
+        <displayOrderInCategory>11</displayOrderInCategory>
         <biostatMet>-3</biostatMet>
     </GeneDef>
 
@@ -53,8 +236,11 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <exclusionTags>
+            <li>Capacity</li>
+        </exclusionTags>
         <displayCategory>RV2_Vore_Capacity</displayCategory>
-        <displayOrderInCategory>2</displayOrderInCategory>
+        <displayOrderInCategory>12</displayOrderInCategory>
         <biostatMet>-2</biostatMet>
     </GeneDef>
 
@@ -72,8 +258,11 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <exclusionTags>
+            <li>Capacity</li>
+        </exclusionTags>
         <displayCategory>RV2_Vore_Capacity</displayCategory>
-        <displayOrderInCategory>3</displayOrderInCategory>
+        <displayOrderInCategory>13</displayOrderInCategory>
         <biostatMet>-1</biostatMet>
     </GeneDef>
 
@@ -91,8 +280,11 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <exclusionTags>
+            <li>Capacity</li>
+        </exclusionTags>
         <displayCategory>RV2_Vore_Capacity</displayCategory>
-        <displayOrderInCategory>4</displayOrderInCategory>
+        <displayOrderInCategory>14</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
     </GeneDef>
@@ -111,8 +303,11 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <exclusionTags>
+            <li>Capacity</li>
+        </exclusionTags>
         <displayCategory>RV2_Vore_Capacity</displayCategory>
-        <displayOrderInCategory>5</displayOrderInCategory>
+        <displayOrderInCategory>15</displayOrderInCategory>
         <biostatMet>1</biostatMet>
     </GeneDef>
 
@@ -130,8 +325,11 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <exclusionTags>
+            <li>Capacity</li>
+        </exclusionTags>
         <displayCategory>RV2_Vore_Capacity</displayCategory>
-        <displayOrderInCategory>6</displayOrderInCategory>
+        <displayOrderInCategory>16</displayOrderInCategory>
         <biostatMet>3</biostatMet>
     </GeneDef>
 </Defs>

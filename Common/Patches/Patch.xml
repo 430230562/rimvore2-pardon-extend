@@ -14,12 +14,12 @@
         </value>
     </Operation>
 
-	<Operation Class="PatchOperationAdd">
+	<!--<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/HediffDef[@Name='LightGenitals_GenitalBase']/stages/li</xpath>
 		<value>
 			<becomeVisible>false</becomeVisible>
 		</value>
-	</Operation>
+	</Operation>-->
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>/Defs/ThingDef[@Name='RV2_VoreEnabler_Base']/thingCategories</xpath>

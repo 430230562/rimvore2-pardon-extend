@@ -2,9 +2,57 @@
 <Defs>
 
     <GeneCategoryDef>
+        <defName>RV2_Vore_Role_Preference</defName>
+        <label>Vore Role Preference</label>
+        <displayPriorityInXenotype>601</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneCategoryDef>
+        <defName>RV2_Vore_Product_Attitude</defName>
+        <label>Product Attitude</label>
+        <displayPriorityInXenotype>602</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneCategoryDef>
+        <defName>RV2_Vore_Prey_Preference</defName>
+        <label>Preference as Prey</label>
+        <displayPriorityInXenotype>603</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneCategoryDef>
+        <defName>RV2_Vore_Predator_Preference</defName>
+        <label>Preference as Predator</label>
+        <displayPriorityInXenotype>604</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneCategoryDef>
+        <defName>RV2_Vore_Stripping_Preference</defName>
+        <label>Stripping Preference</label>
+        <displayPriorityInXenotype>605</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneCategoryDef>
+        <defName>RV2_Vore_Digestion</defName>
+        <label>Digestion</label>
+        <displayPriorityInXenotype>606</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneCategoryDef>
+        <defName>RV2_Vore_Post_Vore</defName>
+        <label>Post-Vore Behavior</label>
+        <displayPriorityInXenotype>607</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneCategoryDef>
         <defName>RV2_Vore_Capacity</defName>
         <label>Vore Capacity</label>
-        <displayPriorityInXenotype>610</displayPriorityInXenotype>
+        <displayPriorityInXenotype>608</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+    <GeneCategoryDef>
+        <defName>RV2_Vore_Combat</defName>
+        <label>Vore Combat Ability</label>
+        <displayPriorityInXenotype>609</displayPriorityInXenotype>
     </GeneCategoryDef>
 
 </Defs>

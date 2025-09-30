@@ -3,6 +3,91 @@
 <!-- 这不是一个高效的方法 -->
 <Defs>
 
+    <!-- 机动性 -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_Cheat_Hammerspace</defName>
+        <label>Hammerspace</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Cheat_Hammerspace</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_Mobility_Godlike</defName>
+        <label>Godlike Mobility</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Mobility_Godlike</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_Mobility_VeryGood</defName>
+        <label>Acrobatic</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Mobility_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_Mobility_Good</defName>
+        <label>Nimble</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Mobility_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_Mobility_Normal</defName>
+        <label>Normal mobility</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Mobility_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_Mobility_Bad</defName>
+        <label>Clumsy</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Mobility_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_Mobility_VeryBad</defName>
+        <label>Sluggish</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Mobility_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
     <!-- 容量 -->
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">

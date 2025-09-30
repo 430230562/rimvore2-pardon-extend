@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <AbilityDef ParentName="RV2_VoreSkip_Base">
+    <defName>RV2_Ability_VoreSkip</defName>
+    <label>Vore Skip</label>
+    <description>Teleport the target into another target (either can be self). Body part and vore goal are selected randomly.</description>
+    <iconPath>UI/Icons/Abilities/VoreSkip</iconPath>
+    <modExtensions>
+      <li Class="RimVore2.AbilityExtension_VoreSkip"/>
+    </modExtensions>
+  </AbilityDef>
+</Defs>
