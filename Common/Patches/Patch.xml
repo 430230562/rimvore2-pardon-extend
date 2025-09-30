@@ -40,7 +40,6 @@
 	</Operation>
 
     <Operation Class="PatchOperationReplace">
-         Name="Womb_Reform"
 		<xpath>/Defs/RimVore2.VoreStageDef[@Name='Womb_Reform']/passConditions</xpath>
 		<value>
 			<passConditions>

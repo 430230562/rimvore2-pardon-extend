@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Patch>
+
+	<Operation Class="XmlExtensions.OptionalPatch">
+        <modId>Pardon.RV2Extend</modId>
+        <key>HideLightGenitals</key>
+        <defaultValue>false</defaultValue>
+        <caseTrue>
+            <Operation Class="PatchOperationAdd">
+                <xpath>Defs/HediffDef[@Name='LightGenitals_GenitalBase']/stages</xpath>
+                <value> <becomeVisible>true</becomeVisible> </value>
+            </Operation>
+        </caseTrue>
+    </Operation>
+	
+</Patch>
