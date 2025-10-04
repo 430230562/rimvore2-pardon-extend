@@ -15,6 +15,7 @@
             <AbilityDef>RV2_Ability_VoreSkip</AbilityDef>
         </descriptionHyperlinks>
         <biostatMet>-2</biostatMet>
+        <displayOrderInCategory>0</displayOrderInCategory>
     </GeneDef>
 
     <!-- 机动性 -->
@@ -331,5 +332,450 @@
         <displayCategory>RV2_Vore_Capacity</displayCategory>
         <displayOrderInCategory>16</displayOrderInCategory>
         <biostatMet>3</biostatMet>
+    </GeneDef>
+
+    <!-- 战斗 -->
+    <GeneDef>
+        <defName>RV2_QuirkForce_GrappleStrength_VeryGood</defName>
+        <label>Professional Wrestler</label>
+        <description>This pawn is an expert at hand-to-hand combat when it comes to wrestling for vore.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GrappleStrength_VeryGood</iconPath>
+        <modExtensions> 
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_GrappleStrength_VeryGood</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GrappleStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_GrappleStrength_Good</defName>
+        <label>Skilled Grappler</label>
+        <description>This pawn is pretty good at hand-to-hand combat when it comes to wrestling for vore.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GrappleStrength_Good</iconPath>
+        <modExtensions> 
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_GrappleStrength_Good</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GrappleStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_GrappleStrength_Normal</defName>
+        <label>Average Grappler</label>
+        <description>This pawn is about average at hand-to-hand combat when it comes to wrestling for vore.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GrappleStrength_Normal</iconPath>
+        <modExtensions> 
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_GrappleStrength_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GrappleStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_GrappleStrength_Bad</defName>
+        <label>Clumsy Grappler</label>
+        <description>This pawn is pretty bad at hand-to-hand combat when it comes to wrestling for vore.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GrappleStrength_Bad</iconPath>
+        <modExtensions> 
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_GrappleStrength_Bad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GrappleStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_GrappleStrength_VeryBad</defName>
+        <label>Hopeless Grappler</label>
+        <description>This pawn is terrible at hand-to-hand combat when it comes to wrestling for vore.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/GrappleStrength_VeryBad</iconPath>
+        <modExtensions> 
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_GrappleStrength_VeryBad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>GrappleStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>4</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleCapability_NoStruggleAsPrey</defName>
+        <label>Sedentary</label>
+        <description>This pawn does not mind being vored, no matter what the repercussions might be. As a result this pawn will never bother to struggle.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleCapability_NoStruggleAsPrey</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleCapability_NoStruggleAsPrey</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Prey</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>10</displayOrderInCategory>
+        <biostatMet>4</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleCapability_NoStruggleAsPredator</defName>
+        <label>Numbing</label>
+        <description>This pawn s stomach secretes numbing enzymes that paralyze it's prey, as a result anyone vored by this pwan will never struggle.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleCapability_NoStruggleAsPredator</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleCapability_NoStruggleAsPredator</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>11</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleStrength_Prey_VeryGood</defName>
+        <label>Professional Wiggler</label>
+        <description>This pawn is an expert at struggling when vored by others.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Prey_VeryGood</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleStrength_Prey_VeryGood</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Prey</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>20</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleStrength_Prey_Good</defName>
+        <label>Wiggler</label>
+        <description>This pawn is pretty good at struggling when vored by others.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Prey_Good</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleStrength_Prey_Good</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Prey</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>21</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleStrength_Prey_Normal</defName>
+        <label>Average Wiggler</label>
+        <description>This pawn is about average at struggling when vored by others.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Prey_Normal</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleStrength_Prey_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Prey</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>22</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleStrength_Prey_Bad</defName>
+        <label>Clumsy Wiggler</label>
+        <description>This pawn is pretty bad at struggling when vored by others.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Prey_Bad</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleStrength_Prey_Bad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Prey</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>23</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleStrength_Prey_VeryBad</defName>
+        <label>Hopeless Wiggler</label>
+        <description>This pawn is terrible at struggling when vored by others.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Prey_VeryBad</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleStrength_Prey_VeryBad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Prey</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>24</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleStrength_Predator_VeryGood</defName>
+        <label>Steel gut</label>
+        <description>This pawn is an expert at resisting struggles from its prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Predator_VeryGood</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleStrength_Predator_VeryGood</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>30</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleStrength_Predator_Good</defName>
+        <label>Iron gut</label>
+        <description>This pawn is pretty good at resisting struggles from its prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Predator_Good</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleStrength_Predator_Good</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>31</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleStrength_Predator_Normal</defName>
+        <label>Average gut</label>
+        <description>This pawn is about average at resisting struggles from its prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Predator_Normal</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleStrength_Predator_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>32</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleStrength_Predator_Bad</defName>
+        <label>Weak gut</label>
+        <description>This pawn is pretty bad at resisting struggles from its prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Predator_Bad</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleStrength_Predator_Bad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>33</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StruggleStrength_Predator_VeryBad</defName>
+        <label>Fragile gut</label>
+        <description>This pawn is terrible at resisting struggles from its prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Predator_VeryBad</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StruggleStrength_Predator_VeryBad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StruggleStrength_Predator</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>34</displayOrderInCategory>
+        <biostatMet>4</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StrugglePreference_Hated</defName>
+        <label>Struggle hater</label>
+        <description>This pawn has very irritable insides and hates prey working against</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StrugglePreference_Hated</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StrugglePreference_Hated</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StrugglePreference</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>40</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StrugglePreference_Nomal</defName>
+        <label>Struggle neutral</label>
+        <description>This pawn doesn't care one way or another if its prey struggles.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StrugglePreference_Nomal</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StrugglePreference_Nomal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StrugglePreference</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>41</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_QuirkForce_StrugglePreference_Liked</defName>
+        <label>Struggle lover</label>
+        <description>This pawn has very resilient insides and actually enjoys prey working against it.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/StrugglePreference_Liked</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_QuirkForce_StrugglePreference_Liked</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>StrugglePreference</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Combat</displayCategory>
+        <displayOrderInCategory>42</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
     </GeneDef>
 </Defs>

@@ -2,6 +2,7 @@
 <Defs>
     <HediffDef>
     <defName>RV2_FasterRecover</defName>
+    <hediffClass>HediffWithComps</hediffClass>
     <label>faster recover</label>
     <description>This pawn is vored and healed by another pawn.</description>
     <initialSeverity>0.01</initialSeverity>
@@ -10,8 +11,9 @@
     <tendable>false</tendable>
     <priceImpact>false</priceImpact>
     <comps>
-        <li Class="HediffCompProperties_SeverityPerDay">
-            <severityPerDay>-2</severityPerDay>
+        <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>30000~60000</disappearsAfterTicks>
+        <showRemainingTime>true</showRemainingTime>
         </li>
     </comps>
     <stages>

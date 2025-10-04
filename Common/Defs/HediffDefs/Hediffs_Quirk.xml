@@ -2,6 +2,7 @@
 
 <!-- 这不是一个高效的方法 -->
 <Defs>
+    <!-- 吞噬容量 -->
 
     <!-- 机动性 -->
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
@@ -169,6 +170,253 @@
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
                     <li>StorageCapacity_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- 战斗 -->
+
+    <!-- 抓取力 -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_GrappleStrength_VeryGood</defName>
+        <label>Powerful Grappler</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GrappleStrength_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_GrappleStrength_Good</defName>
+        <label>Strong Grappler</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GrappleStrength_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_GrappleStrength_Normal</defName>
+        <label>Average Grappler</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GrappleStrength_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_GrappleStrength_Bad</defName>
+        <label>Weak Grappler</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GrappleStrength_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_GrappleStrength_VeryBad</defName>
+        <label>Feeble Grappler</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GrappleStrength_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- 挣扎能力 -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleCapability_NoStruggleAsPrey</defName>
+         <label>Sedentary</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleCapability_NoStruggleAsPrey</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleCapability_NoStruggleAsPredator</defName>
+        <label>Unbreakable Will</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleCapability_NoStruggleAsPredator</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- 挣扎强度 (prey)-->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleStrength_Prey_VeryGood</defName>
+        <label>Professional Wiggler</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Prey_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleStrength_Prey_Good</defName>
+        <label>Strong Wiggler</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Prey_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleStrength_Prey_Normal</defName>
+        <label>Average Wiggler</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Prey_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleStrength_Prey_Bad</defName>
+        <label>Weak Wiggler</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Prey_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleStrength_Prey_VeryBad</defName>
+        <label>Feeble Wiggler</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Prey_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- 抗挣扎强度 (predator)-->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleStrength_Predator_VeryGood</defName>
+        <label>Unyielding</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Predator_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleStrength_Predator_Good</defName>
+        <label>Resolute</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Predator_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleStrength_Predator_Normal</defName>
+        <label>Average Resistance</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Predator_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleStrength_Predator_Bad</defName>
+        <label>Weak Resistance</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Predator_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StruggleStrength_Predator_VeryBad</defName>
+        <label>Feeble Resistance</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Predator_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- 挣扎偏好(predator) -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StrugglePreference_Hated</defName>
+        <label>Struggle hater</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrugglePreference_Hated</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StrugglePreference_Normal</defName>
+        <label>Struggle neutral</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrugglePreference_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_QuirkForce_StrugglePreference_Loved</defName>
+        <label>Struggle lover</label>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrugglePreference_Loved</li>
                 </quirks>
             </li>
         </comps>

@@ -9,5 +9,19 @@
     <modExtensions>
       <li Class="RimVore2.AbilityExtension_VoreSkip"/>
     </modExtensions>
+    <statBases>
+      <Ability_EntropyGain>0</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0</Ability_PsyfocusCost>
+    </statBases>
+    <verbProperties>
+      <verbClass>RimVore2.Verb_CastPsycast_MultiTarget</verbClass>
+      <warmupTime>0.05</warmupTime>
+      <range>19.9</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetAnimals>True</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <cooldownTicksRange>1200</cooldownTicksRange>
   </AbilityDef>
 </Defs>
