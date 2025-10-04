@@ -45,6 +45,16 @@
 								<tKey>RVP_HideLightGenitals</tKey>
 								<defaultValue>false</defaultValue>
 							</li>
+
+							<li Class="XmlExtensions.Setting.Numeric">
+								<key>ReformTime</key>
+								<label>Reform time</label> 
+								<tKey>RVP_ReformTime</tKey>
+								<defaultValue>1200</defaultValue>
+								<min>2</min>
+								<decimals>2</decimals>
+							</li>
+
 						</leftCol>
 						
 						<rightCol>

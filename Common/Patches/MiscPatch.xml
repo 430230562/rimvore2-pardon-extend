@@ -39,17 +39,7 @@
 		</value>
 	</Operation>
 
-    <Operation Class="PatchOperationReplace">
-		<xpath>/Defs/RimVore2.VoreStageDef[@Name='Womb_Reform']/passConditions</xpath>
-		<value>
-			<passConditions>
-                <li Class="RimVore2.StagePassCondition_Timed">
-                <duration>1200</duration>
-                <!-- this duration is for debugging :) -->
-                <!--<duration>2</duration>-->
-                </li>
-            </passConditions>
-		</value>
-	</Operation>
+
+
 
 </Patch>

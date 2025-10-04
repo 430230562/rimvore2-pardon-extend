@@ -1,24 +1,44 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
      <!-- struggle strength prey -->
-    <RimVore2.QuirkDef>
-        <defName>StruggleStrength_Prey_VeryGood</defName>
-        <label>Professional Wiggler</label>
-        <description>[PAWN_label] is an expert at struggling when vored by others.</description>
-        <rarity>VeryRare</rarity>
-        <comps>
-            <li Class="RimVore2.QuirkComp_ValueModifier">
-                <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
-                <modifierValue>0.75</modifierValue>
-            </li>
-            <li Class="RimVore2.QuirkComp_ValueModifier">
-                <modifierName>StruggleChanceMultiplierAsPrey</modifierName>
-                <modifierValue>1.5</modifierValue>
-            </li>
-        </comps>
-    </RimVore2.QuirkDef>
 
-    <RimVore2.QuirkDef>
+  <RimVore2.QuirkPoolDef>
+    <defName>StruggleStrength_Prey</defName>
+    <label>Struggle strength (Prey)</label>
+    <category>Combat</category>
+    <description>These quirks influence the struggling capability for the pawn when vored by others.</description>
+    <generationOrder>5</generationOrder>
+    <poolType>PickOne</poolType>
+    <quirks>
+      <li>StruggleStrength_Prey_VeryGood</li>
+      <li>StruggleStrength_Prey_Good</li>
+      <li>StruggleStrength_Prey_Normal</li>
+      <li>StruggleStrength_Prey_Bad</li>
+      <li>StruggleStrength_Prey_VeryBad</li>
+    </quirks>
+    <blockingQuirks>
+      <li>StruggleCapability_NoStruggleAsPrey</li>
+    </blockingQuirks>
+  </RimVore2.QuirkPoolDef>
+
+  <RimVore2.QuirkDef>
+    <defName>StruggleStrength_Prey_VeryGood</defName>
+    <label>Professional Wiggler</label>
+    <description>[PAWN_label] is an expert at struggling when vored by others.</description>
+    <rarity>VeryRare</rarity>
+    <comps>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
+        <modifierValue>0.75</modifierValue>
+      </li>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>StruggleChanceMultiplierAsPrey</modifierName>
+        <modifierValue>1.5</modifierValue>
+      </li>
+    </comps>
+  </RimVore2.QuirkDef>
+
+  <RimVore2.QuirkDef>
     <defName>StruggleStrength_Prey_VeryBad</defName>
     <label>Weak Wiggler</label>
     <description>[PAWN_label] is terrible at struggling when vored by others.</description>
@@ -33,30 +53,52 @@
         <modifierValue>0.75</modifierValue>
       </li>
     </comps>
-    </RimVore2.QuirkDef>
+  </RimVore2.QuirkDef>
 
-    <!-- struggle strength predator -->
-    <RimVore2.QuirkDef>
+  <!-- struggle strength predator -->
+
+  <RimVore2.QuirkPoolDef>
+    <defName>StruggleStrength_Predator</defName>
+    <label>Struggle strength (Predator)</label>
+    <category>Combat</category>
+    <description>These quirks influence the struggling capability for the pawn when voring others.</description>
+    <generationOrder>5</generationOrder>
+    <poolType>PickOne</poolType>
+    <quirks>
+      <li>StruggleStrength_Predator_VeryGood</li>
+      <li>StruggleStrength_Predator_Good</li>
+      <li>StruggleStrength_Predator_Normal</li>
+      <li>StruggleStrength_Predator_Bad</li>
+      <li>StruggleStrength_Predator_VeryBad</li>
+    </quirks>
+    <blockingQuirks>
+      <li>StruggleCapability_NoStruggleAsPredator</li>
+    </blockingQuirks>
+  </RimVore2.QuirkPoolDef>
+
+  <RimVore2.QuirkDef>
     <defName>StruggleStrength_Predator_VeryGood</defName>
     <label>Unyielding</label>
-    <description>[PAWN_label] is extremely tough to struggle out of when [PAWN_possessive] prey tries to escape.</description>
+    <description>[PAWN_label] is extremely tough to struggle out of when [PAWN_possessive] prey
+      tries to escape.</description>
     <rarity>VeryRare</rarity>
     <comps>
-        <li Class="RimVore2.QuirkComp_ValueModifier">
-            <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
-            <modifierValue>1.5</modifierValue>
-        </li>
-        <li Class="RimVore2.QuirkComp_ValueModifier">
-            <modifierName>StruggleChanceMultiplierAsPredator</modifierName>
-            <modifierValue>0.75</modifierValue>
-        </li>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
+        <modifierValue>1.5</modifierValue>
+      </li>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>StruggleChanceMultiplierAsPredator</modifierName>
+        <modifierValue>0.75</modifierValue>
+      </li>
     </comps>
-    </RimVore2.QuirkDef>
+  </RimVore2.QuirkDef>
 
-    <RimVore2.QuirkDef>
+  <RimVore2.QuirkDef>
     <defName>StruggleStrength_Predator_VeryBad</defName>
     <label>Feeble</label>
-    <description>[PAWN_label] is very easy to struggle out of when [PAWN_possessive] prey tries to escape.</description>
+    <description>[PAWN_label] is very easy to struggle out of when [PAWN_possessive] prey tries to
+      escape.</description>
     <rarity>VeryRare</rarity>
     <comps>
       <li Class="RimVore2.QuirkComp_ValueModifier">
@@ -68,5 +110,5 @@
         <modifierValue>1.5</modifierValue>
       </li>
     </comps>
-    </RimVore2.QuirkDef>
+  </RimVore2.QuirkDef>
 </Defs>

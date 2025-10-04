@@ -20,5 +20,21 @@
             </Operation>
         </caseTrue>
     </Operation>
+
+    <Operation Class="XmlExtensions.UseSetting">
+        <modId>Pardon.RV2Extend</modId>
+        <key>ReformTime</key>
+        <defaultValue>1200</defaultValue>
+        <apply>
+            <Operation Class="XmlExtensions.PatchOperationAddOrReplace">
+                <xpath>/Defs/RimVore2.VoreStageDef[@Name='Womb_Reform']/passConditions</xpath>
+                <value> <passConditions>
+                <li Class="RimVore2.StagePassCondition_Timed">
+                <duration> {ReformTime} </duration>
+                </li>
+                </passConditions> </value>
+            </Operation>
+        </apply>
+    </Operation>
 	
 </Patch>
