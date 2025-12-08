@@ -39,7 +39,33 @@
 		</value>
 	</Operation>
 
+    <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraitDef[defName="Gourmand"]/degreeDatas/li[1 and not(statFactors)]</xpath>
+    <value>
+      <statFactors></statFactors>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraitDef[defName="Gourmand"]/degreeDatas/li[1]/statFactors</xpath>
+    <value>
+      <RV2_GrappleChance>1.25</RV2_GrappleChance>
+    </value>
+  </Operation>
 
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraitDef[defName="Cannibal"]/degreeDatas/li[1 and not(statFactors)]</xpath>
+    <value>
+      <statFactors></statFactors>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraitDef[defName="Cannibal"]/degreeDatas/li[1]/statFactors</xpath>
+    <value>
+      <RV2_GrappleChance>1.5</RV2_GrappleChance>
+      <RV2_DigestionStrength>1.2</RV2_DigestionStrength>
+      <RV2_SwallowSpeed>2</RV2_SwallowSpeed>
+    </value>
+  </Operation>
 
 
 </Patch>
