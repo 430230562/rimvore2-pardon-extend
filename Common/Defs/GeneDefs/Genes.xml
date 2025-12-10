@@ -192,6 +192,9 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <statFactors>
+            <MaxNutrition>20</MaxNutrition>
+        </statFactors>
         <exclusionTags>
             <li>Capacity</li>
         </exclusionTags>
@@ -215,6 +218,9 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <statFactors>
+            <MaxNutrition>10</MaxNutrition>
+        </statFactors>
         <exclusionTags>
             <li>Capacity</li>
         </exclusionTags>
@@ -237,6 +243,9 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <statFactors>
+            <MaxNutrition>2</MaxNutrition>
+        </statFactors>
         <exclusionTags>
             <li>Capacity</li>
         </exclusionTags>
@@ -259,6 +268,9 @@
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
         </modExtensions>
+        <statFactors>
+            <MaxNutrition>1.5</MaxNutrition>
+        </statFactors>
         <exclusionTags>
             <li>Capacity</li>
         </exclusionTags>
