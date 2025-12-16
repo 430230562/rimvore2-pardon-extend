@@ -5,7 +5,7 @@
   <ThingCategoryDef>
     <defName>RV2_VoreProduct</defName>
     <label>Vore product</label>
-    <parent>MeatRaw</parent>
+    <parent>AnimalProductRaw</parent>
     <iconPath>Things/VoreProducts/Base/1</iconPath>
   </ThingCategoryDef>
 

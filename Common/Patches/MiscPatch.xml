@@ -1,45 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Patch>
-    <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/TerrainDef[defName="RV2_FertilizedSoil"]/costList</xpath>
-        <value>
-            <RV2_Manufactured_Fertilizer>1</RV2_Manufactured_Fertilizer>
-        </value>
-    </Operation>
-    <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/TerrainDef[defName="RV2_FertilizedSoil"]/fertility</xpath>
-        <value>
-            <fertility>1.6</fertility>
-        </value>
-    </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/TerrainDef[defName="RV2_FertilizedSoil"]/costList</xpath>
+    <value>
+      <RV2_Manufactured_Fertilizer>1</RV2_Manufactured_Fertilizer>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/TerrainDef[defName="RV2_FertilizedSoil"]/fertility</xpath>
+    <value>
+      <fertility>1.6</fertility>
+    </value>
+  </Operation>
 
-	<!--<Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="StruggleStrength_Prey"]/quirks</xpath>
+    <value>
+      <li>StruggleStrength_Prey_VeryGood</li>
+      <li>StruggleStrength_Prey_VeryBad</li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="StruggleStrength_Predator"]/quirks</xpath>
+    <value>
+      <li>StruggleStrength_Predator_VeryGood</li>
+      <li>StruggleStrength_Predator_VeryBad</li>
+    </value>
+  </Operation>
+
+  <!--<Operation
+  Class="PatchOperationAdd">
 		<xpath>/Defs/HediffDef[@Name='LightGenitals_GenitalBase']/stages/li</xpath>
 		<value>
 			<becomeVisible>false</becomeVisible>
 		</value>
 	</Operation>-->
 
-	<Operation Class="PatchOperationReplace">
-		<xpath>/Defs/ThingDef[@Name='RV2_VoreEnabler_Base']/thingCategories</xpath>
-		<value>
-			<thingCategories>
-                <li>RV2_VoreEnablers</li>
-            </thingCategories>
-		</value>
-	</Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[@Name='RV2_VoreEnabler_Base']/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>RV2_VoreEnablers</li>
+      </thingCategories>
+    </value>
+  </Operation>
 
-	<Operation Class="PatchOperationAdd">
-		<xpath>/Defs/ThingDef[@Name='RV2_Product_Consumable_Base']/thingCategories</xpath>
-		<value>
-            <thingCategories>
-                <li>RV2_VoreProduct</li>
-            </thingCategories>
-		</value>
-	</Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name='RV2_Product_Consumable_Base']/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>RV2_VoreProduct</li>
+      </thingCategories>
+    </value>
+  </Operation>
 
-    <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationAdd">
     <xpath>Defs/TraitDef[defName="Gourmand"]/degreeDatas/li[1 and not(statFactors)]</xpath>
     <value>
       <statFactors></statFactors>

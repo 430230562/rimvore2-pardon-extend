@@ -2,25 +2,6 @@
 <Defs>
      <!-- struggle strength prey -->
 
-  <RimVore2.QuirkPoolDef>
-    <defName>StruggleStrength_Prey</defName>
-    <label>Struggle strength (Prey)</label>
-    <category>Combat</category>
-    <description>These quirks influence the struggling capability for the pawn when vored by others.</description>
-    <generationOrder>5</generationOrder>
-    <poolType>PickOne</poolType>
-    <quirks>
-      <li>StruggleStrength_Prey_VeryGood</li>
-      <li>StruggleStrength_Prey_Good</li>
-      <li>StruggleStrength_Prey_Normal</li>
-      <li>StruggleStrength_Prey_Bad</li>
-      <li>StruggleStrength_Prey_VeryBad</li>
-    </quirks>
-    <blockingQuirks>
-      <li>StruggleCapability_NoStruggleAsPrey</li>
-    </blockingQuirks>
-  </RimVore2.QuirkPoolDef>
-
   <RimVore2.QuirkDef>
     <defName>StruggleStrength_Prey_VeryGood</defName>
     <label>Professional Wiggler</label>
@@ -56,25 +37,6 @@
   </RimVore2.QuirkDef>
 
   <!-- struggle strength predator -->
-
-  <RimVore2.QuirkPoolDef>
-    <defName>StruggleStrength_Predator</defName>
-    <label>Struggle strength (Predator)</label>
-    <category>Combat</category>
-    <description>These quirks influence the struggling capability for the pawn when voring others.</description>
-    <generationOrder>5</generationOrder>
-    <poolType>PickOne</poolType>
-    <quirks>
-      <li>StruggleStrength_Predator_VeryGood</li>
-      <li>StruggleStrength_Predator_Good</li>
-      <li>StruggleStrength_Predator_Normal</li>
-      <li>StruggleStrength_Predator_Bad</li>
-      <li>StruggleStrength_Predator_VeryBad</li>
-    </quirks>
-    <blockingQuirks>
-      <li>StruggleCapability_NoStruggleAsPredator</li>
-    </blockingQuirks>
-  </RimVore2.QuirkPoolDef>
 
   <RimVore2.QuirkDef>
     <defName>StruggleStrength_Predator_VeryGood</defName>
