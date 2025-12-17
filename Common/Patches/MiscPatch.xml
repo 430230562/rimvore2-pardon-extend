@@ -47,12 +47,51 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
+  <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[@Name='RV2_Product_Consumable_Base']/thingCategories</xpath>
     <value>
       <thingCategories>
         <li>RV2_VoreProduct</li>
       </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName='RV2_Resource_Cum']/statBases</xpath>
+    <value>
+      <statBases>
+        <Nutrition>0.05</Nutrition>
+      </statBases>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName='RV2_Resource_Milk']/statBases</xpath>
+    <value>
+      <statBases>
+        <Nutrition>0.05</Nutrition>
+      </statBases>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName='ConvertNutritionToMilk']/actionsOnSuccess/li[1]/requiredNutrition</xpath>
+    <value>
+      <requiredNutrition>0.05</requiredNutrition>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName='ConvertNutritionToSperm']/actionsOnSuccess/li[1]/requiredNutrition</xpath>
+    <value>
+      <requiredNutrition>0.05</requiredNutrition>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName='ConvertNutritionToLube']/actionsOnSuccess/li[1]/requiredNutrition</xpath>
+    <value>
+      <requiredNutrition>0.05</requiredNutrition>
     </value>
   </Operation>
 
