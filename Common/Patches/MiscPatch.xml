@@ -2,12 +2,6 @@
 
 <Patch>
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/TerrainDef[defName="RV2_FertilizedSoil"]/costList</xpath>
-    <value>
-      <RV2_Manufactured_Fertilizer>1</RV2_Manufactured_Fertilizer>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>/Defs/TerrainDef[defName="RV2_FertilizedSoil"]/fertility</xpath>
     <value>
       <fertility>1.6</fertility>
@@ -56,6 +50,7 @@
     </value>
   </Operation>
 
+  <!--
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName='RV2_Resource_Cum']/statBases</xpath>
     <value>
@@ -75,25 +70,29 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName='ConvertNutritionToMilk']/actionsOnSuccess/li[1]/requiredNutrition</xpath>
+    <xpath>
+  /Defs/RimVore2.RollPresetDef[defName='ConvertNutritionToMilk']/actionsOnSuccess/li[1]/requiredNutrition</xpath>
     <value>
       <requiredNutrition>0.05</requiredNutrition>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName='ConvertNutritionToSperm']/actionsOnSuccess/li[1]/requiredNutrition</xpath>
+    <xpath>
+  /Defs/RimVore2.RollPresetDef[defName='ConvertNutritionToSperm']/actionsOnSuccess/li[1]/requiredNutrition</xpath>
     <value>
       <requiredNutrition>0.05</requiredNutrition>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[defName='ConvertNutritionToLube']/actionsOnSuccess/li[1]/requiredNutrition</xpath>
+    <xpath>
+  /Defs/RimVore2.RollPresetDef[defName='ConvertNutritionToLube']/actionsOnSuccess/li[1]/requiredNutrition</xpath>
     <value>
       <requiredNutrition>0.05</requiredNutrition>
     </value>
   </Operation>
+  -->
 
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/TraitDef[defName="Gourmand"]/degreeDatas/li[1 and not(statFactors)]</xpath>
