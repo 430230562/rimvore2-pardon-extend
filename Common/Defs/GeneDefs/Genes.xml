@@ -3,7 +3,7 @@
     <!-- 其他 -->
     
     <GeneDef>
-        <DefName>RV2_Ability_VoreSkip</DefName>
+        <defName>RV2_Gene_VoreSkip</defName>
         <label>Vore Skip</label>
         <description>Carriers can teleport a target into another target (either can be self). Body part and vore goal are selected randomly.</description>
         <iconPath>UI/Icons/Abilities/VoreSkip</iconPath>
@@ -20,7 +20,7 @@
 
     <!-- 机动性 -->
     <GeneDef>
-        <defName>RV2_QuirkForce_Cheat_Hammerspace</defName>
+        <defName>RV2_Gene_QuirkForce_Cheat_Hammerspace</defName>
         <label>Hammerspace</label>
         <description>This pawn’s body compresses its prey down to an incredible degree. You can’t quite tell how many prey has inside this pawn at any given time, though you can guess if you know its limit.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -28,7 +28,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_Cheat_Hammerspace</li>
+                    <li>RV2_Hediff_QuirkForce_Cheat_Hammerspace</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -43,7 +43,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_Mobility_Godlike</defName>
+        <defName>RV2_Gene_QuirkForce_Mobility_Godlike</defName>
         <label>Godlike Agility</label>
         <description>this pawn makes walking around with the weight of multiple full grown people hanging off of its look effortless, in a way that seems to defy the laws of physics.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -51,7 +51,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_Mobility_Godlike</li>
+                    <li>RV2_Hediff_QuirkForce_Mobility_Godlike</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -65,7 +65,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_Mobility_VeryGood</defName>
+        <defName>RV2_Gene_QuirkForce_Mobility_VeryGood</defName>
         <label>Belly acrobat</label>
         <description>this pawn moves freely while full of prey, as though its belly wasn't there.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -73,7 +73,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_Mobility_VeryGood</li>
+                    <li>RV2_Hediff_QuirkForce_Mobility_VeryGood</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -87,7 +87,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_Mobility_Good</defName>
+        <defName>RV2_Gene_QuirkForce_Mobility_Good</defName>
         <label>Belly-nimble</label>
         <description>this pawn knows how to keep its balance with a bulging belly.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -95,7 +95,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_Mobility_Good</li>
+                    <li>RV2_Hediff_QuirkForce_Mobility_Good</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -109,7 +109,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_Mobility_Normal</defName>
+        <defName>RV2_Gene_QuirkForce_Mobility_Normal</defName>
         <label>Belly-functional</label>
         <description>this pawn is affected by its prey's weight like anyone else.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -117,7 +117,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_Mobility_Normal</li>
+                    <li>RV2_Hediff_QuirkForce_Mobility_Normal</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -132,7 +132,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_Mobility_Bad</defName>
+        <defName>RV2_Gene_QuirkForce_Mobility_Bad</defName>
         <label>Belly-clumsy</label>
         <description>this pawn is unsteady with a big belly and prone to tumbling whenever its prey decide to kick around.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -140,7 +140,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_Mobility_Bad</li>
+                    <li>RV2_Hediff_QuirkForce_Mobility_Bad</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -155,7 +155,7 @@
 
 
     <GeneDef>
-        <defName>RV2_QuirkForce_Mobility_VeryBad</defName>
+        <defName>RV2_Gene_QuirkForce_Mobility_VeryBad</defName>
         <label>Belly-dysfunctional</label>
         <description>this pawn can barely stay on its feet with a big, round belly, let alone jog around.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -163,7 +163,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_Mobility_VeryBad</li>
+                    <li>RV2_Hediff_QuirkForce_Mobility_VeryBad</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -179,7 +179,7 @@
     <!-- 容量 -->
 
     <GeneDef>
-        <defName>RV2_QuirkForce_Cheat_InfiniteCapacity</defName>
+        <defName>RV2_Gene_QuirkForce_Cheat_InfiniteCapacity</defName>
         <label>Infinite Capacity</label>
         <description>This pawn doesn’t know the meaning of the word “full”. There’s always room for more prey. Always.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -187,7 +187,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_Cheat_InfiniteCapacity</li>
+                    <li>RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -205,7 +205,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StorageCapacity_Godlike</defName>
+        <defName>RV2_Gene_QuirkForce_StorageCapacity_Godlike</defName>
         <label>Godlike Capacity</label>
         <description>This pawn's skin is supernaturally stretchy, able to expand to sizes that defy all logic and reason. No matter how full This pawn gets, This pawn seemingly always has room for one more.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -213,7 +213,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StorageCapacity_Godlike</li>
+                    <li>RV2_Hediff_QuirkForce_StorageCapacity_Godlike</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -230,7 +230,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StorageCapacity_VeryGood</defName>
+        <defName>RV2_Gene_QuirkForce_StorageCapacity_VeryGood</defName>
         <label>Cavernous Belly</label>
         <description>This pawn can stuff itself silly with prey and still have room for more, though even This pawn has limits.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -238,7 +238,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StorageCapacity_VeryGood</li>
+                    <li>RV2_Hediff_QuirkForce_StorageCapacity_VeryGood</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -255,7 +255,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StorageCapacity_Good</defName>
+        <defName>RV2_Gene_QuirkForce_StorageCapacity_Good</defName>
         <label>Stretchy Belly</label>
         <description>This pawn can stretch to fit more prey than the average predator.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -263,7 +263,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StorageCapacity_Good</li>
+                    <li>RV2_Hediff_QuirkForce_StorageCapacity_Good</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -280,7 +280,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StorageCapacity_Normal</defName>
+        <defName>RV2_Gene_QuirkForce_StorageCapacity_Normal</defName>
         <label>Normal Capacity</label>
         <description>This pawn can fit as many prey as anyone else.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -288,7 +288,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StorageCapacity_Normal</li>
+                    <li>RV2_Hediff_QuirkForce_StorageCapacity_Normal</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -303,7 +303,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StorageCapacity_Bad</defName>
+        <defName>RV2_Gene_QuirkForce_StorageCapacity_Bad</defName>
         <label>Tight Belly</label>
         <description>This pawn struggles to fit as many prey inside itself as most of its predatory peers can; there's only room for one, maybe (by default).</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -311,7 +311,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StorageCapacity_Bad</li>
+                    <li>RV2_Hediff_QuirkForce_StorageCapacity_Bad</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -325,7 +325,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StorageCapacity_VeryBad</defName>
+        <defName>RV2_Gene_QuirkForce_StorageCapacity_VeryBad</defName>
         <label>Claustrophobic Belly</label>
         <description>This pawn struggles with a lack of capacity for prey. This pawn can't eat prey of the same size (by default), and fills up fast otherwise.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -333,7 +333,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StorageCapacity_VeryBad</li>
+                    <li>RV2_Hediff_QuirkForce_StorageCapacity_VeryBad</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -348,7 +348,7 @@
 
     <!-- 战斗 -->
     <GeneDef>
-        <defName>RV2_QuirkForce_GrappleStrength_VeryGood</defName>
+        <defName>RV2_Gene_QuirkForce_GrappleStrength_VeryGood</defName>
         <label>Professional Wrestler</label>
         <description>This pawn is an expert at hand-to-hand combat when it comes to wrestling for vore.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -356,7 +356,7 @@
         <modExtensions> 
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_GrappleStrength_VeryGood</li>
+                    <li>RV2_Hediff_QuirkForce_GrappleStrength_VeryGood</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -370,7 +370,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_GrappleStrength_Good</defName>
+        <defName>RV2_Gene_QuirkForce_GrappleStrength_Good</defName>
         <label>Skilled Grappler</label>
         <description>This pawn is pretty good at hand-to-hand combat when it comes to wrestling for vore.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -378,7 +378,7 @@
         <modExtensions> 
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_GrappleStrength_Good</li>
+                    <li>RV2_Hediff_QuirkForce_GrappleStrength_Good</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -392,7 +392,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_GrappleStrength_Normal</defName>
+        <defName>RV2_Gene_QuirkForce_GrappleStrength_Normal</defName>
         <label>Average Grappler</label>
         <description>This pawn is about average at hand-to-hand combat when it comes to wrestling for vore.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -400,7 +400,7 @@
         <modExtensions> 
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_GrappleStrength_Normal</li>
+                    <li>RV2_Hediff_QuirkForce_GrappleStrength_Normal</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -415,7 +415,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_GrappleStrength_Bad</defName>
+        <defName>RV2_Gene_QuirkForce_GrappleStrength_Bad</defName>
         <label>Clumsy Grappler</label>
         <description>This pawn is pretty bad at hand-to-hand combat when it comes to wrestling for vore.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -423,7 +423,7 @@
         <modExtensions> 
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_GrappleStrength_Bad</li>
+                    <li>RV2_Hediff_QuirkForce_GrappleStrength_Bad</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -437,7 +437,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_GrappleStrength_VeryBad</defName>
+        <defName>RV2_Gene_QuirkForce_GrappleStrength_VeryBad</defName>
         <label>Hopeless Grappler</label>
         <description>This pawn is terrible at hand-to-hand combat when it comes to wrestling for vore.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -445,7 +445,7 @@
         <modExtensions> 
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_GrappleStrength_VeryBad</li>
+                    <li>RV2_Hediff_QuirkForce_GrappleStrength_VeryBad</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -459,7 +459,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleCapability_NoStruggleAsPrey</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPrey</defName>
         <label>Sedentary</label>
         <description>This pawn does not mind being vored, no matter what the repercussions might be. As a result this pawn will never bother to struggle.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -467,7 +467,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleCapability_NoStruggleAsPrey</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPrey</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -481,7 +481,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleCapability_NoStruggleAsPredator</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPredator</defName>
         <label>Numbing</label>
         <description>This pawn s stomach secretes numbing enzymes that paralyze it's prey, as a result anyone vored by this pwan will never struggle.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -489,7 +489,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleCapability_NoStruggleAsPredator</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPredator</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -503,7 +503,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleStrength_Prey_VeryGood</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryGood</defName>
         <label>Professional Wiggler</label>
         <description>This pawn is an expert at struggling when vored by others.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -511,7 +511,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleStrength_Prey_VeryGood</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryGood</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -525,7 +525,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleStrength_Prey_Good</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleStrength_Prey_Good</defName>
         <label>Wiggler</label>
         <description>This pawn is pretty good at struggling when vored by others.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -533,7 +533,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleStrength_Prey_Good</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Good</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -547,7 +547,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleStrength_Prey_Normal</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleStrength_Prey_Normal</defName>
         <label>Average Wiggler</label>
         <description>This pawn is about average at struggling when vored by others.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -555,7 +555,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleStrength_Prey_Normal</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Normal</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -570,7 +570,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleStrength_Prey_Bad</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleStrength_Prey_Bad</defName>
         <label>Clumsy Wiggler</label>
         <description>This pawn is pretty bad at struggling when vored by others.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -578,7 +578,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleStrength_Prey_Bad</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Bad</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -592,7 +592,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleStrength_Prey_VeryBad</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryBad</defName>
         <label>Hopeless Wiggler</label>
         <description>This pawn is terrible at struggling when vored by others.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -600,7 +600,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleStrength_Prey_VeryBad</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryBad</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -614,7 +614,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleStrength_Predator_VeryGood</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryGood</defName>
         <label>Steel gut</label>
         <description>This pawn is an expert at resisting struggles from its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -622,7 +622,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleStrength_Predator_VeryGood</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryGood</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -636,7 +636,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleStrength_Predator_Good</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleStrength_Predator_Good</defName>
         <label>Iron gut</label>
         <description>This pawn is pretty good at resisting struggles from its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -644,7 +644,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleStrength_Predator_Good</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Good</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -658,7 +658,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleStrength_Predator_Normal</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleStrength_Predator_Normal</defName>
         <label>Average gut</label>
         <description>This pawn is about average at resisting struggles from its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -666,7 +666,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleStrength_Predator_Normal</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Normal</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -681,7 +681,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleStrength_Predator_Bad</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleStrength_Predator_Bad</defName>
         <label>Weak gut</label>
         <description>This pawn is pretty bad at resisting struggles from its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -689,7 +689,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleStrength_Predator_Bad</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Bad</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -703,7 +703,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StruggleStrength_Predator_VeryBad</defName>
+        <defName>RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryBad</defName>
         <label>Fragile gut</label>
         <description>This pawn is terrible at resisting struggles from its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -711,7 +711,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StruggleStrength_Predator_VeryBad</li>
+                    <li>RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryBad</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -725,7 +725,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StrugglePreference_Hated</defName>
+        <defName>RV2_Gene_QuirkForce_StrugglePreference_Hated</defName>
         <label>Struggle hater</label>
         <description>This pawn has very irritable insides and hates prey working against</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -733,7 +733,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StrugglePreference_Hated</li>
+                    <li>RV2_Hediff_QuirkForce_StrugglePreference_Hated</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -747,7 +747,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StrugglePreference_Nomal</defName>
+        <defName>RV2_Gene_QuirkForce_StrugglePreference_Nomal</defName>
         <label>Struggle neutral</label>
         <description>This pawn doesn't care one way or another if its prey struggles.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -755,7 +755,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StrugglePreference_Nomal</li>
+                    <li>RV2_Hediff_QuirkForce_StrugglePreference_Nomal</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -770,7 +770,7 @@
     </GeneDef>
 
     <GeneDef>
-        <defName>RV2_QuirkForce_StrugglePreference_Liked</defName>
+        <defName>RV2_Gene_QuirkForce_StrugglePreference_Liked</defName>
         <label>Struggle lover</label>
         <description>This pawn has very resilient insides and actually enjoys prey working against it.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
@@ -778,7 +778,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_QuirkForce_StrugglePreference_Liked</li>
+                    <li>RV2_Hediff_QuirkForce_StrugglePreference_Liked</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>

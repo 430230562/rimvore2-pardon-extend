@@ -6,7 +6,7 @@
 
     <!-- 机动性 -->
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_Cheat_Hammerspace</defName>
+        <defName>RV2_Hediff_QuirkForce_Cheat_Hammerspace</defName>
         <label>Hammerspace</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -18,7 +18,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_Mobility_Godlike</defName>
+        <defName>RV2_Hediff_QuirkForce_Mobility_Godlike</defName>
         <label>Godlike Mobility</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -30,7 +30,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_Mobility_VeryGood</defName>
+        <defName>RV2_Hediff_QuirkForce_Mobility_VeryGood</defName>
         <label>Acrobatic</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -42,7 +42,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_Mobility_Good</defName>
+        <defName>RV2_Hediff_QuirkForce_Mobility_Good</defName>
         <label>Nimble</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -54,7 +54,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_Mobility_Normal</defName>
+        <defName>RV2_Hediff_QuirkForce_Mobility_Normal</defName>
         <label>Normal mobility</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -66,7 +66,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_Mobility_Bad</defName>
+        <defName>RV2_Hediff_QuirkForce_Mobility_Bad</defName>
         <label>Clumsy</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -78,7 +78,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_Mobility_VeryBad</defName>
+        <defName>RV2_Hediff_QuirkForce_Mobility_VeryBad</defName>
         <label>Sluggish</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -92,7 +92,7 @@
     <!-- 容量 -->
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_Cheat_InfiniteCapacity</defName>
+        <defName>RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity</defName>
         <label>Infinite Capacity</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -104,7 +104,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StorageCapacity_Godlike</defName>
+        <defName>RV2_Hediff_QuirkForce_StorageCapacity_Godlike</defName>
         <label>Godlike Capacity</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -116,7 +116,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StorageCapacity_VeryGood</defName>
+        <defName>RV2_Hediff_QuirkForce_StorageCapacity_VeryGood</defName>
         <label>Cavernous</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -128,7 +128,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StorageCapacity_Good</defName>
+        <defName>RV2_Hediff_QuirkForce_StorageCapacity_Good</defName>
         <label>Stretchy</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -140,7 +140,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StorageCapacity_Normal</defName>
+        <defName>RV2_Hediff_QuirkForce_StorageCapacity_Normal</defName>
         <label>Normal capacity</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -152,7 +152,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StorageCapacity_Bad</defName>
+        <defName>RV2_Hediff_QuirkForce_StorageCapacity_Bad</defName>
         <label>Tight</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -164,7 +164,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StorageCapacity_VeryBad</defName>
+        <defName>RV2_Hediff_QuirkForce_StorageCapacity_VeryBad</defName>
         <label>Claustrophobic</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -179,7 +179,7 @@
 
     <!-- 抓取力 -->
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_GrappleStrength_VeryGood</defName>
+        <defName>RV2_Hediff_QuirkForce_GrappleStrength_VeryGood</defName>
         <label>Powerful Grappler</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -191,7 +191,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_GrappleStrength_Good</defName>
+        <defName>RV2_Hediff_QuirkForce_GrappleStrength_Good</defName>
         <label>Strong Grappler</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -203,7 +203,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_GrappleStrength_Normal</defName>
+        <defName>RV2_Hediff_QuirkForce_GrappleStrength_Normal</defName>
         <label>Average Grappler</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -215,7 +215,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_GrappleStrength_Bad</defName>
+        <defName>RV2_Hediff_QuirkForce_GrappleStrength_Bad</defName>
         <label>Weak Grappler</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -227,7 +227,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_GrappleStrength_VeryBad</defName>
+        <defName>RV2_Hediff_QuirkForce_GrappleStrength_VeryBad</defName>
         <label>Feeble Grappler</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -240,7 +240,7 @@
 
     <!-- 挣扎能力 -->
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleCapability_NoStruggleAsPrey</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPrey</defName>
          <label>Sedentary</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -252,7 +252,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleCapability_NoStruggleAsPredator</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPredator</defName>
         <label>Unbreakable Will</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -265,7 +265,7 @@
 
     <!-- 挣扎强度 (prey)-->
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleStrength_Prey_VeryGood</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryGood</defName>
         <label>Professional Wiggler</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -277,7 +277,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleStrength_Prey_Good</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Good</defName>
         <label>Strong Wiggler</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -289,7 +289,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleStrength_Prey_Normal</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Normal</defName>
         <label>Average Wiggler</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -301,7 +301,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleStrength_Prey_Bad</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Bad</defName>
         <label>Weak Wiggler</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -313,7 +313,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleStrength_Prey_VeryBad</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryBad</defName>
         <label>Feeble Wiggler</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -326,7 +326,7 @@
 
     <!-- 抗挣扎强度 (predator)-->
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleStrength_Predator_VeryGood</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryGood</defName>
         <label>Unyielding</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -338,7 +338,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleStrength_Predator_Good</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Good</defName>
         <label>Resolute</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -350,7 +350,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleStrength_Predator_Normal</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Normal</defName>
         <label>Average Resistance</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -362,7 +362,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleStrength_Predator_Bad</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Bad</defName>
         <label>Weak Resistance</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -374,7 +374,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StruggleStrength_Predator_VeryBad</defName>
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryBad</defName>
         <label>Feeble Resistance</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -387,7 +387,7 @@
 
     <!-- 挣扎偏好(predator) -->
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StrugglePreference_Hated</defName>
+        <defName>RV2_Hediff_QuirkForce_StrugglePreference_Hated</defName>
         <label>Struggle hater</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -399,7 +399,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StrugglePreference_Normal</defName>
+        <defName>RV2_Hediff_QuirkForce_StrugglePreference_Normal</defName>
         <label>Struggle neutral</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
@@ -411,7 +411,7 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
-        <defName>RV2_QuirkForce_StrugglePreference_Loved</defName>
+        <defName>RV2_Hediff_QuirkForce_StrugglePreference_Loved</defName>
         <label>Struggle lover</label>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
