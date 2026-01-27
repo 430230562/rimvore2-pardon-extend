@@ -8,6 +8,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Cheat_Hammerspace</defName>
         <label>Hammerspace</label>
+        <description>This pawn's body compresses its prey down to an incredible degree.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -20,6 +21,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Mobility_Godlike</defName>
         <label>Godlike Mobility</label>
+        <description>This pawn makes walking around with the weight of multiple full grown people hanging off of it look effortless.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -32,6 +34,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Mobility_VeryGood</defName>
         <label>Acrobatic</label>
+        <description>This pawn moves freely while full of prey, as though its belly wasn't there.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -44,6 +47,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Mobility_Good</defName>
         <label>Nimble</label>
+        <description>This pawn knows how to keep its balance with a bulging belly.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -56,6 +60,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Mobility_Normal</defName>
         <label>Normal mobility</label>
+        <description>This pawn is affected by its prey's weight like anyone else.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -68,6 +73,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Mobility_Bad</defName>
         <label>Clumsy</label>
+        <description>This pawn is unsteady with a big belly and prone to tumbling whenever its prey decide to kick around.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -80,6 +86,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Mobility_VeryBad</defName>
         <label>Sluggish</label>
+        <description>This pawn can barely stay on its feet with a big, round belly, let alone jog around.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -94,6 +101,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity</defName>
         <label>Infinite Capacity</label>
+        <description>This pawn doesn't know the meaning of the word "full". There's always room for more prey.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -106,6 +114,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StorageCapacity_Godlike</defName>
         <label>Godlike Capacity</label>
+        <description>This pawn's skin is supernaturally stretchy, able to expand to sizes that defy all logic and reason.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -118,6 +127,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StorageCapacity_VeryGood</defName>
         <label>Cavernous</label>
+        <description>This pawn can stuff itself silly with prey and still have room for more, though even this pawn has limits.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -130,6 +140,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StorageCapacity_Good</defName>
         <label>Stretchy</label>
+        <description>This pawn can stretch to fit more prey than the average predator.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -142,6 +153,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StorageCapacity_Normal</defName>
         <label>Normal capacity</label>
+        <description>This pawn can fit as many prey as anyone else.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -154,6 +166,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StorageCapacity_Bad</defName>
         <label>Tight</label>
+        <description>This pawn struggles to fit as many prey inside itself as most of its predatory peers can.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -166,6 +179,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StorageCapacity_VeryBad</defName>
         <label>Claustrophobic</label>
+        <description>This pawn struggles with a lack of capacity for prey and fills up fast.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -181,6 +195,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_GrappleStrength_VeryGood</defName>
         <label>Powerful Grappler</label>
+        <description>This pawn is an expert at hand-to-hand combat when it comes to wrestling for vore.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -193,6 +208,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_GrappleStrength_Good</defName>
         <label>Strong Grappler</label>
+        <description>This pawn is pretty good at hand-to-hand combat when it comes to wrestling for vore.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -205,6 +221,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_GrappleStrength_Normal</defName>
         <label>Average Grappler</label>
+        <description>This pawn is about average at hand-to-hand combat when it comes to wrestling for vore.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -217,6 +234,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_GrappleStrength_Bad</defName>
         <label>Weak Grappler</label>
+        <description>This pawn is pretty bad at hand-to-hand combat when it comes to wrestling for vore.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -229,6 +247,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_GrappleStrength_VeryBad</defName>
         <label>Feeble Grappler</label>
+        <description>This pawn is terrible at hand-to-hand combat when it comes to wrestling for vore.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -242,6 +261,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPrey</defName>
          <label>Sedentary</label>
+        <description>This pawn does not mind being vored and will never bother to struggle.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -254,6 +274,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPredator</defName>
         <label>Unbreakable Will</label>
+        <description>This pawn's stomach secretes numbing enzymes that paralyze its prey, so anyone vored by this pawn will never struggle.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -267,6 +288,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryGood</defName>
         <label>Professional Wiggler</label>
+        <description>This pawn is an expert at struggling when vored by others.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -279,6 +301,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Good</defName>
         <label>Strong Wiggler</label>
+        <description>This pawn is pretty good at struggling when vored by others.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -291,6 +314,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Normal</defName>
         <label>Average Wiggler</label>
+        <description>This pawn is about average at struggling when vored by others.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -303,6 +327,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Bad</defName>
         <label>Weak Wiggler</label>
+        <description>This pawn is pretty bad at struggling when vored by others.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -315,6 +340,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryBad</defName>
         <label>Feeble Wiggler</label>
+        <description>This pawn is terrible at struggling when vored by others.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -328,6 +354,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryGood</defName>
         <label>Unyielding</label>
+        <description>This pawn is an expert at resisting struggles from its prey.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -340,6 +367,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Good</defName>
         <label>Resolute</label>
+        <description>This pawn is pretty good at resisting struggles from its prey.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -352,6 +380,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Normal</defName>
         <label>Average Resistance</label>
+        <description>This pawn is about average at resisting struggles from its prey.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -364,6 +393,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Bad</defName>
         <label>Weak Resistance</label>
+        <description>This pawn is pretty bad at resisting struggles from its prey.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -376,6 +406,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryBad</defName>
         <label>Feeble Resistance</label>
+        <description>This pawn is terrible at resisting struggles from its prey.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -389,6 +420,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StrugglePreference_Hated</defName>
         <label>Struggle hater</label>
+        <description>This pawn has very irritable insides and hates prey working against it.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -401,6 +433,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StrugglePreference_Normal</defName>
         <label>Struggle neutral</label>
+        <description>This pawn doesn't care one way or another if its prey struggles.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
@@ -413,6 +446,7 @@
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StrugglePreference_Loved</defName>
         <label>Struggle lover</label>
+        <description>This pawn has very resilient insides and actually enjoys prey working against it.</description>
         <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>

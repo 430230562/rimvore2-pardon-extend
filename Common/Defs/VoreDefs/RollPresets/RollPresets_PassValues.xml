@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <!-- 覆盖 -->
+
+  <RimVore2.RollPresetDef ParentName="CreateThing">
+    <defName>ConvertNutritionToMilk</defName>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_CreateThingsFromDef">
+        <name>PreyNutrition</name>
+        <minValue>0</minValue>
+        <requiredNutrition>0.05</requiredNutrition>
+        <things>
+          <li>RV2_Resource_Milk</li>
+        </things>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+
+  <RimVore2.RollPresetDef ParentName="CreateThing">
+    <defName>ConvertNutritionToSperm</defName>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_CreateThingsFromDef">
+        <name>PreyNutrition</name>
+        <minValue>0</minValue>
+        <requiredNutrition>0.05</requiredNutrition>
+        <things>
+          <li>RV2_Resource_Cum</li>
+        </things>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+
+  <RimVore2.RollPresetDef ParentName="CreateThing">
+    <defName>ConvertNutritionToLube</defName>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_CreateThingsFromDef">
+        <name>PreyNutrition</name>
+        <minValue>0</minValue>
+        <requiredNutrition>0.05</requiredNutrition>
+        <things>
+          <li>RV2_Resource_Cum</li> <!-- TODO -->
+        </things>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+  
+  
+</Defs>

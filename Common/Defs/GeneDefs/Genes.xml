@@ -24,7 +24,7 @@
         <label>Hammerspace</label>
         <description>This pawn’s body compresses its prey down to an incredible degree. You can’t quite tell how many prey has inside this pawn at any given time, though you can guess if you know its limit.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/Mobility_Cheat</iconPath>
+        <iconPath>UI/Icons/Genes/Mobility/7</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -47,7 +47,7 @@
         <label>Godlike Agility</label>
         <description>this pawn makes walking around with the weight of multiple full grown people hanging off of its look effortless, in a way that seems to defy the laws of physics.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/Mobility_Godlike</iconPath>
+        <iconPath>UI/Icons/Genes/Mobility/6</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -69,7 +69,7 @@
         <label>Belly acrobat</label>
         <description>this pawn moves freely while full of prey, as though its belly wasn't there.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/Mobility_VeryGood</iconPath>
+        <iconPath>UI/Icons/Genes/Mobility/5</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -91,7 +91,7 @@
         <label>Belly-nimble</label>
         <description>this pawn knows how to keep its balance with a bulging belly.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/Mobility_Good</iconPath>
+        <iconPath>UI/Icons/Genes/Mobility/4</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -113,7 +113,7 @@
         <label>Belly-functional</label>
         <description>this pawn is affected by its prey's weight like anyone else.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/Mobility_Normal</iconPath>
+        <iconPath>UI/Icons/Genes/Mobility/3</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -136,7 +136,7 @@
         <label>Belly-clumsy</label>
         <description>this pawn is unsteady with a big belly and prone to tumbling whenever its prey decide to kick around.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/Mobility_Bad</iconPath>
+        <iconPath>UI/Icons/Genes/Mobility/2</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -159,7 +159,7 @@
         <label>Belly-dysfunctional</label>
         <description>this pawn can barely stay on its feet with a big, round belly, let alone jog around.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/Mobility_VeryBad</iconPath>
+        <iconPath>UI/Icons/Genes/Mobility/1</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -183,7 +183,7 @@
         <label>Infinite Capacity</label>
         <description>This pawn doesn’t know the meaning of the word “full”. There’s always room for more prey. Always.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StorageCapacity_Infinite</iconPath>
+        <iconPath>UI/Icons/Genes/StorageCapacity/7</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -209,7 +209,7 @@
         <label>Godlike Capacity</label>
         <description>This pawn's skin is supernaturally stretchy, able to expand to sizes that defy all logic and reason. No matter how full This pawn gets, This pawn seemingly always has room for one more.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StorageCapacity_Godlike</iconPath>
+        <iconPath>UI/Icons/Genes/StorageCapacity/6</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -234,7 +234,7 @@
         <label>Cavernous Belly</label>
         <description>This pawn can stuff itself silly with prey and still have room for more, though even This pawn has limits.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StorageCapacity_VeryGood</iconPath>
+        <iconPath>UI/Icons/Genes/StorageCapacity/5</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -259,7 +259,7 @@
         <label>Stretchy Belly</label>
         <description>This pawn can stretch to fit more prey than the average predator.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StorageCapacity_Good</iconPath>
+        <iconPath>UI/Icons/Genes/StorageCapacity/4</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -284,7 +284,7 @@
         <label>Normal Capacity</label>
         <description>This pawn can fit as many prey as anyone else.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StorageCapacity_Normal</iconPath>
+        <iconPath>UI/Icons/Genes/StorageCapacity/3</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -307,7 +307,7 @@
         <label>Tight Belly</label>
         <description>This pawn struggles to fit as many prey inside itself as most of its predatory peers can; there's only room for one, maybe (by default).</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StorageCapacity_Bad</iconPath>
+        <iconPath>UI/Icons/Genes/StorageCapacity/2</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -329,7 +329,7 @@
         <label>Claustrophobic Belly</label>
         <description>This pawn struggles with a lack of capacity for prey. This pawn can't eat prey of the same size (by default), and fills up fast otherwise.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StorageCapacity_VeryBad</iconPath>
+        <iconPath>UI/Icons/Genes/StorageCapacity/1</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -352,7 +352,7 @@
         <label>Professional Wrestler</label>
         <description>This pawn is an expert at hand-to-hand combat when it comes to wrestling for vore.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/GrappleStrength_VeryGood</iconPath>
+        <iconPath>UI/Icons/Genes/GrappleStrength/5</iconPath>
         <modExtensions> 
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -374,7 +374,7 @@
         <label>Skilled Grappler</label>
         <description>This pawn is pretty good at hand-to-hand combat when it comes to wrestling for vore.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/GrappleStrength_Good</iconPath>
+        <iconPath>UI/Icons/Genes/GrappleStrength/4</iconPath>
         <modExtensions> 
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -396,7 +396,7 @@
         <label>Average Grappler</label>
         <description>This pawn is about average at hand-to-hand combat when it comes to wrestling for vore.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/GrappleStrength_Normal</iconPath>
+        <iconPath>UI/Icons/Genes/GrappleStrength/3</iconPath>
         <modExtensions> 
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -419,7 +419,7 @@
         <label>Clumsy Grappler</label>
         <description>This pawn is pretty bad at hand-to-hand combat when it comes to wrestling for vore.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/GrappleStrength_Bad</iconPath>
+        <iconPath>UI/Icons/Genes/GrappleStrength/2</iconPath>
         <modExtensions> 
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -441,7 +441,7 @@
         <label>Hopeless Grappler</label>
         <description>This pawn is terrible at hand-to-hand combat when it comes to wrestling for vore.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/GrappleStrength_VeryBad</iconPath>
+        <iconPath>UI/Icons/Genes/GrappleStrength/1</iconPath>
         <modExtensions> 
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -463,7 +463,7 @@
         <label>Sedentary</label>
         <description>This pawn does not mind being vored, no matter what the repercussions might be. As a result this pawn will never bother to struggle.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleCapability_NoStruggleAsPrey</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleCapability/2</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -485,7 +485,7 @@
         <label>Numbing</label>
         <description>This pawn s stomach secretes numbing enzymes that paralyze it's prey, as a result anyone vored by this pwan will never struggle.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleCapability_NoStruggleAsPredator</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleCapability/1</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -507,7 +507,7 @@
         <label>Professional Wiggler</label>
         <description>This pawn is an expert at struggling when vored by others.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleStrength_Prey_VeryGood</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Prey/5</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -529,7 +529,7 @@
         <label>Wiggler</label>
         <description>This pawn is pretty good at struggling when vored by others.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleStrength_Prey_Good</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Prey/4</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -551,7 +551,7 @@
         <label>Average Wiggler</label>
         <description>This pawn is about average at struggling when vored by others.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleStrength_Prey_Normal</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Prey/3</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -574,7 +574,7 @@
         <label>Clumsy Wiggler</label>
         <description>This pawn is pretty bad at struggling when vored by others.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleStrength_Prey_Bad</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Prey/2</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -596,7 +596,7 @@
         <label>Hopeless Wiggler</label>
         <description>This pawn is terrible at struggling when vored by others.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleStrength_Prey_VeryBad</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Prey/1</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -618,7 +618,7 @@
         <label>Steel gut</label>
         <description>This pawn is an expert at resisting struggles from its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleStrength_Predator_VeryGood</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Predator/5</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -640,7 +640,7 @@
         <label>Iron gut</label>
         <description>This pawn is pretty good at resisting struggles from its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleStrength_Predator_Good</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Predator/4</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -662,7 +662,7 @@
         <label>Average gut</label>
         <description>This pawn is about average at resisting struggles from its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleStrength_Predator_Normal</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Predator/3</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -685,7 +685,7 @@
         <label>Weak gut</label>
         <description>This pawn is pretty bad at resisting struggles from its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleStrength_Predator_Bad</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Predator/2</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -707,7 +707,7 @@
         <label>Fragile gut</label>
         <description>This pawn is terrible at resisting struggles from its prey.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StruggleStrength_Predator_VeryBad</iconPath>
+        <iconPath>UI/Icons/Genes/StruggleStrength_Predator/1</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -729,7 +729,7 @@
         <label>Struggle hater</label>
         <description>This pawn has very irritable insides and hates prey working against</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StrugglePreference_Hated</iconPath>
+        <iconPath>UI/Icons/Genes/StrugglePreference/3</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -751,7 +751,7 @@
         <label>Struggle neutral</label>
         <description>This pawn doesn't care one way or another if its prey struggles.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StrugglePreference_Nomal</iconPath>
+        <iconPath>UI/Icons/Genes/StrugglePreference/2</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
@@ -774,7 +774,7 @@
         <label>Struggle lover</label>
         <description>This pawn has very resilient insides and actually enjoys prey working against it.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/StrugglePreference_Liked</iconPath>
+        <iconPath>UI/Icons/Genes/StrugglePreference/1</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
