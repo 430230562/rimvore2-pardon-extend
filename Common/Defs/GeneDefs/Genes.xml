@@ -18,6 +18,252 @@
         <displayOrderInCategory>0</displayOrderInCategory>
     </GeneDef>
 
+     <!-- 消化阻力 -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionResistance_VeryGood</defName>
+        <label>Acid-proof</label>
+        <description>This pawn is very difficult to digest. Not impossible, but it'll take a while; about four times as long as most prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionResistance/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionResistance_VeryGood</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionResistance</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionResistance_Good</defName>
+        <label>Acid-resistant</label>
+        <description>This pawn resists digestion well, and will last about twice as long as most prey in a hostile belly.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionResistance/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionResistance_Good</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionResistance</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionResistance_Normal</defName>
+        <label>Normal acid resistance</label>
+        <description>This pawn is digested as easily as anyone else.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionResistance/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionResistance_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionResistance</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionResistance_Bad</defName>
+        <label>Melty</label>
+        <description>This pawn melts under acid easily and won't last more than half as long in a hostile belly as most prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionResistance/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionResistance_Bad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionResistance</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionResistance_VeryBad</defName>
+        <label>Cotton candy</label>
+        <description>This pawn falls apart in stomach acid like cotton candy, and doesn't fare any better in other organs. They have maybe a quarter of the time to escape as normal prey.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionResistance/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionResistance_VeryBad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionResistance</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>4</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+    </GeneDef>
+
+    <!-- 消化强度 -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionStrength_Godlike</defName>
+        <label>Godlike Digestion</label>
+        <description>Whether due to magic or a technology that's not yet understood, this pawn's digestive abilities are in a class of their own, capable of liquifying an entire Thrumbo in minutes.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionStrength/6</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionStrength_Godlike</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>10</displayOrderInCategory>
+        <biostatMet>-3</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionStrength_VeryGood</defName>
+        <label>Scouring acid</label>
+        <description>This pawn can turn prey into nutrient soup in the blink of an eye--or, at least, four times as fast as most predators.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionStrength/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionStrength_VeryGood</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>11</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionStrength_Good</defName>
+        <label>Potent acid</label>
+        <description>This pawn can digest prey about twice as fast as most predators.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionStrength/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionStrength_Good</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>12</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionStrength_Normal</defName>
+        <label>Normal acid strength</label>
+        <description>This pawn digests prey at a normal speed.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionStrength/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionStrength_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>13</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionStrength_Bad</defName>
+        <label>Weak acid</label>
+        <description>This pawn takes about twice as long to digest live meals as most predators.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionStrength/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionStrength_Bad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>14</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DigestionStrength_VeryBad</defName>
+        <label>Watery acid</label>
+        <description>This pawn takes about four times as long to digest prey as most predators. This pawn's food is liable to die of boredom before dying of melting.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DigestionStrength/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DigestionStrength_VeryBad</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>15</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+    </GeneDef>
+
     <!-- 机动性 -->
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_Cheat_Hammerspace</defName>
