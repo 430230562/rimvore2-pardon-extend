@@ -32,7 +32,6 @@
     </postVoreMemories>
     <stages>
       <li>Tailmaw_Enter</li>
-      <li>Tailthroat_Enter</li>
       <li>TailThroat_Warmup</li>
       <li>TailThroat_Digest</li>
       <li>Stomach_Churn</li>
