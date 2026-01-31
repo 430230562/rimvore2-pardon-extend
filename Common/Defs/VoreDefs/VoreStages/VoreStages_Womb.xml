@@ -12,7 +12,7 @@
     <onStart>
       <actions>
         <li Class="RimVore2.RollAction_PassValue_Set">
-          <name>DigestionProgress</name>
+          <name>ReformProgress</name>
           <type>DigestionProgress</type>
         </li>
         <li Class="RimVore2.RollAction_ShowMote">
@@ -23,8 +23,9 @@
     <onCycle>
       <rollPresets>
         <li>StealNeed_ForPrey_Food</li>
+        <li>Heal_Prey</li>
         <li>Sound_Squish_Chance_30</li>
-        <li>IncreaseDigestionProgress</li>
+        <li>IncreaseReformProgress</li>
         <li>SkillAbsorb_Prey</li>
       </rollPresets>
     </onCycle>
@@ -36,8 +37,8 @@
     </onEnd>
     <passConditions>
       <li Class="RimVore2.StagePassCondition_PassValue">
-        <passValueName>DigestionProgress</passValueName>
-        <targetValue>10</targetValue>
+        <passValueName>ReformProgress</passValueName>
+        <targetValue>20</targetValue>
       </li>
     </passConditions>
   </RimVore2.VoreStageDef>

@@ -40,6 +40,17 @@
     </actionsOnSuccess>
   </RimVore2.RollPresetDef>
 
+  <RimVore2.RollPresetDef ParentName="Digest_StrengthModifiers">
+    <defName>IncreaseReformProgress</defName>
+    <strength>0.01~0.03</strength>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_PassValue_Add">
+        <name>ReformProgress</name>
+        <maxValue>100</maxValue>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+
   <RimVore2.RollPresetDef>
     <defName>SkillAbsorb_Prey</defName>
     <strength>0.01~0.04</strength>
