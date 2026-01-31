@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RimVore2.RollPresetDef ParentName="IncreaseCosmeticHediff">
+    <defName>Heal_Prey</defName>
+    <strengthModifiers>
+      <li Class="RimVore2.RollModifier_Stat">
+        <target>Prey</target>
+        <stat>InjuryHealingFactor</stat>
+      </li>
+    </strengthModifiers>
+    <strength>0.02</strength>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_Heal">
+        <target>Prey</target>
+      </li>
+      <li Class="RimVore2.RollAction_IncreaseHediffSeverity">
+        <target>Prey</target>
+        <hediff>RV2_FasterRecover</hediff>
+        <addHediffIfNotPresent>true</addHediffIfNotPresent>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+
+  <RimVore2.RollPresetDef>
+    <defName>IncreaseNeed_Prey_Comfort</defName>
+    <successChance>1</successChance>
+    <strength>0.01~0.03</strength>
+    <strengthModifiers>
+      <li Class="RimVore2.RollModifier_VoreSpeed"></li>
+    </strengthModifiers>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_IncreaseNeed">
+        <target>Prey</target>
+        <need>Comfort</need>
+      </li>
+      <li Class="RimVore2.RollAction_IncreaseNeed">
+        <target>Prey</target>
+        <need>Rest</need>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+
+  <RimVore2.RollPresetDef>
+    <defName>SkillAbsorb_Prey</defName>
+    <strength>0.01~0.04</strength>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_StealSkill">
+        <takeFrom>Prey</takeFrom>
+        <giveTo>Predator</giveTo>
+        <useFixed>false</useFixed>
+        <useTakersBest>true</useTakersBest>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+
+</Defs>

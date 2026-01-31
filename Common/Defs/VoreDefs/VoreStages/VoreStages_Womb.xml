@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <RimVore2.VoreStageDef Name="Womb_Reform" ParentName="Womb_Base">
+    <defName>Womb_Reform</defName>
+    <partGoal>Reform</partGoal>
+    <jumpKey>Womb</jumpKey>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInWombReforming</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInWombReforming</predatorThoughtDef>
+    <onStart>
+      <actions>
+        <li Class="RimVore2.RollAction_PassValue_Set">
+          <name>DigestionProgress</name>
+          <type>DigestionProgress</type>
+        </li>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_BubblesLove</mote>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>StealNeed_ForPrey_Food</li>
+        <li>Sound_Squish_Chance_30</li>
+        <li>IncreaseDigestionProgress</li>
+        <li>SkillAbsorb_Prey</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_Reform" />
+        <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_PassValue">
+        <passValueName>DigestionProgress</passValueName>
+        <targetValue>10</targetValue>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+
+</Defs>

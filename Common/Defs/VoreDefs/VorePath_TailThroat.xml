@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- TailThroat -->
+
+  <RimVore2.VorePathDef ParentName="Digest_Base" MayRequire='MamaHorseteeth.RimVore2ExtraVores'>
+    <defName>TailThroatDigest</defName>
+    <label>(Digest) TailThroat</label>
+    <RMBLabel>Tail-throat vore</RMBLabel>
+    <actionDescription>{0} will swallow and digest {1} in their tail-throat</actionDescription>
+    <description>TailThroat digestion is where a predator with a mouth in their tail swallows prey through said mouth, down to their tail-throat, for fatal digestion, feeding the predator and turning the prey into either fertilizer components or nothing at all.</description>
+    <voreType>Tailmaw</voreType>
+    <initTale>RV2_VoreInitiation_TailmawDigest</initTale>
+    <exitTale>RV2_VoreExit_TailmawDigest</exitTale>
+    <voreProduct>
+      <items>
+        <li>Filth_CorpseBile</li>
+      </items>
+      <selectableContainers>
+        <li>RV2_Container_Scat</li>
+        <li>RV2_Container_Bones</li>
+        <li>RV2_Container_Sack</li>
+        <li>RV2_Container_None</li>
+      </selectableContainers>
+      <containerItems>
+        <li>Filth_CorpseBile</li>
+      </containerItems>
+    </voreProduct>
+    <postVoreMemories>
+      <predatorPostVoreSuccess>RV2_PredatorTailmawDigestSuccess</predatorPostVoreSuccess>
+      <predatorPostVoreInterrupted>RV2_PredatorTailmawDigestInterrupted</predatorPostVoreInterrupted>
+      <preyPostVoreInterrupted>RV2_PreyTailmawDigestInterrupted</preyPostVoreInterrupted>
+    </postVoreMemories>
+    <stages>
+      <li>Tailmaw_Enter</li>
+      <li>TailThroat_Warmup</li>
+      <li>TailThroat_Digest</li>
+      <li>Stomach_Churn</li>
+      <li>Intestines_Process</li>
+      <li>Anus_Dump</li>
+    </stages>
+    <defaultRequiredStruggles>60</defaultRequiredStruggles>
+  </RimVore2.VorePathDef>
+
+
+
+
+</Defs>

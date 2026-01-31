@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Warmup -->
+  <RimVore2.VoreStageDef MayRequire='MamaHorseteeth.RimVore2ExtraVores' ParentName="Tailthroat_Base">
+    <defName>TailThroat_Warmup</defName>
+    <partGoal>WarmUp</partGoal>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInTailThroatWarming</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInTailThroatWarming</predatorThoughtDef>
+    <jumpKey>TailThroat</jumpKey>
+    <onCycle>
+      <rollPresets>
+        <li>Sound_Churn_10</li>
+      </rollPresets>
+    </onCycle>
+    <passConditions>
+      <!-- ESEGN: Changed to warmup pass condition -->
+      <li Class="RimVore2.StagePassCondition_Warmup">
+        <duration>24</duration>
+        <hediffs>
+          <li>RV2_PreyInTailThroatDigesting</li>
+        </hediffs>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <!-- Digest -->
+  <RimVore2.VoreStageDef MayRequire='MamaHorseteeth.RimVore2ExtraVores' ParentName="Tailthroat_Base">
+    <defName>TailThroat_Digest</defName>
+    <partGoal>Digest</partGoal>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInTailThroatDigesting</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInTailThroatDigesting</predatorThoughtDef>
+    <jumpKey>TailThroat</jumpKey>
+    <onStart>
+      <actions>
+        <li Class="RimVore2.RollAction_PassValue_Set">
+          <name>DigestionProgress</name>
+          <type>DigestionProgress</type>
+        </li>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_BubbleDigest</mote>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Mote_BubbleDigest</li>
+        <li>Sound_Gurgle_Chance_5</li>
+        <li>Sound_Burp_Chance_15</li>
+        <li>IncreaseDigestionProgress</li>
+        <li>IncreaseNeed_Predator_Food</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_PlaySound">
+          <sound>RV2_Belch</sound>
+        </li>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_Skull</mote>
+        </li>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_BubblesDigest</mote>
+        </li>
+        <li Class="RimVore2.RollAction_Digest">
+          <damageDef>RV2_StomachAcid</damageDef>
+        </li>
+        <li Class="RimVore2.RollAction_RecordTale_GoalFinish"/>
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_PassValue">
+        <passValueName>DigestionProgress</passValueName>
+        <targetValue>1</targetValue>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <!-- Heal -->
+  <RimVore2.VoreStageDef MayRequire='MamaHorseteeth.RimVore2ExtraVores' ParentName="Tailthroat_Base">
+    <defName>TailThroat_Heal</defName>
+    <partGoal>Heal</partGoal>
+    <jumpKey>TailThroat</jumpKey>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInTailThroatHealing</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInTailThroatHealing</predatorThoughtDef>
+    <onCycle>
+      <rollPresets>
+        <li>Sound_Churn_10</li>
+        <li>IncreaseNeed_Prey_Rest</li>
+        <li>StealNeed_ForPrey_Food</li>
+        <li>Heal_Prey</li>
+        <!-- actions are interrupted here if predator has no food for healing -->
+        <li>Mote_Heal</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_Healed">
+        <target>Prey</target>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+</Defs>
