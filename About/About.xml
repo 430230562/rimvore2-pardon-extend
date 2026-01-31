@@ -14,11 +14,6 @@
             <displayName>RimVore-2</displayName>
             <downloadUrl>https://gitlab.com/Nabber/rimvore-2.git</downloadUrl>
         </li>
-		<li>
-			<packageId>imranfish.xmlextensions</packageId>
-			<displayName>xml extensions</displayName>
-		</li>
-		
 	</modDependencies>
     <incompatibleWith>
     </incompatibleWith>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef Abstract="True" Name ="RV2_Product_Consumable_Base" ParentName="RV2_Product_Base">
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
+      <optimalityOffsetHumanlikes>15</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <preferability>MealFine</preferability>
+    </ingestible>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <modExtensions>
+      <li Class="RimVore2.ConsumableVoreProductFlag"/>
+    </modExtensions>
+  </ThingDef>
+
+   <ThingDef ParentName="RV2_Product_Consumable_Base">
+    <defName>RV2_Resource_Cum</defName>
+    <label>Cummified pawn</label>
+    <description>What was once a living being, rendered into delicious cum.\nDrinkable.</description>
+    <graphicData>
+      <texPath>Things/VoreProducts/ConsumableCondom</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <ingestible>
+      <tasteThought>RV2_ConsumedDigestedPrey_Cum</tasteThought>
+      <ingestEffect>RV2_DrinkCum</ingestEffect>
+      <ingestSound>Ingest_Drink</ingestSound>
+    </ingestible>
+  </ThingDef>
+  
+  <ThingDef ParentName="RV2_Product_Consumable_Base">
+    <defName>RV2_Resource_Milk</defName>
+    <label>Milkified pawn</label>
+    <description>What was once a living being, rendered into delicious milk.\Drinkable.</description>
+    <graphicData>
+      <texPath>Things/VoreProducts/ConsumableMilk</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <ingestible>
+      <tasteThought>RV2_ConsumedDigestedPrey_Milk</tasteThought>
+      <ingestEffect>RV2_DrinkCum</ingestEffect>
+      <ingestSound>Ingest_Drink</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="RV2_Product_Consumable_Base">
+    <defName>RV2_Resource_Lube</defName>
+    <label>Lubified pawn</label>
+    <description>What was once a living being, rendered into delicious lube.\nDrinkable.</description>
+    <graphicData>
+      <texPath>Things/VoreProducts/Lube</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <ingestible>
+      <tasteThought>RV2_ConsumedDigestedPrey_Lube</tasteThought>
+      <ingestEffect>RV2_DrinkCum</ingestEffect>
+      <ingestSound>Ingest_Drink</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+</Defs>

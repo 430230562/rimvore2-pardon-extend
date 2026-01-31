@@ -20,6 +20,29 @@
 
      <!-- 消化阻力 -->
     <GeneDef>
+        <defName>RV2_Gene_QuirkForce_Cheat_Indigestible</defName>
+        <label>Indigestible</label>
+        <description>This pawn is immune to digestion. Not immune to bullets, blades, explosions, or even external acid sprays, but certainly immune to digestion.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Abilities/VoreSkip</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Cheat_Indigestible</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionResistance</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatArc>2</biostatArc>
+    </GeneDef>
+
+    <GeneDef>
         <defName>RV2_Gene_QuirkForce_DigestionResistance_VeryGood</defName>
         <label>Acid-proof</label>
         <description>This pawn is very difficult to digest. Not impossible, but it'll take a while; about four times as long as most prey.</description>
@@ -37,7 +60,7 @@
             <li>DigestionResistance</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>0</displayOrderInCategory>
+        <displayOrderInCategory>1</displayOrderInCategory>
         <biostatMet>-2</biostatMet>
     </GeneDef>
 
@@ -59,7 +82,7 @@
             <li>DigestionResistance</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>1</displayOrderInCategory>
+        <displayOrderInCategory>2</displayOrderInCategory>
         <biostatMet>-1</biostatMet>
     </GeneDef>
 
@@ -81,7 +104,7 @@
             <li>DigestionResistance</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>2</displayOrderInCategory>
+        <displayOrderInCategory>3</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
     </GeneDef>
@@ -104,7 +127,7 @@
             <li>DigestionResistance</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>3</displayOrderInCategory>
+        <displayOrderInCategory>4</displayOrderInCategory>
         <biostatMet>1</biostatMet>
     </GeneDef>
 
@@ -126,11 +149,34 @@
             <li>DigestionResistance</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>4</displayOrderInCategory>
+        <displayOrderInCategory>5</displayOrderInCategory>
         <biostatMet>3</biostatMet>
     </GeneDef>
 
     <!-- 消化强度 -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_Cheat_InstantDigestion</defName>
+        <label>Instant digestion</label>
+        <description>Only the pawn-tron reduces an entire preything into soup-like homogenate in 30 seconds.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Abilities/VoreSkip</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Cheat_InstantDigestion</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DigestionStrength</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>10</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatArc>2</biostatArc>
+    </GeneDef>
+
     <GeneDef>
         <defName>RV2_Gene_QuirkForce_DigestionStrength_Godlike</defName>
         <label>Godlike Digestion</label>
@@ -149,7 +195,7 @@
             <li>DigestionStrength</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>10</displayOrderInCategory>
+        <displayOrderInCategory>11</displayOrderInCategory>
         <biostatMet>-3</biostatMet>
     </GeneDef>
 
@@ -171,7 +217,7 @@
             <li>DigestionStrength</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>11</displayOrderInCategory>
+        <displayOrderInCategory>12</displayOrderInCategory>
         <biostatMet>-2</biostatMet>
     </GeneDef>
 
@@ -193,7 +239,7 @@
             <li>DigestionStrength</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>12</displayOrderInCategory>
+        <displayOrderInCategory>13</displayOrderInCategory>
         <biostatMet>-1</biostatMet>
     </GeneDef>
 
@@ -215,7 +261,7 @@
             <li>DigestionStrength</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>13</displayOrderInCategory>
+        <displayOrderInCategory>14</displayOrderInCategory>
         <biostatMet>0</biostatMet>
         <biostatCpx>0</biostatCpx>
     </GeneDef>
@@ -238,7 +284,7 @@
             <li>DigestionStrength</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>14</displayOrderInCategory>
+        <displayOrderInCategory>15</displayOrderInCategory>
         <biostatMet>1</biostatMet>
     </GeneDef>
 
@@ -260,7 +306,7 @@
             <li>DigestionStrength</li>
         </exclusionTags>
         <displayCategory>RV2_Vore_Digestion</displayCategory>
-        <displayOrderInCategory>15</displayOrderInCategory>
+        <displayOrderInCategory>16</displayOrderInCategory>
         <biostatMet>3</biostatMet>
     </GeneDef>
 

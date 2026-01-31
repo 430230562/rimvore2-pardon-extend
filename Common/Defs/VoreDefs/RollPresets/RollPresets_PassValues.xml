@@ -39,7 +39,7 @@
         <minValue>0</minValue>
         <requiredNutrition>0.05</requiredNutrition>
         <things>
-          <li>RV2_Resource_Cum</li> <!-- TODO -->
+          <li>RV2_Resource_Lube</li>
         </things>
       </li>
     </actionsOnSuccess>

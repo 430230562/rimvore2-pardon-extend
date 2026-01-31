@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <ThoughtDef Name="RV2_Memory_ConsumedVoreProduct" Abstract ="True">
+    <durationDays>1</durationDays>
+    <showBubble>true</showBubble>
+	  <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <validWhileDespawned>true</validWhileDespawned>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="RV2_Memory_ConsumedVoreProduct">
+    <defName>RV2_ConsumedDigestedPrey_Lube</defName>
+    <stages>
+      <li>
+        <label>Drank urified pawn</label>
+        <description>It tasted fine. I could probably drink some more if I needed to.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="RV2_Memory_ConsumedVoreProduct">
+    <defName>RV2_ConsumedDigestedPrey_Lube_VeryGood</defName>
+    <stages>
+      <li>
+        <label>Loved drinking urified pawn</label>
+        <description>The very nectar of the gods! It danced on my tongue like fine wine. I could drink that every day for the rest of my life!</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="RV2_Memory_ConsumedVoreProduct">
+    <defName>RV2_ConsumedDigestedPrey_Lube_Good</defName>
+    <stages>
+      <li>
+        <label>Liked drinking urified pawn</label>
+        <description>That was quite good! It went down good, and left a fragrant aftertaste that left me wanting more.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="RV2_Memory_ConsumedVoreProduct">
+    <defName>RV2_ConsumedDigestedPrey_Lube_Bad</defName>
+    <stages>
+      <li>
+        <label>Disliked drinking urified pawn</label>
+        <description>Blech. Can't believe I just drank Lube.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="RV2_Memory_ConsumedVoreProduct">
+    <defName>RV2_ConsumedDigestedPrey_Lube_VeryBad</defName>
+    <stages>
+      <li>
+        <label>Hated drinking urified pawn</label>
+        <description>Ugh! The smell is still stuck in my throat...</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

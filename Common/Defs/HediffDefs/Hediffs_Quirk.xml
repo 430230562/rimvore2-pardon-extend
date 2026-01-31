@@ -2,7 +2,177 @@
 
 <!-- 这不是一个高效的方法 -->
 <Defs>
-    <!-- 吞噬容量 -->
+
+    <!-- 消化阻力 -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_Cheat_Indigestible</defName>
+        <label>Indigestible</label>
+        <description>This pawn is immune to digestion. Not immune to bullets, blades, explosions, or even external acid sprays, but certainly immune to digestion.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Cheat_Indigestible</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionResistance_VeryGood</defName>
+        <label>Acid-proof</label>
+        <description>This pawn is very difficult to digest. Not impossible, but it'll take a while; about four times as long as most prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionResistance_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionResistance_Good</defName>
+        <label>Acid-resistant</label>
+        <description>This pawn resists digestion well, and will last about twice as long as most prey in a hostile belly.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionResistance_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionResistance_Normal</defName>
+        <label>Normal acid resistance</label>
+        <description>This pawn is digested as easily as anyone else.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionResistance_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionResistance_Bad</defName>
+        <label>Melty</label>
+        <description>This pawn melts under acid easily and won't last more than half as long in a hostile belly as most prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionResistance_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionResistance_VeryBad</defName>
+        <label>Cotton candy</label>
+        <description>This pawn falls apart in stomach acid like cotton candy, and doesn't fare any better in other organs. They have maybe a quarter of the time to escape as normal prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionResistance_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- 消化强度 -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_Cheat_InstantDigestion</defName>
+        <label>Instant digestion</label>
+        <description>Only the pawn-tron reduces an entire preything into soup-like homogenate in 30 seconds.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Cheat_InstantDigestion</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionStrength_Godlike</defName>
+        <label>Godlike Digestion</label>
+        <description>Whether due to magic or a technology that's not yet understood, this pawn's digestive abilities are in a class of their own, capable of liquifying an entire Thrumbo in minutes.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionStrength_Godlike</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionStrength_VeryGood</defName>
+        <label>Scouring acid</label>
+        <description>This pawn can turn prey into nutrient soup in the blink of an eye--or, at least, four times as fast as most predators.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionStrength_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionStrength_Good</defName>
+        <label>Potent acid</label>
+        <description>This pawn can digest prey about twice as fast as most predators.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionStrength_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionStrength_Normal</defName>
+        <label>Normal acid strength</label>
+        <description>This pawn digests prey at a normal speed.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionStrength_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionStrength_Bad</defName>
+        <label>Weak acid</label>
+        <description>This pawn takes about twice as long to digest live meals as most predators.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionStrength_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DigestionStrength_VeryBad</defName>
+        <label>Watery acid</label>
+        <description>This pawn takes about four times as long to digest prey as most predators. This pawn's food is liable to die of boredom before dying of melting.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DigestionStrength_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
 
     <!-- 机动性 -->
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
