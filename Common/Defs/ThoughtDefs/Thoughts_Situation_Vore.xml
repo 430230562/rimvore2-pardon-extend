@@ -1,7 +1,142 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
+
+  <!-- <ThoughtDef ParentName="RV2_VoreThoughtSituationBase"> 
+    <defName>RV2_PreyInVaginaAmalgamating</defName>
+    <stages>
+      <li>
+        <label>One prey amalgamated into labia</label>
+        <description>Puffier, tighter... and so much more sensitive.~</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Two prey amalgamated into labia</label>
+        <description>One for each lip!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Three prey amalgamated into labia</label>
+        <description>One on the left, one on the right, one on the buzzer.</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Several prey amalgamated into labia</label>
+        <description>How many more can I line my box with?~</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
   
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInVaginaAssimilating</defName>
+    <stages>
+      <li>
+        <label>Assimilating prey into teat</label>
+        <description>Enjoy getting pounded!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Assimilating two prey into teats</label>
+        <description>One for each lip!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Assimilating three prey into teats</label>
+        <description>One on the left, one on the right, one on the buzzer.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Assimilating several prey into teats</label>
+        <description>I'm *drooling* at the thought of more...~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInVaginaContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption vaginal pleasure</label>
+        <description>Who says I can't play with my pussy-puffers before I absorb them?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption vaginal pleasure</label>
+        <description>Everyone's thirsty for my nectar, huh?</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInVaginaLoosening</defName>
+    <stages>
+      <li>
+        <label>Loosening up to absorb prey into labia</label>
+        <description>That's it, keep eating...~</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Loosening up to absorb multiple prey into labia</label>
+        <description>There's enough flower for everyone to feast; keep at it!~</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInVaginaPurging</defName>
+    <stages>
+      <li>
+        <label>Fingering remains out of labia</label>
+        <description>Gotta work the air out!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Fingering multiple remains out of labia</label>
+        <description>I honestly might as well just start jilling at this point.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInVaginaReshaping</defName>
+    <stages>
+      <li>
+        <label>Reshaping prey from labia</label>
+        <description>I'll miss this puffiness...</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Reshaping multiple prey from labia</label>
+        <description>I don't wanna be loose again!</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  -->
+  <!-- Tailmaw -->
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInTailmawDumping</defName>
+    <stages>
+      <li>
+        <label>Dumping remains out of tailmaw</label>
+        <description>Thanks for your contributions.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Dumping multiple remains out of tailmaw</label>
+        <description>That was a hearty meal!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+  <!-- tail-throat -->
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
     <defName>RV2_PreyInTailThroatWarming</defName>
     <stages>
@@ -56,6 +191,122 @@
         <label>Healing multiple prey in tail-throat</label>
         <description>Let's get you patched up!</description>
         <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInTailThroatContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption tail-throat pleasure</label>
+        <description>Who says I can't play with my counterbalance before I absorb them?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption tail-throat pleasure</label>
+        <description>There's plenty of meat</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+   <defName>RV2_PreyInTailThroatLoosening</defName>
+    <stages>
+      <li>
+        <label>Loosening up to absorb prey into tail-throat</label>
+        <description>Started to sink, haven't you?~</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Loosening up to absorb multiple prey into tail-throat</label>
+        <description>There's plenty of room for everyone...~</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInTailThroatAmalgamating</defName>
+    <stages>
+      <li>
+        <label>Prey amalgamated into tail-throat</label>
+        <description>I promise to take good care of you.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Two prey amalgamated into tail-throat</label>
+        <description>Look at that--my tail has an elbow now!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Three prey amalgamated into tail-throat</label>
+        <description>I can't even curl my tail anymore!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Several prey amalgamated into tail-throat</label>
+        <description>I could knock a building over with my tail!</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+ <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInTailThroatAssimilating</defName>
+    <stages>
+      <li>
+        <label>Assimilating prey into tail-throat</label>
+        <description>Enjoy being part of me!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Assimilating two prey into tail-throat</label>
+        <description>One for each segment!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Assimilating three prey into tail-throat</label>
+        <description>My tail's getting so big!</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Assimilating several prey into tail-throat</label>
+        <description>I can't wait to feel even heavier!</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInTailThroatReshaping</defName>
+    <stages>
+      <li>
+        <label>Reshaping prey from tail-throat</label>
+        <description>I'll miss the extra weight</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Reshaping multiple prey from tail-throat</label>
+        <description>I don't wanna be light again!</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInTailThroatPurging</defName>
+    <stages>
+      <li>
+        <label>Purging remains from tail-throat</label>
+        <description>Gotta work the air out!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Purging multiple remains from tail-throat</label>
+        <description>Crazy what people can lose in here...</description>
+        <baseMoodEffect>4</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

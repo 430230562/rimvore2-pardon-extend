@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<!-- base game has placeholders -->
+<!-- in the label: {0} = other pawn -->
+<!-- in the description: {0} = thought owner {1} = other pawn -->
+<!-- RV2_VoreMemory_BasePredatorSuccessMemory is a great example of place holders -->
+
+
+<Defs>
+    
+
+</Defs>
