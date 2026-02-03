@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <!-- TailThroat -->
 
-  <!-- Digest -->
   <RimVore2.VorePathDef ParentName="Digest_Base" MayRequire='MamaHorseteeth.RimVore2ExtraVores'>
     <defName>TailThroatDigest</defName>
-    <label>(Digest) Tail-throat</label>
+    <label>(Digest) TailThroat</label>
     <RMBLabel>Tail-throat vore</RMBLabel>
     <actionDescription>{0} will swallow and digest {1} in their tail-throat</actionDescription>
     <description>TailThroat digestion is where a predator with a mouth in their tail swallows prey through said mouth, down to their tail-throat, for fatal digestion, feeding the predator and turning the prey into either fertilizer components or nothing at all.</description>
@@ -41,88 +41,7 @@
     <defaultRequiredStruggles>60</defaultRequiredStruggles>
   </RimVore2.VorePathDef>
 
-   <!-- heal -->
-  <RimVore2.VorePathDef>
-    <defName>TailThroatHeal</defName>
-    <label>(Heal) Tail-throat</label>
-    <RMBLabel>Tail-throat vore</RMBLabel>
-    <actionDescription>{PREDATOR} will heal {PREY} in their Tail-throat</actionDescription>
-    <description>Healing vore will tend to a pawns wounds and slowly heal their damaged body parts. Healing vore is relatively weak, so if you want to treat a pawn properly, use medicine and a good doctor.</description>
-    <initTale>RV2_VoreInitiation_TailThroatHeal</initTale>
-    <exitTale>RV2_VoreExit_TailThroatHeal</exitTale>
-    <voreType>Tailmaw</voreType>
-    <voreGoal>Heal</voreGoal>
-    <postVoreMemories>
-      <predatorPostVoreSuccess>RV2_PredatorTailThroatHealSuccess</predatorPostVoreSuccess>
-      <preyPostVoreSuccess>RV2_PreyTailThroatHealSuccess</preyPostVoreSuccess>
-    </postVoreMemories>
-    <stages>
-      <li>Tailmaw_Enter</li>
-      <li>TailThroat_Warmup</li>
-      <li>TailThroat_Heal</li>
-      <li>Tailmaw_Exit</li>
-    </stages>
-    <defaultRequiredStruggles>9</defaultRequiredStruggles>
-  </RimVore2.VorePathDef>
 
-  <!-- fully-absorbing -->
-  <RimVore2.VorePathDef ParentName="Assimilate_Base">
-    <defName>TailThroatAssimilate</defName>
-    <label>(Assimilate) tail-throat</label>
-    <RMBLabel>tail-throat vore</RMBLabel>
-    <actionDescription>{0} will assimilate {1} into their tail-throat</actionDescription>
-    <description>TailThroat assimilation is where the predator permanently absorbs the prey into their tail-throat, feeding the predator and making their tail more strong</description>
-    <voreType>Tailmaw</voreType>
-    <initTale>RV2_VoreInitiation_TailThroatAssimilate</initTale>
-    <exitTale>RV2_VoreExit_TailThroatAssimilate</exitTale>
-    <voreProduct>
-      <selectableContainers>
-        <li>RV2_Container_None</li>
-        <li>RV2_Container_Sack</li>
-      </selectableContainers>
-      <destroyPrey>true</destroyPrey>
-    </voreProduct>
-    <postVoreMemories>
-      <predatorPostVoreSuccess>RV2_PredatorTailThroatAssimilateSuccess</predatorPostVoreSuccess>
-      <predatorPostVoreInterrupted>RV2_PredatorTailThroatAssimilateInterrupted</predatorPostVoreInterrupted>
-      <preyPostVoreInterrupted>RV2_PreyTailThroatAssimilateInterrupted</preyPostVoreInterrupted>
-    </postVoreMemories>
-    <stages>
-      <li>Tailmaw_Enter</li>
-      <li>TailThroat_Contact</li>
-      <li>TailThroat_Loosen</li>
-      <li>TailThroat_Assimilate</li>
-      <li>TailThroat_Purge</li>
-      <li>Tailmaw_Dump</li>
-    </stages>
-    <defaultRequiredStruggles>150</defaultRequiredStruggles>
-  </RimVore2.VorePathDef>
-
-  <!-- storing absorbed -->
-  <RimVore2.VorePathDef ParentName="Amalgamate_Base" MayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-    <defName>TailThroatAmalgamate</defName>
-    <label>(Amalgamate) Tail-throat</label>
-    <RMBLabel>Tail-throat vore</RMBLabel>
-    <actionDescription>{0} will meld {1} into their mound for storage</actionDescription>
-    <description>TailThroat amalgamation is where the predator reversibly absorbs the prey into their tail-throat for indefinite storage.</description>
-    <voreType>TailThroat</voreType>
-    <initTale>RV2_VoreInitiation_TailThroatAmalgamate</initTale>
-    <exitTale>RV2_VoreExit_TailThroatAmalgamate</exitTale>
-    <postVoreMemories>
-      <predatorPostVoreSuccess>RV2_PredatorTailThroatAmalgamateEnd</predatorPostVoreSuccess>
-      <preyPostVoreSuccess>RV2_PreyTailThroatAmalgamateEnd</preyPostVoreSuccess>
-      <predatorPostVoreInterrupted>RV2_PredatorTailThroatAmalgamateEnd</predatorPostVoreInterrupted>
-      <preyPostVoreInterrupted>RV2_PreyTailThroatAmalgamateEnd</preyPostVoreInterrupted>
-    </postVoreMemories>
-    <stages>
-      <li>Tailmaw_Enter</li>
-      <li>TailThroat_Contact</li>
-      <li>TailThroat_Amalgamate</li>
-      <li>TailThroat_Reshape</li>
-      <li>Tailmaw_Exit</li>
-    </stages>
-    <defaultRequiredStruggles>100</defaultRequiredStruggles>
-  </RimVore2.VorePathDef>
 
 
 </Defs>
