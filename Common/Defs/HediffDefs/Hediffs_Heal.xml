@@ -66,4 +66,22 @@
             </li>
         </stages>
     </HediffDef>
+
+    <HediffDef>
+        <defName>RV2_Regression</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>regression</label>
+        <description>This pawn is in other pawn womb and regressed</description>
+        <initialSeverity>0.01</initialSeverity>
+        <maxSeverity>1.00</maxSeverity>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <priceImpact>false</priceImpact>
+        <comps>
+            <li Class="pardon_RV2.HediffCompProperties_Regression">
+                <RegressionStrength>60</RegressionStrength>
+                <limitMinAge>true</limitMinAge>
+            </li>
+        </comps>
+    </HediffDef>
 </Defs>

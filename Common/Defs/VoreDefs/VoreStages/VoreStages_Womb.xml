@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Defs>
-
   <RimVore2.VoreStageDef Name="Womb_Reform" ParentName="Womb_Base">
     <defName>Womb_Reform</defName>
     <partGoal>Reform</partGoal>
@@ -38,10 +36,40 @@
     <passConditions>
       <li Class="RimVore2.StagePassCondition_PassValue">
         <passValueName>ReformProgress</passValueName>
-        <targetValue>20</targetValue>
+        <targetValue>50</targetValue>
       </li>
     </passConditions>
   </RimVore2.VoreStageDef>
 
-
+  <RimVore2.VoreStageDef Name='Womb_Contact' ParentName="Womb_Base">
+    <defName>Womb_Contact</defName>
+    <partGoal>Contact</partGoal>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInWombContacting</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInWombContacting</predatorThoughtDef>
+    <onStart>
+      <actions>
+        <li Class="RimVore2.RollAction_RecordTale_VoreInitiation" />
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Sound_Squish_Chance_5</li>
+        <li>Sound_Slurp_Chance_5</li>
+        <li>IncreaseNeed_Predator_Comfort</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_PlaySound">
+          <sound>RV2_Slurp</sound>
+        </li>
+      </actions>
+    </onEnd>
+    <passConditions Inherit="False">
+      <li Class="RimVore2.StagePassCondition_Timed">
+        <duration>12</duration>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
 </Defs>

@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ThingDef Abstract="True" Name ="RV2_Product_Consumable_Base" ParentName="RV2_Product_Base">
+  <ThingDef Abstract="True" Name="RV2_Product_Consumable_Base" ParentName="RV2_Product_Base">
     <thingCategories>
       <li>FoodMeals</li>
     </thingCategories>
     <ingestible>
       <foodType>Meal</foodType>
-      <maxNumToIngestAtOnce>5</maxNumToIngestAtOnce>
+      <maxNumToIngestAtOnce>20</maxNumToIngestAtOnce>
       <optimalityOffsetHumanlikes>15</optimalityOffsetHumanlikes>
       <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
       <preferability>MealFine</preferability>
@@ -15,11 +15,11 @@
       <Nutrition>0.05</Nutrition>
     </statBases>
     <modExtensions>
-      <li Class="RimVore2.ConsumableVoreProductFlag"/>
+      <li Class="RimVore2.ConsumableVoreProductFlag" />
     </modExtensions>
   </ThingDef>
 
-   <ThingDef ParentName="RV2_Product_Consumable_Base">
+  <ThingDef ParentName="RV2_Product_Consumable_Base">
     <defName>RV2_Resource_Cum</defName>
     <label>Cummified pawn</label>
     <description>What was once a living being, rendered into delicious cum.\nDrinkable.</description>
@@ -33,7 +33,7 @@
       <ingestSound>Ingest_Drink</ingestSound>
     </ingestible>
   </ThingDef>
-  
+
   <ThingDef ParentName="RV2_Product_Consumable_Base">
     <defName>RV2_Resource_Milk</defName>
     <label>Milkified pawn</label>
@@ -62,6 +62,43 @@
       <ingestEffect>RV2_DrinkCum</ingestEffect>
       <ingestSound>Ingest_Drink</ingestSound>
     </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="RV2_Product_Consumable_Base" MayRequire='MisTF.Piss'>
+    <defName>RV2_Resource_Piss</defName>
+    <label>Piss</label>
+    <description>The golden remnants of a urified living being.\nYou can make fertilizer out of this at a crafting spot.</description>
+    <graphicData>
+      <texPath>Things/VoreProducts/Piss</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>RV2_FertilizerIngredient</li>
+      <li>RV2_VoreProduct</li>
+    </thingCategories>
+    <comps Inherit="False">
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RV2_Product_Consumable_Base" MayRequire='MisTF.Scat'>
+    <defName>RV2_Resource_Scat</defName>
+    <label>Scat</label>
+    <description>The reeking remnants of a digested living being.\nYou can make fertilizer out of this at a crafting spot.</description>
+    <graphicData>
+      <texPath>Things/VoreProducts/Scat</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>RV2_FertilizerIngredient</li>
+      <li>RV2_VoreProduct</li>
+    </thingCategories>
+    <statBases>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
   </ThingDef>
 
 </Defs>
