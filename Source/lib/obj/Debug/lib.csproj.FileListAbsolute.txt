@@ -1,7 +1,0 @@
-D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Assemblies\lib.dll
-D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Assemblies\lib.pdb
-D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\lib\obj\Debug\lib.csproj.AssemblyReference.cache
-D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\lib\obj\Debug\lib.csproj.CoreCompileInputs.cache
-D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\lib\obj\Debug\lib.csproj.Up2Date
-D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\lib\obj\Debug\lib.dll
-D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\lib\obj\Debug\lib.pdb

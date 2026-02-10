@@ -78,7 +78,7 @@
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
         <comps>
-            <li Class="pardon_RV2.HediffCompProperties_Regression">
+            <li Class="PRV2E.HediffCompProperties_Regression">
                 <RegressionStrength>60</RegressionStrength>
                 <limitMinAge>true</limitMinAge>
             </li>

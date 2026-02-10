@@ -97,7 +97,7 @@
       <li>RV2_VoreProduct</li>
     </thingCategories>
     <statBases>
-      <Nutrition>0.05</Nutrition>
+      <Nutrition>0.25</Nutrition>
     </statBases>
   </ThingDef>
 
