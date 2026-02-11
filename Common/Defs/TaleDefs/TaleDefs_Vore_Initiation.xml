@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_WombAmalgamate</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Amalgamate</li>
+        <li>RV2_Type_Womb</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_WombAssimilate</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Assimilate</li>
+        <li>RV2_Type_Womb</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_TailmawDigest</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Digest</li>
+        <li>RV2_Type_Tailmaw</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_TailmawHeal</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Heal</li>
+        <li>RV2_Type_Tailmaw</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+</Defs>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RimVore2.VorePathDef ParentName="Amalgamate_Base">
+        <defName>WombAmalgamate</defName>
+        <label>(Amalgamate) Womb</label>
+        <RMBLabel>Womb vore</RMBLabel>
+        <actionDescription>{0} will meld {1} into their womb for storage</actionDescription>
+        <description>Womb amalgamation is where the predator reversibly absorbs the prey into their womb for indefinite storage, (presently unrepresented in-game) making their underbelly puffier and more sensitive.</description>
+        <voreType>Vaginal</voreType>
+        <initTale>RV2_VoreInitiation_WombAmalgamate</initTale>
+        <exitTale>RV2_VoreExit_WombAmalgamate</exitTale>
+        <postVoreMemories>
+            <predatorPostVoreSuccess>RV2_PredatorWombAmalgamateEnd</predatorPostVoreSuccess>
+            <preyPostVoreSuccess>RV2_PreyWombAmalgamateEnd</preyPostVoreSuccess>
+            <predatorPostVoreInterrupted>RV2_PredatorWombAmalgamateEnd</predatorPostVoreInterrupted>
+            <preyPostVoreInterrupted>RV2_PreyWombAmalgamateEnd</preyPostVoreInterrupted>
+        </postVoreMemories>
+        <stages>
+            <li>Vagina_Enter</li>
+            <li>Womb_Contact</li>
+            <li>Womb_Amalgamate</li>
+            <li>Womb_Reshape</li>
+            <li>Vagina_Exit</li>
+        </stages>
+        <defaultRequiredStruggles>100</defaultRequiredStruggles>
+    </RimVore2.VorePathDef>
+
+    <RimVore2.VorePathDef ParentName="Assimilate_Base">
+        <defName>WombAssimilate</defName>
+        <label>(Assimilate) Womb</label>
+        <RMBLabel>Womb vore</RMBLabel>
+        <actionDescription>{0} will assimilate {1} into their womb</actionDescription>
+        <description>Womb assimilation is where the predator permanently absorbs the prey into their womb, feeding the predator and making their underbelly puffier and more sensitive.</description>
+        <voreType>Vaginal</voreType>
+        <initTale>RV2_VoreInitiation_WombAssimilate</initTale>
+        <exitTale>RV2_VoreExit_WombAssimilate</exitTale>
+        <voreProduct>
+            <selectableContainers>
+                <li>RV2_Container_None</li>
+                <li>RV2_Container_Sack</li>
+            </selectableContainers>
+            <destroyPrey>true</destroyPrey>
+        </voreProduct>
+        <postVoreMemories>
+            <predatorPostVoreSuccess>RV2_PredatorWombAssimilateSuccess</predatorPostVoreSuccess>
+            <predatorPostVoreInterrupted>RV2_PredatorWombAssimilateInterrupted</predatorPostVoreInterrupted>
+            <preyPostVoreInterrupted>RV2_PreyWombAssimilateInterrupted</preyPostVoreInterrupted>
+        </postVoreMemories>
+        <stages>
+            <li>Vagina_Enter</li>
+            <li>Womb_Contact</li>
+            <li>Womb_Loosen</li>
+            <li>Womb_Assimilate</li>
+            <li>Womb_Purge</li>
+            <li>Vagina_Dump</li>
+        </stages>
+        <defaultRequiredStruggles>100</defaultRequiredStruggles>
+    </RimVore2.VorePathDef>
+</Defs>

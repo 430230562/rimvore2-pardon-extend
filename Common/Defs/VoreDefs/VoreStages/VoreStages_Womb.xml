@@ -28,11 +28,160 @@
     </onEnd>
     <passConditions Inherit="False">
       <li Class="RimVore2.StagePassCondition_Timed">
-        <duration>12</duration>
+        <duration>8</duration>
       </li>
     </passConditions>
   </RimVore2.VoreStageDef>
 
-  
-  
+  <RimVore2.VoreStageDef Name="Womb_Loosen" ParentName="Womb_Base">
+    <defName>Womb_Loosen</defName>
+    <partGoal>Loosen</partGoal>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInWombLoosening</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInWombLoosening</predatorThoughtDef>
+    <onStart>
+      <actions>
+        <li Class="RimVore2.RollAction_PlaySound">
+          <sound>RV2_Slurp</sound>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Sound_Squish_Chance_5</li>
+        <li>Sound_Slurp_Chance_5</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_PlaySound">
+          <sound>RV2_Slurp</sound>
+        </li>
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_Warmup">
+        <duration>12</duration>
+        <hediffs>
+          <li>RV2_PreyInWombAssimilating</li>
+        </hediffs>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <RimVore2.VoreStageDef Name="Womb_Amalgamate" ParentName="Womb_Base">
+    <defName>Womb_Amalgamate</defName>
+    <partGoal>Amalgamate</partGoal>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInWombAmalgamating</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInWombAmalgamating</predatorThoughtDef>
+    <onStart>
+      <actions>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_KnotPink</mote>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Sound_Squish_Chance_30</li>
+        <li>IncreaseNeed_Prey_Rest</li>
+        <li>StealNeed_ForPrey_Food</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_Manual" />
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <RimVore2.VoreStageDef Name="Womb_Assimilate" ParentName="Womb_Base">
+    <defName>Womb_Assimilate</defName>
+    <partGoal>Assimilate</partGoal>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInWombAssimilating</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInWombAssimilating</predatorThoughtDef>
+    <onStart>
+      <actions>
+        <li Class="RimVore2.RollAction_PassValue_Set">
+          <name>PreyNutrition</name>
+          <type>PreyNutrition</type>
+        </li>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_KnotPink</mote>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Mote_KnotPink</li>
+        <li>Sound_Churn_Chance_5</li>
+        <li>Sound_Squish_Chance_5</li>
+        <li>Sound_Moan_Chance_15</li>
+        <li>ConvertNutritionToPredatorFood</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_Digest">
+          <damageDef>RV2_AssimilationAvulsion</damageDef>
+        </li>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_Skull</mote>
+        </li>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_KnotPink</mote>
+        </li>
+        <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_PassValue">
+        <passValueName>PreyNutrition</passValueName>
+        <targetValue>0</targetValue>
+        <decreasing>true</decreasing>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <RimVore2.VoreStageDef Name="Womb_Reshape" ParentName="Womb_Base">
+    <defName>Womb_Reshape</defName>
+    <partGoal>Reshape</partGoal>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInWombReshaping</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInWombReshaping</predatorThoughtDef>
+    <onCycle>
+      <rollPresets>
+        <li>IncreaseNeed_Predator_Comfort</li>
+      </rollPresets>
+    </onCycle>
+    <passConditions Inherit="False">
+      <li Class="RimVore2.StagePassCondition_Timed">
+        <duration>4</duration>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <RimVore2.VoreStageDef Name="Womb_Purge" ParentName="Womb_Base">
+    <defName>Womb_Purge</defName>
+    <partGoal>Purge</partGoal>
+    <canReverseDirection>false</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInWombPurging</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInWombPurging</predatorThoughtDef>
+    <onCycle>
+      <rollPresets>
+        <li>IncreaseNeed_Predator_Comfort</li>
+      </rollPresets>
+    </onCycle>
+    <passConditions Inherit="False">
+      <li Class="RimVore2.StagePassCondition_Timed">
+        <duration>4</duration>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
 </Defs>

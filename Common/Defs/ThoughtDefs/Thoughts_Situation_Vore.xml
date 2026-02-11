@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-<!--
+  <!--
 <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
     <defName>RV2_PreyInAnusContacting</defName>
     <stages>
@@ -127,6 +127,106 @@
       <li>
         <label>Pre-absorption womb pleasure</label>
         <description>Everyone's thirsty for their new shape, huh?</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInWombLoosening</defName>
+    <stages>
+      <li>
+        <label>Loosening up to absorb prey into womb</label>
+        <description>That's it, keep eating...~</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Loosening up to absorb multiple prey into womb</label>
+        <description>They start to meld... inside me</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInWombAmalgamating</defName>
+    <stages>
+      <li>
+        <label>One prey amalgamated into womb</label>
+        <description>Enjoy padding my underbelly...</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Two prey amalgamated into womb</label>
+        <description>It's a start!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Three prey amalgamated into womb</label>
+        <description>You're gonna make my womb so warm and soft!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Several prey amalgamated into womb</label>
+        <description>I'm *drooling* at the thought of more...~</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInWombAssimilating</defName>
+    <stages>
+      <li>
+        <label>One prey assimilated into womb</label>
+        <description>Enjoy padding my underbelly...</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Two prey assimilated into womb</label>
+        <description>It's a start!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Three prey assimilated into womb</label>
+        <description>You're gonna make my womb so warm and soft!</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Several prey assimilated into womb</label>
+        <description>I'm *drooling* at the thought of more...~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInWombReshaping</defName>
+    <stages>
+      <li>
+        <label>Reshaping prey from womb</label>
+        <description>I'll miss this puffiness...</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Reshaping multiple prey from womb</label>
+        <description>I don't wanna be loose again!</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInWombPurging</defName>
+    <stages>
+      <li>
+        <label>Purging remains from womb</label>
+        <description>Gotta work the air out!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Purging remains from womb</label>
+        <description>I will remember what your contribute to me.</description>
         <baseMoodEffect>4</baseMoodEffect>
       </li>
     </stages>

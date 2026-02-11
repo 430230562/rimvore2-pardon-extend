@@ -1047,7 +1047,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_Hediff_QuirkForce_StrugglePreference_Nomal</li>
+                    <li>RV2_Hediff_QuirkForce_StrugglePreference_Normal</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>
@@ -1070,7 +1070,7 @@
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>
-                    <li>RV2_Hediff_QuirkForce_StrugglePreference_Liked</li>
+                    <li>RV2_Hediff_QuirkForce_StrugglePreference_Loved</li>
                 </hediffs>
                 <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
             </li>

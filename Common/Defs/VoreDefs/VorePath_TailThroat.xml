@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <!-- TailThroat -->
 
   <RimVore2.VorePathDef ParentName="Digest_Base" MayRequire='MamaHorseteeth.RimVore2ExtraVores'>
     <defName>TailThroatDigest</defName>
@@ -42,6 +41,27 @@
   </RimVore2.VorePathDef>
 
 
-
+  <RimVore2.VorePathDef>
+    <defName>TailThroatHeal</defName>
+    <label>(Heal) TailThroat</label>
+    <RMBLabel>Tail-throat vore</RMBLabel>
+    <actionDescription>{PREDATOR} will heal {PREY} in their tail-throat</actionDescription>
+    <description>Healing vore will tend to a pawns wounds and slowly heal their damaged body parts. Healing vore is relatively weak, so if you want to treat a pawn properly, use medicine and a good doctor.</description>
+    <voreType>Tailmaw</voreType>
+    <initTale>RV2_VoreInitiation_TailmawHeal</initTale>
+    <exitTale>RV2_VoreExit_TailmawHeal</exitTale>
+    <voreGoal>Heal</voreGoal>
+    <postVoreMemories>
+      <predatorPostVoreSuccess>RV2_PredatorTailmawHealSuccess</predatorPostVoreSuccess>
+      <preyPostVoreSuccess>RV2_PreyTailmawHealSuccess</preyPostVoreSuccess>
+    </postVoreMemories>
+    <stages>
+      <li>Tailmaw_Enter</li>
+      <li>TailThroat_Warmup</li>
+      <li>TailThroat_Heal</li>
+      <li>Tailmaw_Exit</li>
+    </stages>
+    <defaultRequiredStruggles>9</defaultRequiredStruggles>
+  </RimVore2.VorePathDef>
 
 </Defs>
