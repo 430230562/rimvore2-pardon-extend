@@ -68,7 +68,7 @@
     </HediffDef>
 
     <HediffDef>
-        <defName>test_Regression</defName>
+        <defName>RV2_Regression</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>regression</label>
         <description>This pawn is in other pawn womb and regressed</description>
@@ -79,9 +79,37 @@
         <priceImpact>false</priceImpact>
         <comps>
             <li Class="RimVore2_Pardon.HediffCompProperties_Regression">
-                <RegressionStrength>60</RegressionStrength>
+                <RegressionStrength>30</RegressionStrength>
+                <limitMinAge>true</limitMinAge>
+            </li>
+            <comps>
+                <li Class="HediffCompProperties_SeverityPerDay">
+                    <severityPerDay>-1</severityPerDay>
+                </li>
+            </comps>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>RV2_UnlimitedRegression</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>unlimited regression</label>
+        <description>This pawn is being reformed in other pawn womb </description>
+        <initialSeverity>0.01</initialSeverity>
+        <maxSeverity>3.00</maxSeverity>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <priceImpact>false</priceImpact>
+        <comps>
+            <li Class="RimVore2_Pardon.HediffCompProperties_Regression">
+                <RegressionStrength>30</RegressionStrength>
                 <limitMinAge>false</limitMinAge>
             </li>
+            <comps>
+                <li Class="HediffCompProperties_SeverityPerDay">
+                    <severityPerDay>-2</severityPerDay>
+                </li>
+            </comps>
         </comps>
     </HediffDef>
 
