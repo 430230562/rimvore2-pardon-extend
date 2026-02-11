@@ -599,7 +599,7 @@
             </li>
         </comps>
     </HediffDef>
-
+    
     <HediffDef ParentName="RV2_VoreEnabledPart_Base">
         <defName>RV2_Hediff_QuirkForce_StrugglePreference_Normal</defName>
         <label>Struggle neutral</label>

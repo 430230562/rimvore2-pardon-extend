@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Verse;
 using Verse.Noise;
+using RimVore2;
 
 namespace RimVore2_Pardon
 {

@@ -128,7 +128,7 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
-    <xpath>/Defs/RimVore2.RollPresetDef[defName="RV2_Resource_Piss"]</xpath>
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToUrine"]</xpath>
     <value>
       <RimVore2.RollPresetDef ParentName="CreateThing" MayRequire='MisTF.Piss'>
         <defName>ConvertNutritionToUrine</defName>

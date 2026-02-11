@@ -62,7 +62,7 @@
                     <ImmunityGainSpeed>1.4</ImmunityGainSpeed>
                     <InjuryHealingFactor>3</InjuryHealingFactor>
                 </statFactors>
-                <regeneration>10</regeneration>
+                <regeneration>20</regeneration>
             </li>
         </stages>
     </HediffDef>

@@ -4,62 +4,74 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RimVore2.QuirkPoolDef[defName="StruggleStrength_Prey"]/quirks</xpath>
     <value>
-      <li>StruggleStrength_Prey_VeryGood</li>
-      <li>StruggleStrength_Prey_Good</li>
-      <li>StruggleStrength_Prey_Normal</li>
-      <li>StruggleStrength_Prey_Bad</li>
-      <li>StruggleStrength_Prey_VeryBad</li>
+      <quirks>
+        <li>StruggleStrength_Prey_VeryGood</li>
+        <li>StruggleStrength_Prey_Good</li>
+        <li>StruggleStrength_Prey_Normal</li>
+        <li>StruggleStrength_Prey_Bad</li>
+        <li>StruggleStrength_Prey_VeryBad</li>
+      </quirks>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationReplace'>
     <xpath>Defs/RimVore2.QuirkDef[defName="StruggleStrength_Prey_Good"]/comps</xpath>
     <value>
+    <comps>
       <li Class="RimVore2.QuirkComp_ValueModifier">
         <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
         <modifierValue>0.8</modifierValue>
       </li>
+      </comps>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationReplace'>
     <xpath>Defs/RimVore2.QuirkDef[defName="StruggleStrength_Prey_Bad"]/comps</xpath>
     <value>
+    <comps>
       <li Class="RimVore2.QuirkComp_ValueModifier">
         <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
         <modifierValue>1.25</modifierValue>
       </li>
+      </comps>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/RimVore2.QuirkPoolDef[defName="StruggleStrength_Predator"]/quirks</xpath>
     <value>
-      <li>StruggleStrength_Predator_VeryGood</li>
-      <li>StruggleStrength_Predator_Good</li>
-      <li>StruggleStrength_Predator_Normal</li>
-      <li>StruggleStrength_Predator_Bad</li>
-      <li>StruggleStrength_Predator_VeryBad</li>
+      <quirks>
+        <li>StruggleStrength_Predator_VeryGood</li>
+        <li>StruggleStrength_Predator_Good</li>
+        <li>StruggleStrength_Predator_Normal</li>
+        <li>StruggleStrength_Predator_Bad</li>
+        <li>StruggleStrength_Predator_VeryBad</li>
+      </quirks>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationReplace'>
     <xpath>Defs/RimVore2.QuirkDef[defName="StruggleStrength_Predator_Good"]/comps</xpath>
     <value>
+    <comps>
       <li Class="RimVore2.QuirkComp_ValueModifier">
         <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
         <modifierValue>1.25</modifierValue>
       </li>
+    </comps>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationReplace'>
     <xpath>Defs/RimVore2.QuirkDef[defName="StruggleStrength_Predator_Bad"]/comps</xpath>
     <value>
+    <comps>
       <li Class="RimVore2.QuirkComp_ValueModifier">
         <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
         <modifierValue>0.8</modifierValue>
       </li>
+    </comps>
     </value>
   </Operation>
 

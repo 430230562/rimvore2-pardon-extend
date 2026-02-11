@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- <HediffDef ParentName="RV2_PreyInAnus">
+    <defName>RV2_PreyInAnusAmalgamating</defName>
+    <label>Prey in Buttocks</label>
+    <description>This pawn is storing absorbed prey as sapient butt-fat.</description>
+  </HediffDef>
+  <HediffDef ParentName="RV2_PreyInAnus">
+    <defName>RV2_PreyInAnusAssimilating</defName>
+    <label>Prey in Buttocks</label>
+    <description>This pawn is fully-absorbing their prey into their buttocks.</description>
+  </HediffDef>
+  <HediffDef ParentName="RV2_PreyInAnus">
+    <defName>RV2_PreyInAnusContacting</defName>
+    <label>Prey in Buttocks</label>
+    <description>This pawn is having some form of anal intercourse, with intent to
+    absorb.</description>
+  </HediffDef>
+  <HediffDef ParentName="RV2_PreyInAnus">
+    <defName>RV2_PreyInAnusLoosening</defName>
+    <label>Prey in Buttocks</label>
+    <description>This pawn is warming up and loosening their anus for absorption.</description>
+  </HediffDef>
+  <HediffDef ParentName="RV2_PreyInAnus">
+    <defName>RV2_PreyInAnusPurging</defName>
+    <label>Prey in Buttocks</label>
+    <description>This pawn is removing any unassimilated remains from their butt.</description>
+  </HediffDef>
+  <HediffDef ParentName="RV2_PreyInAnus">
+    <defName>RV2_PreyInAnusReshaping</defName>
+    <label>Prey in Buttocks</label>
+    <description>This pawn is reshaping prey stored as butt-fat for release.</description>
+  </HediffDef>
+  -->
+
+
+    <HediffDef ParentName="RV2_PreyInWomb">
+        <defName>RV2_PreyInWombContacting</defName>
+        <label>Prey in Womb</label>
+        <description>This pawn is having some form of anal intercourse, with intent to absorb.</description>
+    </HediffDef>
+    <HediffDef ParentName="RV2_PreyInWomb">
+        <defName>RV2_PreyInWombLoosening</defName>
+        <label>Prey in Womb</label>
+        <description>This pawn is warming up and loosening their womb for absorption.</description>
+    </HediffDef>
+    <HediffDef ParentName="RV2_PreyInWomb">
+        <defName>RV2_PreyInWombAmalgamating</defName>
+        <label>Prey in Womb</label>
+        <description>This pawn is storing absorbed prey as sapient womb.</description>
+    </HediffDef>
+    <HediffDef ParentName="RV2_PreyInWomb">
+        <defName>RV2_PreyInWombAssimilating</defName>
+        <label>Prey in Womb</label>
+        <description>This pawn is fully-absorbing their prey into their Womb.</description>
+    </HediffDef>
+    <HediffDef ParentName="RV2_PreyInWomb">
+        <defName>RV2_PreyInWombReshaping</defName>
+        <label>Prey in Womb</label>
+        <description>This pawn is reshaping prey stored as womb for release.</description>
+    </HediffDef>
+    <HediffDef ParentName="RV2_PreyInWomb">
+        <defName>RV2_PreyInWombPurging</defName>
+        <label>Prey in Womb</label>
+        <description>This pawn is removing any unassimilated remains from their womb.</description>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_PreyInTailthroat">
+        <defName>RV2_PreyInTailThroatWarming</defName>
+        <description>This pawn is preparing to do something to a pawn in their tail-throat.</description>
+    </HediffDef>
+    <HediffDef ParentName="RV2_PreyInTailthroat">
+        <defName>RV2_PreyInTailThroatDigesting</defName>
+        <description>This pawn is digesting a pawn in their tail-throat.</description>
+    </HediffDef>
+    <HediffDef ParentName="RV2_PreyInTailthroat">
+        <defName>RV2_PreyInTailThroatHealing</defName>
+        <description>This pawn is healing a pawn in their tail-throat.</description>
+    </HediffDef>
+
+</Defs>

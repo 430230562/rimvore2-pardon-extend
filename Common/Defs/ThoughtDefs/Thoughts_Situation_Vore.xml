@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!--
+<ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInAnusContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption anal pleasure</label>
+        <description>Who says I can't play with my cheek-padder before I absorb them?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption anal pleasure</label>
+        <description>Everyone's competing for the attentions of my pucker...~</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInCleavageContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption cleavage</label>
+        <description>Who says I can't play with my cheek-padder before I absorb them?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption cleavage pleasure</label>
+        <description>Everyone's competing for the attentions of my breasts...~</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInCockContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption cock pleasure</label>
+        <description>Who says I can't play with my cock-meat before I absorb it?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption cock pleasure</label>
+        <description>There's plenty of meat to go around, folks!~</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInMouthContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption oral pleasure</label>
+        <description>Who says I can't play with my lip-fillers before I absorb them?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption oral pleasure</label>
+        <description>Everyone's fighting for a kiss!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInNippleContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption nipple pleasure</label>
+        <description>Who says I can't play with my nip-puffers before I absorb them?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption nipple pleasure</label>
+        <description>Perfect! At least one mouth on each tit!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInUdderNippleContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption teat pleasure</label>
+        <description>Who says I can't play with my teat-puffers before I absorb them?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption teat pleasure</label>
+        <description>That's it! More than one sucker-er, suckler: that's what udders are for!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInVaginaContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption vaginal pleasure</label>
+        <description>Who says I can't play with my pussy-puffers before I absorb them?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption vaginal pleasure</label>
+        <description>Everyone's thirsty for my nectar, huh?</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+-->
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInWombContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption womb pleasure</label>
+        <description>Who says I can't play with my belly-puffers before I absorb them?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption womb pleasure</label>
+        <description>Everyone's thirsty for their new shape, huh?</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInTailThroatWarming</defName>
+    <stages>
+      <li>
+        <label>Warming up tail-throat for prey</label>
+        <description>Oh, the plans I have for you!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Warming up tail-throat for multiple prey</label>
+        <description>Oh, the plans I have for you!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInTailThroatDigesting</defName>
+    <stages>
+      <li>
+        <label>Digesting prey in tail-throat</label>
+        <description>A proper meal!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Digesting two prey in tail-throat</label>
+        <description>So good, I went back for seconds!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Digesting three prey in tail-throat</label>
+        <description>Three whole prey, all gurgling away!</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Digesting several prey in tail-throat</label>
+        <description>I don't care if all these morsels give me indigestion. No regrets!~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInTailThroatHealing</defName>
+    <stages>
+      <li>
+        <label>Healing prey in tail-throat</label>
+        <description>Let's get you patched up!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>Healing multiple prey in tail-throat</label>
+        <description>Let's get you patched up!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
