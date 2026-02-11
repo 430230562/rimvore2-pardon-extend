@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RimVore2.RollPresetDef ParentName="Digest_StrengthModifiers">
+    <defName>IncreaseReformProgress</defName>
+    <strength>0.01~0.03</strength>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_PassValue_Add">
+        <name>ReformProgress</name>
+        <maxValue>100</maxValue>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+
+  <RimVore2.RollPresetDef>
+    <defName>SkillAbsorb_Prey</defName>
+    <strength>0.04</strength>
+    <strengthModifiers>
+      <li Class="RimVore2.RollModifier_Stat">
+        <target>Predator</target>
+        <stat>GlobalLearningFactor</stat>
+      </li>
+    </strengthModifiers>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_StealSkill">
+        <takeFrom>Prey</takeFrom>
+        <giveTo>Predator</giveTo>
+        <useFixed>false</useFixed>
+        <useTakersBest>true</useTakersBest>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+
+</Defs>

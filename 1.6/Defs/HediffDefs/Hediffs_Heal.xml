@@ -68,7 +68,7 @@
     </HediffDef>
 
     <HediffDef>
-        <defName>RV2_Regression</defName>
+        <defName>test_Regression</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>regression</label>
         <description>This pawn is in other pawn womb and regressed</description>
@@ -78,10 +78,11 @@
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
         <comps>
-            <li Class="PRV2E.HediffCompProperties_Regression">
+            <li Class="RimVore2_Pardon.HediffCompProperties_Regression">
                 <RegressionStrength>60</RegressionStrength>
-                <limitMinAge>true</limitMinAge>
+                <limitMinAge>false</limitMinAge>
             </li>
         </comps>
     </HediffDef>
+
 </Defs>

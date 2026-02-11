@@ -4,3 +4,6 @@ D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\obj\Debug\
 D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\obj\Debug\Source.csproj.CoreCompileInputs.cache
 D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\obj\Debug\PRV2E.dll
 D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\obj\Debug\PRV2E.pdb
+D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\1.6\Assemblies\PRV2E.dll
+D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\1.6\Assemblies\PRV2E.pdb
+D:\steam\steamapps\common\RimWorld\Mods\rimvore2-pardon-extend\Source\obj\Debug\Source.csproj.Up2Date

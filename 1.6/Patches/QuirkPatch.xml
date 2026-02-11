@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="StruggleStrength_Prey"]/quirks</xpath>
+    <value>
+      <li>StruggleStrength_Prey_VeryGood</li>
+      <li>StruggleStrength_Prey_Good</li>
+      <li>StruggleStrength_Prey_Normal</li>
+      <li>StruggleStrength_Prey_Bad</li>
+      <li>StruggleStrength_Prey_VeryBad</li>
+    </value>
+  </Operation>
+
+  <Operation Class='PatchOperationReplace'>
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="StruggleStrength_Prey_Good"]/comps</xpath>
+    <value>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
+        <modifierValue>0.8</modifierValue>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class='PatchOperationReplace'>
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="StruggleStrength_Prey_Bad"]/comps</xpath>
+    <value>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
+        <modifierValue>1.25</modifierValue>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="StruggleStrength_Predator"]/quirks</xpath>
+    <value>
+      <li>StruggleStrength_Predator_VeryGood</li>
+      <li>StruggleStrength_Predator_Good</li>
+      <li>StruggleStrength_Predator_Normal</li>
+      <li>StruggleStrength_Predator_Bad</li>
+      <li>StruggleStrength_Predator_VeryBad</li>
+    </value>
+  </Operation>
+
+  <Operation Class='PatchOperationReplace'>
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="StruggleStrength_Predator_Good"]/comps</xpath>
+    <value>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
+        <modifierValue>1.25</modifierValue>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class='PatchOperationReplace'>
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="StruggleStrength_Predator_Bad"]/comps</xpath>
+    <value>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
+        <modifierValue>0.8</modifierValue>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class='PatchOperationAdd'>
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="StrugglePreference_Loved"]/comps</xpath>
+    <value>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
+        <modifierValue>1.5</modifierValue>
+      </li>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>StruggleChanceMultiplierAsPredator</modifierName>
+        <modifierValue>1.5</modifierValue>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RimVore2.QuirkDef[defName="ProductPreference_Loves"]/comps</xpath>
+    <value>
+      <li Class="RimVore2.QuirkComp_ThoughtOverride">
+        <originalThought>RV2_ConsumedDigestedPrey_Lube</originalThought>
+        <overrideThought>RV2_ConsumedDigestedPrey_Lube_VeryGood</overrideThought>
+        <priority>1</priority>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RimVore2.QuirkDef[defName="ProductPreference_Likes"]/comps</xpath>
+    <value>
+      <li Class="RimVore2.QuirkComp_ThoughtOverride">
+        <originalThought>RV2_ConsumedDigestedPrey_Lube</originalThought>
+        <overrideThought>RV2_ConsumedDigestedPrey_Lube_Good</overrideThought>
+        <priority>1</priority>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RimVore2.QuirkDef[defName="ProductPreference_Dislikes"]/comps</xpath>
+    <value>
+      <li Class="RimVore2.QuirkComp_ThoughtOverride">
+        <originalThought>RV2_ConsumedDigestedPrey_Lube</originalThought>
+        <overrideThought>RV2_ConsumedDigestedPrey_Lube_Bad</overrideThought>
+        <priority>1</priority>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RimVore2.QuirkDef[defName="ProductPreference_Hates"]/comps</xpath>
+    <value>
+      <li Class="RimVore2.QuirkComp_ThoughtOverride">
+        <originalThought>RV2_ConsumedDigestedPrey_Lube</originalThought>
+        <overrideThought>RV2_ConsumedDigestedPrey_Lube_VeryBad</overrideThought>
+        <priority>1</priority>
+      </li>
+    </value>
+  </Operation>
+
+
+</Patch>

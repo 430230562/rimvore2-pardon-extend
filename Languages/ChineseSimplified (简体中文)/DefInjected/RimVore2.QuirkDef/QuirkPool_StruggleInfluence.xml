@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Feeble -->
+  <StruggleStrength_Predator_VeryBad.label>TODO</StruggleStrength_Predator_VeryBad.label>
+  <!-- EN: [PAWN_label] is very easy to struggle out of when [PAWN_possessive] prey tries to\n      escape. -->
+  <StruggleStrength_Predator_VeryBad.description>TODO</StruggleStrength_Predator_VeryBad.description>
+  
+  <!-- EN: Unyielding -->
+  <StruggleStrength_Predator_VeryGood.label>TODO</StruggleStrength_Predator_VeryGood.label>
+  <!-- EN: [PAWN_label] is extremely tough to struggle out of when [PAWN_possessive] prey tries to escape. -->
+  <StruggleStrength_Predator_VeryGood.description>TODO</StruggleStrength_Predator_VeryGood.description>
+  
+  <!-- EN: Weak Wiggler -->
+  <StruggleStrength_Prey_VeryBad.label>TODO</StruggleStrength_Prey_VeryBad.label>
+  <!-- EN: [PAWN_label] is terrible at struggling when vored by others. -->
+  <StruggleStrength_Prey_VeryBad.description>TODO</StruggleStrength_Prey_VeryBad.description>
+  
+  <!-- EN: Professional Wiggler -->
+  <StruggleStrength_Prey_VeryGood.label>TODO</StruggleStrength_Prey_VeryGood.label>
+  <!-- EN: [PAWN_label] is an expert at struggling when vored by others. -->
+  <StruggleStrength_Prey_VeryGood.description>TODO</StruggleStrength_Prey_VeryGood.description>
+  
+</LanguageData>

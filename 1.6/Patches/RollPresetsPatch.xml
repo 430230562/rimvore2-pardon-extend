@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="Heal_Prey"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="IncreaseCosmeticHediff">
+        <defName>Heal_Prey</defName>
+        <strengthModifiers>
+          <li Class="RimVore2.RollModifier_Stat">
+            <target>Prey</target>
+            <stat>InjuryHealingFactor</stat>
+          </li>
+        </strengthModifiers>
+        <strength>0.02</strength>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_Heal">
+            <target>Prey</target>
+          </li>
+          <li Class="RimVore2.RollAction_IncreaseHediffSeverity">
+            <target>Prey</target>
+            <hediff>RV2_FasterRecover</hediff>
+            <addHediffIfNotPresent>true</addHediffIfNotPresent>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseNeed_Prey_Comfort"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef>
+        <defName>IncreaseNeed_Prey_Comfort</defName>
+        <successChance>1</successChance>
+        <strength>0.01~0.03</strength>
+        <strengthModifiers>
+          <li Class="RimVore2.RollModifier_VoreSpeed"></li>
+        </strengthModifiers>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_IncreaseNeed">
+            <target>Prey</target>
+            <need>Comfort</need>
+          </li>
+          <li Class="RimVore2.RollAction_IncreaseNeed">
+            <target>Prey</target>
+            <need>Rest</need>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToMilk"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="CreateThing">
+        <defName>ConvertNutritionToMilk</defName>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_CreateThingsFromDef">
+            <name>PreyNutrition</name>
+            <minValue>0</minValue>
+            <requiredNutrition>0.05</requiredNutrition>
+            <things>
+              <li>RV2_Resource_Milk</li>
+            </things>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToSperm"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="CreateThing">
+        <defName>ConvertNutritionToSperm</defName>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_CreateThingsFromDef">
+            <name>PreyNutrition</name>
+            <minValue>0</minValue>
+            <requiredNutrition>0.05</requiredNutrition>
+            <things>
+              <li>RV2_Resource_Cum</li>
+            </things>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToLube"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="CreateThing">
+        <defName>ConvertNutritionToLube</defName>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_CreateThingsFromDef">
+            <name>PreyNutrition</name>
+            <minValue>0</minValue>
+            <requiredNutrition>0.05</requiredNutrition>
+            <things>
+              <li>RV2_Resource_Lube</li>
+            </things>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToChemfuel"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="CreateThing">
+        <defName>ConvertNutritionToChemfuel</defName>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_CreateThingsFromDef">
+            <name>PreyNutrition</name>
+            <minValue>0</minValue>
+            <requiredNutrition>0.1</requiredNutrition>
+            <things>
+              <li>Chemfuel</li>
+            </things>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="RV2_Resource_Piss"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="CreateThing" MayRequire='MisTF.Piss'>
+        <defName>ConvertNutritionToUrine</defName>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_CreateThingsFromDef">
+            <name>PreyNutrition</name>
+            <minValue>0</minValue>
+            <requiredNutrition>0.05</requiredNutrition>
+            <things>
+              <li>RV2_Resource_Piss</li>
+            </things>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+</Patch>

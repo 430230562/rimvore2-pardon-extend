@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Digesting prey in tail-throat -->
+  <RV2_PreyInTailThroatDigesting.stages.Digesting_prey_in_tailthroat.label>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_prey_in_tailthroat.label>
+  <!-- EN: A proper meal! -->
+  <RV2_PreyInTailThroatDigesting.stages.Digesting_prey_in_tailthroat.description>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_prey_in_tailthroat.description>
+  <!-- EN: Digesting two prey in tail-throat -->
+  <RV2_PreyInTailThroatDigesting.stages.Digesting_two_prey_in_tailthroat.label>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_two_prey_in_tailthroat.label>
+  <!-- EN: So good, I went back for seconds! -->
+  <RV2_PreyInTailThroatDigesting.stages.Digesting_two_prey_in_tailthroat.description>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_two_prey_in_tailthroat.description>
+  <!-- EN: Digesting three prey in tail-throat -->
+  <RV2_PreyInTailThroatDigesting.stages.Digesting_three_prey_in_tailthroat.label>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_three_prey_in_tailthroat.label>
+  <!-- EN: Three whole prey, all gurgling away! -->
+  <RV2_PreyInTailThroatDigesting.stages.Digesting_three_prey_in_tailthroat.description>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_three_prey_in_tailthroat.description>
+  <!-- EN: Digesting several prey in tail-throat -->
+  <RV2_PreyInTailThroatDigesting.stages.Digesting_several_prey_in_tailthroat.label>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_several_prey_in_tailthroat.label>
+  <!-- EN: I don't care if all these morsels give me indigestion. No regrets!~ -->
+  <RV2_PreyInTailThroatDigesting.stages.Digesting_several_prey_in_tailthroat.description>TODO</RV2_PreyInTailThroatDigesting.stages.Digesting_several_prey_in_tailthroat.description>
+  
+  <!-- EN: Healing prey in tail-throat -->
+  <RV2_PreyInTailThroatHealing.stages.Healing_prey_in_tailthroat.label>TODO</RV2_PreyInTailThroatHealing.stages.Healing_prey_in_tailthroat.label>
+  <!-- EN: Let's get you patched up! -->
+  <RV2_PreyInTailThroatHealing.stages.Healing_prey_in_tailthroat.description>TODO</RV2_PreyInTailThroatHealing.stages.Healing_prey_in_tailthroat.description>
+  <!-- EN: Healing multiple prey in tail-throat -->
+  <RV2_PreyInTailThroatHealing.stages.Healing_multiple_prey_in_tailthroat.label>TODO</RV2_PreyInTailThroatHealing.stages.Healing_multiple_prey_in_tailthroat.label>
+  <!-- EN: Let's get you patched up! -->
+  <RV2_PreyInTailThroatHealing.stages.Healing_multiple_prey_in_tailthroat.description>TODO</RV2_PreyInTailThroatHealing.stages.Healing_multiple_prey_in_tailthroat.description>
+  
+  <!-- EN: Warming up tail-throat for prey -->
+  <RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_prey.label>TODO</RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_prey.label>
+  <!-- EN: Oh, the plans I have for you! -->
+  <RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_prey.description>TODO</RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_prey.description>
+  <!-- EN: Warming up tail-throat for multiple prey -->
+  <RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_multiple_prey.label>TODO</RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_multiple_prey.label>
+  <!-- EN: Oh, the plans I have for you! -->
+  <RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_multiple_prey.description>TODO</RV2_PreyInTailThroatWarming.stages.Warming_up_tailthroat_for_multiple_prey.description>
+  
+</LanguageData>

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Verse;
 using Verse.Noise;
 
-namespace PRV2E
+namespace RimVore2_Pardon
 {
     public class HediffComp_Regression : HediffComp
     {
@@ -28,11 +28,11 @@ namespace PRV2E
                 minAgeTicks = 0;
             }
         }
-        public override void CompPostTickInterval(ref float severityAdjustment, int delta)
+        public override void CompPostTick(ref float severityAdjustment)
         {
-            if (Pawn.ageTracker.AgeBiologicalTicks > minAgeTicks)
+            if (Pawn.ageTracker.AgeBiologicalTicks > minAgeTicks && Find.TickManager.TicksGame % 60 < 1)
             {
-                Pawn.ageTracker.AgeBiologicalTicks = (long)Math.Max(Pawn.ageTracker.AgeBiologicalTicks - Props.RegressionStrength * parent.Severity * delta, 0);
+                Pawn.ageTracker.AgeBiologicalTicks = (long)Math.Max(Pawn.ageTracker.AgeBiologicalTicks - Props.RegressionStrength * parent.Severity * 60, 0);
 
                 foreach (Hediff hediff in Pawn.health.hediffSet.hediffs.Where((Hediff diff) => diff.def.chronic))
                 {

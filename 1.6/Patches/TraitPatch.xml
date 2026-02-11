@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="Gourmand"]/degreeDatas/li[1 and not(statFactors)]</xpath>
+        <value>
+            <statFactors></statFactors>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="Gourmand"]/degreeDatas/li[1]/statFactors</xpath>
+        <value>
+            <RV2_GrappleChance>1.25</RV2_GrappleChance>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="Cannibal"]/degreeDatas/li[1 and not(statFactors)]</xpath>
+        <value>
+            <statFactors></statFactors>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/TraitDef[defName="Cannibal"]/degreeDatas/li[1]/statFactors</xpath>
+        <value>
+            <RV2_GrappleChance>1.5</RV2_GrappleChance>
+            <RV2_SwallowSpeed>2</RV2_SwallowSpeed>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/TraitDef[defName="Cannibal"]</xpath>
+        <value>
+            <li Class="RimVore2.Extension_StruggleInfluence">
+                <influences>
+                    <li>
+                        <role>Predator</role>
+                        <struggleChanceMultiplier>0.8</struggleChanceMultiplier>
+                        <requiredStrugglesMultiplier>1.2</requiredStrugglesMultiplier>
+                    </li>
+                </influences>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

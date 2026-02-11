@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-     <!-- struggle strength prey -->
-
+  <!-- struggle strength prey -->
   <RimVore2.QuirkDef>
     <defName>StruggleStrength_Prey_VeryGood</defName>
     <label>Professional Wiggler</label>
@@ -10,11 +9,7 @@
     <comps>
       <li Class="RimVore2.QuirkComp_ValueModifier">
         <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
-        <modifierValue>0.75</modifierValue>
-      </li>
-      <li Class="RimVore2.QuirkComp_ValueModifier">
-        <modifierName>StruggleChanceMultiplierAsPrey</modifierName>
-        <modifierValue>1.5</modifierValue>
+        <modifierValue>0.6</modifierValue>
       </li>
     </comps>
   </RimVore2.QuirkDef>
@@ -29,29 +24,19 @@
         <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
         <modifierValue>1.5</modifierValue>
       </li>
-      <li Class="RimVore2.QuirkComp_ValueModifier">
-        <modifierName>StruggleChanceMultiplierAsPrey</modifierName>
-        <modifierValue>0.75</modifierValue>
-      </li>
     </comps>
   </RimVore2.QuirkDef>
 
   <!-- struggle strength predator -->
-
   <RimVore2.QuirkDef>
     <defName>StruggleStrength_Predator_VeryGood</defName>
     <label>Unyielding</label>
-    <description>[PAWN_label] is extremely tough to struggle out of when [PAWN_possessive] prey
-      tries to escape.</description>
+    <description>[PAWN_label] is extremely tough to struggle out of when [PAWN_possessive] prey tries to escape.</description>
     <rarity>VeryRare</rarity>
     <comps>
       <li Class="RimVore2.QuirkComp_ValueModifier">
         <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
         <modifierValue>1.5</modifierValue>
-      </li>
-      <li Class="RimVore2.QuirkComp_ValueModifier">
-        <modifierName>StruggleChanceMultiplierAsPredator</modifierName>
-        <modifierValue>0.75</modifierValue>
       </li>
     </comps>
   </RimVore2.QuirkDef>
@@ -65,11 +50,7 @@
     <comps>
       <li Class="RimVore2.QuirkComp_ValueModifier">
         <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
-        <modifierValue>0.75</modifierValue>
-      </li>
-      <li Class="RimVore2.QuirkComp_ValueModifier">
-        <modifierName>StruggleChanceMultiplierAsPredator</modifierName>
-        <modifierValue>1.5</modifierValue>
+        <modifierValue>0.6</modifierValue>
       </li>
     </comps>
   </RimVore2.QuirkDef>

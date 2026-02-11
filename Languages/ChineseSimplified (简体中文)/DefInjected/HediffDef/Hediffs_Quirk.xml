@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Hammerspace -->
+  <RV2_Hediff_QuirkForce_Cheat_Hammerspace.label>次元空间</RV2_Hediff_QuirkForce_Cheat_Hammerspace.label>
+  <!-- EN: This pawn's body compresses its prey down to an incredible degree. -->
+  <RV2_Hediff_QuirkForce_Cheat_Hammerspace.description>TODO</RV2_Hediff_QuirkForce_Cheat_Hammerspace.description>
+  
+  <!-- EN: Indigestible -->
+  <RV2_Hediff_QuirkForce_Cheat_Indigestible.label>TODO</RV2_Hediff_QuirkForce_Cheat_Indigestible.label>
+  <!-- EN: This pawn is immune to digestion. Not immune to bullets, blades, explosions, or even external acid sprays, but certainly immune to digestion. -->
+  <RV2_Hediff_QuirkForce_Cheat_Indigestible.description>TODO</RV2_Hediff_QuirkForce_Cheat_Indigestible.description>
+  
+  <!-- EN: Infinite Capacity -->
+  <RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity.label>无限容量</RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity.label>
+  <!-- EN: This pawn doesn't know the meaning of the word "full". There's always room for more prey. -->
+  <RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity.description>TODO</RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity.description>
+  
+  <!-- EN: Instant digestion -->
+  <RV2_Hediff_QuirkForce_Cheat_InstantDigestion.label>TODO</RV2_Hediff_QuirkForce_Cheat_InstantDigestion.label>
+  <!-- EN: Only the pawn-tron reduces an entire preything into soup-like homogenate in 30 seconds. -->
+  <RV2_Hediff_QuirkForce_Cheat_InstantDigestion.description>TODO</RV2_Hediff_QuirkForce_Cheat_InstantDigestion.description>
+  
+  <!-- EN: Melty -->
+  <RV2_Hediff_QuirkForce_DigestionResistance_Bad.label>TODO</RV2_Hediff_QuirkForce_DigestionResistance_Bad.label>
+  <!-- EN: This pawn melts under acid easily and won't last more than half as long in a hostile belly as most prey. -->
+  <RV2_Hediff_QuirkForce_DigestionResistance_Bad.description>TODO</RV2_Hediff_QuirkForce_DigestionResistance_Bad.description>
+  
+  <!-- EN: Acid-resistant -->
+  <RV2_Hediff_QuirkForce_DigestionResistance_Good.label>TODO</RV2_Hediff_QuirkForce_DigestionResistance_Good.label>
+  <!-- EN: This pawn resists digestion well, and will last about twice as long as most prey in a hostile belly. -->
+  <RV2_Hediff_QuirkForce_DigestionResistance_Good.description>TODO</RV2_Hediff_QuirkForce_DigestionResistance_Good.description>
+  
+  <!-- EN: Normal acid resistance -->
+  <RV2_Hediff_QuirkForce_DigestionResistance_Normal.label>TODO</RV2_Hediff_QuirkForce_DigestionResistance_Normal.label>
+  <!-- EN: This pawn is digested as easily as anyone else. -->
+  <RV2_Hediff_QuirkForce_DigestionResistance_Normal.description>TODO</RV2_Hediff_QuirkForce_DigestionResistance_Normal.description>
+  
+  <!-- EN: Cotton candy -->
+  <RV2_Hediff_QuirkForce_DigestionResistance_VeryBad.label>TODO</RV2_Hediff_QuirkForce_DigestionResistance_VeryBad.label>
+  <!-- EN: This pawn falls apart in stomach acid like cotton candy, and doesn't fare any better in other organs. They have maybe a quarter of the time to escape as normal prey. -->
+  <RV2_Hediff_QuirkForce_DigestionResistance_VeryBad.description>TODO</RV2_Hediff_QuirkForce_DigestionResistance_VeryBad.description>
+  
+  <!-- EN: Acid-proof -->
+  <RV2_Hediff_QuirkForce_DigestionResistance_VeryGood.label>TODO</RV2_Hediff_QuirkForce_DigestionResistance_VeryGood.label>
+  <!-- EN: This pawn is very difficult to digest. Not impossible, but it'll take a while; about four times as long as most prey. -->
+  <RV2_Hediff_QuirkForce_DigestionResistance_VeryGood.description>TODO</RV2_Hediff_QuirkForce_DigestionResistance_VeryGood.description>
+  
+  <!-- EN: Weak acid -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_Bad.label>TODO</RV2_Hediff_QuirkForce_DigestionStrength_Bad.label>
+  <!-- EN: This pawn takes about twice as long to digest live meals as most predators. -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_Bad.description>TODO</RV2_Hediff_QuirkForce_DigestionStrength_Bad.description>
+  
+  <!-- EN: Godlike Digestion -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_Godlike.label>TODO</RV2_Hediff_QuirkForce_DigestionStrength_Godlike.label>
+  <!-- EN: Whether due to magic or a technology that's not yet understood, this pawn's digestive abilities are in a class of their own, capable of liquifying an entire Thrumbo in minutes. -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_Godlike.description>TODO</RV2_Hediff_QuirkForce_DigestionStrength_Godlike.description>
+  
+  <!-- EN: Potent acid -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_Good.label>TODO</RV2_Hediff_QuirkForce_DigestionStrength_Good.label>
+  <!-- EN: This pawn can digest prey about twice as fast as most predators. -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_Good.description>TODO</RV2_Hediff_QuirkForce_DigestionStrength_Good.description>
+  
+  <!-- EN: Normal acid strength -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_Normal.label>TODO</RV2_Hediff_QuirkForce_DigestionStrength_Normal.label>
+  <!-- EN: This pawn digests prey at a normal speed. -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_Normal.description>TODO</RV2_Hediff_QuirkForce_DigestionStrength_Normal.description>
+  
+  <!-- EN: Watery acid -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_VeryBad.label>TODO</RV2_Hediff_QuirkForce_DigestionStrength_VeryBad.label>
+  <!-- EN: This pawn takes about four times as long to digest prey as most predators. This pawn's food is liable to die of boredom before dying of melting. -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_VeryBad.description>TODO</RV2_Hediff_QuirkForce_DigestionStrength_VeryBad.description>
+  
+  <!-- EN: Scouring acid -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_VeryGood.label>TODO</RV2_Hediff_QuirkForce_DigestionStrength_VeryGood.label>
+  <!-- EN: This pawn can turn prey into nutrient soup in the blink of an eye- -or, at least, four times as fast as most predators. -->
+  <RV2_Hediff_QuirkForce_DigestionStrength_VeryGood.description>TODO</RV2_Hediff_QuirkForce_DigestionStrength_VeryGood.description>
+  
+  <!-- EN: Weak Grappler -->
+  <RV2_Hediff_QuirkForce_GrappleStrength_Bad.label>虚弱的格斗家</RV2_Hediff_QuirkForce_GrappleStrength_Bad.label>
+  <!-- EN: This pawn is pretty bad at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Hediff_QuirkForce_GrappleStrength_Bad.description>TODO</RV2_Hediff_QuirkForce_GrappleStrength_Bad.description>
+  
+  <!-- EN: Strong Grappler -->
+  <RV2_Hediff_QuirkForce_GrappleStrength_Good.label>强壮的格斗家</RV2_Hediff_QuirkForce_GrappleStrength_Good.label>
+  <!-- EN: This pawn is pretty good at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Hediff_QuirkForce_GrappleStrength_Good.description>TODO</RV2_Hediff_QuirkForce_GrappleStrength_Good.description>
+  
+  <!-- EN: Average Grappler -->
+  <RV2_Hediff_QuirkForce_GrappleStrength_Normal.label>中等格斗家</RV2_Hediff_QuirkForce_GrappleStrength_Normal.label>
+  <!-- EN: This pawn is about average at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Hediff_QuirkForce_GrappleStrength_Normal.description>TODO</RV2_Hediff_QuirkForce_GrappleStrength_Normal.description>
+  
+  <!-- EN: Feeble Grappler -->
+  <RV2_Hediff_QuirkForce_GrappleStrength_VeryBad.label>衰弱的格斗家</RV2_Hediff_QuirkForce_GrappleStrength_VeryBad.label>
+  <!-- EN: This pawn is terrible at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Hediff_QuirkForce_GrappleStrength_VeryBad.description>TODO</RV2_Hediff_QuirkForce_GrappleStrength_VeryBad.description>
+  
+  <!-- EN: Powerful Grappler -->
+  <RV2_Hediff_QuirkForce_GrappleStrength_VeryGood.label>强力格斗家</RV2_Hediff_QuirkForce_GrappleStrength_VeryGood.label>
+  <!-- EN: This pawn is an expert at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Hediff_QuirkForce_GrappleStrength_VeryGood.description>TODO</RV2_Hediff_QuirkForce_GrappleStrength_VeryGood.description>
+  
+  <!-- EN: Clumsy -->
+  <RV2_Hediff_QuirkForce_Mobility_Bad.label>笨拙的</RV2_Hediff_QuirkForce_Mobility_Bad.label>
+  <!-- EN: This pawn is unsteady with a big belly and prone to tumbling whenever its prey decide to kick around. -->
+  <RV2_Hediff_QuirkForce_Mobility_Bad.description>TODO</RV2_Hediff_QuirkForce_Mobility_Bad.description>
+  
+  <!-- EN: Godlike Mobility -->
+  <RV2_Hediff_QuirkForce_Mobility_Godlike.label>神级灵活性</RV2_Hediff_QuirkForce_Mobility_Godlike.label>
+  <!-- EN: This pawn makes walking around with the weight of multiple full grown people hanging off of it look effortless. -->
+  <RV2_Hediff_QuirkForce_Mobility_Godlike.description>TODO</RV2_Hediff_QuirkForce_Mobility_Godlike.description>
+  
+  <!-- EN: Nimble -->
+  <RV2_Hediff_QuirkForce_Mobility_Good.label>灵巧的</RV2_Hediff_QuirkForce_Mobility_Good.label>
+  <!-- EN: This pawn knows how to keep its balance with a bulging belly. -->
+  <RV2_Hediff_QuirkForce_Mobility_Good.description>TODO</RV2_Hediff_QuirkForce_Mobility_Good.description>
+  
+  <!-- EN: Normal mobility -->
+  <RV2_Hediff_QuirkForce_Mobility_Normal.label>正常灵活性</RV2_Hediff_QuirkForce_Mobility_Normal.label>
+  <!-- EN: This pawn is affected by its prey's weight like anyone else. -->
+  <RV2_Hediff_QuirkForce_Mobility_Normal.description>TODO</RV2_Hediff_QuirkForce_Mobility_Normal.description>
+  
+  <!-- EN: Sluggish -->
+  <RV2_Hediff_QuirkForce_Mobility_VeryBad.label>迟缓的</RV2_Hediff_QuirkForce_Mobility_VeryBad.label>
+  <!-- EN: This pawn can barely stay on its feet with a big, round belly, let alone jog around. -->
+  <RV2_Hediff_QuirkForce_Mobility_VeryBad.description>TODO</RV2_Hediff_QuirkForce_Mobility_VeryBad.description>
+  
+  <!-- EN: Acrobatic -->
+  <RV2_Hediff_QuirkForce_Mobility_VeryGood.label>极其灵活</RV2_Hediff_QuirkForce_Mobility_VeryGood.label>
+  <!-- EN: This pawn moves freely while full of prey, as though its belly wasn't there. -->
+  <RV2_Hediff_QuirkForce_Mobility_VeryGood.description>TODO</RV2_Hediff_QuirkForce_Mobility_VeryGood.description>
+  
+  <!-- EN: Tight -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Bad.label>紧凑的</RV2_Hediff_QuirkForce_StorageCapacity_Bad.label>
+  <!-- EN: This pawn struggles to fit as many prey inside itself as most of its predatory peers can. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Bad.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_Bad.description>
+  
+  <!-- EN: Godlike Capacity -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Godlike.label>神级容量</RV2_Hediff_QuirkForce_StorageCapacity_Godlike.label>
+  <!-- EN: This pawn's skin is supernaturally stretchy, able to expand to sizes that defy all logic and reason. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Godlike.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_Godlike.description>
+  
+  <!-- EN: Stretchy -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Good.label>富有弹性</RV2_Hediff_QuirkForce_StorageCapacity_Good.label>
+  <!-- EN: This pawn can stretch to fit more prey than the average predator. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Good.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_Good.description>
+  
+  <!-- EN: Normal capacity -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Normal.label>正常容量</RV2_Hediff_QuirkForce_StorageCapacity_Normal.label>
+  <!-- EN: This pawn can fit as many prey as anyone else. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Normal.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_Normal.description>
+  
+  <!-- EN: Claustrophobic -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_VeryBad.label>局促不安的</RV2_Hediff_QuirkForce_StorageCapacity_VeryBad.label>
+  <!-- EN: This pawn struggles with a lack of capacity for prey and fills up fast. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_VeryBad.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_VeryBad.description>
+  
+  <!-- EN: Cavernous -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_VeryGood.label>大如洞窟</RV2_Hediff_QuirkForce_StorageCapacity_VeryGood.label>
+  <!-- EN: This pawn can stuff itself silly with prey and still have room for more, though even this pawn has limits. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_VeryGood.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_VeryGood.description>
+  
+  <!-- EN: Unbreakable Will -->
+  <RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPredator.label>坚不可摧的意志</RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPredator.label>
+  <!-- EN: This pawn's stomach secretes numbing enzymes that paralyze its prey, so anyone vored by this pawn will never struggle. -->
+  <RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPredator.description>TODO</RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPredator.description>
+  
+  <!-- EN: Sedentary -->
+  <RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPrey.label>久坐的</RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPrey.label>
+  <!-- EN: This pawn does not mind being vored and will never bother to struggle. -->
+  <RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPrey.description>TODO</RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPrey.description>
+  
+  <!-- EN: Struggle hater -->
+  <RV2_Hediff_QuirkForce_StrugglePreference_Hated.label>厌恶挣扎</RV2_Hediff_QuirkForce_StrugglePreference_Hated.label>
+  <!-- EN: This pawn has very irritable insides and hates prey working against it. -->
+  <RV2_Hediff_QuirkForce_StrugglePreference_Hated.description>TODO</RV2_Hediff_QuirkForce_StrugglePreference_Hated.description>
+  
+  <!-- EN: Struggle lover -->
+  <RV2_Hediff_QuirkForce_StrugglePreference_Loved.label>热爱挣扎</RV2_Hediff_QuirkForce_StrugglePreference_Loved.label>
+  <!-- EN: This pawn has very resilient insides and actually enjoys prey working against it. -->
+  <RV2_Hediff_QuirkForce_StrugglePreference_Loved.description>TODO</RV2_Hediff_QuirkForce_StrugglePreference_Loved.description>
+  
+  <!-- EN: Struggle neutral -->
+  <RV2_Hediff_QuirkForce_StrugglePreference_Normal.label>挣扎中立</RV2_Hediff_QuirkForce_StrugglePreference_Normal.label>
+  <!-- EN: This pawn doesn't care one way or another if its prey struggles. -->
+  <RV2_Hediff_QuirkForce_StrugglePreference_Normal.description>TODO</RV2_Hediff_QuirkForce_StrugglePreference_Normal.description>
+  
+  <!-- EN: Weak Resistance -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Predator_Bad.label>虚弱的抵抗力</RV2_Hediff_QuirkForce_StruggleStrength_Predator_Bad.label>
+  <!-- EN: This pawn is pretty bad at resisting struggles from its prey. -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Predator_Bad.description>TODO</RV2_Hediff_QuirkForce_StruggleStrength_Predator_Bad.description>
+  
+  <!-- EN: Resolute -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Predator_Good.label>坚决的</RV2_Hediff_QuirkForce_StruggleStrength_Predator_Good.label>
+  <!-- EN: This pawn is pretty good at resisting struggles from its prey. -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Predator_Good.description>TODO</RV2_Hediff_QuirkForce_StruggleStrength_Predator_Good.description>
+  
+  <!-- EN: Average Resistance -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Predator_Normal.label>中等抵抗力</RV2_Hediff_QuirkForce_StruggleStrength_Predator_Normal.label>
+  <!-- EN: This pawn is about average at resisting struggles from its prey. -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Predator_Normal.description>TODO</RV2_Hediff_QuirkForce_StruggleStrength_Predator_Normal.description>
+  
+  <!-- EN: Feeble Resistance -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryBad.label>衰弱的抵抗力</RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryBad.label>
+  <!-- EN: This pawn is terrible at resisting struggles from its prey. -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryBad.description>TODO</RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryBad.description>
+  
+  <!-- EN: Unyielding -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryGood.label>坚定不移的</RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryGood.label>
+  <!-- EN: This pawn is an expert at resisting struggles from its prey. -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryGood.description>TODO</RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryGood.description>
+  
+  <!-- EN: Weak Wiggler -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Prey_Bad.label>虚弱的蠕动者</RV2_Hediff_QuirkForce_StruggleStrength_Prey_Bad.label>
+  <!-- EN: This pawn is pretty bad at struggling when vored by others. -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Prey_Bad.description>TODO</RV2_Hediff_QuirkForce_StruggleStrength_Prey_Bad.description>
+  
+  <!-- EN: Strong Wiggler -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Prey_Good.label>强力蠕动者</RV2_Hediff_QuirkForce_StruggleStrength_Prey_Good.label>
+  <!-- EN: This pawn is pretty good at struggling when vored by others. -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Prey_Good.description>TODO</RV2_Hediff_QuirkForce_StruggleStrength_Prey_Good.description>
+  
+  <!-- EN: Average Wiggler -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Prey_Normal.label>中等蠕动者</RV2_Hediff_QuirkForce_StruggleStrength_Prey_Normal.label>
+  <!-- EN: This pawn is about average at struggling when vored by others. -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Prey_Normal.description>TODO</RV2_Hediff_QuirkForce_StruggleStrength_Prey_Normal.description>
+  
+  <!-- EN: Feeble Wiggler -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryBad.label>衰弱的蠕动者</RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryBad.label>
+  <!-- EN: This pawn is terrible at struggling when vored by others. -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryBad.description>TODO</RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryBad.description>
+  
+  <!-- EN: Professional Wiggler -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryGood.label>专业级蠕动者</RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryGood.label>
+  <!-- EN: This pawn is an expert at struggling when vored by others. -->
+  <RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryGood.description>TODO</RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryGood.description>
+  
+</LanguageData>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Drank urified pawn -->
+  <RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.label>TODO</RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.label>
+  <!-- EN: It tasted fine. I could probably drink some more if I needed to. -->
+  <RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.description>TODO</RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.description>
+  
+  <!-- EN: Disliked drinking urified pawn -->
+  <RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.label>TODO</RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.label>
+  <!-- EN: Blech. Can't believe I just drank Lube. -->
+  <RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.description>TODO</RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.description>
+  
+  <!-- EN: Liked drinking urified pawn -->
+  <RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.label>TODO</RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.label>
+  <!-- EN: That was quite good! It went down good, and left a fragrant aftertaste that left me wanting more. -->
+  <RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.description>TODO</RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.description>
+  
+  <!-- EN: Hated drinking urified pawn -->
+  <RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.label>TODO</RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.label>
+  <!-- EN: Ugh! The smell is still stuck in my throat... -->
+  <RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.description>TODO</RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.description>
+  
+  <!-- EN: Loved drinking urified pawn -->
+  <RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.label>TODO</RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.label>
+  <!-- EN: The very nectar of the gods! It danced on my tongue like fine wine. I could drink that every day for the rest of my life! -->
+  <RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.description>TODO</RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.description>
+  
+</LanguageData>

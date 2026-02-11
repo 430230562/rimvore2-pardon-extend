@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Hammerspace -->
+  <RV2_Gene_QuirkForce_Cheat_Hammerspace.label>次元空间</RV2_Gene_QuirkForce_Cheat_Hammerspace.label>
+  <!-- EN: This pawn’s body compresses its prey down to an incredible degree. You can’t quite tell how many prey has inside this pawn at any given time, though you can guess if you know its limit. -->
+  <RV2_Gene_QuirkForce_Cheat_Hammerspace.description>这个角色的身体能够将其猎物压缩到不可思议的程度。你无法确切判断这个角色体内此刻有多少猎物，不过如果你知道它的限度的话，你可以猜测。</RV2_Gene_QuirkForce_Cheat_Hammerspace.description>
+  
+  <!-- EN: Indigestible -->
+  <RV2_Gene_QuirkForce_Cheat_Indigestible.label>TODO</RV2_Gene_QuirkForce_Cheat_Indigestible.label>
+  <!-- EN: This pawn is immune to digestion. Not immune to bullets, blades, explosions, or even external acid sprays, but certainly immune to digestion. -->
+  <RV2_Gene_QuirkForce_Cheat_Indigestible.description>TODO</RV2_Gene_QuirkForce_Cheat_Indigestible.description>
+  
+  <!-- EN: Infinite Capacity -->
+  <RV2_Gene_QuirkForce_Cheat_InfiniteCapacity.label>无限容量</RV2_Gene_QuirkForce_Cheat_InfiniteCapacity.label>
+  <!-- EN: This pawn doesn’t know the meaning of the word “full”. There’s always room for more prey. Always. -->
+  <RV2_Gene_QuirkForce_Cheat_InfiniteCapacity.description>这个角色不知道"满了"的意思。总是还有更多空间。总是的。</RV2_Gene_QuirkForce_Cheat_InfiniteCapacity.description>
+  
+  <!-- EN: Instant digestion -->
+  <RV2_Gene_QuirkForce_Cheat_InstantDigestion.label>TODO</RV2_Gene_QuirkForce_Cheat_InstantDigestion.label>
+  <!-- EN: Only the pawn-tron reduces an entire preything into soup-like homogenate in 30 seconds. -->
+  <RV2_Gene_QuirkForce_Cheat_InstantDigestion.description>TODO</RV2_Gene_QuirkForce_Cheat_InstantDigestion.description>
+  
+  <!-- EN: Melty -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Bad.label>TODO</RV2_Gene_QuirkForce_DigestionResistance_Bad.label>
+  <!-- EN: This pawn melts under acid easily and won't last more than half as long in a hostile belly as most prey. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Bad.description>TODO</RV2_Gene_QuirkForce_DigestionResistance_Bad.description>
+  
+  <!-- EN: Acid-resistant -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Good.label>TODO</RV2_Gene_QuirkForce_DigestionResistance_Good.label>
+  <!-- EN: This pawn resists digestion well, and will last about twice as long as most prey in a hostile belly. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Good.description>TODO</RV2_Gene_QuirkForce_DigestionResistance_Good.description>
+  
+  <!-- EN: Normal acid resistance -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Normal.label>TODO</RV2_Gene_QuirkForce_DigestionResistance_Normal.label>
+  <!-- EN: This pawn is digested as easily as anyone else. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Normal.description>TODO</RV2_Gene_QuirkForce_DigestionResistance_Normal.description>
+  
+  <!-- EN: Cotton candy -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryBad.label>TODO</RV2_Gene_QuirkForce_DigestionResistance_VeryBad.label>
+  <!-- EN: This pawn falls apart in stomach acid like cotton candy, and doesn't fare any better in other organs. They have maybe a quarter of the time to escape as normal prey. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryBad.description>TODO</RV2_Gene_QuirkForce_DigestionResistance_VeryBad.description>
+  
+  <!-- EN: Acid-proof -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryGood.label>TODO</RV2_Gene_QuirkForce_DigestionResistance_VeryGood.label>
+  <!-- EN: This pawn is very difficult to digest. Not impossible, but it'll take a while; about four times as long as most prey. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryGood.description>TODO</RV2_Gene_QuirkForce_DigestionResistance_VeryGood.description>
+  
+  <!-- EN: Weak acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Bad.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_Bad.label>
+  <!-- EN: This pawn takes about twice as long to digest live meals as most predators. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Bad.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_Bad.description>
+  
+  <!-- EN: Godlike Digestion -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Godlike.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_Godlike.label>
+  <!-- EN: Whether due to magic or a technology that's not yet understood, this pawn's digestive abilities are in a class of their own, capable of liquifying an entire Thrumbo in minutes. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Godlike.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_Godlike.description>
+  
+  <!-- EN: Potent acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Good.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_Good.label>
+  <!-- EN: This pawn can digest prey about twice as fast as most predators. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Good.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_Good.description>
+  
+  <!-- EN: Normal acid strength -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Normal.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_Normal.label>
+  <!-- EN: This pawn digests prey at a normal speed. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Normal.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_Normal.description>
+  
+  <!-- EN: Watery acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryBad.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_VeryBad.label>
+  <!-- EN: This pawn takes about four times as long to digest prey as most predators. This pawn's food is liable to die of boredom before dying of melting. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryBad.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_VeryBad.description>
+  
+  <!-- EN: Scouring acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryGood.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_VeryGood.label>
+  <!-- EN: This pawn can turn prey into nutrient soup in the blink of an eye- -or, at least, four times as fast as most predators. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryGood.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_VeryGood.description>
+  
+  <!-- EN: Clumsy Grappler -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Bad.label>笨拙的摔跤手</RV2_Gene_QuirkForce_GrappleStrength_Bad.label>
+  <!-- EN: This pawn is pretty bad at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Bad.description>这个角色在吞噬摔跤的格斗中相当差劲。</RV2_Gene_QuirkForce_GrappleStrength_Bad.description>
+  
+  <!-- EN: Skilled Grappler -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Good.label>技能娴熟的摔跤手</RV2_Gene_QuirkForce_GrappleStrength_Good.label>
+  <!-- EN: This pawn is pretty good at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Good.description>这个角色在吞噬摔跤的格斗中相当不错。</RV2_Gene_QuirkForce_GrappleStrength_Good.description>
+  
+  <!-- EN: Average Grappler -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Normal.label>中等摔跤手</RV2_Gene_QuirkForce_GrappleStrength_Normal.label>
+  <!-- EN: This pawn is about average at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Normal.description>这个角色在吞噬摔跤的格斗中水平平均。</RV2_Gene_QuirkForce_GrappleStrength_Normal.description>
+  
+  <!-- EN: Hopeless Grappler -->
+  <RV2_Gene_QuirkForce_GrappleStrength_VeryBad.label>无望的摔跤手</RV2_Gene_QuirkForce_GrappleStrength_VeryBad.label>
+  <!-- EN: This pawn is terrible at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Gene_QuirkForce_GrappleStrength_VeryBad.description>这个角色在吞噬摔跤的格斗中糟透了。</RV2_Gene_QuirkForce_GrappleStrength_VeryBad.description>
+  
+  <!-- EN: Professional Wrestler -->
+  <RV2_Gene_QuirkForce_GrappleStrength_VeryGood.label>专业摔跤手</RV2_Gene_QuirkForce_GrappleStrength_VeryGood.label>
+  <!-- EN: This pawn is an expert at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Gene_QuirkForce_GrappleStrength_VeryGood.description>这个角色在吞噬摔跤的格斗中是一名专家。</RV2_Gene_QuirkForce_GrappleStrength_VeryGood.description>
+  
+  <!-- EN: Belly-clumsy -->
+  <RV2_Gene_QuirkForce_Mobility_Bad.label>肚皮笨拙</RV2_Gene_QuirkForce_Mobility_Bad.label>
+  <!-- EN: this pawn is unsteady with a big belly and prone to tumbling whenever its prey decide to kick around. -->
+  <RV2_Gene_QuirkForce_Mobility_Bad.description>这个角色拖着大肚子不稳定，每当其猎物四处踢动时容易摔倒。</RV2_Gene_QuirkForce_Mobility_Bad.description>
+  
+  <!-- EN: Godlike Agility -->
+  <RV2_Gene_QuirkForce_Mobility_Godlike.label>神级灵活性</RV2_Gene_QuirkForce_Mobility_Godlike.label>
+  <!-- EN: this pawn makes walking around with the weight of multiple full grown people hanging off of its look effortless, in a way that seems to defy the laws of physics. -->
+  <RV2_Gene_QuirkForce_Mobility_Godlike.description>这个角色走路时背着多个成年人的重量看起来毫不费力，以一种似乎违反物理法则的方式。</RV2_Gene_QuirkForce_Mobility_Godlike.description>
+  
+  <!-- EN: Belly-nimble -->
+  <RV2_Gene_QuirkForce_Mobility_Good.label>肚皮灵巧</RV2_Gene_QuirkForce_Mobility_Good.label>
+  <!-- EN: this pawn knows how to keep its balance with a bulging belly. -->
+  <RV2_Gene_QuirkForce_Mobility_Good.description>这个角色知道如何在鼓起的肚子中保持平衡。</RV2_Gene_QuirkForce_Mobility_Good.description>
+  
+  <!-- EN: Belly-functional -->
+  <RV2_Gene_QuirkForce_Mobility_Normal.label>肚皮功能</RV2_Gene_QuirkForce_Mobility_Normal.label>
+  <!-- EN: this pawn is affected by its prey's weight like anyone else. -->
+  <RV2_Gene_QuirkForce_Mobility_Normal.description>这个角色像其他人一样受到猎物重量的影响。</RV2_Gene_QuirkForce_Mobility_Normal.description>
+  
+  <!-- EN: Belly-dysfunctional -->
+  <RV2_Gene_QuirkForce_Mobility_VeryBad.label>肚皮失能</RV2_Gene_QuirkForce_Mobility_VeryBad.label>
+  <!-- EN: this pawn can barely stay on its feet with a big, round belly, let alone jog around. -->
+  <RV2_Gene_QuirkForce_Mobility_VeryBad.description>这个角色拖着大圆肚子几乎无法站立，更不用说四处活动了。</RV2_Gene_QuirkForce_Mobility_VeryBad.description>
+  
+  <!-- EN: Belly acrobat -->
+  <RV2_Gene_QuirkForce_Mobility_VeryGood.label>肚皮杂技演员</RV2_Gene_QuirkForce_Mobility_VeryGood.label>
+  <!-- EN: this pawn moves freely while full of prey, as though its belly wasn't there. -->
+  <RV2_Gene_QuirkForce_Mobility_VeryGood.description>这个角色在被猎物填满时活动自如，就像它的肚子根本不存在一样。</RV2_Gene_QuirkForce_Mobility_VeryGood.description>
+  
+  <!-- EN: Tight Belly -->
+  <RV2_Gene_QuirkForce_StorageCapacity_Bad.label>紧凑的肚子</RV2_Gene_QuirkForce_StorageCapacity_Bad.label>
+  <!-- EN: This pawn struggles to fit as many prey inside itself as most of its predatory peers can; there's only room for one, maybe (by default). -->
+  <RV2_Gene_QuirkForce_StorageCapacity_Bad.description>这个角色难以像大多数捕食者同伴那样装下那么多猎物；里面只有一个的空间，最多可能两个（默认情况下）。</RV2_Gene_QuirkForce_StorageCapacity_Bad.description>
+  
+  <!-- EN: Godlike Capacity -->
+  <RV2_Gene_QuirkForce_StorageCapacity_Godlike.label>神级容量</RV2_Gene_QuirkForce_StorageCapacity_Godlike.label>
+  <!-- EN: This pawn's skin is supernaturally stretchy, able to expand to sizes that defy all logic and reason. No matter how full This pawn gets, This pawn seemingly always has room for one more. -->
+  <RV2_Gene_QuirkForce_StorageCapacity_Godlike.description>这个角色的皮肤超自然地富有弹性，能够扩张到超越所有逻辑和理由的大小。无论这个角色有多满，似乎总是还能再吞一个。</RV2_Gene_QuirkForce_StorageCapacity_Godlike.description>
+  
+  <!-- EN: Stretchy Belly -->
+  <RV2_Gene_QuirkForce_StorageCapacity_Good.label>富有弹性的肚子</RV2_Gene_QuirkForce_StorageCapacity_Good.label>
+  <!-- EN: This pawn can stretch to fit more prey than the average predator. -->
+  <RV2_Gene_QuirkForce_StorageCapacity_Good.description>这个角色能够拉伸以容纳比普通捕食者更多的猎物。</RV2_Gene_QuirkForce_StorageCapacity_Good.description>
+  
+  <!-- EN: Normal Capacity -->
+  <RV2_Gene_QuirkForce_StorageCapacity_Normal.label>正常容量</RV2_Gene_QuirkForce_StorageCapacity_Normal.label>
+  <!-- EN: This pawn can fit as many prey as anyone else. -->
+  <RV2_Gene_QuirkForce_StorageCapacity_Normal.description>这个角色能够像其他人一样装下更多猎物。</RV2_Gene_QuirkForce_StorageCapacity_Normal.description>
+  
+  <!-- EN: Claustrophobic Belly -->
+  <RV2_Gene_QuirkForce_StorageCapacity_VeryBad.label>幽闭恐怖的肚子</RV2_Gene_QuirkForce_StorageCapacity_VeryBad.label>
+  <!-- EN: This pawn struggles with a lack of capacity for prey. This pawn can't eat prey of the same size (by default), and fills up fast otherwise. -->
+  <RV2_Gene_QuirkForce_StorageCapacity_VeryBad.description>这个角色因为缺乏猎物容量而苦恼。这个角色不能吃与其体型相同的猎物（默认情况下），否则很快就会满。</RV2_Gene_QuirkForce_StorageCapacity_VeryBad.description>
+  
+  <!-- EN: Cavernous Belly -->
+  <RV2_Gene_QuirkForce_StorageCapacity_VeryGood.label>洞窟般的肚子</RV2_Gene_QuirkForce_StorageCapacity_VeryGood.label>
+  <!-- EN: This pawn can stuff itself silly with prey and still have room for more, though even This pawn has limits. -->
+  <RV2_Gene_QuirkForce_StorageCapacity_VeryGood.description>这个角色能够把自己塞得满满的，还能腾出更多空间，不过即使是这个角色也有极限。</RV2_Gene_QuirkForce_StorageCapacity_VeryGood.description>
+  
+  <!-- EN: Numbing -->
+  <RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPredator.label>麻痹胃液</RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPredator.label>
+  <!-- EN: This pawn s stomach secretes numbing enzymes that paralyze it's prey, as a result anyone vored by this pwan will never struggle. -->
+  <RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPredator.description>这个角色的胃分泌麻痹酶使猎物瘫痪，因此被这个角色吞噬的任何人都不会挣扎。</RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPredator.description>
+  
+  <!-- EN: Sedentary -->
+  <RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPrey.label>不抵抗的</RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPrey.label>
+  <!-- EN: This pawn does not mind being vored, no matter what the repercussions might be. As a result this pawn will never bother to struggle. -->
+  <RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPrey.description>这个角色不介意被吞噬，无论可能的后果如何。因此这个角色永远不会费力挣扎。</RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPrey.description>
+  
+  <!-- EN: Struggle hater -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Hated.label>厌恶挣扎</RV2_Gene_QuirkForce_StrugglePreference_Hated.label>
+  <!-- EN: This pawn has very irritable insides and hates prey working against -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Hated.description>这个角色内部非常易怒，讨厌猎物反抗。</RV2_Gene_QuirkForce_StrugglePreference_Hated.description>
+  
+  <!-- EN: Struggle lover -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Liked.label>热爱挣扎</RV2_Gene_QuirkForce_StrugglePreference_Liked.label>
+  <!-- EN: This pawn has very resilient insides and actually enjoys prey working against it. -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Liked.description>这个角色的内部非常有韧性，实际上喜欢猎物反抗。</RV2_Gene_QuirkForce_StrugglePreference_Liked.description>
+  
+  <!-- EN: Struggle neutral -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Nomal.label>挣扎中立</RV2_Gene_QuirkForce_StrugglePreference_Nomal.label>
+  <!-- EN: This pawn doesn't care one way or another if its prey struggles. -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Nomal.description>这个角色不关心其猎物是否挣扎。</RV2_Gene_QuirkForce_StrugglePreference_Nomal.description>
+  
+  <!-- EN: Weak gut -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Bad.label>虚弱肠胃</RV2_Gene_QuirkForce_StruggleStrength_Predator_Bad.label>
+  <!-- EN: This pawn is pretty bad at resisting struggles from its prey. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Bad.description>这个角色相当不擅长抵抗其猎物的挣扎。</RV2_Gene_QuirkForce_StruggleStrength_Predator_Bad.description>
+  
+  <!-- EN: Iron gut -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Good.label>铁肠胃</RV2_Gene_QuirkForce_StruggleStrength_Predator_Good.label>
+  <!-- EN: This pawn is pretty good at resisting struggles from its prey. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Good.description>这个角色相当擅长抵抗其猎物的挣扎。</RV2_Gene_QuirkForce_StruggleStrength_Predator_Good.description>
+  
+  <!-- EN: Average gut -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Normal.label>中等肠胃</RV2_Gene_QuirkForce_StruggleStrength_Predator_Normal.label>
+  <!-- EN: This pawn is about average at resisting struggles from its prey. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Normal.description>这个角色在抵抗其猎物的挣扎上水平平均。</RV2_Gene_QuirkForce_StruggleStrength_Predator_Normal.description>
+  
+  <!-- EN: Fragile gut -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryBad.label>脆弱肠胃</RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryBad.label>
+  <!-- EN: This pawn is terrible at resisting struggles from its prey. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryBad.description>这个角色在抵抗其猎物的挣扎上糟透了。</RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryBad.description>
+  
+  <!-- EN: Steel gut -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryGood.label>钢铁肠胃</RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryGood.label>
+  <!-- EN: This pawn is an expert at resisting struggles from its prey. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryGood.description>这个角色是抵抗其猎物挣扎的专家。</RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryGood.description>
+  
+  <!-- EN: Clumsy Wiggler -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Bad.label>笨拙的蠕动者</RV2_Gene_QuirkForce_StruggleStrength_Prey_Bad.label>
+  <!-- EN: This pawn is pretty bad at struggling when vored by others. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Bad.description>这个角色在被他人吞噬时相当不擅长挣扎。</RV2_Gene_QuirkForce_StruggleStrength_Prey_Bad.description>
+  
+  <!-- EN: Wiggler -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Good.label>蠕动者</RV2_Gene_QuirkForce_StruggleStrength_Prey_Good.label>
+  <!-- EN: This pawn is pretty good at struggling when vored by others. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Good.description>这个角色在被他人吞噬时相当擅长挣扎。</RV2_Gene_QuirkForce_StruggleStrength_Prey_Good.description>
+  
+  <!-- EN: Average Wiggler -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Normal.label>中等蠕动者</RV2_Gene_QuirkForce_StruggleStrength_Prey_Normal.label>
+  <!-- EN: This pawn is about average at struggling when vored by others. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Normal.description>这个角色在被他人吞噬时挣扎水平平均。</RV2_Gene_QuirkForce_StruggleStrength_Prey_Normal.description>
+  
+  <!-- EN: Hopeless Wiggler -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryBad.label>无望的蠕动者</RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryBad.label>
+  <!-- EN: This pawn is terrible at struggling when vored by others. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryBad.description>这个角色在被他人吞噬时挣扎的能力糟透了。</RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryBad.description>
+  
+  <!-- EN: Professional Wiggler -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryGood.label>专业级蠕动者</RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryGood.label>
+  <!-- EN: This pawn is an expert at struggling when vored by others. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryGood.description>这个角色是被他人吞噬时挣扎的专家。</RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryGood.description>
+  
+  <!-- EN: Vore Skip -->
+  <RV2_Gene_VoreSkip.label>吞噬传送</RV2_Gene_VoreSkip.label>
+  <!-- EN: Carriers can teleport a target into another target (either can be self). Body part and vore goal are selected randomly. -->
+  <RV2_Gene_VoreSkip.description>携带者可以将目标传送到另一个目标体内（可以是自己）。身体部位和吞噬目标随机选择。</RV2_Gene_VoreSkip.description>
+  
+</LanguageData>
