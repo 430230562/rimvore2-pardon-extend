@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: initiated vore -->
+  <RV2_VoreInitiation_TailmawDigest.label>吞噬开始</RV2_VoreInitiation_TailmawDigest.label>
+  <!-- EN: circumstance_phrase->seemingly without remorse -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.0>circumstance_phrase->毫无愧疚之意地</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.0>
+  <!-- EN: circumstance_phrase->with cold efficiency -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.1>circumstance_phrase->被冰冷的效率所支配</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.1>
+  <!-- EN: circumstance_phrase->with passionate rage -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.2>circumstance_phrase->带着狂热的势头</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.2>
+  <!-- EN: circumstance_phrase->with quick, efficient movements -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.3>circumstance_phrase->以迅捷机械的动作</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.3>
+  <!-- EN: circumstance_phrase->without emotion or expression -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.4>circumstance_phrase->仿佛没有任何情感存在</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.4>
+  <!-- EN: circumstance_phrase->out of bleak necessity -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.5>circumstance_phrase->迫于无奈的原因</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.5>
+  <!-- EN: circumstance_phrase->in a cowardly, halfhearted way -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.6>circumstance_phrase->犹豫不决地颤抖着</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.6>
+  <!-- EN: circumstance_phrase->in a vorny way -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.7>tale_noun->[PREDATOR_definite]将[PREY_definite][RV2_init_predVerb]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.7>
+  <!-- EN: RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.8>tale_noun->[PREDATOR_definite]用[PREDATOR_possessive][RV2_bodypart]将[PREY_definite][RV2_init_predVerb]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.8>
+  <!-- EN: RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] with [PREDATOR_possessive] [RV2_bodypart] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.9>tale_noun->[PREDATOR_definite]为将[PREY_definite][RV2_init_predVerb]而扩张[VOREPATH_label]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.9>
+  <!-- EN: RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] using [VOREPATH_label] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.10>tale_noun->[PREDATOR_definite][RV2_adverb]将[PREY_definite][RV2_init_predVerb]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.10>
+  <!-- EN: RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] [RV2_adverb] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.11>tale_noun->[PREDATOR_definite][RV2_addendum]将[PREY_definite][RV2_init_predVerb]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.11>
+  <!-- EN: RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] [RV2_addendum] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.12>tale_noun->[PREY_definite]被[PREDATOR_definite][RV2_init_preyVerb]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.12>
+  <!-- EN: RV2_init_tale_noun->[PREY_definite] [RV2_init_preyVerb] by [PREDATOR_definite] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.13>tale_noun->[PREY_definite]被[PREDATOR_definite]的[RV2_bodypart][RV2_init_preyVerb]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.13>
+  <!-- EN: RV2_init_tale_noun->[PREY_definite] [RV2_init_preyVerb] by [PREDATOR_definite]'s [RV2_bodypart] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.14>tale_noun->[RV2_init_tale_noun]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.14>
+  <!-- EN: tale_noun->[RV2_init_tale_noun] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.15>image->[PREDATOR_definite]将[PREY_definite][RV2_init_predVerb]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.15>
+  <!-- EN: RV2_init_image->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.16>image->[PREY_definite]被[PREDATOR_definite][RV2_init_preyVerb]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.16>
+  <!-- EN: RV2_init_image->[PREY_definite] [RV2_init_preyVerb] [PREDATOR_definite] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.17>image->[RV2_init_image]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.17>
+  <!-- EN: RV2_init_image->[PREDATOR_definite] stretching [PREDATOR_possessive] [RV2_bodypart] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.18>desc_sentence->[PREY_definite]在尖叫声中消失了。</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.18>
+  <!-- EN: RV2_init_image->[PREDATOR_definite] stretching [PREDATOR_possessive] [RV2_bodypart] to fit [PREY_definite] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.19>desc_sentence->[PREY_definite]变成了[PREDATOR_definite]身上的一个隆起。</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.19>
+  <!-- EN: RV2_init_image->[PREY_definite] disappearing into the [RV2_bodypart] of [PREDATOR_definite]  -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.20>desc_sentence->[PREY_definite]变成了[PREDATOR_definite]的[RV2_bodypart]上的一个隆起。</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.20>
+  <!-- EN: RV2_init_image->[PREDATOR_definite] with [PREY_definite] stuck partway inside [PREDATOR_possessive] [RV2_bodypart] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.21>desc_sentence->[PREDATOR_definite][RV2_addendum]完成了这个过程。</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.21>
+  <!-- EN: RV2_init_image->[PREY_definite] being drawn deeper [PREDATOR_possessive] [RV2_bodypart] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.22>desc_sentence->[PREDATOR_definite]充满了[RV2_adjective]。</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.22>
+  <!-- EN: RV2_init_image->[PREDATOR_definite] with [PREDATOR_possessive] [RV2_bodypart] around [PREY_definite] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.23>desc_sentence->[RV2_init_desc_sentence]</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.23>
+  <!-- EN: RV2_init_image->[PREDATOR_definite] with [PREY_definite] barely sticking out from [PREDATOR_possessive] [RV2_bodypart] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.24>RV2_init_predVerb->吞食</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.24>
+  <!-- EN: image->[RV2_init_image] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.25>RV2_init_preyVerb->吞食</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.25>
+  <!-- EN: RV2_init_desc_sentence->[PREY_definite] gave off one last yelp before disappearing. -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.26>RV2_init_preyVerb->被[RV2_adverb]吞食</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.26>
+  <!-- EN: RV2_init_desc_sentence->[PREY_definite] is now merely a bulge in [PREDATOR_definite]. -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.27>RV2_init_preyVerb->消失在</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.27>
+  <!-- EN: RV2_init_desc_sentence->[PREY_definite] is now merely a bulge in [PREDATOR_definite]'s [RV2_bodypart]. -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.28>RV2_init_preyVerb->消失在</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.28>
+  <!-- EN: RV2_init_desc_sentence->[PREDATOR_definite] is doing this to [PREY_definite] [RV2_addendum]. -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.29>RV2_adverb->欣然</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.29>
+  <!-- EN: RV2_init_desc_sentence->[PREDATOR_definite] looks [RV2_adjective]. -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.30>RV2_adverb->夸张地</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.30>
+  <!-- EN: RV2_init_desc_sentence->[PREDATOR_definite] is feeling the stretch in [PREDATOR_possessive] [RV2_bodypart]. -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.31>RV2_addendum->在[RV2_adjective]中</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.31>
+  <!-- EN: desc_sentence->[RV2_init_desc_sentence] -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.32>RV2_adjective->欣然</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.32>
+  <!-- EN: RV2_init_predVerb->voring -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.33>RV2_adjective->恶意</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.33>
+  <!-- EN: RV2_init_preyVerb->being vored by -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.34>TODO</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.34>
+  <!-- EN: RV2_init_preyVerb->being [RV2_adverb] vored by -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.35>TODO</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.35>
+  <!-- EN: RV2_init_preyVerb->disappearing in -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.36>TODO</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.36>
+  <!-- EN: RV2_init_preyVerb->vanishing into -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.37>TODO</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.37>
+  <!-- EN: RV2_adverb->happily -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.38>TODO</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.38>
+  <!-- EN: RV2_adverb->maliciously -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.39>TODO</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.39>
+  <!-- EN: RV2_addendum->with [RV2_adjective] intent -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.40>TODO</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.40>
+  <!-- EN: RV2_adjective->happy -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.41>TODO</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.41>
+  <!-- EN: RV2_adjective->malicious -->
+  <RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.42>TODO</RV2_VoreInitiation_TailmawDigest.rulePack.rulesStrings.42>
+  
+  <!-- EN: initiated vore -->
+  <RV2_VoreInitiation_TailmawHeal.label>TODO</RV2_VoreInitiation_TailmawHeal.label>
+  <!-- EN:
+    <li>circumstance_phrase->seemingly without remorse</li>
+    <li>circumstance_phrase->with cold efficiency</li>
+    <li>circumstance_phrase->with passionate rage</li>
+    <li>circumstance_phrase->with quick, efficient movements</li>
+    <li>circumstance_phrase->without emotion or expression</li>
+    <li>circumstance_phrase->out of bleak necessity</li>
+    <li>circumstance_phrase->in a cowardly, halfhearted way</li>
+    <li>circumstance_phrase->in a vorny way</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] with [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] using [VOREPATH_label]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] [RV2_adverb]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] [RV2_addendum]</li>
+    <li>RV2_init_tale_noun->[PREY_definite] [RV2_init_preyVerb] by [PREDATOR_definite]</li>
+    <li>RV2_init_tale_noun->[PREY_definite] [RV2_init_preyVerb] by [PREDATOR_definite]'s [RV2_bodypart]</li>
+    <li>tale_noun->[RV2_init_tale_noun]</li>
+    <li>RV2_init_image->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite]</li>
+    <li>RV2_init_image->[PREY_definite] [RV2_init_preyVerb] [PREDATOR_definite]</li>
+    <li>RV2_init_image->[PREDATOR_definite] stretching [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_image->[PREDATOR_definite] stretching [PREDATOR_possessive] [RV2_bodypart] to fit [PREY_definite]</li>
+    <li>RV2_init_image->[PREY_definite] disappearing into the [RV2_bodypart] of [PREDATOR_definite] </li>
+    <li>RV2_init_image->[PREDATOR_definite] with [PREY_definite] stuck partway inside [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_image->[PREY_definite] being drawn deeper [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_image->[PREDATOR_definite] with [PREDATOR_possessive] [RV2_bodypart] around [PREY_definite]</li>
+    <li>RV2_init_image->[PREDATOR_definite] with [PREY_definite] barely sticking out from [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>image->[RV2_init_image]</li>
+    <li>RV2_init_desc_sentence->[PREY_definite] gave off one last yelp before disappearing.</li>
+    <li>RV2_init_desc_sentence->[PREY_definite] is now merely a bulge in [PREDATOR_definite].</li>
+    <li>RV2_init_desc_sentence->[PREY_definite] is now merely a bulge in [PREDATOR_definite]'s [RV2_bodypart].</li>
+    <li>RV2_init_desc_sentence->[PREDATOR_definite] is doing this to [PREY_definite] [RV2_addendum].</li>
+    <li>RV2_init_desc_sentence->[PREDATOR_definite] looks [RV2_adjective].</li>
+    <li>RV2_init_desc_sentence->[PREDATOR_definite] is feeling the stretch in [PREDATOR_possessive] [RV2_bodypart].</li>
+    <li>desc_sentence->[RV2_init_desc_sentence]</li>
+    <li>RV2_init_predVerb->voring</li>
+    <li>RV2_init_preyVerb->being vored by</li>
+    <li>RV2_init_preyVerb->being [RV2_adverb] vored by</li>
+    <li>RV2_init_preyVerb->disappearing in</li>
+    <li>RV2_init_preyVerb->vanishing into</li>
+    <li>RV2_adverb->happily</li>
+    <li>RV2_adverb->maliciously</li>
+    <li>RV2_addendum->with [RV2_adjective] intent</li>
+    <li>RV2_adjective->happy</li>
+    <li>RV2_adjective->malicious</li>
+  -->
+  <RV2_VoreInitiation_TailmawHeal.rulePack.rulesStrings>TODO</RV2_VoreInitiation_TailmawHeal.rulePack.rulesStrings>
+  
+  <!-- EN: initiated vore -->
+  <RV2_VoreInitiation_WombAmalgamate.label>TODO</RV2_VoreInitiation_WombAmalgamate.label>
+  <!-- EN:
+    <li>circumstance_phrase->seemingly without remorse</li>
+    <li>circumstance_phrase->with cold efficiency</li>
+    <li>circumstance_phrase->with passionate rage</li>
+    <li>circumstance_phrase->with quick, efficient movements</li>
+    <li>circumstance_phrase->without emotion or expression</li>
+    <li>circumstance_phrase->out of bleak necessity</li>
+    <li>circumstance_phrase->in a cowardly, halfhearted way</li>
+    <li>circumstance_phrase->in a vorny way</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] with [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] using [VOREPATH_label]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] [RV2_adverb]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] [RV2_addendum]</li>
+    <li>RV2_init_tale_noun->[PREY_definite] [RV2_init_preyVerb] by [PREDATOR_definite]</li>
+    <li>RV2_init_tale_noun->[PREY_definite] [RV2_init_preyVerb] by [PREDATOR_definite]'s [RV2_bodypart]</li>
+    <li>tale_noun->[RV2_init_tale_noun]</li>
+    <li>RV2_init_image->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite]</li>
+    <li>RV2_init_image->[PREY_definite] [RV2_init_preyVerb] [PREDATOR_definite]</li>
+    <li>RV2_init_image->[PREDATOR_definite] stretching [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_image->[PREDATOR_definite] stretching [PREDATOR_possessive] [RV2_bodypart] to fit [PREY_definite]</li>
+    <li>RV2_init_image->[PREY_definite] disappearing into the [RV2_bodypart] of [PREDATOR_definite] </li>
+    <li>RV2_init_image->[PREDATOR_definite] with [PREY_definite] stuck partway inside [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_image->[PREY_definite] being drawn deeper [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_image->[PREDATOR_definite] with [PREDATOR_possessive] [RV2_bodypart] around [PREY_definite]</li>
+    <li>RV2_init_image->[PREDATOR_definite] with [PREY_definite] barely sticking out from [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>image->[RV2_init_image]</li>
+    <li>RV2_init_desc_sentence->[PREY_definite] gave off one last yelp before disappearing.</li>
+    <li>RV2_init_desc_sentence->[PREY_definite] is now merely a bulge in [PREDATOR_definite].</li>
+    <li>RV2_init_desc_sentence->[PREY_definite] is now merely a bulge in [PREDATOR_definite]'s [RV2_bodypart].</li>
+    <li>RV2_init_desc_sentence->[PREDATOR_definite] is doing this to [PREY_definite] [RV2_addendum].</li>
+    <li>RV2_init_desc_sentence->[PREDATOR_definite] looks [RV2_adjective].</li>
+    <li>RV2_init_desc_sentence->[PREDATOR_definite] is feeling the stretch in [PREDATOR_possessive] [RV2_bodypart].</li>
+    <li>desc_sentence->[RV2_init_desc_sentence]</li>
+    <li>RV2_init_predVerb->voring</li>
+    <li>RV2_init_preyVerb->being vored by</li>
+    <li>RV2_init_preyVerb->being [RV2_adverb] vored by</li>
+    <li>RV2_init_preyVerb->disappearing in</li>
+    <li>RV2_init_preyVerb->vanishing into</li>
+    <li>RV2_adverb->happily</li>
+    <li>RV2_adverb->maliciously</li>
+    <li>RV2_addendum->with [RV2_adjective] intent</li>
+    <li>RV2_adjective->happy</li>
+    <li>RV2_adjective->malicious</li>
+  -->
+  <RV2_VoreInitiation_WombAmalgamate.rulePack.rulesStrings>TODO</RV2_VoreInitiation_WombAmalgamate.rulePack.rulesStrings>
+  
+  <!-- EN: initiated vore -->
+  <RV2_VoreInitiation_WombAssimilate.label>TODO</RV2_VoreInitiation_WombAssimilate.label>
+  <!-- EN:
+    <li>circumstance_phrase->seemingly without remorse</li>
+    <li>circumstance_phrase->with cold efficiency</li>
+    <li>circumstance_phrase->with passionate rage</li>
+    <li>circumstance_phrase->with quick, efficient movements</li>
+    <li>circumstance_phrase->without emotion or expression</li>
+    <li>circumstance_phrase->out of bleak necessity</li>
+    <li>circumstance_phrase->in a cowardly, halfhearted way</li>
+    <li>circumstance_phrase->in a vorny way</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] with [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] using [VOREPATH_label]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] [RV2_adverb]</li>
+    <li>RV2_init_tale_noun->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite] [RV2_addendum]</li>
+    <li>RV2_init_tale_noun->[PREY_definite] [RV2_init_preyVerb] by [PREDATOR_definite]</li>
+    <li>RV2_init_tale_noun->[PREY_definite] [RV2_init_preyVerb] by [PREDATOR_definite]'s [RV2_bodypart]</li>
+    <li>tale_noun->[RV2_init_tale_noun]</li>
+    <li>RV2_init_image->[PREDATOR_definite] [RV2_init_predVerb] [PREY_definite]</li>
+    <li>RV2_init_image->[PREY_definite] [RV2_init_preyVerb] [PREDATOR_definite]</li>
+    <li>RV2_init_image->[PREDATOR_definite] stretching [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_image->[PREDATOR_definite] stretching [PREDATOR_possessive] [RV2_bodypart] to fit [PREY_definite]</li>
+    <li>RV2_init_image->[PREY_definite] disappearing into the [RV2_bodypart] of [PREDATOR_definite] </li>
+    <li>RV2_init_image->[PREDATOR_definite] with [PREY_definite] stuck partway inside [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_image->[PREY_definite] being drawn deeper [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>RV2_init_image->[PREDATOR_definite] with [PREDATOR_possessive] [RV2_bodypart] around [PREY_definite]</li>
+    <li>RV2_init_image->[PREDATOR_definite] with [PREY_definite] barely sticking out from [PREDATOR_possessive] [RV2_bodypart]</li>
+    <li>image->[RV2_init_image]</li>
+    <li>RV2_init_desc_sentence->[PREY_definite] gave off one last yelp before disappearing.</li>
+    <li>RV2_init_desc_sentence->[PREY_definite] is now merely a bulge in [PREDATOR_definite].</li>
+    <li>RV2_init_desc_sentence->[PREY_definite] is now merely a bulge in [PREDATOR_definite]'s [RV2_bodypart].</li>
+    <li>RV2_init_desc_sentence->[PREDATOR_definite] is doing this to [PREY_definite] [RV2_addendum].</li>
+    <li>RV2_init_desc_sentence->[PREDATOR_definite] looks [RV2_adjective].</li>
+    <li>RV2_init_desc_sentence->[PREDATOR_definite] is feeling the stretch in [PREDATOR_possessive] [RV2_bodypart].</li>
+    <li>desc_sentence->[RV2_init_desc_sentence]</li>
+    <li>RV2_init_predVerb->voring</li>
+    <li>RV2_init_preyVerb->being vored by</li>
+    <li>RV2_init_preyVerb->being [RV2_adverb] vored by</li>
+    <li>RV2_init_preyVerb->disappearing in</li>
+    <li>RV2_init_preyVerb->vanishing into</li>
+    <li>RV2_adverb->happily</li>
+    <li>RV2_adverb->maliciously</li>
+    <li>RV2_addendum->with [RV2_adjective] intent</li>
+    <li>RV2_adjective->happy</li>
+    <li>RV2_adjective->malicious</li>
+  -->
+  <RV2_VoreInitiation_WombAssimilate.rulePack.rulesStrings>TODO</RV2_VoreInitiation_WombAssimilate.rulePack.rulesStrings>
+  
+</LanguageData>

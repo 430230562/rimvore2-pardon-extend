@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ResearchProjectDef>
+	<defName>RV2_Research_VoreEnabler</defName>
+	<label>Vore enabler Technology</label>
+	<description>Unlock the vore enabler, which can be crafted at a tailor's workbench.</description>
+	<baseCost>300</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>Machining</li>
+	</prerequisites>
+    <researchViewX>5.20</researchViewX>
+    <researchViewY>4.00</researchViewY>
+</ResearchProjectDef>
+
+<ResearchProjectDef MayRequire='Whatif12.RV2Reformers'>
+<defName>RV2_Research_Reformer</defName>
+	<label>Reformer Technology</label>
+	<description>Unlock the reformer, which can be built</description>
+	<baseCost>550</baseCost>
+	<techLevel>Industrial</techLevel>
+	<prerequisites>
+		<li>Electricity</li>
+	</prerequisites>
+    <researchViewX>4.50</researchViewX>
+    <researchViewY>4.20</researchViewY>
+</ResearchProjectDef>
+
+</Defs>

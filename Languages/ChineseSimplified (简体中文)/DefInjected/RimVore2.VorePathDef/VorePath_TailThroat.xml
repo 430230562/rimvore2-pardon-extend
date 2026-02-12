@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: (Digest) TailThroat -->
+  <TailThroatDigest.label>TODO</TailThroatDigest.label>
+  <!-- EN: TailThroat digestion is where a predator with a mouth in their tail swallows prey through said mouth, down to their tail-throat, for fatal digestion, feeding the predator and turning the prey into either fertilizer components or nothing at all. -->
+  <TailThroatDigest.description>TODO</TailThroatDigest.description>
+  <!-- EN: {0} will swallow and digest {1} in their tail-throat -->
+  <TailThroatDigest.actionDescription>TODO</TailThroatDigest.actionDescription>
+  <!-- EN: Tail-throat vore -->
+  <TailThroatDigest.RMBLabel>TODO</TailThroatDigest.RMBLabel>
+  
+  <!-- EN: (Heal) TailThroat -->
+  <TailThroatHeal.label>TODO</TailThroatHeal.label>
+  <!-- EN: Healing vore will tend to a pawns wounds and slowly heal their damaged body parts. Healing vore is relatively weak, so if you want to treat a pawn properly, use medicine and a good doctor. -->
+  <TailThroatHeal.description>TODO</TailThroatHeal.description>
+  <!-- EN: {PREDATOR} will heal {PREY} in their tail-throat -->
+  <TailThroatHeal.actionDescription>TODO</TailThroatHeal.actionDescription>
+  <!-- EN: Tail-throat vore -->
+  <TailThroatHeal.RMBLabel>TODO</TailThroatHeal.RMBLabel>
+  
+</LanguageData>

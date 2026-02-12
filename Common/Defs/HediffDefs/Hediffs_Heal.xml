@@ -71,7 +71,7 @@
         <defName>RV2_Regression</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>regression</label>
-        <description>This pawn is in other pawn womb and regressed</description>
+        <description>This pawn is in other pawn womb and regressed.</description>
         <initialSeverity>0.01</initialSeverity>
         <maxSeverity>1.00</maxSeverity>
         <isBad>false</isBad>
@@ -82,11 +82,9 @@
                 <RegressionStrength>30</RegressionStrength>
                 <limitMinAge>true</limitMinAge>
             </li>
-            <comps>
-                <li Class="HediffCompProperties_SeverityPerDay">
-                    <severityPerDay>-1</severityPerDay>
-                </li>
-            </comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-1</severityPerDay>
+            </li>
         </comps>
     </HediffDef>
 
@@ -94,7 +92,7 @@
         <defName>RV2_UnlimitedRegression</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>unlimited regression</label>
-        <description>This pawn is being reformed in other pawn womb </description>
+        <description>This pawn is being reformed in other pawn womb.</description>
         <initialSeverity>0.01</initialSeverity>
         <maxSeverity>3.00</maxSeverity>
         <isBad>false</isBad>
@@ -105,11 +103,9 @@
                 <RegressionStrength>30</RegressionStrength>
                 <limitMinAge>false</limitMinAge>
             </li>
-            <comps>
-                <li Class="HediffCompProperties_SeverityPerDay">
-                    <severityPerDay>-2</severityPerDay>
-                </li>
-            </comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-2</severityPerDay>
+            </li>
         </comps>
     </HediffDef>
 

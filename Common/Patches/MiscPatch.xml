@@ -7,10 +7,46 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/TerrainDef[defName="RV2_FertilizedSoil"]/costList</xpath>
+    <value>
+      <costList>
+        <RV2_Manufactured_Fertilizer>1</RV2_Manufactured_Fertilizer>
+      </costList>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire='Whatif12.RV2Reformers'>
+    <xpath>/Defs/ThingDef[Name="Rv2R_ReformerCache_Base"]</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>RV2_Research_Reformer</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire='Whatif12.RV2Reformers'>
+    <xpath>/Defs/ThingDef[Name="Rv2_Reformer_Base"]</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>RV2_Research_Reformer</li>
+      </researchPrerequisites>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/HediffDef[@Name='LightGenitals_GenitalBase']/stages/li</xpath>
     <value>
       <becomeVisible>false</becomeVisible>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[@Name='RV2_MakeVoreEnabler_Base']</xpath>
+    <value>
+      <researchPrerequisites>
+        <li>RV2_Research_VoreEnabler</li>
+      </researchPrerequisites>
     </value>
   </Operation>
 
@@ -20,6 +56,24 @@
       <thingCategories>
         <li>RV2_VoreEnablers</li>
       </thingCategories>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[Name="RV2_VoreEnabler_Base"]/techLevel</xpath>
+    <value>
+      <techLevel>Industrial</techLevel>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[Name="RV2_VoreEnabler_Base"]</xpath>
+    <value>
+      <recipeMaker>
+        <researchPrerequisites>
+          <li>RV2_Research_VoreEnabler</li>
+        </researchPrerequisites>
+      </recipeMaker>
     </value>
   </Operation>
 

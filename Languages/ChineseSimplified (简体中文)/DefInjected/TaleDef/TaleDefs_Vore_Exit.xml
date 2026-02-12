@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: finished vore -->
+  <RV2_VoreExit_TailmawDigest.label>完成吞噬</RV2_VoreExit_TailmawDigest.label>
+  <!-- EN: circumstance_phrase->seemingly without remorse -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.0>circumstance_phrase->毫无愧疚之意地</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.0>
+  <!-- EN: circumstance_phrase->with cold efficiency -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.1>circumstance_phrase->被冰冷的效率所支配</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.1>
+  <!-- EN: circumstance_phrase->with passionate rage -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.2>circumstance_phrase->带着狂热的势头</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.2>
+  <!-- EN: circumstance_phrase->with quick, efficient movements -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.3>circumstance_phrase->以迅捷机械的动作</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.3>
+  <!-- EN: circumstance_phrase->without emotion or expression -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.4>circumstance_phrase->仿佛没有任何情感存在</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.4>
+  <!-- EN: circumstance_phrase->out of bleak necessity -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.5>circumstance_phrase->迫于无奈的原因</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.5>
+  <!-- EN: circumstance_phrase->in a cowardly, halfhearted way -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.6>circumstance_phrase->犹豫不决地颤抖着</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.6>
+  <!-- EN: circumstance_phrase->in a vorny way -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.7>tale_noun->[PREDATOR_definite]将[PREY_nameDef][RV2_exit_predVerb]</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.7>
+  <!-- EN: RV2_exit_tale_noun->[PREDATOR_definite] [RV2_exit_predVerb] [PREY_nameDef] -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.8>tale_noun->[RV2_exit_tale_noun]</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.8>
+  <!-- EN: RV2_exit_tale_noun->[PREDATOR_definite] [RV2_exit_predVerb] [PREY_nameDef] [RV2_adverb] -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.9>image->[PREY_definite]が[PREDATOR_definite][RV2_exit_preyVerb]</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.9>
+  <!-- EN: tale_noun->[RV2_exit_tale_noun] -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.10>image->[RV2_exit_imagine]</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.10>
+  <!-- EN: RV2_exit_image->[PREY_definite] [RV2_exit_preyVerb] [PREDATOR_definite] -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.11>desc_sentence->已无[PREY_definite]的踪迹，只余恶臭与残渣</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.11>
+  <!-- EN: RV2_exit_image->[PREY_definite] [RV2_exit_preyVerb] [PREDATOR_definite] [RV2_adverb] -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.12>desc_sentence->[RV2_exit_desc_sentence]</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.12>
+  <!-- EN: image->[RV2_exit_image] -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.13>RV2_exit_predVerb->排出</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.13>
+  <!-- EN: RV2_exit_desc_sentence->[PREDATOR_definite] is preparing for [PREDATOR_possessive] next prey. -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.14>RV2_exit_preyVerb->排出</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.14>
+  <!-- EN: RV2_exit_desc_sentence->[PREDATOR_definite] has found better prey. -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.15>TODO</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.15>
+  <!-- EN: desc_sentence(p=2)->[RV2_exit_desc_sentence] -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.16>TODO</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.16>
+  <!-- EN: RV2_exit_predVerb->dumping -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.17>TODO</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.17>
+  <!-- EN: RV2_exit_preyVerb->being dumped by -->
+  <RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.18>TODO</RV2_VoreExit_TailmawDigest.rulePack.rulesStrings.18>
+  
+  <!-- EN: finished vore -->
+  <RV2_VoreExit_TailmawHeal.label>TODO</RV2_VoreExit_TailmawHeal.label>
+  <!-- EN:
+    <li>circumstance_phrase->seemingly without remorse</li>
+    <li>circumstance_phrase->with cold efficiency</li>
+    <li>circumstance_phrase->with passionate rage</li>
+    <li>circumstance_phrase->with quick, efficient movements</li>
+    <li>circumstance_phrase->without emotion or expression</li>
+    <li>circumstance_phrase->out of bleak necessity</li>
+    <li>circumstance_phrase->in a cowardly, halfhearted way</li>
+    <li>circumstance_phrase->in a vorny way</li>
+    <li>RV2_exit_tale_noun->[PREDATOR_definite] [RV2_exit_predVerb] [PREY_nameDef]</li>
+    <li>RV2_exit_tale_noun->[PREDATOR_definite] [RV2_exit_predVerb] [PREY_nameDef] [RV2_adverb]</li>
+    <li>tale_noun->[RV2_exit_tale_noun]</li>
+    <li>RV2_exit_image->[PREY_definite] [RV2_exit_preyVerb] [PREDATOR_definite]</li>
+    <li>RV2_exit_image->[PREY_definite] [RV2_exit_preyVerb] [PREDATOR_definite] [RV2_adverb]</li>
+    <li>image->[RV2_exit_image]</li>
+    <li>RV2_exit_desc_sentence->[PREDATOR_definite] is preparing for [PREDATOR_possessive] next prey.</li>
+    <li>RV2_exit_desc_sentence->[PREDATOR_definite] has found better prey.</li>
+    <li>desc_sentence(p=2)->[RV2_exit_desc_sentence]</li>
+    <li>RV2_exit_predVerb->dumping</li>
+    <li>RV2_exit_preyVerb->being dumped by</li>
+  -->
+  <RV2_VoreExit_TailmawHeal.rulePack.rulesStrings>TODO</RV2_VoreExit_TailmawHeal.rulePack.rulesStrings>
+  
+  <!-- EN: finished vore -->
+  <RV2_VoreExit_WombAmalgamate.label>TODO</RV2_VoreExit_WombAmalgamate.label>
+  <!-- EN:
+    <li>circumstance_phrase->seemingly without remorse</li>
+    <li>circumstance_phrase->with cold efficiency</li>
+    <li>circumstance_phrase->with passionate rage</li>
+    <li>circumstance_phrase->with quick, efficient movements</li>
+    <li>circumstance_phrase->without emotion or expression</li>
+    <li>circumstance_phrase->out of bleak necessity</li>
+    <li>circumstance_phrase->in a cowardly, halfhearted way</li>
+    <li>circumstance_phrase->in a vorny way</li>
+    <li>RV2_exit_tale_noun->[PREDATOR_definite] [RV2_exit_predVerb] [PREY_nameDef]</li>
+    <li>RV2_exit_tale_noun->[PREDATOR_definite] [RV2_exit_predVerb] [PREY_nameDef] [RV2_adverb]</li>
+    <li>tale_noun->[RV2_exit_tale_noun]</li>
+    <li>RV2_exit_image->[PREY_definite] [RV2_exit_preyVerb] [PREDATOR_definite]</li>
+    <li>RV2_exit_image->[PREY_definite] [RV2_exit_preyVerb] [PREDATOR_definite] [RV2_adverb]</li>
+    <li>image->[RV2_exit_image]</li>
+    <li>RV2_exit_desc_sentence->[PREDATOR_definite] is preparing for [PREDATOR_possessive] next prey.</li>
+    <li>RV2_exit_desc_sentence->[PREDATOR_definite] has found better prey.</li>
+    <li>desc_sentence(p=2)->[RV2_exit_desc_sentence]</li>
+    <li>RV2_exit_predVerb->dumping</li>
+    <li>RV2_exit_preyVerb->being dumped by</li>
+  -->
+  <RV2_VoreExit_WombAmalgamate.rulePack.rulesStrings>TODO</RV2_VoreExit_WombAmalgamate.rulePack.rulesStrings>
+  
+  <!-- EN: finished vore -->
+  <RV2_VoreExit_WombAssimilate.label>TODO</RV2_VoreExit_WombAssimilate.label>
+  <!-- EN:
+    <li>circumstance_phrase->seemingly without remorse</li>
+    <li>circumstance_phrase->with cold efficiency</li>
+    <li>circumstance_phrase->with passionate rage</li>
+    <li>circumstance_phrase->with quick, efficient movements</li>
+    <li>circumstance_phrase->without emotion or expression</li>
+    <li>circumstance_phrase->out of bleak necessity</li>
+    <li>circumstance_phrase->in a cowardly, halfhearted way</li>
+    <li>circumstance_phrase->in a vorny way</li>
+    <li>RV2_exit_tale_noun->[PREDATOR_definite] [RV2_exit_predVerb] [PREY_nameDef]</li>
+    <li>RV2_exit_tale_noun->[PREDATOR_definite] [RV2_exit_predVerb] [PREY_nameDef] [RV2_adverb]</li>
+    <li>tale_noun->[RV2_exit_tale_noun]</li>
+    <li>RV2_exit_image->[PREY_definite] [RV2_exit_preyVerb] [PREDATOR_definite]</li>
+    <li>RV2_exit_image->[PREY_definite] [RV2_exit_preyVerb] [PREDATOR_definite] [RV2_adverb]</li>
+    <li>image->[RV2_exit_image]</li>
+    <li>RV2_exit_desc_sentence->[PREDATOR_definite] is preparing for [PREDATOR_possessive] next prey.</li>
+    <li>RV2_exit_desc_sentence->[PREDATOR_definite] has found better prey.</li>
+    <li>desc_sentence(p=2)->[RV2_exit_desc_sentence]</li>
+    <li>RV2_exit_predVerb->dumping</li>
+    <li>RV2_exit_preyVerb->being dumped by</li>
+  -->
+  <RV2_VoreExit_WombAssimilate.rulePack.rulesStrings>TODO</RV2_VoreExit_WombAssimilate.rulePack.rulesStrings>
+  
+</LanguageData>

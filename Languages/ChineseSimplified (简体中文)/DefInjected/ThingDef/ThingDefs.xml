@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: Cummified pawn -->
   <RV2_Resource_Cum.label>精粹转化物</RV2_Resource_Cum.label>
   <!-- EN: What was once a living being, rendered into delicious cum.\nDrinkable. -->
-  <RV2_Resource_Cum.description>生命体被转化为风味独特的精粹物质。\n可作为食物消耗。</RV2_Resource_Cum.description>
-  
+  <RV2_Resource_Cum.description>由生命体转化为的风味独特的精液类似物。\n可作为食物消耗。</RV2_Resource_Cum.description>
+
   <!-- EN: Lubified pawn -->
-  <RV2_Resource_Lube.label>TODO</RV2_Resource_Lube.label>
+  <RV2_Resource_Lube.label>潮吹液转化物</RV2_Resource_Lube.label>
   <!-- EN: What was once a living being, rendered into delicious lube.\nDrinkable. -->
-  <RV2_Resource_Lube.description>TODO</RV2_Resource_Lube.description>
-  
+  <RV2_Resource_Lube.description>生命体被转化为风味独特的潮吹液类似物。\n可作为食物消耗。</RV2_Resource_Lube.description>
+
   <!-- EN: Milkified pawn -->
   <RV2_Resource_Milk.label>乳质转化物</RV2_Resource_Milk.label>
   <!-- EN: What was once a living being, rendered into delicious milk.\Drinkable. -->
-  <RV2_Resource_Milk.description>生命体被转化为风味独特的乳质物质。\n可作为食物消耗。</RV2_Resource_Milk.description>
-  
+  <RV2_Resource_Milk.description>由生命体转化为的风味独特的乳汁类似物。\n可作为食物消耗。</RV2_Resource_Milk.description>
+
 </LanguageData>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Prey in Tail Throat -->
+  <RV2_PreyInTailThroatDigesting.label>TODO</RV2_PreyInTailThroatDigesting.label>
+  <!-- EN: This pawn is digesting a pawn in their tail-throat. -->
+  <RV2_PreyInTailThroatDigesting.description>TODO</RV2_PreyInTailThroatDigesting.description>
+  
+  <!-- EN: Prey in Tail Throat -->
+  <RV2_PreyInTailThroatHealing.label>TODO</RV2_PreyInTailThroatHealing.label>
+  <!-- EN: This pawn is healing a pawn in their tail-throat. -->
+  <RV2_PreyInTailThroatHealing.description>TODO</RV2_PreyInTailThroatHealing.description>
+  
+  <!-- EN: Prey in Tail Throat -->
+  <RV2_PreyInTailThroatWarming.label>TODO</RV2_PreyInTailThroatWarming.label>
+  <!-- EN: This pawn is preparing to do something to a pawn in their tail-throat. -->
+  <RV2_PreyInTailThroatWarming.description>TODO</RV2_PreyInTailThroatWarming.description>
+  
+  <!-- EN: Prey in Womb -->
+  <RV2_PreyInWombAmalgamating.label>TODO</RV2_PreyInWombAmalgamating.label>
+  <!-- EN: This pawn is storing absorbed prey as sapient womb. -->
+  <RV2_PreyInWombAmalgamating.description>TODO</RV2_PreyInWombAmalgamating.description>
+  
+  <!-- EN: Prey in Womb -->
+  <RV2_PreyInWombAssimilating.label>TODO</RV2_PreyInWombAssimilating.label>
+  <!-- EN: This pawn is fully-absorbing their prey into their Womb. -->
+  <RV2_PreyInWombAssimilating.description>TODO</RV2_PreyInWombAssimilating.description>
+  
+  <!-- EN: Prey in Womb -->
+  <RV2_PreyInWombContacting.label>TODO</RV2_PreyInWombContacting.label>
+  <!-- EN: This pawn is having some form of anal intercourse, with intent to absorb. -->
+  <RV2_PreyInWombContacting.description>TODO</RV2_PreyInWombContacting.description>
+  
+  <!-- EN: Prey in Womb -->
+  <RV2_PreyInWombLoosening.label>TODO</RV2_PreyInWombLoosening.label>
+  <!-- EN: This pawn is warming up and loosening their womb for absorption. -->
+  <RV2_PreyInWombLoosening.description>TODO</RV2_PreyInWombLoosening.description>
+  
+  <!-- EN: Prey in Womb -->
+  <RV2_PreyInWombPurging.label>TODO</RV2_PreyInWombPurging.label>
+  <!-- EN: This pawn is removing any unassimilated remains from their womb. -->
+  <RV2_PreyInWombPurging.description>TODO</RV2_PreyInWombPurging.description>
+  
+  <!-- EN: Prey in Womb -->
+  <RV2_PreyInWombReshaping.label>TODO</RV2_PreyInWombReshaping.label>
+  <!-- EN: This pawn is reshaping prey stored as womb for release. -->
+  <RV2_PreyInWombReshaping.description>TODO</RV2_PreyInWombReshaping.description>
+  
+</LanguageData>

@@ -87,6 +87,7 @@
         <li>Sound_Squish_Chance_30</li>
         <li>IncreaseNeed_Prey_Rest</li>
         <li>StealNeed_ForPrey_Food</li>
+        <li>AddRegressionHediff</li>
       </rollPresets>
     </onCycle>
     <onEnd>

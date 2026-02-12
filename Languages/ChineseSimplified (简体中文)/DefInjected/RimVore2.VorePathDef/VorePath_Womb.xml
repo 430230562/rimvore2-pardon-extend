@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: (Amalgamate) Womb -->
+  <WombAmalgamate.label>TODO</WombAmalgamate.label>
+  <!-- EN: Womb amalgamation is where the predator reversibly absorbs the prey into their womb for indefinite storage, (presently unrepresented in-game) making their underbelly puffier and more sensitive. -->
+  <WombAmalgamate.description>TODO</WombAmalgamate.description>
+  <!-- EN: {0} will meld {1} into their womb for storage -->
+  <WombAmalgamate.actionDescription>TODO</WombAmalgamate.actionDescription>
+  <!-- EN: Womb vore -->
+  <WombAmalgamate.RMBLabel>TODO</WombAmalgamate.RMBLabel>
+  
+  <!-- EN: (Assimilate) Womb -->
+  <WombAssimilate.label>TODO</WombAssimilate.label>
+  <!-- EN: Womb assimilation is where the predator permanently absorbs the prey into their womb, feeding the predator and making their underbelly puffier and more sensitive. -->
+  <WombAssimilate.description>TODO</WombAssimilate.description>
+  <!-- EN: {0} will assimilate {1} into their womb -->
+  <WombAssimilate.actionDescription>TODO</WombAssimilate.actionDescription>
+  <!-- EN: Womb vore -->
+  <WombAssimilate.RMBLabel>TODO</WombAssimilate.RMBLabel>
+  
+</LanguageData>

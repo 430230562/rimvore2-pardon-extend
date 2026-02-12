@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: faster recover -->
+  <RV2_FasterRecover.label>愈合加速</RV2_FasterRecover.label>
+  <!-- EN: This pawn is vored and healed by another pawn. -->
+  <RV2_FasterRecover.description>这个角色被捕食者吞进体内冶疗</RV2_FasterRecover.description>
+  
+  <!-- EN: regression -->
+  <RV2_Regression.label>TODO</RV2_Regression.label>
+  <!-- EN: This pawn is in other pawn womb and regressed -->
+  <RV2_Regression.description>TODO</RV2_Regression.description>
+  
+  <!-- EN: unlimited regression -->
+  <RV2_UnlimitedRegression.label>TODO</RV2_UnlimitedRegression.label>
+  <!-- EN: This pawn is being reformed in other pawn womb  -->
+  <RV2_UnlimitedRegression.description>TODO</RV2_UnlimitedRegression.description>
+  <!-- EN: This pawn is being reformed in other pawn womb  -->
+  <RV2_UnlimitedRegression.descriptionCached>TODO</RV2_UnlimitedRegression.descriptionCached>
+  
+</LanguageData>
