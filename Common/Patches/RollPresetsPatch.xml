@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
+  <!-- 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="Heal_Prey"]</xpath>
     <value>
@@ -32,7 +33,7 @@
     <value>
       <RimVore2.RollPresetDef>
         <defName>IncreaseNeed_Prey_Comfort</defName>
-        <successChance>1</successChance>
+        <successChance>0.6</successChance>
         <strength>0.01~0.03</strength>
         <strengthModifiers>
           <li Class="RimVore2.RollModifier_VoreSpeed"></li>
@@ -50,6 +51,7 @@
       </RimVore2.RollPresetDef>
     </value>
   </Operation>
+  -->
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToMilk"]</xpath>
@@ -127,10 +129,10 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationReplace" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
+  <Operation Class="PatchOperationReplace" MayRequire='MisTF.Piss'>
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToUrine"]</xpath>
     <value>
-      <RimVore2.RollPresetDef ParentName="CreateThing" MayRequire='MisTF.Piss'>
+      <RimVore2.RollPresetDef ParentName="CreateThing">
         <defName>ConvertNutritionToUrine</defName>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromDef">

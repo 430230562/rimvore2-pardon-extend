@@ -2,7 +2,7 @@
 <Patch>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/RimVore2.RimVore2.VoreStageDef[Name="Womb_Reform"]</xpath>
+        <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Reform"]</xpath>
         <value>
             <RimVore2.VoreStageDef Name="Womb_Reform" ParentName="Womb_Base">
                 <defName>Womb_Reform</defName>
@@ -48,35 +48,35 @@
     </Operation>
 
     <Operation Class='PatchOperationAdd'>
-        <xpath>/Defs/RimVore2.RimVore2.VoreStageDef[Name="Womb_Store"]/onCycle/rollPresets</xpath>
+        <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Store"]/onCycle/rollPresets</xpath>
         <value>
             <li>AddRegressionHediff</li>
         </value>
     </Operation>
 
     <Operation Class='PatchOperationAdd'>
-        <xpath>/Defs/RimVore2.RimVore2.VoreStageDef[Name="Womb_Hold"]/onCycle/rollPresets</xpath>
+        <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Hold"]/onCycle/rollPresets</xpath>
         <value>
             <li>AddRegressionHediff</li>
         </value>
     </Operation>
 
     <Operation Class='PatchOperationAdd'>
-        <xpath>/Defs/RimVore2.RimVore2.VoreStageDef[Name="Womb_Pleasure"]/onCycle/rollPresets</xpath>
+        <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Pleasure"]/onCycle/rollPresets</xpath>
         <value>
             <li>AddRegressionHediff</li>
         </value>
     </Operation>
 
     <Operation Class='PatchOperationAdd'>
-        <xpath>/Defs/RimVore2.RimVore2.VoreStageDef[Name="Womb_Heal"]/onCycle/rollPresets</xpath>
+        <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Heal"]/onCycle/rollPresets</xpath>
         <value>
             <li>AddRegressionHediff</li>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationReplace" MayRequire='Nabber.CumSlimes'>
-        <xpath>/Defs/RimVore2.RimVore2.VoreStageDef[Name="NCS_Testicles_Reform"]</xpath>
+        <xpath>/Defs/RimVore2.VoreStageDef[@Name="NCS_Testicles_Reform"]</xpath>
         <value>
             <RimVore2.VoreStageDef Name="NCS_Testicles_Reform" ParentName="Testicles_Base">
                 <defName>NCS_Testicles_Reform</defName>

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <TaleDef ParentName="RV2_VoreExit_Base">
     <defName>RV2_VoreExit_WombAssimilate</defName>
     <rulePack>
       <include>
         <li>RV2_Goal_Assimilate</li>
-        <li>RV2_Type_Womb</li>
+        <li>RV2_Type_Vaginal</li>
       </include>
     </rulePack>
   </TaleDef>
@@ -15,12 +15,12 @@
     <rulePack>
       <include>
         <li>RV2_Goal_Amalgamate</li>
-        <li>RV2_Type_Womb</li>
+        <li>RV2_Type_Vaginal</li>
       </include>
     </rulePack>
   </TaleDef>
 
-<TaleDef ParentName="RV2_VoreExit_Base">
+  <TaleDef ParentName="RV2_VoreExit_Base">
     <defName>RV2_VoreExit_TailmawDigest</defName>
     <rulePack>
       <include>
@@ -30,7 +30,7 @@
     </rulePack>
   </TaleDef>
 
-<TaleDef ParentName="RV2_VoreExit_Base">
+  <TaleDef ParentName="RV2_VoreExit_Base">
     <defName>RV2_VoreExit_TailmawHeal</defName>
     <rulePack>
       <include>
@@ -38,6 +38,6 @@
         <li>RV2_Type_Tailmaw</li>
       </include>
     </rulePack>
-    </TaleDef>
+  </TaleDef>
 
 </Defs>

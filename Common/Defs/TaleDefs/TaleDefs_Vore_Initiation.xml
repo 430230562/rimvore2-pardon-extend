@@ -6,7 +6,7 @@
     <rulePack>
       <include>
         <li>RV2_Goal_Amalgamate</li>
-        <li>RV2_Type_Womb</li>
+        <li>RV2_Type_Vaginal</li>
       </include>
     </rulePack>
   </TaleDef>
@@ -16,7 +16,7 @@
     <rulePack>
       <include>
         <li>RV2_Goal_Assimilate</li>
-        <li>RV2_Type_Womb</li>
+        <li>RV2_Type_Vaginal</li>
       </include>
     </rulePack>
   </TaleDef>

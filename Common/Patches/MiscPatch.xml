@@ -17,7 +17,7 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd" MayRequire='Whatif12.RV2Reformers'>
-    <xpath>/Defs/ThingDef[Name="Rv2R_ReformerCache_Base"]</xpath>
+    <xpath>/Defs/ThingDef[defName="Rv2R_ReformerCache_Base"]</xpath>
     <value>
       <researchPrerequisites>
         <li>RV2_Research_Reformer</li>
@@ -26,7 +26,7 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd" MayRequire='Whatif12.RV2Reformers'>
-    <xpath>/Defs/ThingDef[Name="Rv2_Reformer_Base"]</xpath>
+    <xpath>/Defs/ThingDef[defName="Rv2_Reformer_Base"]</xpath>
     <value>
       <researchPrerequisites>
         <li>RV2_Research_Reformer</li>
@@ -41,7 +41,7 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationAdd">
     <xpath>/Defs/RecipeDef[@Name='RV2_MakeVoreEnabler_Base']</xpath>
     <value>
       <researchPrerequisites>
@@ -60,14 +60,14 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/ThingDef[Name="RV2_VoreEnabler_Base"]/techLevel</xpath>
+    <xpath>/Defs/ThingDef[@Name="RV2_VoreEnabler_Base"]/techLevel</xpath>
     <value>
       <techLevel>Industrial</techLevel>
     </value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/ThingDef[Name="RV2_VoreEnabler_Base"]</xpath>
+    <xpath>/Defs/ThingDef[@Name="RV2_VoreEnabler_Base"]</xpath>
     <value>
       <recipeMaker>
         <researchPrerequisites>

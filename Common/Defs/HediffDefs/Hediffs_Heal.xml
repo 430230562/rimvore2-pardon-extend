@@ -94,7 +94,7 @@
         <label>unlimited regression</label>
         <description>This pawn is being reformed in other pawn womb.</description>
         <initialSeverity>0.01</initialSeverity>
-        <maxSeverity>3.00</maxSeverity>
+        <maxSeverity>5.00</maxSeverity>
         <isBad>false</isBad>
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
