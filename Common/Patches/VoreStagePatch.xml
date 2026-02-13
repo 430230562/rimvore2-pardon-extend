@@ -28,6 +28,7 @@
                         <li>Heal_Prey</li>
                         <li>Sound_Squish_Chance_30</li>
                         <li>IncreaseReformProgress</li>
+                        <li>AddUnlimitedRegressionHediff</li>
                         <li>SkillAbsorb_Prey</li>
                     </rollPresets>
                 </onCycle>

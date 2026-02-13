@@ -55,11 +55,6 @@
         <name>ReformProgress</name>
         <maxValue>100</maxValue>
       </li>
-      <li Class="RimVore2.RollAction_IncreaseHediffSeverity">
-        <target>Prey</target>
-        <hediff>RV2_UnlimitedRegression</hediff>
-        <addHediffIfNotPresent>true</addHediffIfNotPresent>
-      </li>
     </actionsOnSuccess>
   </RimVore2.RollPresetDef>
 
@@ -84,7 +79,7 @@
 
   <RimVore2.RollPresetDef ParentName="IncreaseCosmeticHediff">
     <defName>AddRegressionHediff</defName>
-    <strength>0.02</strength>
+    <strength>0.05</strength>
     <strengthModifiers>
       <li Class="RimVore2.RollModifier_Stat">
         <target>Predator</target>
@@ -95,6 +90,24 @@
       <li Class="RimVore2.RollAction_IncreaseHediffSeverity">
         <target>Prey</target>
         <hediff>RV2_Regression</hediff>
+        <addHediffIfNotPresent>true</addHediffIfNotPresent>
+      </li>
+    </actionsOnSuccess>
+  </RimVore2.RollPresetDef>
+
+  <RimVore2.RollPresetDef ParentName="IncreaseCosmeticHediff">
+    <defName>AddUnlimitedRegressionHediff</defName>
+    <strength>0.05</strength>
+    <strengthModifiers>
+      <li Class="RimVore2.RollModifier_Stat">
+        <target>Predator</target>
+        <stat>Fertility</stat>
+      </li>
+    </strengthModifiers>
+    <actionsOnSuccess>
+      <li Class="RimVore2.RollAction_IncreaseHediffSeverity">
+        <target>Prey</target>
+        <hediff>RV2_UnlimitedRegression</hediff>
         <addHediffIfNotPresent>true</addHediffIfNotPresent>
       </li>
     </actionsOnSuccess>

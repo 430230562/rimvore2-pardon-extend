@@ -14,25 +14,17 @@ namespace RimVore2_Pardon
     {
         public HediffCompProperties_Regression Props => (HediffCompProperties_Regression)props;
 
-        private long minAgeTicks = 0;
-
         private int mul = 0;
 
-        public override void CompPostMake()
-        {
-            if (Props.limitMinAge)
-            {
-                minAgeTicks = Pawn.ageTracker.AdultMinAgeTicks;
-            }
-            else
-            {
-                minAgeTicks = 0;
-            }
-        }
+        private float AgingSpeed = 0f;
+
         public override void CompPostTick(ref float severityAdjustment)
         {
-            if (Pawn.ageTracker.AgeBiologicalTicks > minAgeTicks && Find.TickManager.TicksGame % 60 < 1)
+            if ((Pawn.ageTracker.AgeBiologicalTicks > Pawn.ageTracker.AdultMinAgeTicks || Props.limitMinAge) && Find.TickManager.TicksGame % 60 == 0)
             {
+                //更新描述文本
+                AgingSpeed = 1 - Props.RegressionStrength * parent.Severity;
+
                 Pawn.ageTracker.AgeBiologicalTicks = (long)Math.Max(Pawn.ageTracker.AgeBiologicalTicks - Props.RegressionStrength * parent.Severity * 60, 0);
 
                 foreach (Hediff hediff in Pawn.health.hediffSet.hediffs.Where((Hediff diff) => diff.def.chronic))
@@ -56,7 +48,7 @@ namespace RimVore2_Pardon
 
             }
         }
-        public override string CompTipStringExtra => string.Concat("AgingSpeed".Translate() + ": x", 0.ToString());
+        public override string CompTipStringExtra => string.Concat("AgingSpeed".Translate() + ": x", AgingSpeed.ToString());
     }
 
     public class HediffCompProperties_Regression : HediffCompProperties

@@ -52,8 +52,13 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.62f3c1\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hediffs\HediffComp_DependOnHediff.cs" />
     <Compile Include="Hediffs\HediffComp_Regression.cs" />
     <Compile Include="PRV2EMod.cs" />
     <Compile Include="PRV2E_DefOf.cs" />

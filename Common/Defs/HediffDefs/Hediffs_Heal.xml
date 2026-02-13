@@ -11,9 +11,10 @@
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
         <comps>
-            <li Class="HediffCompProperties_Disappears">
-                <disappearsAfterTicks>30000~60000</disappearsAfterTicks>
-                <showRemainingTime>true</showRemainingTime>
+            <li Class="RimVore2_Pardon.HediffCompProperties_DependOnHediff">
+                <hediffs>
+                    <li>RV2_CurrentlyVored</li>
+                </hediffs>
             </li>
         </comps>
         <stages>
@@ -71,8 +72,8 @@
         <defName>RV2_Regression</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>regression</label>
-        <description>This pawn is in other pawn womb and regressed.</description>
-        <initialSeverity>0.01</initialSeverity>
+        <description>This pawn is in other pawn womb and regressed.\n This hediff can't let the age of a pawn decrease below the age of adult.</description>
+        <initialSeverity>0.10</initialSeverity>
         <maxSeverity>1.00</maxSeverity>
         <isBad>false</isBad>
         <tendable>false</tendable>
@@ -82,9 +83,12 @@
                 <RegressionStrength>30</RegressionStrength>
                 <limitMinAge>true</limitMinAge>
             </li>
-            <li Class="HediffCompProperties_SeverityPerDay">
-                <severityPerDay>-1</severityPerDay>
+            <li Class="RimVore2_Pardon.HediffCompProperties_DependOnHediff">
+                <hediffs>
+                    <li>RV2_CurrentlyVored</li>
+                </hediffs>
             </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"></li>
         </comps>
     </HediffDef>
 
@@ -92,20 +96,23 @@
         <defName>RV2_UnlimitedRegression</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>unlimited regression</label>
-        <description>This pawn is being reformed in other pawn womb.</description>
-        <initialSeverity>0.01</initialSeverity>
-        <maxSeverity>5.00</maxSeverity>
+        <description>This pawn is being reformed in other pawn womb.\n This hediff may let the age of a pawn decrease to zero.</description>
+        <initialSeverity>0.10</initialSeverity>
+        <maxSeverity>3.00</maxSeverity>
         <isBad>false</isBad>
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
         <comps>
             <li Class="RimVore2_Pardon.HediffCompProperties_Regression">
-                <RegressionStrength>30</RegressionStrength>
+                <RegressionStrength>40</RegressionStrength>
                 <limitMinAge>false</limitMinAge>
             </li>
-            <li Class="HediffCompProperties_SeverityPerDay">
-                <severityPerDay>-2</severityPerDay>
+            <li Class="RimVore2_Pardon.HediffCompProperties_DependOnHediff">
+                <hediffs>
+                    <li>RV2_CurrentlyVored</li>
+                </hediffs>
             </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"></li>
         </comps>
     </HediffDef>
 
