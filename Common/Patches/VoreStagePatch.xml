@@ -56,13 +56,6 @@
     </Operation>
 
     <Operation Class='PatchOperationAdd'>
-        <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Hold"]/onCycle/rollPresets</xpath>
-        <value>
-            <li>AddRegressionHediff</li>
-        </value>
-    </Operation>
-
-    <Operation Class='PatchOperationAdd'>
         <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Pleasure"]/onCycle/rollPresets</xpath>
         <value>
             <li>AddRegressionHediff</li>
