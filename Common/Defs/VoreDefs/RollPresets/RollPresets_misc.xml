@@ -9,7 +9,7 @@
         <stat>InjuryHealingFactor</stat>
       </li>
     </strengthModifiers>
-    <strength>0.02</strength>
+    <strength>0.04</strength>
     <actionsOnSuccess>
       <li Class="RimVore2.RollAction_Heal">
         <target>Prey</target>

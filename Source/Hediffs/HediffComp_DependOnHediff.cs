@@ -41,9 +41,21 @@ namespace RimVore2_Pardon
             return true;
         }
 
-        //这会返回一个正确的string吗
-        public override string CompTipStringExtra => string.Concat("DependOn".Translate(), Props.hediffs.ToString().Translate());
+        private string HediffListToString()
+        {
+            string result = " ";
+            foreach (HediffDef hediff in Props.hediffs)
+            {
+                result += hediff.label.Translate() + "\n";
+            }
+            return result;
+        }
 
+        //这会返回一个正确的string吗? 答案是不会,
+        //public override string CompTipStringExtra => string.Concat("DependOn".Translate(), Props.hediffs.ToString().Translate());
+
+        //能成功吗? 可以
+        public override string CompTipStringExtra => "DependOn".Translate() + HediffListToString();
     }
 
     public class HediffCompProperties_DependOnHediff : HediffCompProperties
