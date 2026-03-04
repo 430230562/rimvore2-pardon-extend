@@ -24,7 +24,7 @@
         <label>Indigestible</label>
         <description>This pawn is immune to digestion. Not immune to bullets, blades, explosions, or even external acid sprays, but certainly immune to digestion.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Abilities/VoreSkip</iconPath>
+        <iconPath>UI/Icons/Genes/DigestionResistance/6</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff">
                 <hediffs>

@@ -2,7 +2,7 @@
 <Defs>
   <ThingDef Abstract="True" Name="RV2_Product_Consumable_Base" ParentName="RV2_Product_Base">
     <thingCategories>
-      <li>FoodMeals</li>
+      <li>RV2_VoreProduct</li>
     </thingCategories>
     <ingestible>
       <foodType>Meal</foodType>

@@ -8,14 +8,12 @@
   
   <!-- EN: regression -->
   <RV2_Regression.label>TODO</RV2_Regression.label>
-  <!-- EN: This pawn is in other pawn womb and regressed. -->
+  <!-- EN: This pawn is in other pawn womb and regressed.\n This hediff can't let the age of a pawn decrease below the age of adult. -->
   <RV2_Regression.description>TODO</RV2_Regression.description>
-  <!-- EN: This pawn is in other pawn womb and regressed. -->
-  <RV2_Regression.descriptionCached>TODO</RV2_Regression.descriptionCached>
   
   <!-- EN: unlimited regression -->
   <RV2_UnlimitedRegression.label>TODO</RV2_UnlimitedRegression.label>
-  <!-- EN: This pawn is being reformed in other pawn womb. -->
+  <!-- EN: This pawn is being reformed in other pawn womb.\n This hediff may let the age of a pawn decrease to zero. -->
   <RV2_UnlimitedRegression.description>TODO</RV2_UnlimitedRegression.description>
   
 </LanguageData>
