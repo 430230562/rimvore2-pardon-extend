@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 
 
 <!-- base game has placeholders -->
@@ -8,6 +8,118 @@
 
 
 <Defs>
+    <!-- tail maw digestion -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorTailmawDigestSuccess</defName>
+        <stages>
+            <li>
+                <label>Digested {0} in tail</label>
+                <description>I ate and digested {1} in my tail. A satisfying meal!</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorTailmawDigestInterrupted</defName>
+        <stages>
+            <li>
+                <label>Digestion of {0} in tail interrupted</label>
+                <description>I tried to digest {1} in my tail. but they got away. *Now* what am I
+                    supposed to comfort my tail</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyTailmawDigestInterrupted</defName>
+        <stages>
+            <li>
+                <label>Escaped tail digestion</label>
+                <description>{1} tried to eat me through their tail! I'm not food!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
 
+    <!-- tail maw heal -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorTailmawHealSuccess</defName>
+        <stages>
+            <li>
+                <label>Heal {0} in tail</label>
+                <description>Good as new!</description>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyTailmawHealSuccess</defName>
+        <stages>
+            <li>
+                <label>Healed by {0}'s tail</label>
+                <description>I had a reinvigorating bath.</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
 
+    <!-- womb Amalgamate-->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorWombAmalgamateEnd</defName>
+        <durationDays Inherit="False">0.3</durationDays>
+        <stages>
+            <li>
+                <label>Reshaped {0} from womb</label>
+                <description>I reshaped {1} from my womb. It was a unique experience, but I'm not
+                    sure how {1} feel about it.</description>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyWombAmalgamateEnd</defName>
+        <durationDays Inherit="False">0.3</durationDays>
+        <stages>
+            <li>
+                <label>Reshaped from {0}'s womb</label>
+                <description>I have been reshaped from {1} womb. It was a unique experience, as if I
+                    had experienced how life is created.</description>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- womb Assimilate -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorVaginalAssimilateSuccess</defName>
+        <stages>
+            <li>
+                <label>Assimilated {0} in womb</label>
+                <description>I unbirthed and assimilated {1} into my womb. So full...</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorVaginalAssimilateInterrupted</defName>
+        <stages>
+            <li>
+                <label>Assimilation of {0} in womb interrupted</label>
+                <description>I tried to assimilate {1} in my womb, but they got away. Now my womb
+                    feels empty and sad.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyWombAssimilateInterrupted</defName>
+        <stages>
+            <li>
+                <label>Escaped form {0}'s womb Assimilation</label>
+                <description>{1} tried to assimilate me into his womb, I don't wanna be fucked like
+                    that!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
 </Defs>

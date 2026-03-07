@@ -3,15 +3,23 @@
   "WorkspaceRootPath": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rimvore2-pardon-extend\\source\\settings\\prv2esettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|solutionrelative:settings\\prv2esettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rimvore2-pardon-extend\\source\\vore\\rollmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|solutionrelative:vore\\rollmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\hediffs\\hediffcomp_regression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|solutionrelative:hediffs\\hediffcomp_regression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rimvore2-pardon-extend\\source\\hediffs\\hediffcomp_dependonhediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|solutionrelative:hediffs\\hediffcomp_dependonhediff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Source||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\hediffs\\hediffcomp_regression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|solutionrelative:hediffs\\hediffcomp_regression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,11 +29,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PRV2ESettings.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Settings\\PRV2ESettings.cs",
+              "RelativeDocumentMoniker": "Settings\\PRV2ESettings.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Settings\\PRV2ESettings.cs*",
+              "RelativeToolTip": "Settings\\PRV2ESettings.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:23:17.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RollModifier.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\RollModifier.cs",
+              "RelativeDocumentMoniker": "Vore\\RollModifier.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\RollModifier.cs*",
+              "RelativeToolTip": "Vore\\RollModifier.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T13:12:57.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Source",
               "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Source.csproj",
               "RelativeDocumentMoniker": "Source.csproj",
@@ -36,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "HediffComp_DependOnHediff.cs",
               "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Hediffs\\HediffComp_DependOnHediff.cs",
               "RelativeDocumentMoniker": "Hediffs\\HediffComp_DependOnHediff.cs",
               "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Hediffs\\HediffComp_DependOnHediff.cs*",
               "RelativeToolTip": "Hediffs\\HediffComp_DependOnHediff.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-13T12:17:17.9Z",
               "EditorCaption": ""
@@ -55,9 +89,10 @@
               "RelativeDocumentMoniker": "Hediffs\\HediffComp_Regression.cs",
               "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Hediffs\\HediffComp_Regression.cs",
               "RelativeToolTip": "Hediffs\\HediffComp_Regression.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAywDIAAAB8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-13T06:18:00.393Z"
+              "WhenOpened": "2026-02-13T06:18:00.393Z",
+              "EditorCaption": ""
             }
           ]
         }
