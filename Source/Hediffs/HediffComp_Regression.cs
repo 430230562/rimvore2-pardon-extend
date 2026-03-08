@@ -10,6 +10,17 @@ using RimVore2;
 
 namespace RimVore2_Pardon
 {
+    public class HediffCompProperties_Regression : HediffCompProperties
+    {
+        public float RegressionStrength = 20f;
+
+        public bool limitMinAge = true;
+
+        public HediffCompProperties_Regression()
+        {
+            compClass = typeof(HediffComp_Regression);
+        }
+    }
     public class HediffComp_Regression : HediffComp
     {
         public HediffCompProperties_Regression Props => (HediffCompProperties_Regression)props;
@@ -23,7 +34,7 @@ namespace RimVore2_Pardon
             if ((Pawn.ageTracker.AgeBiologicalTicks > Pawn.ageTracker.AdultMinAgeTicks || Props.limitMinAge) && Find.TickManager.TicksGame % 60 == 0)
             {
                 //更新描述文本
-                AgingSpeed = 1 - Props.RegressionStrength * parent.Severity;
+                AgingSpeed = 1f - Props.RegressionStrength * parent.Severity;
 
                 Pawn.ageTracker.AgeBiologicalTicks = (long)Math.Max(Pawn.ageTracker.AgeBiologicalTicks - Props.RegressionStrength * parent.Severity * 60, 0);
 
@@ -49,17 +60,5 @@ namespace RimVore2_Pardon
             }
         }
         public override string CompTipStringExtra => string.Concat("AgingSpeed".Translate() + ": x", AgingSpeed.ToString());
-    }
-
-    public class HediffCompProperties_Regression : HediffCompProperties
-    {
-        public float RegressionStrength = 20f;
-
-        public bool limitMinAge = true;
-
-        public HediffCompProperties_Regression()
-        {
-            compClass = typeof(HediffComp_Regression);
-        }
     }
 }

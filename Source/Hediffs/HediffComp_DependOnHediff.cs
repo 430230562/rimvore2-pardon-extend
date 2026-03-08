@@ -7,7 +7,15 @@ using Verse;
 
 namespace RimVore2_Pardon
 {
+    public class HediffCompProperties_DependOnHediff : HediffCompProperties
+    {
+        public List<HediffDef> hediffs = new List<HediffDef>();
 
+        public HediffCompProperties_DependOnHediff()
+        {
+            compClass = typeof(HediffComp_DependOnHediff);
+        }
+    }
     public class HediffComp_DependOnHediff : HediffComp
     {
         //为了优化
@@ -55,15 +63,5 @@ namespace RimVore2_Pardon
 
         //能成功吗? 可以
         public override string CompTipStringExtra => "DependOn".Translate() + HediffListToString();
-    }
-
-    public class HediffCompProperties_DependOnHediff : HediffCompProperties
-    {
-        public List<HediffDef> hediffs = new List<HediffDef>();
-
-        public HediffCompProperties_DependOnHediff()
-        {
-            compClass = typeof(HediffComp_DependOnHediff);
-        }
     }
 }
