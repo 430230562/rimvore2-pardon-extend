@@ -31,7 +31,7 @@ namespace RimVore2_Pardon
 
         public override void CompPostTick(ref float severityAdjustment)
         {
-            if ((Pawn.ageTracker.AgeBiologicalTicks > Pawn.ageTracker.AdultMinAgeTicks || Props.limitMinAge) && Find.TickManager.TicksGame % 60 == 0)
+            if (Find.TickManager.TicksGame % 60 == 0 && (Pawn.ageTracker.AgeBiologicalTicks > Pawn.ageTracker.AdultMinAgeTicks || !Props.limitMinAge))
             {
                 //更新描述文本
                 AgingSpeed = 1f - Props.RegressionStrength * parent.Severity;
@@ -59,6 +59,6 @@ namespace RimVore2_Pardon
 
             }
         }
-        public override string CompTipStringExtra => string.Concat("AgingSpeed".Translate() + ": x", AgingSpeed.ToString());
+        public override string CompTipStringExtra => string.Concat("AgingSpeed".Translate() + ": x " + AgingSpeed);
     }
 }
