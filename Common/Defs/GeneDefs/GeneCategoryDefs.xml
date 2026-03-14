@@ -12,47 +12,53 @@
         <label>Product Attitude</label>
         <displayPriorityInXenotype>602</displayPriorityInXenotype>
     </GeneCategoryDef>
+    
+    <GeneCategoryDef>
+        <defName>RV2_Vore_Proposals</defName>
+        <label>Vore Proposals</label>
+        <displayPriorityInXenotype>603</displayPriorityInXenotype>
+    </GeneCategoryDef>
 
     <GeneCategoryDef>
         <defName>RV2_Vore_Prey_Preference</defName>
         <label>Preference as Prey</label>
-        <displayPriorityInXenotype>603</displayPriorityInXenotype>
+        <displayPriorityInXenotype>604</displayPriorityInXenotype>
     </GeneCategoryDef>
 
     <GeneCategoryDef>
         <defName>RV2_Vore_Predator_Preference</defName>
         <label>Preference as Predator</label>
-        <displayPriorityInXenotype>604</displayPriorityInXenotype>
+        <displayPriorityInXenotype>605</displayPriorityInXenotype>
     </GeneCategoryDef>
 
     <GeneCategoryDef>
         <defName>RV2_Vore_Stripping_Preference</defName>
         <label>Stripping Preference</label>
-        <displayPriorityInXenotype>605</displayPriorityInXenotype>
+        <displayPriorityInXenotype>606</displayPriorityInXenotype>
     </GeneCategoryDef>
 
     <GeneCategoryDef>
         <defName>RV2_Vore_Digestion</defName>
         <label>Digestion</label>
-        <displayPriorityInXenotype>606</displayPriorityInXenotype>
+        <displayPriorityInXenotype>607</displayPriorityInXenotype>
     </GeneCategoryDef>
 
     <GeneCategoryDef>
         <defName>RV2_Vore_Post_Vore</defName>
         <label>Post-Vore Behavior</label>
-        <displayPriorityInXenotype>607</displayPriorityInXenotype>
+        <displayPriorityInXenotype>608</displayPriorityInXenotype>
     </GeneCategoryDef>
 
     <GeneCategoryDef>
         <defName>RV2_Vore_Capacity</defName>
         <label>Vore Capacity</label>
-        <displayPriorityInXenotype>608</displayPriorityInXenotype>
+        <displayPriorityInXenotype>609</displayPriorityInXenotype>
     </GeneCategoryDef>
 
     <GeneCategoryDef>
         <defName>RV2_Vore_Combat</defName>
         <label>Vore Combat Ability</label>
-        <displayPriorityInXenotype>609</displayPriorityInXenotype>
+        <displayPriorityInXenotype>610</displayPriorityInXenotype>
     </GeneCategoryDef>
 
 </Defs>
