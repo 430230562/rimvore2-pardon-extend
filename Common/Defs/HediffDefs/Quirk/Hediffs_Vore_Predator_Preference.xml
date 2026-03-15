@@ -66,4 +66,229 @@
             </li>
         </comps>
     </HediffDef>
+
+        <!-- ========== Predator: Humanoid Preferences ========== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_Cannibal</defName>
+        <label>Anthropophagical obsession (cannibal)</label>
+        <description>This pawn adores having its fellow sapient beings as prey; even fatally, as an extension of its cannibalistic tendencies. Humanoid meat tastes best alive and kicking.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Humanoids_Obsessed_Cannibal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Likes_Cannibal</defName>
+        <label>Anthropophagical taste (cannibal)</label>
+        <description>This pawn likes having its fellow sapient beings as prey; even fatally, as an extension of its cannibalistic tendencies. People are tasty! And clean, usually.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Humanoids_Likes_Cannibal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_NotCannibal</defName>
+        <label>Anthropophagical obsession (endo)</label>
+        <description>This pawn adores having its fellow sapient beings as prey, so long as it's safe. The dark side of vore does tempt it though, with all these delicious, filling preythings...</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Humanoids_Obsessed_NotCannibal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Likes_NotCannibal</defName>
+        <label>Anthropophagical taste (endo)</label>
+        <description>This pawn likes having its fellow sapient beings as prey, so long as it's safe. Fatal vore, on the other hand, is no different from regular old butcher-and-chew cannibalism.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Humanoids_Likes_NotCannibal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Neutral</defName>
+        <label>Anthropophagical ambivalence</label>
+        <description>This pawn doesn't mind having its fellow sapient beings as prey, fatal or otherwise, but doesn't prefer them either.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Humanoids_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Dislikes</defName>
+        <label>Anthropophagical distaste</label>
+        <description>This pawn dislikes having its fellow sapient beings as prey. Maybe it's too much like cannibalism; maybe it's self-conscious about its insides.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Humanoids_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Refuses</defName>
+        <label>Anthropophagical revulsion</label>
+        <description>This pawn hates having its fellow sapient beings as prey and will never willingly consume them. It's a perversion of the natural order, cannibalistic or not.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Humanoids_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ========== Predator: Insectoid Preferences ========== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Obsessed</defName>
+        <label>Entomophagical obsession</label>
+        <description>This pawn adores having live bugs as prey. Its whole body may as well be a hive. Furthermore, its taste for chewing chitin extends to raw and cooked bug meat, too.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Insectoids_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Likes</defName>
+        <label>Entomophagical taste</label>
+        <description>This pawn enjoys having live bugs as prey. Its taste for chewing chitin extends to raw and cooked bug meat, too.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Insectoids_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Neutral</defName>
+        <label>Entomophagical ambivalence</label>
+        <description>This pawn doesn't mind having live bugs as prey, but doesn't prefer them either.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Insectoids_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Dislikes</defName>
+        <label>Entomophagical distaste</label>
+        <description>This pawn dislikes having live bugs as prey. It has a list of places bugs should not be, and one of those places is "alive and crawling around inside its body".</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Insectoids_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Refuses</defName>
+        <label>Entomophagical revulsion</label>
+        <description>This pawn hates having live bugs as prey and will never willingly consume them. The very thought makes its skin crawl.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Insectoids_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- ========== Predator: Mechanoid Preferences ========== -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Obsessed</defName>
+        <label>Mechanophagical obsession</label>
+        <description>This pawn adores having mechanoids as prey. It has the munchies for metal, a taste for titanium and steel. That doesn't necessarily equate to the digestive strength to churn a mechanoid into food, but it's something.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Mechanoids_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Likes</defName>
+        <label>Mechanophagical taste</label>
+        <description>This pawn likes having mechanoids as prey. It proves the flesh is stronger than the machine, or something. That doesn't necessarily equate to the digestive strength to churn a mechanoid into food, but it's something.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Mechanoids_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Neutral</defName>
+        <label>Mechanophagical ambivalence</label>
+        <description>This pawn doesn't mind having mechanoids as prey, but doesn't prefer them either.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Mechanoids_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Dislikes</defName>
+        <label>Mechanophagical distaste</label>
+        <description>This pawn dislikes having mechanoids as prey. They're cold and angry and don't exactly feel great to swallow.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Mechanoids_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Refuses</defName>
+        <label>Mechanophagical revulsion</label>
+        <description>This pawn hates having mechanoids as prey and will never willingly consume them. It absolutely does not want to put hundreds of angry pounds' worth of sharp edges, moving parts, and cold steel directly into its body.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Mechanoids_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    
 </Defs>

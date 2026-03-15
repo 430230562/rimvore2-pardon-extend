@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!-- 其他 -->
+    
+    <GeneDef>
+        <defName>RV2_Gene_VoreSkip</defName>
+        <label>Vore Skip</label>
+        <description>Carriers can teleport a target into another target (either can be self). Body part and vore goal are selected randomly.</description>
+        <iconPath>UI/Icons/Abilities/VoreSkip</iconPath>
+        <displayCategory>Ability</displayCategory>
+        <abilities>
+            <li>RV2_Ability_VoreSkip</li>
+        </abilities>
+        <descriptionHyperlinks>
+            <AbilityDef>RV2_Ability_VoreSkip</AbilityDef>
+        </descriptionHyperlinks>
+        <biostatMet>-2</biostatMet>
+        <displayOrderInCategory>0</displayOrderInCategory>
+    </GeneDef>
+
+</Defs>
