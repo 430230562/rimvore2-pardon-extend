@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 极度高温 1000°C -->
+<RimVore2.QuirkDef>
+  <defName>InternalTemperature_Scorching</defName>
+  <label>Scorching</label>
+  <description>[PAWN_label] insides are extremely hot (1000°C / 1832°F), any prey inside will be instantly cooked.</description>
+  <rarity>ForcedOnly</rarity>
+  <comps>
+    <li Class="RimVore2.QuirkComp_ValueModifier">
+      <modifierName>InternalTemperature</modifierName>
+      <modifierValue>1000</modifierValue>
+      <operation>Set</operation>
+    </li>
+  </comps>
+</RimVore2.QuirkDef>
+
+<!-- 绝对零度 -273°C -->
+<RimVore2.QuirkDef>
+  <defName>InternalTemperature_AbsoluteZero</defName>
+  <label>Absolute Zero</label>
+  <description>[PAWN_label] insides are at absolute zero (-273°C / -459°F), prey inside will be frozen solid instantly.</description>
+  <rarity>ForcedOnly</rarity>
+  <comps>
+    <li Class="RimVore2.QuirkComp_ValueModifier">
+      <modifierName>InternalTemperature</modifierName>
+      <modifierValue>-273</modifierValue>
+      <operation>Set</operation>
+    </li>
+  </comps>
+</RimVore2.QuirkDef>
+
+</Defs>

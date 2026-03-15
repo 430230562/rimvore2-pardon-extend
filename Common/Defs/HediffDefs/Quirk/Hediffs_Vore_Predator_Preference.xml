@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 这不是一个高效的方法 -->
+<Defs>
+<HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Obsessed</defName>
+        <label>Zoophagical obsession</label>
+        <description>This pawn adores having animals as prey. Never let it watch your pets.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Animals_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Likes</defName>
+        <label>Zoophagical taste</label>
+        <description>This pawn likes having animals as prey. It's what most sapient life's been doing already for thousands of years; why stop now, especially when they squirm so wildly?</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Animals_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Neutral</defName>
+        <label>Zoophagical ambivalence</label>
+        <description>This pawn doesn't mind having animals as prey, but doesn't prefer them either.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Animals_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Dislikes</defName>
+        <label>Zoophagical distaste</label>
+        <description>This pawn dislikes having animals as prey. Maybe it can't bear to see its fuzzy friends imperiled, maybe it thinks cannibalism is the true way, maybe it just doesn't like to get dirt and fur all over its tongue.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Animals_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Refuses</defName>
+        <label>Zoophagical revulsion</label>
+        <description>This pawn hates having animals as prey and will never willingly consume them. It would sooner hunt the beast down, skin it, butcher it, cook it, and eat it, all on its own, than swallow it whole.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Predator_Animals_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+</Defs>

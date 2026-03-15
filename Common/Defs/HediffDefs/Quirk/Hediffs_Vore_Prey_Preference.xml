@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 这不是一个高效的方法 -->
+<Defs>
+<HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Obsessed</defName>
+        <label>Zoogastric obsession</label>
+        <description>This pawn adores being prey for animals. If it ever goes missing, make sure to check the bellies of all your livestock, pets, and the wildlife.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Prey_Animals_Obsessed</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Likes</defName>
+        <label>Zoogastric interest</label>
+        <description>This pawn likes being prey for animals. It's thrilling to be subject to the inscrutable whims of a beast, not knowing if it might change its mind about its safety, or when it'll decide to release it.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Prey_Animals_Likes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Neutral</defName>
+        <label>Zoogastric ambivalence</label>
+        <description>This pawn doesn't mind being prey for animals, but doesn't prefer it either.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Prey_Animals_Neutral</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Dislikes</defName>
+        <label>Zoogastric disinterest</label>
+        <description>This pawn dislikes being prey for animals. How certain can it be that the beast will listen to demands to be let out?</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Prey_Animals_Dislikes</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Refuses</defName>
+        <label>Zoogastric revulsion</label>
+        <description>This pawn hates being prey for animals and will never willingly be consumed by them. It's as disgusting as it is degrading.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>DietaryPreference_Prey_Animals_Refuses</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+</Defs>

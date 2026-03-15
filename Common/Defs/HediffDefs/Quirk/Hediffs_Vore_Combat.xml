@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- 这不是一个高效的方法 -->
+<Defs>
+ <!-- 抓取力 -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GrappleStrength_VeryGood</defName>
+        <label>Powerful Grappler</label>
+        <description>This pawn is an expert at hand-to-hand combat when it comes to wrestling for vore.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GrappleStrength_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GrappleStrength_Good</defName>
+        <label>Strong Grappler</label>
+        <description>This pawn is pretty good at hand-to-hand combat when it comes to wrestling for vore.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GrappleStrength_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GrappleStrength_Normal</defName>
+        <label>Average Grappler</label>
+        <description>This pawn is about average at hand-to-hand combat when it comes to wrestling for vore.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GrappleStrength_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GrappleStrength_Bad</defName>
+        <label>Weak Grappler</label>
+        <description>This pawn is pretty bad at hand-to-hand combat when it comes to wrestling for vore.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GrappleStrength_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_GrappleStrength_VeryBad</defName>
+        <label>Feeble Grappler</label>
+        <description>This pawn is terrible at hand-to-hand combat when it comes to wrestling for vore.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>GrappleStrength_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- 挣扎能力 -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPrey</defName>
+         <label>Sedentary</label>
+        <description>This pawn does not mind being vored and will never bother to struggle.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleCapability_NoStruggleAsPrey</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleCapability_NoStruggleAsPredator</defName>
+        <label>Unbreakable Will</label>
+        <description>This pawn's stomach secretes numbing enzymes that paralyze its prey, so anyone vored by this pawn will never struggle.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleCapability_NoStruggleAsPredator</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- 挣扎强度 (prey)-->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryGood</defName>
+        <label>Professional Wiggler</label>
+        <description>This pawn is an expert at struggling when vored by others.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Prey_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Good</defName>
+        <label>Strong Wiggler</label>
+        <description>This pawn is pretty good at struggling when vored by others.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Prey_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Normal</defName>
+        <label>Average Wiggler</label>
+        <description>This pawn is about average at struggling when vored by others.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Prey_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_Bad</defName>
+        <label>Weak Wiggler</label>
+        <description>This pawn is pretty bad at struggling when vored by others.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Prey_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Prey_VeryBad</defName>
+        <label>Feeble Wiggler</label>
+        <description>This pawn is terrible at struggling when vored by others.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Prey_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- 抗挣扎强度 (predator)-->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryGood</defName>
+        <label>Unyielding</label>
+        <description>This pawn is an expert at resisting struggles from its prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Predator_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Good</defName>
+        <label>Resolute</label>
+        <description>This pawn is pretty good at resisting struggles from its prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Predator_Good</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Normal</defName>
+        <label>Average Resistance</label>
+        <description>This pawn is about average at resisting struggles from its prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Predator_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_Bad</defName>
+        <label>Weak Resistance</label>
+        <description>This pawn is pretty bad at resisting struggles from its prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Predator_Bad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StruggleStrength_Predator_VeryBad</defName>
+        <label>Feeble Resistance</label>
+        <description>This pawn is terrible at resisting struggles from its prey.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StruggleStrength_Predator_VeryBad</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <!-- 挣扎偏好(predator) -->
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StrugglePreference_Hated</defName>
+        <label>Struggle hater</label>
+        <description>This pawn has very irritable insides and hates prey working against it.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrugglePreference_Hated</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StrugglePreference_Normal</defName>
+        <label>Struggle neutral</label>
+        <description>This pawn doesn't care one way or another if its prey struggles.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrugglePreference_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_StrugglePreference_Loved</defName>
+        <label>Struggle lover</label>
+        <description>This pawn has very resilient insides and actually enjoys prey working against it.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>StrugglePreference_Loved</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+</Defs>

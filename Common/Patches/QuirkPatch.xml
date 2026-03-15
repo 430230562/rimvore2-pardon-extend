@@ -75,6 +75,21 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="InternalTemperature"]/quirks</xpath>
+    <value>
+      <quirks>
+      <li>InternalTemperature_Scorching</li>
+      <li>InternalTemperature_Hot</li>
+      <li>InternalTemperature_Warm</li>
+      <li>InternalTemperature_Normal</li>
+      <li>InternalTemperature_Cold</li>
+      <li>InternalTemperature_Freezing</li>
+      <li>InternalTemperature_AbsoluteZero</li>
+    </quirks>
+    </value>
+  </Operation>
+
   <Operation Class='PatchOperationAdd'>
     <xpath>Defs/RimVore2.QuirkDef[defName="StrugglePreference_Loved"]/comps</xpath>
     <value>

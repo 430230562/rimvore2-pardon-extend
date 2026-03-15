@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_ProposalFrequency_None</defName>
+        <label>Vore apathy</label>
+        <description>This pawn does not care enough about vore to initiate vore proposals on its own. It has no qualms about being told to do it, though.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/ProposalFrequency/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_ProposalFrequency_None</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>ProposalFrequency</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Proposals</displayCategory>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_ProposalFrequency_Low</defName>
+        <label>Vore disinterest</label>
+        <description>This pawn will seek vore out on its own much less frequently than others.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/ProposalFrequency/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_ProposalFrequency_Low</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>ProposalFrequency</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Proposals</displayCategory>
+        <displayOrderInCategory>2</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_ProposalFrequency_Normal</defName>
+        <label>Passing vore interest</label>
+        <description>This pawn proposes vore as frequently as everyone else.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/ProposalFrequency/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_ProposalFrequency_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>ProposalFrequency</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Proposals</displayCategory>
+        <displayOrderInCategory>3</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_ProposalFrequency_High</defName>
+        <label>Vore eagerness</label>
+        <description>This pawn will propose vore on its own more often than other pawns.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/ProposalFrequency/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_ProposalFrequency_High</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>ProposalFrequency</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Proposals</displayCategory>
+        <displayOrderInCategory>4</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_ProposalFrequency_VeryHigh</defName>
+        <label>Vore obsession</label>
+        <description>This pawn is ever-eager for vore, and will propose it on its own twice as much as other pawns.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/ProposalFrequency/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_ProposalFrequency_VeryHigh</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>ProposalFrequency</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Proposals</displayCategory>
+        <displayOrderInCategory>5</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    
+<!--Brutality -->
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_Brutality_Always</defName>
+        <label>Bad Listener</label>
+        <description>Forget a silver tongue; this pawn won't take no for an answer.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Brutality/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Brutality_Always</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Brutality</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Proposals</displayCategory>
+        <displayOrderInCategory>11</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_Brutality_High</defName>
+        <label>Coin flip</label>
+        <description>This pawn only respects consent half the time. The other half, its prey better get ready for a fight.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Brutality/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Brutality_High</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Brutality</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Proposals</displayCategory>
+        <displayOrderInCategory>12</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_Brutality_Normal</defName>
+        <label>Normal</label>
+        <description>Most of the time this pawn wouldn't think of fighting to vore any prey that wasn't interested.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Brutality/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Brutality_Normal</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Brutality</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Proposals</displayCategory>
+        <displayOrderInCategory>13</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_Brutality_Low</defName>
+        <label>Rare</label>
+        <description>This pawn is even less inclined than most to use violence for persuasion.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Brutality/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Brutality_Low</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Brutality</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Proposals</displayCategory>
+        <displayOrderInCategory>14</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_Brutality_Never</defName>
+        <label>Peaceful</label>
+        <description>This pawn wouldn't use violence to coerce its prey if a proposal was turned down.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Brutality/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Brutality_Never</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>Brutality</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Proposals</displayCategory>
+        <displayOrderInCategory>15</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+</Defs>

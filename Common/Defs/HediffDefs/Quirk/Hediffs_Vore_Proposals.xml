@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Defs>
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProposalFrequency_None</defName>
+        <label>Vore apathy</label>
+        <description>This pawn does not care enough about vore to initiate vore proposals on its own. It has no qualms about being told to do it, though.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProposalFrequency_None</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProposalFrequency_Low</defName>
+        <label>Vore disinterest</label>
+        <description>This pawn will seek vore out on its own much less frequently than others.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProposalFrequency_Low</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProposalFrequency_Normal</defName>
+        <label>Passing vore interest</label>
+        <description>This pawn proposes vore as frequently as everyone else.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProposalFrequency_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProposalFrequency_High</defName>
+        <label>Vore eagerness</label>
+        <description>This pawn will propose vore on its own more often than other pawns.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProposalFrequency_High</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_ProposalFrequency_VeryHigh</defName>
+        <label>Vore obsession</label>
+        <description>This pawn is ever-eager for vore, and will propose it on its own twice as much as other pawns.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ProposalFrequency_VeryHigh</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    
+<!-- Brutality -->
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_Brutality_Always</defName>
+        <label>Bad Listener</label>
+        <description>Forget a silver tongue; this pawn won't take no for an answer.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Brutality_Always</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_Brutality_High</defName>
+        <label>Coin flip</label>
+        <description>This pawn only respects consent half the time. The other half, its prey better get ready for a fight.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Brutality_High</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_Brutality_Normal</defName>
+        <label>Normal</label>
+        <description>Most of the time this pawn wouldn't think of fighting to vore any prey that wasn't interested.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Brutality_Normal</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_Brutality_Low</defName>
+        <label>Rare</label>
+        <description>This pawn is even less inclined than most to use violence for persuasion.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Brutality_Low</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_VoreEnabledPart_Base">
+        <defName>RV2_Hediff_QuirkForce_Brutality_Never</defName>
+        <label>Peaceful</label>
+        <description>This pawn wouldn't use violence to coerce its prey if a proposal was turned down.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Brutality_Never</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+    
+</Defs>
