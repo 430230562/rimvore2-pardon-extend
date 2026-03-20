@@ -2,7 +2,7 @@ using HarmonyLib;
 using System.Reflection;
 using Verse;
 
-namespace RimVore2_Pardon
+namespace PRV2E
 {
     [StaticConstructorOnStartup]
     public class PRV2EMod : Mod

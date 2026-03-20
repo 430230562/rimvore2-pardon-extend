@@ -11,7 +11,7 @@
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
         <comps>
-            <li Class="RimVore2_Pardon.HediffCompProperties_DependOnHediff">
+            <li Class="PRV2E.HediffCompProperties_DependOnHediff">
                 <hediffs>
                     <li>RV2_CurrentlyVored</li>
                 </hediffs>
@@ -79,11 +79,11 @@
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
         <comps>
-            <li Class="RimVore2_Pardon.HediffCompProperties_Regression">
+            <li Class="PRV2E.HediffCompProperties_Regression">
                 <RegressionStrength>30</RegressionStrength>
                 <limitMinAge>true</limitMinAge>
             </li>
-            <li Class="RimVore2_Pardon.HediffCompProperties_DependOnHediff">
+            <li Class="PRV2E.HediffCompProperties_DependOnHediff">
                 <hediffs>
                     <li>RV2_CurrentlyVored</li>
                 </hediffs>
@@ -103,11 +103,11 @@
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
         <comps>
-            <li Class="RimVore2_Pardon.HediffCompProperties_Regression">
+            <li Class="PRV2E.HediffCompProperties_Regression">
                 <RegressionStrength>40</RegressionStrength>
                 <limitMinAge>false</limitMinAge>
             </li>
-            <li Class="RimVore2_Pardon.HediffCompProperties_DependOnHediff">
+            <li Class="PRV2E.HediffCompProperties_DependOnHediff">
                 <hediffs>
                     <li>RV2_CurrentlyVored</li>
                 </hediffs>

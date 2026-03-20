@@ -1,7 +1,7 @@
 using RimWorld;
 using Verse;
 
-namespace RimVore2_Pardon
+namespace PRV2E
 {
     [DefOf]
     public static class PRV2E_DefOf

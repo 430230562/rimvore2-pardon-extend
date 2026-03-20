@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Verse;
 
-namespace RimVore2_Pardon
+namespace PRV2E
 {
     public class HediffCompProperties_DependOnHediff : HediffCompProperties
     {

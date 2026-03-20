@@ -1,69 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rimvore2-pardon-extend\\source\\vore\\vorevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|solutionrelative:vore\\vorevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\hediffs\\hediffcomp_regression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|solutionrelative:hediffs\\hediffcomp_regression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\vore\\rollmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|Source.csproj|solutionrelative:vore\\rollmodifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "VoreValidator.cs",
-              "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\VoreValidator.cs",
-              "RelativeDocumentMoniker": "Vore\\VoreValidator.cs",
-              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\VoreValidator.cs",
-              "RelativeToolTip": "Vore\\VoreValidator.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABMAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-09T15:12:58.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HediffComp_Regression.cs",
-              "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Hediffs\\HediffComp_Regression.cs",
-              "RelativeDocumentMoniker": "Hediffs\\HediffComp_Regression.cs",
-              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Hediffs\\HediffComp_Regression.cs",
-              "RelativeToolTip": "Hediffs\\HediffComp_Regression.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAowCEAAACDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T09:57:15.317Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RollModifier.cs",
-              "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\RollModifier.cs",
-              "RelativeDocumentMoniker": "Vore\\RollModifier.cs",
-              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\RollModifier.cs",
-              "RelativeToolTip": "Vore\\RollModifier.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T13:12:57.682Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

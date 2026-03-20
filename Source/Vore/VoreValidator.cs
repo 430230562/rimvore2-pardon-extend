@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Verse;
 
-namespace RimVore2_Pardon
+namespace PRV2E
 {
     [HarmonyPatch(typeof(VoreValidator), nameof(VoreValidator.CalculateVoreCapacity))]
 

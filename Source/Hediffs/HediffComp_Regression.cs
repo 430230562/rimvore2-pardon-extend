@@ -8,7 +8,7 @@ using Verse;
 using Verse.Noise;
 using RimVore2;
 
-namespace RimVore2_Pardon
+namespace PRV2E
 {
     public class HediffCompProperties_Regression : HediffCompProperties
     {
