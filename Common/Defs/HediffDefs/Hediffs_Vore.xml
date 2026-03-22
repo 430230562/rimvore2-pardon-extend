@@ -65,17 +65,31 @@
         <description>This pawn is removing any unassimilated remains from their womb.</description>
     </HediffDef>
 
-    <HediffDef ParentName="RV2_PreyInTailthroat">
+    <!-- tail-throat -->
+    <HediffDef ParentName="RV2_PreyInTailthroat" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
         <defName>RV2_PreyInTailThroatWarming</defName>
         <description>This pawn is preparing to do something to a pawn in their tail-throat.</description>
     </HediffDef>
-    <HediffDef ParentName="RV2_PreyInTailthroat">
+    <HediffDef ParentName="RV2_PreyInTailthroat" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
         <defName>RV2_PreyInTailThroatDigesting</defName>
         <description>This pawn is digesting a pawn in their tail-throat.</description>
     </HediffDef>
-    <HediffDef ParentName="RV2_PreyInTailthroat">
+    <HediffDef ParentName="RV2_PreyInTailthroat" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
         <defName>RV2_PreyInTailThroatHealing</defName>
         <description>This pawn is healing a pawn in their tail-throat.</description>
+    </HediffDef>
+
+    <HediffDef ParentName="RV2_PreyInInsides">
+        <defName>RV2_PreyInInsidesDrain</defName>
+        <description>This pawn is passivily draining living prey within their gelatinous body.</description>
+    </HediffDef>
+    <HediffDef ParentName="RV2_PreyInInsides">
+        <defName>RV2_PreyInInsidesSoftChurning</defName>
+        <description>This pawn is passivily churning living prey within their gelatinous body.</description>
+    </HediffDef>
+    <HediffDef ParentName="RV2_PreyInInsides">
+        <defName>RV2_PreyInInsidesSoftProcessing</defName>
+        <description>This pawn is absorbing energy from living prey within their gelatinous body.</description>
     </HediffDef>
 
 </Defs>

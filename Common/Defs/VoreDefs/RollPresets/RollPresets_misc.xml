@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <RimVore2.RollPresetDef ParentName="IncreaseCosmeticHediff">
+  <RimVore2.RollPresetDef>
     <defName>Heal_Prey</defName>
     <strengthModifiers>
       <li Class="RimVore2.RollModifier_Stat">
@@ -78,7 +78,7 @@
     </actionsOnSuccess>
   </RimVore2.RollPresetDef>
 
-  <RimVore2.RollPresetDef ParentName="IncreaseCosmeticHediff">
+  <RimVore2.RollPresetDef>
     <defName>AddRegressionHediff</defName>
     <strength>0.05</strength>
     <strengthModifiers>
@@ -97,7 +97,7 @@
     </actionsOnSuccess>
   </RimVore2.RollPresetDef>
 
-  <RimVore2.RollPresetDef ParentName="IncreaseCosmeticHediff">
+  <RimVore2.RollPresetDef>
     <defName>AddUnlimitedRegressionHediff</defName>
     <strength>0.05</strength>
     <strengthModifiers>

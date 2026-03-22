@@ -111,4 +111,341 @@
         <displayOrderInCategory>5</displayOrderInCategory>
         <biostatMet>0</biostatMet>
     </GeneDef>
+
+        <!-- ========== Prey: Humanoid Preferences ========== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Humanoids_Obsessed</defName>
+        <label>Anthropogastric obsession</label>
+        <description>This pawn adores being prey for its fellow sapient beings. It is a prey of the people--any person, really.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Humanoids/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Obsessed</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Humanoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>11</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Humanoids_Likes</defName>
+        <label>Anthropogastric interest</label>
+        <description>This pawn likes being prey for its fellow sapient beings. It's nice to be able to socialize with its predator.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Humanoids/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Likes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Humanoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>12</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Humanoids_Neutral</defName>
+        <label>Anthropogastric ambivalence</label>
+        <description>This pawn doesn't mind being prey for its fellow sapient beings, but doesn't prefer it either.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Humanoids/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Neutral</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Humanoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>13</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Humanoids_Dislikes</defName>
+        <label>Anthropogastric disinterest</label>
+        <description>This pawn dislikes being prey for its fellow sapient beings. It can't escape the stresses of society by entering the body of a member of society.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Humanoids/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Dislikes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Humanoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>14</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Humanoids_Refuses</defName>
+        <label>Anthropogastric revulsion</label>
+        <description>This pawn hates being prey for its fellow sapient beings and will never willingly be consumed by them. That's at least three kinds of unnatural.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Humanoids/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Refuses</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Humanoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>15</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <!-- ========== Prey: Insectoid Preferences ========== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Insectoids_Obsessed</defName>
+        <label>Entomogastric obsession</label>
+        <description>This pawn adores being prey for insectoids. There aren't many other ways for a humanoid to become one with the hive.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Insectoids/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Obsessed</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Insectoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>21</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Insectoids_Likes</defName>
+        <label>Entomogastric interest</label>
+        <description>This pawn likes being prey for insectoids. Such an alien physiology is quite fascinating to tour from the inside.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Insectoids/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Likes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Insectoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>22</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Insectoids_Neutral</defName>
+        <label>Entomogastric ambivalence</label>
+        <description>This pawn doesn't mind being prey for insectoids, but doesn't prefer it either.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Insectoids/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Neutral</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Insectoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>23</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Insectoids_Dislikes</defName>
+        <label>Entomogastric disinterest</label>
+        <description>This pawn dislikes being prey for insectoids. Bugs aren't known for eating their prey in one whole bite. Not swarms of them, at least...</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Insectoids/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Dislikes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Insectoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>24</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Insectoids_Refuses</defName>
+        <label>Entomogastric revulsion</label>
+        <description>This pawn hates being prey for insectoids and will not willingly be consumed by them. No amount of showers would ever let it feel clean again.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Insectoids/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Refuses</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Insectoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>25</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <!-- ========== Prey: Mechanoid Preferences ========== -->
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Mechanoids_Obsessed</defName>
+        <label>Mechanogastric obsession</label>
+        <description>This pawn adores being prey for mechanoids. It is more at home among flexing hydraulics and humming circuits than the beat of most hearts.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Mechanoids/1</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Obsessed</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Mechanoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>31</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Mechanoids_Likes</defName>
+        <label>Mechanogastric interest</label>
+        <description>This pawn likes being prey for mechanoids. Cold, unyielding plasteel makes for a unique and exhilarating experience.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Mechanoids/2</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Likes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Mechanoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>32</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Mechanoids_Neutral</defName>
+        <label>Mechanogastric ambivalence</label>
+        <description>This pawn doesn't mind being prey for mechanoids, but doesn't prefer it either.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Mechanoids/3</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Neutral</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Mechanoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>33</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Mechanoids_Dislikes</defName>
+        <label>Mechanogastric disinterest</label>
+        <description>This pawn dislikes being prey for mechanoids. Think of all the grinding gears! All the constant clicking and ticking!</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Mechanoids/4</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Dislikes</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Mechanoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>34</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>RV2_Gene_QuirkForce_DietaryPreference_Prey_Mechanoids_Refuses</defName>
+        <label>Mechanogastric revulsion</label>
+        <description>This pawn hates being prey for mechanoids and will not willingly be consumed by them. Even if it was suicidal, that sure as hell ain't the way it wants to go out.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/DietaryPreference_Prey_Mechanoids/5</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Refuses</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>DietaryPreference_Prey_Mechanoids</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Prey_Preference</displayCategory>
+        <displayOrderInCategory>35</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+    </GeneDef>
+    
 </Defs>

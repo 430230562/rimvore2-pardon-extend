@@ -122,4 +122,275 @@
             </li>
         </stages>
     </ThoughtDef>
+
+    <!-- ================== Oral Drain ================== -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorOralDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained {0} orally</label>
+                <description>I swallowed {1} and drained their energy through my stomach. They're
+                    exhausted but alive, and I feel wonderfully energized!</description>
+                <baseMoodEffect>12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorOralDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Oral draining of {0} interrupted</label>
+                <description>I tried to drain energy from {1}, but they got away before I could
+                    absorb anything. Now I'm hungry and frustrated.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyOralDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained orally by {0}</label>
+                <description>{1} swallowed me and drained my energy. I'm completely exhausted, but
+                    at least I survived.</description>
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyOralDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Escaped oral draining</label>
+                <description>{1} tried to swallow and drain me! I'm not anyone's energy snack!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- ================== Anal Drain ================== -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorAnalDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained {0} anally</label>
+                <description>I drew the energy right out of {1} through my rear end. They're weak
+                    but unharmed, and I feel so much stronger!</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorAnalDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Anal draining of {0} interrupted</label>
+                <description>I tried to drain {1} through my rear, but they escaped before I could
+                    absorb their energy. Now I'm left feeling empty.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyAnalDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained anally by {0}</label>
+                <description>{1} drained my energy through their rear end. I'm utterly exhausted,
+                    but at least I'm still here.</description>
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyAnalDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Escaped anal draining</label>
+                <description>{1} tried to drain me through their rear! I'm not butt-fuel!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- ================== Cleavage Drain ================== -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorCleavageDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained {0} through cleavage</label>
+                <description>I pressed {1} between my breasts and drained their energy. They're limp
+                    but alive, and I feel revitalized!</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorCleavageDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Cleavage draining of {0} interrupted</label>
+                <description>I tried to drain {1} through my cleavage, but they slipped away. Now my
+                    chest feels oddly empty.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyCleavageDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained by {0}'s cleavage</label>
+                <description>{1} drained my energy through their cleavage. I'm completely drained,
+                    but at least I survived.</description>
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyCleavageDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Escaped cleavage draining</label>
+                <description>{1} tried to drain me through their cleavage! I'm not just a snack for
+                    their chest!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- ================== Navel Drain ================== -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorNavelDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained {0} through navel</label>
+                <description>I drew the energy right out of {1} through my navel. They're exhausted
+                    but safe, and I feel fantastic!</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorNavelDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Navel draining of {0} interrupted</label>
+                <description>I tried to drain {1} through my navel, but they wriggled free. Now my
+                    belly button feels so empty.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyNavelDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained by {0}'s navel</label>
+                <description>{1} drained my energy through their navel. I'm utterly exhausted, but
+                    at least I'm alive.</description>
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyNavelDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Escaped navel draining</label>
+                <description>{1} tried to drain me through their navel! I'm not belly button fuel!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- ================== Tailmaw Drain ================== -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorTailmawDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained {0} through tailmaw</label>
+                <description>The maw on my tail drained {1}'s energy completely. They're weak but
+                    unharmed, and I feel so much stronger!</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorTailmawDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Tailmaw draining of {0} interrupted</label>
+                <description>I tried to drain {1} with my tail, but they escaped. Now my tail feels
+                    so empty.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyTailmawDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained by {0}'s tailmaw</label>
+                <description>{1} drained my energy through the maw on their tail. I'm completely
+                    exhausted, but at least I survived.</description>
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyTailmawDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Escaped tailmaw draining</label>
+                <description>{1} tried to drain me with their tail! I'm not tail-food!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- ================== Membrane Drain ================== -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorMembraneDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained {0} through membrane</label>
+                <description>I engulfed {1} in my membrane and drained their energy. They're limp
+                    but alive, and I feel revitalized!</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorMembraneDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Membrane draining of {0} interrupted</label>
+                <description>I tried to engulf and drain {1}, but they slipped away. I feel so
+                    empty...</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyMembraneDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained by {0}'s membrane</label>
+                <description>{1} engulfed me in their membrane and drained my energy. I'm utterly
+                    exhausted, but at least I'm still here.</description>
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyMembraneDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Escaped membrane draining</label>
+                <description>{1} tried to engulf and drain me! What a violation!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
 </Defs>

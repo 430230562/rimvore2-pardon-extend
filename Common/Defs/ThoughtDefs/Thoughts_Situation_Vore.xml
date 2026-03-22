@@ -232,6 +232,7 @@
     </stages>
   </ThoughtDef>
 
+<!-- tail-throat -->
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
     <defName>RV2_PreyInTailThroatWarming</defName>
     <stages>
@@ -289,4 +290,6 @@
       </li>
     </stages>
   </ThoughtDef>
+
+
 </Defs>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RimVore2.VoreStageDef ParentName="Insides_Base">
+        <defName>Insides_Warmup_Fast</defName>
+        <partGoal>WarmUp</partGoal>
+        <canReverseDirection>true</canReverseDirection>
+        <predatorHediffDef>RV2_PreyInInsidesWarming</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesWarming</predatorThoughtDef>
+        <jumpKey>Insides</jumpKey>
+        <onCycle>
+            <rollPresets>
+                <li>Sound_Churn_10</li>
+                <li>IncreaseNeed_Predator_Food_Lesser</li>
+                <li>IncreaseNeed_Prey_Food</li>
+                <li>IncreaseNeed_Prey_Rest</li>
+            </rollPresets>
+        </onCycle>
+        <passConditions>
+            <li Class="RimVore2.StagePassCondition_Timed">
+                <duration>12</duration>
+            </li>
+        </passConditions>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef ParentName="Insides_Base">
+        <defName>Insides_Drain</defName>
+        <partGoal>Drain</partGoal>
+        <canReverseDirection>true</canReverseDirection>
+        <predatorHediffDef>RV2_PreyInInsidesDrain</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesDrain</predatorThoughtDef>
+        <jumpKey>Insides</jumpKey>
+        <onStart>
+            <actions>
+                <li Class="RimVore2.RollAction_PassValue_Set">
+                    <name>DigestionProgress</name>
+                    <type>DigestionProgress</type>
+                </li>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_BubbleDigest</mote>
+                </li>
+            </actions>
+            <rollPresets>
+                <li>IncreaseNeed_Predator_Food</li>
+            </rollPresets>
+        </onStart>
+        <onCycle>
+            <rollPresets>
+                <li>IncreaseDrainHediff</li>
+                <li>Mote_BubbleDigest</li>
+                <li>Sound_Gurgle_Chance_5</li>
+                <li>Sound_Burp_Chance_15</li>
+                <li>IncreaseDigestionProgress_Slow</li>
+                <li>IncreaseNeed_Predator_Food_Lesser</li>
+                <li>IncreaseNeed_Prey_Food</li>
+            </rollPresets>
+        </onCycle>
+        <onEnd>
+            <actions>
+                <li Class="RimVore2.RollAction_PlaySound">
+                    <sound>RV2_Belch</sound>
+                </li>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_BubblesDigest</mote>
+                </li>
+            </actions>
+        </onEnd>
+        <passConditions>
+            <li Class="RimVore2.StagePassCondition_PassValue">
+                <passValueName>DigestionProgress</passValueName>
+                <targetValue>0.45</targetValue>
+            </li>
+        </passConditions>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef ParentName="Insides_Base">
+        <defName>Insides_SoftChurn</defName>
+        <partGoal>Churn</partGoal>
+        <canReverseDirection>false</canReverseDirection>
+        <predatorHediffDef>RV2_PreyInInsidesSoftChurning</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesSoftChurning</predatorThoughtDef>
+        <onStart>
+            <actions>
+                <li Class="RimVore2.RollAction_PassValue_Set">
+                    <name>DigestionProgress</name>
+                    <type>DigestionProgress</type>
+                </li>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_BubbleDigest</mote>
+                </li>
+            </actions>
+            <rollPresets>
+                <li>IncreaseNeed_Predator_Food_Instant</li>
+            </rollPresets>
+        </onStart>
+        <onCycle>
+            <rollPresets>
+                <li>IncreaseDrainHediff_Greater</li>
+                <li>Mote_BubbleDigest</li>
+                <li>Sound_Churn_10</li>
+                <li>Sound_Gurgle_Chance_5</li>
+                <li>Sound_Burp_Chance_15</li>
+                <li>IncreaseDigestionProgress_Slow</li>
+                <li>IncreaseNeed_Predator_Food_Limited</li>
+                <li>IncreaseNeed_Prey_Food</li>
+            </rollPresets>
+        </onCycle>
+        <onEnd>
+            <actions>
+                <li Class="RimVore2.RollAction_PlaySound">
+                    <sound>RV2_Belch</sound>
+                </li>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_BubblesDigest</mote>
+                </li>
+            </actions>
+        </onEnd>
+        <passConditions>
+            <li Class="RimVore2.StagePassCondition_Timed">
+                <duration>36</duration>
+            </li>
+        </passConditions>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef ParentName="Insides_Base">
+        <defName>Insides_SoftProcess</defName>
+        <predatorHediffDef>RV2_PreyInInsidesSoftProcessing</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesSoftProcessing</predatorThoughtDef>
+        <partGoal>Pass</partGoal>
+        <canReverseDirection>false</canReverseDirection>
+        <onStart>
+            <actions>
+                <li Class="RimVore2.RollAction_PassValue_Set">
+                    <name>PreyNutrition</name>
+                    <type>PreyNutrition</type>
+                </li>
+                <li Class="RimVore2.RollAction_PassValue_Set">
+                    <name>DigestionProgress</name>
+                    <type>DigestionProgress</type>
+                </li>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_BubbleDigest</mote>
+                </li>
+            </actions>
+        </onStart>
+        <onCycle>
+            <rollPresets>
+                <li>IncreaseDrainHediff_Greater</li>
+                <li>Mote_BubbleDigest</li>
+                <li>Sound_Churn_Chance_5</li>
+                <li>Sound_Gurgle_Chance_5</li>
+                <li>IncreaseDigestionProgress_Slow</li>
+                <li>ConvertNutritionToPredatorFood_Slow</li>
+                <li>IncreaseNeed_Prey_Food</li>
+                <li>DecreaseNeed_Prey_Rest</li>
+            </rollPresets>
+        </onCycle>
+        <passConditions>
+            <li Class="RimVore2.StagePassCondition_Timed">
+                <duration>36</duration>
+            </li>
+        </passConditions>
+        <onEnd>
+            <actions>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_BubbleDigest</mote>
+                </li>
+                <li Class="RimVore2.RollAction_PlaySound">
+                    <sound>RV2_Fart</sound>
+                </li>
+            </actions>
+        </onEnd>
+    </RimVore2.VoreStageDef>
+</Defs>

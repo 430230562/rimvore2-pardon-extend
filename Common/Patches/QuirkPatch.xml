@@ -17,11 +17,11 @@
   <Operation Class='PatchOperationReplace'>
     <xpath>Defs/RimVore2.QuirkDef[defName="StruggleStrength_Prey_Good"]/comps</xpath>
     <value>
-    <comps>
-      <li Class="RimVore2.QuirkComp_ValueModifier">
-        <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
-        <modifierValue>0.8</modifierValue>
-      </li>
+      <comps>
+        <li Class="RimVore2.QuirkComp_ValueModifier">
+          <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
+          <modifierValue>0.8</modifierValue>
+        </li>
       </comps>
     </value>
   </Operation>
@@ -29,11 +29,11 @@
   <Operation Class='PatchOperationReplace'>
     <xpath>Defs/RimVore2.QuirkDef[defName="StruggleStrength_Prey_Bad"]/comps</xpath>
     <value>
-    <comps>
-      <li Class="RimVore2.QuirkComp_ValueModifier">
-        <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
-        <modifierValue>1.25</modifierValue>
-      </li>
+      <comps>
+        <li Class="RimVore2.QuirkComp_ValueModifier">
+          <modifierName>RequiredStrugglesMultiplierAsPrey</modifierName>
+          <modifierValue>1.25</modifierValue>
+        </li>
       </comps>
     </value>
   </Operation>
@@ -54,24 +54,24 @@
   <Operation Class='PatchOperationReplace'>
     <xpath>Defs/RimVore2.QuirkDef[defName="StruggleStrength_Predator_Good"]/comps</xpath>
     <value>
-    <comps>
-      <li Class="RimVore2.QuirkComp_ValueModifier">
-        <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
-        <modifierValue>1.25</modifierValue>
-      </li>
-    </comps>
+      <comps>
+        <li Class="RimVore2.QuirkComp_ValueModifier">
+          <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
+          <modifierValue>1.25</modifierValue>
+        </li>
+      </comps>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationReplace'>
     <xpath>Defs/RimVore2.QuirkDef[defName="StruggleStrength_Predator_Bad"]/comps</xpath>
     <value>
-    <comps>
-      <li Class="RimVore2.QuirkComp_ValueModifier">
-        <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
-        <modifierValue>0.8</modifierValue>
-      </li>
-    </comps>
+      <comps>
+        <li Class="RimVore2.QuirkComp_ValueModifier">
+          <modifierName>RequiredStrugglesMultiplierAsPredator</modifierName>
+          <modifierValue>0.8</modifierValue>
+        </li>
+      </comps>
     </value>
   </Operation>
 
@@ -79,14 +79,14 @@
     <xpath>Defs/RimVore2.QuirkPoolDef[defName="InternalTemperature"]/quirks</xpath>
     <value>
       <quirks>
-      <li>InternalTemperature_Scorching</li>
-      <li>InternalTemperature_Hot</li>
-      <li>InternalTemperature_Warm</li>
-      <li>InternalTemperature_Normal</li>
-      <li>InternalTemperature_Cold</li>
-      <li>InternalTemperature_Freezing</li>
-      <li>InternalTemperature_AbsoluteZero</li>
-    </quirks>
+        <li>InternalTemperature_Scorching</li>
+        <li>InternalTemperature_Hot</li>
+        <li>InternalTemperature_Warm</li>
+        <li>InternalTemperature_Normal</li>
+        <li>InternalTemperature_Cold</li>
+        <li>InternalTemperature_Freezing</li>
+        <li>InternalTemperature_AbsoluteZero</li>
+      </quirks>
     </value>
   </Operation>
 
@@ -100,6 +100,17 @@
       <li Class="RimVore2.QuirkComp_ValueModifier">
         <modifierName>StruggleChanceMultiplierAsPredator</modifierName>
         <modifierValue>1.5</modifierValue>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class='PatchOperationAdd'>
+    <xpath>Defs/RimVore2.QuirkDef[defName="Enablers_Overstuffed_Type_Tailmaw"]/comps</xpath>
+    <value>
+      <li Class="RimVore2.QuirkComp_VoreEnabler">
+        <selector>
+          <voreType>TailThroat</voreType>
+        </selector>
       </li>
     </value>
   </Operation>
@@ -147,6 +158,5 @@
       </li>
     </value>
   </Operation>
-
 
 </Patch>

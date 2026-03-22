@@ -7,9 +7,9 @@
     <RMBLabel>Tail-throat vore</RMBLabel>
     <actionDescription>{0} will swallow and digest {1} in their tail-throat</actionDescription>
     <description>TailThroat digestion is where a predator with a mouth in their tail swallows prey through said mouth, down to their tail-throat, for fatal digestion, feeding the predator and turning the prey into either fertilizer components or nothing at all.</description>
-    <voreType>Tailmaw</voreType>
-    <initTale>RV2_VoreInitiation_TailmawDigest</initTale>
-    <exitTale>RV2_VoreExit_TailmawDigest</exitTale>
+    <voreType>TailThroat</voreType>
+    <initTale>RV2_VoreInitiation_TailThroatDigest</initTale>
+    <exitTale>RV2_VoreExit_TailThroatDigest</exitTale>
     <voreProduct>
       <items>
         <li>Filth_CorpseBile</li>
@@ -41,15 +41,15 @@
   </RimVore2.VorePathDef>
 
 
-  <RimVore2.VorePathDef>
+  <RimVore2.VorePathDef MayRequire='MamaHorseteeth.RimVore2ExtraVores'>
     <defName>TailThroatHeal</defName>
     <label>(Heal) TailThroat</label>
     <RMBLabel>Tail-throat vore</RMBLabel>
     <actionDescription>{PREDATOR} will heal {PREY} in their tail-throat</actionDescription>
     <description>Healing vore will tend to a pawns wounds and slowly heal their damaged body parts. Healing vore is relatively weak, so if you want to treat a pawn properly, use medicine and a good doctor.</description>
-    <voreType>Tailmaw</voreType>
-    <initTale>RV2_VoreInitiation_TailmawHeal</initTale>
-    <exitTale>RV2_VoreExit_TailmawHeal</exitTale>
+    <voreType>TailThroat</voreType>
+    <initTale>RV2_VoreInitiation_TailThroatHeal</initTale>
+    <exitTale>RV2_VoreExit_TailThroatHeal</exitTale>
     <voreGoal>Heal</voreGoal>
     <postVoreMemories>
       <predatorPostVoreSuccess>RV2_PredatorTailmawHealSuccess</predatorPostVoreSuccess>

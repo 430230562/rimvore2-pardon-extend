@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RimVore2.VoreTypeDef>
+        <defName>TailThroat</defName>
+        <label>Tail (throat)</label>
+        <initiationRecordPredator>RV2_Type_Tailmaw_Predator</initiationRecordPredator>
+        <initiationRecordPrey>RV2_Type_Tailmaw_Prey</initiationRecordPrey>
+        <relatedRulePacks>
+            <li>RV2_Type_Tailmaw</li>
+        </relatedRulePacks>
+    </RimVore2.VoreTypeDef>
+</Defs>

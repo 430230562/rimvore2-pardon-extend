@@ -21,7 +21,7 @@
   </TaleDef>
 
   <TaleDef ParentName="RV2_VoreExit_Base">
-    <defName>RV2_VoreExit_TailmawDigest</defName>
+    <defName>RV2_VoreExit_TailThroatDigest</defName>
     <rulePack>
       <include>
         <li>RV2_Goal_Digest</li>
@@ -31,7 +31,7 @@
   </TaleDef>
 
   <TaleDef ParentName="RV2_VoreExit_Base">
-    <defName>RV2_VoreExit_TailmawHeal</defName>
+    <defName>RV2_VoreExit_TailThroatHeal</defName>
     <rulePack>
       <include>
         <li>RV2_Goal_Heal</li>
