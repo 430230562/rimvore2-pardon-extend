@@ -96,9 +96,9 @@
         <defName>RV2_UnlimitedRegression</defName>
         <hediffClass>HediffWithComps</hediffClass>
         <label>unlimited regression</label>
-        <description>This pawn is being reformed in other pawn womb.\n This hediff may let the age of a pawn decrease to zero.</description>
+        <description>This pawn is being reformed in other pawn womb.\n This hediff may let the age of a pawn decrease to zero.\n\n In some degrees,age decreasing can be regard as a type of reform damage.</description>
         <initialSeverity>0.10</initialSeverity>
-        <maxSeverity>3.00</maxSeverity>
+        <maxSeverity>6.00</maxSeverity>
         <isBad>false</isBad>
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
