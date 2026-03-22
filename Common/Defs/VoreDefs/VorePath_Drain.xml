@@ -4,16 +4,16 @@
     <defName>CleavageDrain</defName>
     <label>(Drain) Cleavage-Hold</label>
     <RMBLabel>Cleavage vore</RMBLabel>
-    <actionDescription>{PREDATOR} will drain {PREY} through her cleavage</actionDescription>
+    <actionDescription>{PREDATOR} will drain {PREY} through their cleavage</actionDescription>
     <description>Cleavage parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting.</description>
-    <initTale>RV2R_VoreInitiation_CleavageDrain</initTale>
-    <exitTale>RV2R_VoreExit_CleavageDrain</exitTale>
+    <initTale>RV2_VoreInitiation_CleavageDrain</initTale>
+    <exitTale>RV2_VoreExit_CleavageDrain</exitTale>
     <voreType>Cleavage</voreType>
     <postVoreMemories>
       <predatorPostVoreSuccess>RV2_PredatorCleavageDrainSuccess</predatorPostVoreSuccess>
       <predatorPostVoreInterrupted>RV2_PredatorCleavageDrainInterrupted</predatorPostVoreInterrupted>
-      <preyPostVoreInterrupted>RV2_PreyCleavageDrainInterrupted</preyPostVoreInterrupted>
       <preyPostVoreSuccess>RV2_PreyCleavageDrainSuccess</preyPostVoreSuccess>
+      <preyPostVoreInterrupted>RV2_PreyCleavageDrainInterrupted</preyPostVoreInterrupted>
     </postVoreMemories>
     <stages>
       <li>Cleavage_Enter</li>
@@ -32,14 +32,14 @@
     <RMBLabel>Membrane vore</RMBLabel>
     <actionDescription>{PREDATOR} will engulf and drain {PREY}</actionDescription>
     <description>Membrane parasitisim is where the predator swallows the prey into their Insides, where they are drained of their energy. This process is safe, if exhausting.</description>
-    <initTale>RV2R_VoreInitiation_MembraneDrain</initTale>
-    <exitTale>RV2R_VoreExit_MembraneDrain</exitTale>
+    <initTale>RV2_VoreInitiation_MembraneDrain</initTale>
+    <exitTale>RV2_VoreExit_MembraneDrain</exitTale>
     <voreType>Membrane</voreType>
     <postVoreMemories>
       <predatorPostVoreSuccess>RV2_PredatorMembraneDrainSuccess</predatorPostVoreSuccess>
       <predatorPostVoreInterrupted>RV2_PredatorMembraneDrainInterrupted</predatorPostVoreInterrupted>
-      <preyPostVoreInterrupted>RV2_PreyMembraneDrainInterrupted</preyPostVoreInterrupted>
       <preyPostVoreSuccess>RV2_PreyMembraneDrainSuccess</preyPostVoreSuccess>
+      <preyPostVoreInterrupted>RV2_PreyMembraneDrainInterrupted</preyPostVoreInterrupted>
     </postVoreMemories>
     <stages>
       <li>Membrane_Enter</li>
@@ -60,17 +60,44 @@
     <RMBLabel>Navel vore</RMBLabel>
     <actionDescription>{PREDATOR} will drain {PREY} behind their navel</actionDescription>
     <description>Navel parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting.</description>
-    <initTale>RV2R_VoreInitiation_NavelDrain</initTale>
-    <exitTale>RV2R_VoreExit_NavelDrain</exitTale>
+    <initTale>RV2_VoreInitiation_NavelDrain</initTale>
+    <exitTale>RV2_VoreExit_NavelDrain</exitTale>
     <voreType>Navel</voreType>
     <postVoreMemories>
       <predatorPostVoreSuccess>RV2_PredatorNavelDrainSuccess</predatorPostVoreSuccess>
       <predatorPostVoreInterrupted>RV2_PredatorNavelDrainInterrupted</predatorPostVoreInterrupted>
-      <preyPostVoreInterrupted>RV2_PreyNavelDrainInterrupted</preyPostVoreInterrupted>
       <preyPostVoreSuccess>RV2_PreyNavelDrainSuccess</preyPostVoreSuccess>
+      <preyPostVoreInterrupted>RV2_PreyNavelDrainInterrupted</preyPostVoreInterrupted>
     </postVoreMemories>
     <stages>
       <li>Navel_Enter</li>
+      <li>Stomach_Warmup_Fast</li>
+      <li>Stomach_Drain</li>
+      <li>Stomach_SoftChurn</li>
+      <li>Intestines_SoftProcess</li>
+      <li>Anus_Exit</li>
+    </stages>
+    <defaultRequiredStruggles>60</defaultRequiredStruggles>
+  </RimVore2.VorePathDef>
+
+  <RimVore2.VorePathDef ParentName="Drain_Base" MayRequire='Rutrix.RutsRimVoreStuff'>
+    <defName>TailmawDrain</defName>
+    <label>(Drain) Tailmaw</label>
+    <RMBLabel>Tailmaw vore</RMBLabel>
+    <actionDescription>{PREDATOR} will drain {PREY} through their tailmaw</actionDescription>
+    <description>Tailmaw parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting.</description>
+    <initTale>RV2_VoreInitiation_TailmawDrain</initTale>
+    <exitTale>RV2_VoreExit_TailmawDrain</exitTale>
+    <voreType>Tailmaw</voreType>
+    <postVoreMemories>
+      <predatorPostVoreSuccess>RV2_PredatorTailmawDrainSuccess</predatorPostVoreSuccess>
+      <predatorPostVoreInterrupted>RV2_PredatorTailmawDrainInterrupted</predatorPostVoreInterrupted>
+      <preyPostVoreSuccess>RV2_PreyTailmawDrainSuccess</preyPostVoreSuccess>
+      <preyPostVoreInterrupted>RV2_PreyTailmawDrainInterrupted</preyPostVoreInterrupted>
+    </postVoreMemories>
+    <stages>
+      <li>Tailmaw_Enter</li>
+      <li>TailThroat_Enter</li>
       <li>Stomach_Warmup_Fast</li>
       <li>Stomach_Drain</li>
       <li>Stomach_SoftChurn</li>

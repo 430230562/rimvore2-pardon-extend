@@ -41,7 +41,43 @@
     </rulePack>
   </TaleDef>
 
-  <TaleDef>
-  
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_CleavageDrain</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Drain</li>
+        <li>RV2_Type_Cleavage</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_MembraneDrain</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Drain</li>
+        <li>RV2_Type_Membrane</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_NavelDrain</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Drain</li>
+        <li>RV2_Type_Navel</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_TailmawDrain</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Drain</li>
+        <li>RV2_Type_Tailmaw</li>
+      </include>
+    </rulePack>
   </TaleDef>
 </Defs>

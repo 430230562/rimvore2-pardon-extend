@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/RecipeDef[@Name='OralDrain']/postVoreMemories</xpath>
-    <value>
-      <postVoreMemories>
-        <preyPostVoreSuccess>RV2_PreyOralDrainSuccess</preyPostVoreSuccess>
-      </postVoreMemories>
-    </value>
-  </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/RecipeDef[@Name='OralDrain']/postVoreMemories</xpath>
+        <value>
+            <postVoreMemories>
+                <predatorPostVoreSuccess>RV2_PredatorOralDrainSuccess</predatorPostVoreSuccess>
+                <predatorPostVoreInterrupted>RV2_PredatorOralDrainInterrupted</predatorPostVoreInterrupted>
+                <preyPostVoreSuccess>RV2_PreyOralDrainSuccess</preyPostVoreSuccess>
+                <preyPostVoreInterrupted>RV2_PreyOralDrainInterrupted</preyPostVoreInterrupted>
+            </postVoreMemories>
+        </value>
+    </Operation>
 
-  <Operation Class="PatchOperationReplace">
-    <xpath>/Defs/RecipeDef[@Name='AnalDrain']/postVoreMemories</xpath>
-    <value>
-      <postVoreMemories>
-        <preyPostVoreSuccess>RV2_PreyAnalDrainSuccess</preyPostVoreSuccess>
-      </postVoreMemories>
-    </value>
-  </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/RecipeDef[@Name='AnalDrain']/postVoreMemories</xpath>
+        <value>
+            <postVoreMemories>
+                <predatorPostVoreSuccess>RV2_PredatorAnalDrainSuccess</predatorPostVoreSuccess>
+                <predatorPostVoreInterrupted>RV2_PredatorAnalDrainInterrupted</predatorPostVoreInterrupted>
+                <preyPostVoreSuccess>RV2_PreyAnalDrainSuccess</preyPostVoreSuccess>
+                <preyPostVoreInterrupted>RV2_PreyAnalDrainInterrupted</preyPostVoreInterrupted>
+            </postVoreMemories>
+        </value>
+    </Operation>
 
     <Operation Class="PatchOperationReplace">
         <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Reform"]</xpath>

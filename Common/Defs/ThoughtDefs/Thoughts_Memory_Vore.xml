@@ -259,6 +259,51 @@
         </stages>
     </ThoughtDef>
 
+    <!-- ================== Membrane Drain ================== -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorMembraneDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained {0} through membrane</label>
+                <description>I engulfed {1} in my membrane and drained their energy. They're limp
+                    but alive, and I feel revitalized!</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorMembraneDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Membrane draining of {0} interrupted</label>
+                <description>I tried to engulf and drain {1}, but they slipped away. I feel so
+                    empty...</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyMembraneDrainSuccess</defName>
+        <stages>
+            <li>
+                <label>Drained by {0}'s membrane</label>
+                <description>{1} engulfed me in their membrane and drained my energy. I'm utterly
+                    exhausted, but at least I'm still here.</description>
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyMembraneDrainInterrupted</defName>
+        <stages>
+            <li>
+                <label>Escaped membrane draining</label>
+                <description>{1} tried to engulf and drain me! What a violation!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
     <!-- ================== Navel Drain ================== -->
     <ThoughtDef ParentName="RV2_VoreMemory_Base">
         <defName>RV2_PredatorNavelDrainSuccess</defName>
@@ -344,51 +389,6 @@
             <li>
                 <label>Escaped tailmaw draining</label>
                 <description>{1} tried to drain me with their tail! I'm not tail-food!</description>
-                <baseMoodEffect>-8</baseMoodEffect>
-            </li>
-        </stages>
-    </ThoughtDef>
-
-    <!-- ================== Membrane Drain ================== -->
-    <ThoughtDef ParentName="RV2_VoreMemory_Base">
-        <defName>RV2_PredatorMembraneDrainSuccess</defName>
-        <stages>
-            <li>
-                <label>Drained {0} through membrane</label>
-                <description>I engulfed {1} in my membrane and drained their energy. They're limp
-                    but alive, and I feel revitalized!</description>
-                <baseMoodEffect>8</baseMoodEffect>
-            </li>
-        </stages>
-    </ThoughtDef>
-    <ThoughtDef ParentName="RV2_VoreMemory_Base">
-        <defName>RV2_PredatorMembraneDrainInterrupted</defName>
-        <stages>
-            <li>
-                <label>Membrane draining of {0} interrupted</label>
-                <description>I tried to engulf and drain {1}, but they slipped away. I feel so
-                    empty...</description>
-                <baseMoodEffect>-4</baseMoodEffect>
-            </li>
-        </stages>
-    </ThoughtDef>
-    <ThoughtDef ParentName="RV2_VoreMemory_Base">
-        <defName>RV2_PreyMembraneDrainSuccess</defName>
-        <stages>
-            <li>
-                <label>Drained by {0}'s membrane</label>
-                <description>{1} engulfed me in their membrane and drained my energy. I'm utterly
-                    exhausted, but at least I'm still here.</description>
-                <baseMoodEffect>4</baseMoodEffect>
-            </li>
-        </stages>
-    </ThoughtDef>
-    <ThoughtDef ParentName="RV2_VoreMemory_Base">
-        <defName>RV2_PreyMembraneDrainInterrupted</defName>
-        <stages>
-            <li>
-                <label>Escaped membrane draining</label>
-                <description>{1} tried to engulf and drain me! What a violation!</description>
                 <baseMoodEffect>-8</baseMoodEffect>
             </li>
         </stages>

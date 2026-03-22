@@ -232,7 +232,7 @@
     </stages>
   </ThoughtDef>
 
-<!-- tail-throat -->
+  <!-- tail-throat -->
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
     <defName>RV2_PreyInTailThroatWarming</defName>
     <stages>
@@ -291,5 +291,107 @@
     </stages>
   </ThoughtDef>
 
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesDrain</defName>
+    <stages>
+      <li>
+        <label>Draining prey in insides</label>
+        <description>Thanks for the snack!</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Draining two prey in insides</label>
+        <description>So good, I went for seconds!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Draining three prey in insides</label>
+        <description>Three gut sluts, all mine!</description>
+        <baseMoodEffect>14</baseMoodEffect>
+      </li>
+      <li>
+        <label>Draining several prey in insides</label>
+        <description>So heavy...!~</description>
+        <baseMoodEffect>17</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesSoftChurning</defName>
+    <stages>
+      <li>
+        <label>Churning prey in insides</label>
+        <description>UUrrp! Mmm, thanks, tasty.~</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Churning two prey in insides</label>
+        <description>BWooorp! Ah, statisfying!</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+      <li>
+        <label>Churning three prey in insides</label>
+        <description>I'm really urpy now! But, like, in a good way!</description>
+        <baseMoodEffect>17</baseMoodEffect>
+      </li>
+      <li>
+        <label>Churning several prey in insides</label>
+        <description>BWWOORRRP! Hoooph!~</description>
+        <baseMoodEffect>21</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesSoftProcessing</defName>
+    <stages>
+      <li>
+        <label>Prey leaving insides</label>
+        <description>Think they passed out.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Two prey leaving insides</label>
+        <description>Still churnin'...~</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Three prey leaving insides</label>
+        <description>Oh, I'm glad there's no consiquences for this...~</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Several prey leaving insides</label>
+        <description>Gonna squish and sqweeze you all the way though...~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesReforming</defName>
+    <stages>
+      <li>
+        <label>Reforming prey</label>
+        <description>My child!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Reforming two prey</label>
+        <description>Oh my, twins!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Reforming three prey</label>
+        <description>Oh my, triplets!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Reforming multiple prey</label>
+        <description>Wow, I have a whole litter growing inside.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>
