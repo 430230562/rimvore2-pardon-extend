@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RimVore2.VorePathDef MayRequire='MamaHorseteeth.RimVore2ExtraVores'>
+        <defName>InsidesReform</defName>
+        <label>(Reform) membrane inside</label>
+        <RMBLabel>membrane vore</RMBLabel>
+        <actionDescription>{PREDATOR} will reform {PREY} inside of them</actionDescription>
+        <description>Reformation creates a new pawn inheriting attributes from both original prey
+            and predator</description>
+        <initTale>RV2_VoreInitiation_MembraneReform</initTale>
+        <exitTale>RV2_VoreExit_MembraneReform</exitTale>
+        <voreType>Membrane</voreType>
+        <voreGoal>Reform</voreGoal>
+        <postVoreMemories>
+            <predatorPostVoreSuccess>RV2_PredatorMembraneReformSuccess</predatorPostVoreSuccess>
+            <predatorPostVoreInterrupted>RV2_PreyMembraneReformInterrupted</predatorPostVoreInterrupted>
+            <preyPostVoreSuccess>RV2_PreyMembraneReformSuccess</preyPostVoreSuccess>
+            <preyPostVoreInterrupted>RV2_PreyMembraneReformInterrupted</preyPostVoreInterrupted>
+        </postVoreMemories>
+        <stages>
+            <li>Membrane_Enter</li>
+            <li>Insides_Reform</li>
+            <li>Membrane_Exit</li>
+        </stages>
+        <defaultRequiredStruggles>300</defaultRequiredStruggles>
+    </RimVore2.VorePathDef>
+</Defs>

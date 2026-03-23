@@ -62,6 +62,16 @@
   </TaleDef>
 
   <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_MembraneReform</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Reform</li>
+        <li>RV2_Type_Membrane</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
     <defName>RV2_VoreInitiation_NavelDrain</defName>
     <rulePack>
       <include>

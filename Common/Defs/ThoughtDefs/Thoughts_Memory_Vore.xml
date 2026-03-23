@@ -332,8 +332,7 @@
         <stages>
             <li>
                 <label>Drained by {0}'s navel</label>
-                <description>{1} drained my energy through their navel. I'm utterly exhausted, but
-                    at least I'm alive.</description>
+                <description>{1} drained my energy through their navel. I'm utterly exhausted, but at least I'm alive.</description>
                 <baseMoodEffect>4</baseMoodEffect>
             </li>
         </stages>
@@ -355,8 +354,7 @@
         <stages>
             <li>
                 <label>Drained {0} through tailmaw</label>
-                <description>The maw on my tail drained {1}'s energy completely. They're weak but
-                    unharmed, and I feel so much stronger!</description>
+                <description>The maw on my tail drained {1}'s energy completely. They're weak but unharmed, and I feel so much stronger!</description>
                 <baseMoodEffect>8</baseMoodEffect>
             </li>
         </stages>
@@ -366,8 +364,7 @@
         <stages>
             <li>
                 <label>Tailmaw draining of {0} interrupted</label>
-                <description>I tried to drain {1} with my tail, but they escaped. Now my tail feels
-                    so empty.</description>
+                <description>I tried to drain {1} with my tail, but they escaped. Now my tail feels so empty.</description>
                 <baseMoodEffect>-4</baseMoodEffect>
             </li>
         </stages>
@@ -377,8 +374,7 @@
         <stages>
             <li>
                 <label>Drained by {0}'s tailmaw</label>
-                <description>{1} drained my energy through the maw on their tail. I'm completely
-                    exhausted, but at least I survived.</description>
+                <description>{1} drained my energy through the maw on their tail. I'm completely exhausted, but at least I survived.</description>
                 <baseMoodEffect>4</baseMoodEffect>
             </li>
         </stages>
@@ -393,4 +389,6 @@
             </li>
         </stages>
     </ThoughtDef>
+
+    <ThoughtDef></ThoughtDef>
 </Defs>
