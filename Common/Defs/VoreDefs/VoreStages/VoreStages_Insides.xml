@@ -67,7 +67,49 @@
         <passConditions>
             <li Class="RimVore2.StagePassCondition_PassValue">
                 <passValueName>DigestionProgress</passValueName>
-                <targetValue>0.45</targetValue>
+                <targetValue>0.5</targetValue>
+            </li>
+        </passConditions>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef Name="Womb_Reform" ParentName="Womb_Base">
+        <defName>Insides_Reform</defName>
+        <partGoal>Reform</partGoal>
+        <jumpKey>Insides</jumpKey>
+        <canReverseDirection>true</canReverseDirection>
+        <predatorHediffDef>RV2_PreyInInsidesReforming</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesReforming</predatorThoughtDef>
+        <onStart>
+            <actions>
+                <li Class="RimVore2.RollAction_PassValue_Set">
+                    <name>ReformProgress</name>
+                    <type>DigestionProgress</type>
+                </li>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_BubblesLove</mote>
+                </li>
+            </actions>
+        </onStart>
+        <onCycle>
+            <rollPresets>
+                <li>StealNeed_ForPrey_Food</li>
+                <li>Heal_Prey</li>
+                <li>Sound_Squish_Chance_30</li>
+                <li>IncreaseReformProgress</li>
+                <li>AddUnlimitedRegressionHediff</li>
+                <li>SkillAbsorb_Prey</li>
+            </rollPresets>
+        </onCycle>
+        <onEnd>
+            <actions>
+                <li Class="RimVore2.RollAction_Reform" />
+                <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
+            </actions>
+        </onEnd>
+        <passConditions>
+            <li Class="RimVore2.StagePassCondition_PassValue">
+                <passValueName>ReformProgress</passValueName>
+                <targetValue>50</targetValue>
             </li>
         </passConditions>
     </RimVore2.VoreStageDef>
