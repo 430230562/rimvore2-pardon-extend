@@ -390,5 +390,44 @@
         </stages>
     </ThoughtDef>
 
-    <ThoughtDef></ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+    <defName>PredatorMembraneReformSuccess</defName>
+    <stages>
+      <li>
+        <label>Rebirthed {0}</label>
+        <description>They look way better with my genes.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="RV2_VoreMemory_Base">
+    <defName>RV2_PredatorMembraneReformInterrupted</defName>
+    <stages>
+      <li>
+        <label>Rebirth of {0} interrupted</label>
+        <description>How disappointing.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="RV2_VoreMemory_Base">
+    <defName>RV2_PreyMembraneReformSuccess</defName>
+    <stages>
+      <li>
+        <label>Reborn by {0}</label>
+        <description>Who... Who am I?</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="RV2_VoreMemory_Base">
+    <defName>RV2_PreyMembraneReformInterrupted</defName>
+    <stages>
+      <li>
+        <label>Rebirth by {0} interrupted</label>
+        <description>I was starting to lose myself...</description>
+        <baseMoodEffect>-15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>
