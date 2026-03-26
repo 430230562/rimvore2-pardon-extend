@@ -26,6 +26,16 @@
   </Operation>
 
   <Operation Class="PatchOperationAdd" MayRequire='Whatif12.RV2Reformers'>
+    <xpath>/Defs/ThingDef[defName="RV2_Reformer_Colony"]/costList</xpath>
+    <value>
+      <costList>
+        <Steel>225</Steel>
+        <ComponentIndustrial>4</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd" MayRequire='Whatif12.RV2Reformers'>
     <xpath>/Defs/ThingDef[defName="Rv2_Reformer_Base"]</xpath>
     <value>
       <researchPrerequisites>
