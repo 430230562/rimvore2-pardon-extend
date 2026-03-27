@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <Defs>
   <RecipeDef>
     <defName>RV2_MakeNeutroamine</defName>
@@ -73,5 +72,46 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <displayPriority>0</displayPriority>
+  </RecipeDef>
+
+  <RecipeDef>
+    <description>Create digestion adjuster.</description>
+    <jobString>Creating digestion adjuster.</jobString>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Sculpt</effectWorking>
+    <soundWorking>Recipe_Sculpt</soundWorking>
+    <autoStripCorpses>false</autoStripCorpses>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <researchPrerequisites>
+      <li>RV2_Research_VoreEnabler</li>
+    </researchPrerequisites>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentIndustrial</li>
+        <li>ComponentSpacer</li>
+      </thingDefs>
+    </fixedIngredientFilter>
   </RecipeDef>
 </Defs>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>RV2_InstallDigestionAdjuster</defName>
+        <label>install digestion adjuster</label>
+        <description>Install a digestion adjuster.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing digestion adjuster.</jobString>
+        <workAmount>2000</workAmount>
+        <skillRequirements>
+            <Medicine>5</Medicine>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RV2_DigestionAdjuster</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>RV2_DigestionAdjuster</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <targetsBodyPart>false</targetsBodyPart>
+        <addsHediff>RV2_DigestionAdjuster</addsHediff>
+    </RecipeDef>
+</Defs>

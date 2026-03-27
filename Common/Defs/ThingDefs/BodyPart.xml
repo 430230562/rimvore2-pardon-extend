@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<ThingDef ParentName="BodyPartBionicBase">
+		<defName>RV2_DigestionAdjuster</defName>
+		<label>digestion adjuster</label>
+		<description>An advanced body implant. Used to improve digest efficiency and decrease item damage, but also slower digest speed.</description>
+		<descriptionHyperlinks>
+			<RecipeDef>RV2_InstallDigestionAdjuster</RecipeDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Health/HealthItem</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<color>(255,255,255)</color>
+		</graphicData>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+		</costList>
+        
+		<statBases>
+			<Mass>1</Mass>
+            <MarketValue>350</MarketValue>
+		</statBases>
+	</ThingDef>
+</Defs>

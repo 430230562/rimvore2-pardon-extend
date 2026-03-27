@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <HediffDef ParentName="AddedBodyPartBase">
+        <defName>RV2_DigestionAdjuster</defName>
+        <label>digestion adjuster</label>
+        <labelNoun>a digestion adjuster</labelNoun>
+        <description>An installed digestion adjuster.</description>
+        <descriptionHyperlinks>
+            <ThingDef>RV2_DigestionAdjuster</ThingDef>
+        </descriptionHyperlinks>
+        <spawnThingOnRemoved>RV2_DigestionAdjuster</spawnThingOnRemoved>
+        <addedPartProps>
+            <solid>true</solid>
+            <partEfficiency>1</partEfficiency>
+            <betterThanNatural>true</betterThanNatural>
+        </addedPartProps>
+        <comps>   
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>ItemDamage_Spotless</li>
+                </quirks>
+            </li>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>NutritionEfficiency_VeryGood</li>
+                </quirks>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statFactors>
+                    <RV2_DigestionStrength>0.8</RV2_DigestionStrength>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+</Defs>
