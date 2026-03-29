@@ -25,12 +25,22 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd" MayRequire='Whatif12.RV2Reformers'>
+  <Operation Class="PatchOperationReplace" MayRequire='Whatif12.RV2Reformers'>
     <xpath>/Defs/ThingDef[defName="RV2_Reformer_Colony"]/costList</xpath>
     <value>
       <costList>
         <Steel>225</Steel>
         <ComponentIndustrial>4</ComponentIndustrial>
+      </costList>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace" MayRequire='Whatif12.RV2Reformers'>
+    <xpath>/Defs/ThingDef[defName="RV2_Reformer_Owned"]/costList</xpath>
+    <value>
+      <costList>
+        <Steel>125</Steel>
+        <ComponentIndustrial>1</ComponentIndustrial>
       </costList>
     </value>
   </Operation>

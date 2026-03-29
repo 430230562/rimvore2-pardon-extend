@@ -58,6 +58,10 @@ namespace PRV2E
                 mul += 1;
 
             }
+            else
+            {
+                AgingSpeed = 1;
+            }
         }
         public override string CompTipStringExtra => string.Concat("AgingSpeed".Translate() + ": x " + AgingSpeed);
     }

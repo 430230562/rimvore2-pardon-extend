@@ -11,13 +11,13 @@
     </strengthModifiers>
     <strength>0.04</strength>
     <actionsOnSuccess>
-      <li Class="RimVore2.RollAction_Heal">
-        <target>Prey</target>
-      </li>
       <li Class="RimVore2.RollAction_IncreaseHediffSeverity">
         <target>Prey</target>
         <hediff>RV2_FasterRecover</hediff>
         <addHediffIfNotPresent>true</addHediffIfNotPresent>
+      </li>
+      <li Class="RimVore2.RollAction_Heal">
+        <target>Prey</target>
       </li>
     </actionsOnSuccess>
   </RimVore2.RollPresetDef>
