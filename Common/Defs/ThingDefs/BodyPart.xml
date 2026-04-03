@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-<ThingDef ParentName="BodyPartBionicBase">
+	<ThingDef ParentName="BodyPartBionicBase">
 		<defName>RV2_DigestionAdjuster</defName>
 		<label>digestion adjuster</label>
 		<description>An advanced body implant. Used to improve digest efficiency and decrease item damage, but also slower digest speed.</description>
@@ -9,17 +9,35 @@
 		</descriptionHyperlinks>
 		<graphicData>
 			<texPath>Things/Item/Health/HealthItem</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass>
 			<color>(255,255,255)</color>
 		</graphicData>
-		<costList>
-			<ComponentIndustrial>2</ComponentIndustrial>
-            <ComponentSpacer>1</ComponentSpacer>
-		</costList>
-        
 		<statBases>
 			<Mass>1</Mass>
-            <MarketValue>350</MarketValue>
+			<MarketValue>350</MarketValue>
+			<WorkToMake>5000</WorkToMake>
 		</statBases>
+		<techLevel>Industrial</techLevel>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+				<Medicine>5</Medicine>
+			</skillRequirements>
+			<researchPrerequisites>
+				<li>RV2_Research_VoreEnabler</li>
+			</researchPrerequisites>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<Neutroamine>20</Neutroamine>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
 	</ThingDef>
 </Defs>

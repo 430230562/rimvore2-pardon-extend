@@ -6,8 +6,8 @@
     <description>Make a neutroamine.</description>
     <jobString>Making neutroamine.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Machining</soundWorking>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>1000</workAmount>
     <recipeUsers>
       <li>DrugLab</li>
@@ -43,8 +43,8 @@
     <description>Make four neutroamines.</description>
     <jobString>Making neutroamine.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Machining</soundWorking>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
     <workAmount>4000</workAmount>
     <recipeUsers>
       <li>DrugLab</li>
@@ -75,43 +75,36 @@
   </RecipeDef>
 
   <RecipeDef>
-    <description>Create digestion adjuster.</description>
-    <jobString>Creating digestion adjuster.</jobString>
-    <workAmount>2000</workAmount>
+    <defName>RV2_MakeSynthread</defName>
+    <label>make Synthread</label>
+    <description>Make a Synthread.</description>
+    <jobString>Making Synthread.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Sculpt</effectWorking>
-    <soundWorking>Recipe_Sculpt</soundWorking>
-    <autoStripCorpses>false</autoStripCorpses>
-    <allowMixingIngredients>true</allowMixingIngredients>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>1000</workAmount>
     <recipeUsers>
-      <li>TableMachining</li>
+      <li>BiofuelRefinery</li>
     </recipeUsers>
-    <researchPrerequisites>
-      <li>RV2_Research_VoreEnabler</li>
-    </researchPrerequisites>
     <ingredients>
       <li>
         <filter>
-          <thingDefs>
-            <li>ComponentSpacer</li>
-          </thingDefs>
+          <categories>
+            <li>RV2_VoreProduct</li>
+          </categories>
         </filter>
-        <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>2</count>
+        <count>70</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
-      <thingDefs>
-        <li>ComponentIndustrial</li>
-        <li>ComponentSpacer</li>
-      </thingDefs>
+      <categories>
+        <li>RV2_VoreProduct</li>
+      </categories>
     </fixedIngredientFilter>
+    <products>
+      <Synthread>40</Synthread>
+    </products>
+    <workSkill>Crafting</workSkill>
+    <displayPriority>0</displayPriority>
   </RecipeDef>
 </Defs>

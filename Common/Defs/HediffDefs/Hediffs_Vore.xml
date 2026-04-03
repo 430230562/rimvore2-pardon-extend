@@ -37,7 +37,7 @@
     <HediffDef ParentName="RV2_PreyInWomb">
         <defName>RV2_PreyInWombContacting</defName>
         <label>Prey in Womb</label>
-        <description>This pawn is having some form of anal intercourse, with intent to absorb.</description>
+        <description>This pawn is having some form of womb intercourse, with intent to absorb.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInWomb">
         <defName>RV2_PreyInWombLoosening</defName>

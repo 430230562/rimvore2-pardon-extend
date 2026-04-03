@@ -25,7 +25,10 @@
                 <li>RV2_DigestionAdjuster</li>
             </thingDefs>
         </fixedIngredientFilter>
-        <targetsBodyPart>false</targetsBodyPart>
+        <targetsBodyPart>true</targetsBodyPart>
+        <appliedOnFixedBodyParts>
+            <li>Body</li>
+        </appliedOnFixedBodyParts>
         <addsHediff>RV2_DigestionAdjuster</addsHediff>
     </RecipeDef>
 </Defs>
