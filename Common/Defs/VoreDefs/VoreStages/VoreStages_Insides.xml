@@ -72,7 +72,7 @@
         </passConditions>
     </RimVore2.VoreStageDef>
 
-    <RimVore2.VoreStageDef Name="Womb_Reform" ParentName="Womb_Base">
+    <RimVore2.VoreStageDef Name="Insides_Reform" ParentName="Insides_Base">
         <defName>Insides_Reform</defName>
         <partGoal>Reform</partGoal>
         <jumpKey>Insides</jumpKey>
