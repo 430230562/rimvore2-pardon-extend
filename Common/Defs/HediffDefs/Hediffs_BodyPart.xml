@@ -19,9 +19,7 @@
                 <quirks>
                     <li>ItemDamage_Spotless</li>
                 </quirks>
-            </li>
-            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
-                <quirks>
+<quirks>
                     <li>NutritionEfficiency_VeryGood</li>
                 </quirks>
             </li>
