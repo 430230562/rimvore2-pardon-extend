@@ -86,14 +86,31 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/RecipeDef[@ParentName="RV2_MakeVoreEnabler_Base"]</xpath>
+  </Operation>
+
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[@Name="RV2_VoreEnabler_Base"]</xpath>
     <value>
       <recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <unfinishedThingDef>UnfinishedHealthItemBionic</unfinishedThingDef>
         <researchPrerequisites>
           <li>RV2_Research_VoreEnabler</li>
         </researchPrerequisites>
+        <recipeUsers>
+          <li>TableMachining</li>
+        </recipeUsers>
       </recipeMaker>
+      <costList>
+        <Gold>1</Gold>
+        <Plasteel>10</Plasteel>
+        <ComponentSpacer>1</ComponentSpacer>
+      </costList>
     </value>
   </Operation>
 
