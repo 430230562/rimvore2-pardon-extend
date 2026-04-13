@@ -31,32 +31,35 @@ namespace PRV2E
 
         public override void CompPostTick(ref float severityAdjustment)
         {
-            if (Find.TickManager.TicksGame % 60 == 0 && (Pawn.ageTracker.AgeBiologicalTicks > Pawn.ageTracker.AdultMinAgeTicks || !Props.limitMinAge))
+            if (Pawn.ageTracker.AgeBiologicalTicks > Pawn.ageTracker.AdultMinAgeTicks || !Props.limitMinAge)
             {
-                //更新描述文本
-                AgingSpeed = 1f - Props.RegressionStrength * parent.Severity;
-
-                Pawn.ageTracker.AgeBiologicalTicks = (long)Math.Max(Pawn.ageTracker.AgeBiologicalTicks - Props.RegressionStrength * parent.Severity * 60, 0);
-
-                foreach (Hediff hediff in Pawn.health.hediffSet.hediffs.Where((Hediff diff) => diff.def.chronic))
+                if (Find.TickManager.TicksGame % 60 == 0)
                 {
-                    if (Rand.Chance(0.0005f * mul - 0.5f))
+                    //更新描述文本
+                    AgingSpeed = 1f - Props.RegressionStrength * parent.Severity;
+
+                    Pawn.ageTracker.AgeBiologicalTicks = (long)Math.Max(Pawn.ageTracker.AgeBiologicalTicks - Props.RegressionStrength * parent.Severity * 60, 0);
+
+                    foreach (Hediff hediff in Pawn.health.hediffSet.hediffs.Where((Hediff diff) => diff.def.chronic))
                     {
-                        Pawn.health.RemoveHediff(Pawn.health.hediffSet.GetFirstHediffOfDef(hediff.def, false));
-                        mul = 0;
-                    }
-                    else if (hediff.TryGetComp<HediffComp_SeverityPerDay>() != null)
-                    {
-                        hediff.Severity -= 0.0005f;
-                        if (hediff.Severity <= 0)
+                        if (Rand.Chance(0.0005f * mul - 0.5f))
                         {
                             Pawn.health.RemoveHediff(Pawn.health.hediffSet.GetFirstHediffOfDef(hediff.def, false));
+                            mul = 0;
+                        }
+                        else if (hediff.TryGetComp<HediffComp_SeverityPerDay>() != null)
+                        {
+                            hediff.Severity -= 0.0005f;
+                            if (hediff.Severity <= 0)
+                            {
+                                Pawn.health.RemoveHediff(Pawn.health.hediffSet.GetFirstHediffOfDef(hediff.def, false));
+                            }
                         }
                     }
+
+                    mul += 1;
+
                 }
-
-                mul += 1;
-
             }
             else
             {
