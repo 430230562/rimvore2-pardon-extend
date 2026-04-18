@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RimVore2.QuirkPoolDef>
+        <defName>WarmupSpeed</defName>
+        <label>Warmup speed</label>
+        <category>Digestion</category>
+        <description>These quirks determine how quickly their prepare to do something to their prey.</description>
+        <generationOrder>3</generationOrder>
+        <poolType>PickOne</poolType>
+        <quirks>
+            <li>WarmupSpeed_VeryFast</li>
+            <li>WarmupSpeed_Fast</li>
+            <li>WarmupSpeed_Normal</li>
+            <li>WarmupSpeed_Slow</li>
+            <li>WarmupSpeed_VerySlow</li>
+        </quirks>
+    </RimVore2.QuirkPoolDef>
+
+    <RimVore2.QuirkDef>
+        <defName>WarmupSpeed_VeryFast</defName>
+        <label>Blazing Warmup</label>
+        <description>[PAWN_label] warms up to act on prey extremely quickly, ready to pounce and process them in record time.</description>
+        <rarity>Uncommon</rarity>
+        <comps>
+            <li Class="RimVore2.QuirkComp_ValueModifier">
+                <modifierName>WarmupSpeed</modifierName>
+                <modifierValue>4</modifierValue>
+            </li>
+        </comps>
+    </RimVore2.QuirkDef>
+
+    <RimVore2.QuirkDef>
+        <defName>WarmupSpeed_Fast</defName>
+        <label>Swift Warmup</label>
+        <description>[PAWN_label] warms up to prey faster than most predators, able to prepare for digestion or capture with little delay.</description>
+        <rarity>Uncommon</rarity>
+        <comps>
+            <li Class="RimVore2.QuirkComp_ValueModifier">
+                <modifierName>WarmupSpeed</modifierName>
+                <modifierValue>2</modifierValue>
+            </li>
+        </comps>
+    </RimVore2.QuirkDef>
+    
+    <RimVore2.QuirkDef>
+        <defName>WarmupSpeed_Normal</defName>
+        <label>Normal Warmup</label>
+        <hidden>true</hidden>
+        <description>[PAWN_label] warms up to prey at a standard rate, matching the pace of most predatory peers.</description>
+        <rarity>Abundant</rarity>
+    </RimVore2.QuirkDef>
+
+    <RimVore2.QuirkDef>
+        <defName>WarmupSpeed_Slow</defName>
+        <label>Sluggish Warmup</label>
+        <description>[PAWN_label] warms up to act on prey slowly, taking longer than average to prepare for capturing or digesting prey.</description>
+        <rarity>Common</rarity>
+        <comps>
+            <li Class="RimVore2.QuirkComp_ValueModifier">
+                <modifierName>WarmupSpeed</modifierName>
+                <modifierValue>0.67</modifierValue>
+            </li>
+        </comps>
+    </RimVore2.QuirkDef>
+
+    <RimVore2.QuirkDef>
+        <defName>WarmupSpeed_VerySlow</defName>
+        <label>Glacial Warmup</label>
+        <description>[PAWN_label] warms up to prey extremely slowly, taking far longer than normal to ready their predatory instincts and actions.</description>
+        <rarity>Rare</rarity>
+        <comps>
+            <li Class="RimVore2.QuirkComp_ValueModifier">
+                <modifierName>WarmupSpeed</modifierName>
+                <modifierValue>0.5</modifierValue>
+            </li>
+        </comps>
+    </RimVore2.QuirkDef>
+
+</Defs>

@@ -135,4 +135,12 @@
         </value>
     </Operation>
 
+
+    <!-- 批量：只修改 Class 属性，保留所有原有数据（duration等完全不变） -->
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/RimVore2.VoreStageDef[partGoal="WarmUp"]/passConditions/li[@Class="RimVore2.StagePassCondition_Timed"]</xpath>
+        <attribute>Class</attribute>
+        <value>PRV2E.StagePassCondition_QuirkWarmup</value>
+    </Operation>
+
 </Patch>
