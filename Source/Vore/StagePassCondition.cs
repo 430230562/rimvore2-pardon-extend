@@ -26,7 +26,7 @@ namespace PRV2E
         {
             if (!RV2Mod.Settings.fineTuning.SkipWarmupWhenAlreadyDigesting)
             {
-                int adaptedDuration = Math.Max(1, (int)(duration / RV2Mod.Settings.cheats.VoreSpeedMultiplier * record.Predator.QuirkManager().ModifyValue("warmupSpeed", 1)));    // prevent divide by 0 exception with math.max
+                int adaptedDuration = Math.Max(1, (int)(duration / RV2Mod.Settings.cheats.VoreSpeedMultiplier * record.Predator.QuirkManager().ModifyValue("WarmupSpeed", 1)));    // prevent divide by 0 exception with math.max
                 int currentlyPassed = record.CurrentVoreStage.PassedRareTicks;
                 progress = currentlyPassed / adaptedDuration;
                 progress = CalculateProgress(currentlyPassed, adaptedDuration, 0);
