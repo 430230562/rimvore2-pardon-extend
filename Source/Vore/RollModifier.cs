@@ -10,25 +10,30 @@ using Verse;
 
 namespace PRV2E
 {
-    public class RollModifier_StatWithMin : TargetedRollModifier
+    public class RollModifier_LimitedStat : TargetedRollModifier
     {
         public StatDef stat;
-        public float minValue;
+        public float min;
+        public float max;
 
         protected override bool TryGetModifier(VoreTrackerRecord record, out float modifier)
         {
             Pawn pawn = TargetPawn(record);
             modifier = pawn.GetStatValue(stat);
-            if(modifier < minValue)
+            if(modifier < min)
             {
-                modifier = minValue;
+                modifier = min;
+            }
+            if (modifier > max) 
+            { 
+                modifier = max;
             }
             return true;
         }
 
         protected override string Explain(float oldValue, float modifier, float newValue)
         {
-            return base.Explain(oldValue, modifier, newValue) + " stat: " + stat.defName + "min value: " + minValue;
+            return base.Explain(oldValue, modifier, newValue) + " stat: " + stat.defName + "min value: " + min + "max value: " + max;
         }
 
         public override float AbstractModifyValue(float value)
@@ -52,7 +57,8 @@ namespace PRV2E
         {
             base.ExposeData();
             Scribe_Defs.Look(ref stat, "stat");
-            Scribe_Values.Look(ref minValue, "minValue", 0f);
+            Scribe_Values.Look(ref min, "minValue", 0f);
+            Scribe_Values.Look(ref max, "maxValue", 100f);
         }
     }
 }

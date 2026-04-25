@@ -19,6 +19,7 @@
         <duration>24</duration>
         <hediffs>
           <li>RV2_PreyInTailThroatDigesting</li>
+          <li>RV2_PreyInTailThroatHealing</li>
         </hediffs>
       </li>
     </passConditions>

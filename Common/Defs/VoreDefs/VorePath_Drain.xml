@@ -17,7 +17,7 @@
     </postVoreMemories>
     <stages>
       <li>Cleavage_Enter</li>
-      <li>Insides_Warmup_Fast</li>
+      <li>Stomach_Warmup_Fast</li>
       <li>Stomach_Drain</li>
       <li>Stomach_SoftChurn</li>
       <li>Intestines_SoftProcess</li>

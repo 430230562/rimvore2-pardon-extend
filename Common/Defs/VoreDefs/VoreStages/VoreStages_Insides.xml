@@ -16,8 +16,11 @@
             </rollPresets>
         </onCycle>
         <passConditions>
-            <li Class="RimVore2.StagePassCondition_Timed">
+            <li Class="RimVore2.StagePassCondition_Warmup">
                 <duration>12</duration>
+                <hediffs>
+                <li>RV2_PreyInInsidesDrain</li>
+                </hediffs>
             </li>
         </passConditions>
     </RimVore2.VoreStageDef>

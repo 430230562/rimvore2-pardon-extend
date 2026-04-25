@@ -140,7 +140,12 @@
     <Operation Class="PatchOperationAttributeSet">
         <xpath>/Defs/RimVore2.VoreStageDef[partGoal="WarmUp"]/passConditions/li[@Class="RimVore2.StagePassCondition_Timed"]</xpath>
         <attribute>Class</attribute>
-        <value>PRV2E.StagePassCondition_QuirkWarmup</value>
+        <value>PRV2E.StagePassCondition_Warmup_Quirk</value>
+    </Operation>
+    <Operation Class="PatchOperationAttributeSet">
+        <xpath>/Defs/RimVore2.VoreStageDef/passConditions/li[@Class="RimVore2.StagePassCondition_Warmup"]</xpath>
+        <attribute>Class</attribute>
+        <value>PRV2E.StagePassCondition_Warmup_Hediffs</value>
     </Operation>
 
 </Patch>
