@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Zoogastric disinterest -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Dislikes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Dislikes.label>
+  <!-- EN: This pawn dislikes being prey for animals. How certain can it be that the beast will listen to demands to be let out? -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Dislikes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Dislikes.description>
+  
+  <!-- EN: Zoogastric interest -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Likes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Likes.label>
+  <!-- EN: This pawn likes being prey for animals. It's thrilling to be subject to the inscrutable whims of a beast, not knowing if it might change its mind about its safety, or when it'll decide to release it. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Likes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Likes.description>
+  
+  <!-- EN: Zoogastric ambivalence -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Neutral.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Neutral.label>
+  <!-- EN: This pawn doesn't mind being prey for animals, but doesn't prefer it either. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Neutral.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Neutral.description>
+  
+  <!-- EN: Zoogastric obsession -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Obsessed.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Obsessed.label>
+  <!-- EN: This pawn adores being prey for animals. If it ever goes missing, make sure to check the bellies of all your livestock, pets, and the wildlife. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Obsessed.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Obsessed.description>
+  
+  <!-- EN: Zoogastric revulsion -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Refuses.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Refuses.label>
+  <!-- EN: This pawn hates being prey for animals and will never willingly be consumed by them. It's as disgusting as it is degrading. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Refuses.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Animals_Refuses.description>
+  
+  <!-- EN: Anthropogastric disinterest -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Dislikes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Dislikes.label>
+  <!-- EN: This pawn dislikes being prey for its fellow sapient beings. It can't escape the stresses of society by entering the body of a member of society. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Dislikes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Dislikes.description>
+  
+  <!-- EN: Anthropogastric interest -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Likes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Likes.label>
+  <!-- EN: This pawn likes being prey for its fellow sapient beings. It's nice to be able to socialize with its predator. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Likes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Likes.description>
+  
+  <!-- EN: Anthropogastric ambivalence -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Neutral.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Neutral.label>
+  <!-- EN: This pawn doesn't mind being prey for its fellow sapient beings, but doesn't prefer it either. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Neutral.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Neutral.description>
+  
+  <!-- EN: Anthropogastric obsession -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Obsessed.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Obsessed.label>
+  <!-- EN: This pawn adores being prey for its fellow sapient beings. It is a prey of the people- -any person, really. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Obsessed.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Obsessed.description>
+  
+  <!-- EN: Anthropogastric revulsion -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Refuses.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Refuses.label>
+  <!-- EN: This pawn hates being prey for its fellow sapient beings and will never willingly be consumed by them. That's at least three kinds of unnatural. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Refuses.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Humanoids_Refuses.description>
+  
+  <!-- EN: Entomogastric disinterest -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Dislikes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Dislikes.label>
+  <!-- EN: This pawn dislikes being prey for insectoids. Bugs aren't known for eating their prey in one whole bite. Not swarms of them, at least... -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Dislikes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Dislikes.description>
+  
+  <!-- EN: Entomogastric interest -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Likes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Likes.label>
+  <!-- EN: This pawn likes being prey for insectoids. Such an alien physiology is quite fascinating to tour from the inside. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Likes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Likes.description>
+  
+  <!-- EN: Entomogastric ambivalence -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Neutral.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Neutral.label>
+  <!-- EN: This pawn doesn't mind being prey for insectoids, but doesn't prefer it either. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Neutral.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Neutral.description>
+  
+  <!-- EN: Entomogastric obsession -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Obsessed.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Obsessed.label>
+  <!-- EN: This pawn adores being prey for insectoids. There aren't many other ways for a humanoid to become one with the hive. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Obsessed.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Obsessed.description>
+  
+  <!-- EN: Entomogastric revulsion -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Refuses.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Refuses.label>
+  <!-- EN: This pawn hates being prey for insectoids and will not willingly be consumed by them. No amount of showers would ever let it feel clean again. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Refuses.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Insectoids_Refuses.description>
+  
+  <!-- EN: Mechanogastric disinterest -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Dislikes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Dislikes.label>
+  <!-- EN: This pawn dislikes being prey for mechanoids. Think of all the grinding gears! All the constant clicking and ticking! -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Dislikes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Dislikes.description>
+  
+  <!-- EN: Mechanogastric interest -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Likes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Likes.label>
+  <!-- EN: This pawn likes being prey for mechanoids. Cold, unyielding plasteel makes for a unique and exhilarating experience. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Likes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Likes.description>
+  
+  <!-- EN: Mechanogastric ambivalence -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Neutral.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Neutral.label>
+  <!-- EN: This pawn doesn't mind being prey for mechanoids, but doesn't prefer it either. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Neutral.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Neutral.description>
+  
+  <!-- EN: Mechanogastric obsession -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Obsessed.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Obsessed.label>
+  <!-- EN: This pawn adores being prey for mechanoids. It is more at home among flexing hydraulics and humming circuits than the beat of most hearts. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Obsessed.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Obsessed.description>
+  
+  <!-- EN: Mechanogastric revulsion -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Refuses.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Refuses.label>
+  <!-- EN: This pawn hates being prey for mechanoids and will not willingly be consumed by them. Even if it was suicidal, that sure as hell ain't the way it wants to go out. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Refuses.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Prey_Mechanoids_Refuses.description>
+  
+</LanguageData>

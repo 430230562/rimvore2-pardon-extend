@@ -26,7 +26,6 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-
         <xpath>/Defs/RimVore2.VoreStageDef[defName="Womb_Reform"]</xpath>
         <value>
             <RimVore2.VoreStageDef Name="Womb_Reform" ParentName="Womb_Base">

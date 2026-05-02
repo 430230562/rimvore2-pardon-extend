@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Clumsy Grappler -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Bad.label>笨拙的摔跤手</RV2_Gene_QuirkForce_GrappleStrength_Bad.label>
+  <!-- EN: This pawn is pretty bad at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Bad.description>这个角色在吞噬摔跤的格斗中相当差劲。</RV2_Gene_QuirkForce_GrappleStrength_Bad.description>
+  
+  <!-- EN: Skilled Grappler -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Good.label>技能娴熟的摔跤手</RV2_Gene_QuirkForce_GrappleStrength_Good.label>
+  <!-- EN: This pawn is pretty good at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Good.description>这个角色在吞噬摔跤的格斗中相当不错。</RV2_Gene_QuirkForce_GrappleStrength_Good.description>
+  
+  <!-- EN: Average Grappler -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Normal.label>中等摔跤手</RV2_Gene_QuirkForce_GrappleStrength_Normal.label>
+  <!-- EN: This pawn is about average at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Gene_QuirkForce_GrappleStrength_Normal.description>这个角色在吞噬摔跤的格斗中水平平均。</RV2_Gene_QuirkForce_GrappleStrength_Normal.description>
+  
+  <!-- EN: Hopeless Grappler -->
+  <RV2_Gene_QuirkForce_GrappleStrength_VeryBad.label>无望的摔跤手</RV2_Gene_QuirkForce_GrappleStrength_VeryBad.label>
+  <!-- EN: This pawn is terrible at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Gene_QuirkForce_GrappleStrength_VeryBad.description>这个角色在吞噬摔跤的格斗中糟透了。</RV2_Gene_QuirkForce_GrappleStrength_VeryBad.description>
+  
+  <!-- EN: Professional Wrestler -->
+  <RV2_Gene_QuirkForce_GrappleStrength_VeryGood.label>专业摔跤手</RV2_Gene_QuirkForce_GrappleStrength_VeryGood.label>
+  <!-- EN: This pawn is an expert at hand-to-hand combat when it comes to wrestling for vore. -->
+  <RV2_Gene_QuirkForce_GrappleStrength_VeryGood.description>这个角色在吞噬摔跤的格斗中是一名专家。</RV2_Gene_QuirkForce_GrappleStrength_VeryGood.description>
+  
+  <!-- EN: Numbing -->
+  <RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPredator.label>麻痹胃液</RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPredator.label>
+  <!-- EN: This pawn s stomach secretes numbing enzymes that paralyze it's prey, as a result anyone vored by this pwan will never struggle. -->
+  <RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPredator.description>这个角色的胃分泌麻痹酶使猎物瘫痪，因此被这个角色吞噬的任何人都不会挣扎。</RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPredator.description>
+  
+  <!-- EN: Sedentary -->
+  <RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPrey.label>不抵抗的</RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPrey.label>
+  <!-- EN: This pawn does not mind being vored, no matter what the repercussions might be. As a result this pawn will never bother to struggle. -->
+  <RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPrey.description>这个角色不介意被吞噬，无论可能的后果如何。因此这个角色永远不会费力挣扎。</RV2_Gene_QuirkForce_StruggleCapability_NoStruggleAsPrey.description>
+  
+  <!-- EN: Struggle hater -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Hated.label>厌恶挣扎</RV2_Gene_QuirkForce_StrugglePreference_Hated.label>
+  <!-- EN: This pawn has very irritable insides and hates prey working against -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Hated.description>这个角色内部非常易怒，讨厌猎物反抗。</RV2_Gene_QuirkForce_StrugglePreference_Hated.description>
+  
+  <!-- EN: Struggle lover -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Liked.label>热爱挣扎</RV2_Gene_QuirkForce_StrugglePreference_Liked.label>
+  <!-- EN: This pawn has very resilient insides and actually enjoys prey working against it. -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Liked.description>这个角色的内部非常有韧性，实际上喜欢猎物反抗。</RV2_Gene_QuirkForce_StrugglePreference_Liked.description>
+  
+  <!-- EN: Struggle neutral -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Nomal.label>挣扎中立</RV2_Gene_QuirkForce_StrugglePreference_Nomal.label>
+  <!-- EN: This pawn doesn't care one way or another if its prey struggles. -->
+  <RV2_Gene_QuirkForce_StrugglePreference_Nomal.description>这个角色不关心其猎物是否挣扎。</RV2_Gene_QuirkForce_StrugglePreference_Nomal.description>
+  
+  <!-- EN: Weak gut -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Bad.label>虚弱肠胃</RV2_Gene_QuirkForce_StruggleStrength_Predator_Bad.label>
+  <!-- EN: This pawn is pretty bad at resisting struggles from its prey. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Bad.description>这个角色相当不擅长抵抗其猎物的挣扎。</RV2_Gene_QuirkForce_StruggleStrength_Predator_Bad.description>
+  
+  <!-- EN: Iron gut -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Good.label>铁肠胃</RV2_Gene_QuirkForce_StruggleStrength_Predator_Good.label>
+  <!-- EN: This pawn is pretty good at resisting struggles from its prey. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Good.description>这个角色相当擅长抵抗其猎物的挣扎。</RV2_Gene_QuirkForce_StruggleStrength_Predator_Good.description>
+  
+  <!-- EN: Average gut -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Normal.label>中等肠胃</RV2_Gene_QuirkForce_StruggleStrength_Predator_Normal.label>
+  <!-- EN: This pawn is about average at resisting struggles from its prey. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_Normal.description>这个角色在抵抗其猎物的挣扎上水平平均。</RV2_Gene_QuirkForce_StruggleStrength_Predator_Normal.description>
+  
+  <!-- EN: Fragile gut -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryBad.label>脆弱肠胃</RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryBad.label>
+  <!-- EN: This pawn is terrible at resisting struggles from its prey. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryBad.description>这个角色在抵抗其猎物的挣扎上糟透了。</RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryBad.description>
+  
+  <!-- EN: Steel gut -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryGood.label>钢铁肠胃</RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryGood.label>
+  <!-- EN: This pawn is an expert at resisting struggles from its prey. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryGood.description>这个角色是抵抗其猎物挣扎的专家。</RV2_Gene_QuirkForce_StruggleStrength_Predator_VeryGood.description>
+  
+  <!-- EN: Clumsy Wiggler -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Bad.label>笨拙的蠕动者</RV2_Gene_QuirkForce_StruggleStrength_Prey_Bad.label>
+  <!-- EN: This pawn is pretty bad at struggling when vored by others. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Bad.description>这个角色在被他人吞噬时相当不擅长挣扎。</RV2_Gene_QuirkForce_StruggleStrength_Prey_Bad.description>
+  
+  <!-- EN: Wiggler -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Good.label>蠕动者</RV2_Gene_QuirkForce_StruggleStrength_Prey_Good.label>
+  <!-- EN: This pawn is pretty good at struggling when vored by others. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Good.description>这个角色在被他人吞噬时相当擅长挣扎。</RV2_Gene_QuirkForce_StruggleStrength_Prey_Good.description>
+  
+  <!-- EN: Average Wiggler -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Normal.label>中等蠕动者</RV2_Gene_QuirkForce_StruggleStrength_Prey_Normal.label>
+  <!-- EN: This pawn is about average at struggling when vored by others. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_Normal.description>这个角色在被他人吞噬时挣扎水平平均。</RV2_Gene_QuirkForce_StruggleStrength_Prey_Normal.description>
+  
+  <!-- EN: Hopeless Wiggler -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryBad.label>无望的蠕动者</RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryBad.label>
+  <!-- EN: This pawn is terrible at struggling when vored by others. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryBad.description>这个角色在被他人吞噬时挣扎的能力糟透了。</RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryBad.description>
+  
+  <!-- EN: Professional Wiggler -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryGood.label>专业级蠕动者</RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryGood.label>
+  <!-- EN: This pawn is an expert at struggling when vored by others. -->
+  <RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryGood.description>这个角色是被他人吞噬时挣扎的专家。</RV2_Gene_QuirkForce_StruggleStrength_Prey_VeryGood.description>
+  
+</LanguageData>

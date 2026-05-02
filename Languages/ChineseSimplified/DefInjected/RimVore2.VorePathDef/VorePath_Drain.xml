@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: (Drain) Cleavage-Hold -->
+  <CleavageDrain.label>TODO</CleavageDrain.label>
+  <!-- EN: Cleavage parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting. -->
+  <CleavageDrain.description>TODO</CleavageDrain.description>
+  <!-- EN: {PREDATOR} will drain {PREY} through their cleavage -->
+  <CleavageDrain.actionDescription>TODO</CleavageDrain.actionDescription>
+  <!-- EN: Cleavage vore -->
+  <CleavageDrain.RMBLabel>TODO</CleavageDrain.RMBLabel>
+  
+  <!-- EN: (Drain) membrane inside -->
+  <MembraneDrain.label>TODO</MembraneDrain.label>
+  <!-- EN: Membrane parasitisim is where the predator swallows the prey into their Insides, where they are drained of their energy. This process is safe, if exhausting. -->
+  <MembraneDrain.description>TODO</MembraneDrain.description>
+  <!-- EN: {PREDATOR} will engulf and drain {PREY} -->
+  <MembraneDrain.actionDescription>TODO</MembraneDrain.actionDescription>
+  <!-- EN: Membrane vore -->
+  <MembraneDrain.RMBLabel>TODO</MembraneDrain.RMBLabel>
+  
+  <!-- EN: (Drain) Navel -->
+  <NavelDrain.label>TODO</NavelDrain.label>
+  <!-- EN: Navel parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting. -->
+  <NavelDrain.description>TODO</NavelDrain.description>
+  <!-- EN: {PREDATOR} will drain {PREY} behind their navel -->
+  <NavelDrain.actionDescription>TODO</NavelDrain.actionDescription>
+  <!-- EN: Navel vore -->
+  <NavelDrain.RMBLabel>TODO</NavelDrain.RMBLabel>
+  
+  <!-- EN: (Drain) Tailmaw -->
+  <TailmawDrain.label>TODO</TailmawDrain.label>
+  <!-- EN: Tailmaw parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting. -->
+  <TailmawDrain.description>TODO</TailmawDrain.description>
+  <!-- EN: {PREDATOR} will drain {PREY} through their tailmaw -->
+  <TailmawDrain.actionDescription>TODO</TailmawDrain.actionDescription>
+  <!-- EN: Tailmaw vore -->
+  <TailmawDrain.RMBLabel>TODO</TailmawDrain.RMBLabel>
+  
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Reformer Technology -->
+  <RV2_Research_Reformer.label>TODO</RV2_Research_Reformer.label>
+  <!-- EN: Unlock the reformer, which can be built -->
+  <RV2_Research_Reformer.description>TODO</RV2_Research_Reformer.description>
+  
+  <!-- EN: Vore enabler Technology -->
+  <RV2_Research_VoreEnabler.label>TODO</RV2_Research_VoreEnabler.label>
+  <!-- EN: Unlock the vore enabler, which can be crafted at a tailor's workbench. -->
+  <RV2_Research_VoreEnabler.description>TODO</RV2_Research_VoreEnabler.description>
+  
+</LanguageData>

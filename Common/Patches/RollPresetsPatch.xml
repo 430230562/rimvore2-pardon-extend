@@ -148,4 +148,24 @@
     </value>
   </Operation>
 
+  <Operation Class='PatchOperationAdd'>
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseBreakDownProgress"]/strengthModifiers</xpath>
+    <value>
+      <li Class="RimVore2.RollModifier_Quirk">
+        <target>Predator</target>
+        <stat>AbsorptionSpeed</stat>
+      </li>
+    </value>
+  </Operation>
+
+  <Operation Class='PatchOperationAdd'>
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToPredatorFood"]/strengthModifiers</xpath>
+    <value>
+      <li Class="RimVore2.RollModifier_Quirk">
+        <target>Predator</target>
+        <stat>AbsorptionSpeed</stat>
+      </li>
+    </value>
+  </Operation>
+
 </Patch>

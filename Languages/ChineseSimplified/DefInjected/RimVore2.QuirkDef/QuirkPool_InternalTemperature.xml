@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Absolute Zero -->
+  <InternalTemperature_AbsoluteZero.label>TODO</InternalTemperature_AbsoluteZero.label>
+  <!-- EN: [PAWN_label] insides are at absolute zero (-273°C / -459°F), prey inside will be frozen solid instantly. -->
+  <InternalTemperature_AbsoluteZero.description>TODO</InternalTemperature_AbsoluteZero.description>
+  
+  <!-- EN: Scorching -->
+  <InternalTemperature_Scorching.label>TODO</InternalTemperature_Scorching.label>
+  <!-- EN: [PAWN_label] insides are extremely hot (1000°C / 1832°F), any prey inside will be instantly cooked. -->
+  <InternalTemperature_Scorching.description>TODO</InternalTemperature_Scorching.description>
+  
+</LanguageData>

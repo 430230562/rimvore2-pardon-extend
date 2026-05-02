@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Zoophagical distaste -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Dislikes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Dislikes.label>
+  <!-- EN: This pawn dislikes having animals as prey. Maybe it can't bear to see its fuzzy friends imperiled, maybe it thinks cannibalism is the true way, maybe it just doesn't like to get dirt and fur all over its tongue. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Dislikes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Dislikes.description>
+  
+  <!-- EN: Zoophagical taste -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Likes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Likes.label>
+  <!-- EN: This pawn likes having animals as prey. It's what most sapient life's been doing already for thousands of years; why stop now, especially when they squirm so wildly? -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Likes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Likes.description>
+  
+  <!-- EN: Zoophagical ambivalence -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Neutral.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Neutral.label>
+  <!-- EN: This pawn doesn't mind having animals as prey, but doesn't prefer them either. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Neutral.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Neutral.description>
+  
+  <!-- EN: Zoophagical obsession -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Obsessed.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Obsessed.label>
+  <!-- EN: This pawn adores having animals as prey. Never let it watch your pets. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Obsessed.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Obsessed.description>
+  
+  <!-- EN: Zoophagical revulsion -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Refuses.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Refuses.label>
+  <!-- EN: This pawn hates having animals as prey and will never willingly consume them. It would sooner hunt the beast down, skin it, butcher it, cook it, and eat it, all on its own, than swallow it whole. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Refuses.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Animals_Refuses.description>
+  
+  <!-- EN: Anthropophagical distaste -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Dislikes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Dislikes.label>
+  <!-- EN: This pawn dislikes having its fellow sapient beings as prey. Maybe it's too much like cannibalism; maybe it's self-conscious about its insides. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Dislikes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Dislikes.description>
+  
+  <!-- EN: Anthropophagical taste (cannibal) -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Likes_Cannibal.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Likes_Cannibal.label>
+  <!-- EN: This pawn likes having its fellow sapient beings as prey; even fatally, as an extension of its cannibalistic tendencies. People are tasty! And clean, usually. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Likes_Cannibal.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Likes_Cannibal.description>
+  
+  <!-- EN: Anthropophagical taste (endo) -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Likes_NotCannibal.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Likes_NotCannibal.label>
+  <!-- EN: This pawn likes having its fellow sapient beings as prey, so long as it's safe. Fatal vore, on the other hand, is no different from regular old butcher-and-chew cannibalism. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Likes_NotCannibal.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Likes_NotCannibal.description>
+  
+  <!-- EN: Anthropophagical ambivalence -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Neutral.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Neutral.label>
+  <!-- EN: This pawn doesn't mind having its fellow sapient beings as prey, fatal or otherwise, but doesn't prefer them either. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Neutral.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Neutral.description>
+  
+  <!-- EN: Anthropophagical obsession (cannibal) -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_Cannibal.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_Cannibal.label>
+  <!-- EN: This pawn adores having its fellow sapient beings as prey; even fatally, as an extension of its cannibalistic tendencies. Humanoid meat tastes best alive and kicking. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_Cannibal.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_Cannibal.description>
+  
+  <!-- EN: Anthropophagical obsession (endo) -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_NotCannibal.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_NotCannibal.label>
+  <!-- EN: This pawn adores having its fellow sapient beings as prey, so long as it's safe. The dark side of vore does tempt it though, with all these delicious, filling preythings... -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_NotCannibal.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Obsessed_NotCannibal.description>
+  
+  <!-- EN: Anthropophagical revulsion -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Refuses.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Refuses.label>
+  <!-- EN: This pawn hates having its fellow sapient beings as prey and will never willingly consume them. It's a perversion of the natural order, cannibalistic or not. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Refuses.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Humanoids_Refuses.description>
+  
+  <!-- EN: Entomophagical distaste -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Dislikes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Dislikes.label>
+  <!-- EN: This pawn dislikes having live bugs as prey. It has a list of places bugs should not be, and one of those places is "alive and crawling around inside its body". -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Dislikes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Dislikes.description>
+  
+  <!-- EN: Entomophagical taste -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Likes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Likes.label>
+  <!-- EN: This pawn enjoys having live bugs as prey. Its taste for chewing chitin extends to raw and cooked bug meat, too. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Likes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Likes.description>
+  
+  <!-- EN: Entomophagical ambivalence -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Neutral.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Neutral.label>
+  <!-- EN: This pawn doesn't mind having live bugs as prey, but doesn't prefer them either. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Neutral.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Neutral.description>
+  
+  <!-- EN: Entomophagical obsession -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Obsessed.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Obsessed.label>
+  <!-- EN: This pawn adores having live bugs as prey. Its whole body may as well be a hive. Furthermore, its taste for chewing chitin extends to raw and cooked bug meat, too. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Obsessed.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Obsessed.description>
+  
+  <!-- EN: Entomophagical revulsion -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Refuses.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Refuses.label>
+  <!-- EN: This pawn hates having live bugs as prey and will never willingly consume them. The very thought makes its skin crawl. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Refuses.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Insectoids_Refuses.description>
+  
+  <!-- EN: Mechanophagical distaste -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Dislikes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Dislikes.label>
+  <!-- EN: This pawn dislikes having mechanoids as prey. They're cold and angry and don't exactly feel great to swallow. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Dislikes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Dislikes.description>
+  
+  <!-- EN: Mechanophagical taste -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Likes.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Likes.label>
+  <!-- EN: This pawn likes having mechanoids as prey. It proves the flesh is stronger than the machine, or something. That doesn't necessarily equate to the digestive strength to churn a mechanoid into food, but it's something. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Likes.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Likes.description>
+  
+  <!-- EN: Mechanophagical ambivalence -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Neutral.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Neutral.label>
+  <!-- EN: This pawn doesn't mind having mechanoids as prey, but doesn't prefer them either. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Neutral.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Neutral.description>
+  
+  <!-- EN: Mechanophagical obsession -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Obsessed.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Obsessed.label>
+  <!-- EN: This pawn adores having mechanoids as prey. It has the munchies for metal, a taste for titanium and steel. That doesn't necessarily equate to the digestive strength to churn a mechanoid into food, but it's something. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Obsessed.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Obsessed.description>
+  
+  <!-- EN: Mechanophagical revulsion -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Refuses.label>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Refuses.label>
+  <!-- EN: This pawn hates having mechanoids as prey and will never willingly consume them. It absolutely does not want to put hundreds of angry pounds' worth of sharp edges, moving parts, and cold steel directly into its body. -->
+  <RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Refuses.description>TODO</RV2_Hediff_QuirkForce_DietaryPreference_Predator_Mechanoids_Refuses.description>
+  
+</LanguageData>

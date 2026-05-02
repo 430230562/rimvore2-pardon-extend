@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: (Reform) membrane inside -->
+  <InsidesReform.label>TODO</InsidesReform.label>
+  <!-- EN: Reformation creates a new pawn inheriting attributes from both original prey\n            and predator -->
+  <InsidesReform.description>TODO</InsidesReform.description>
+  <!-- EN: {PREDATOR} will reform {PREY} inside of them -->
+  <InsidesReform.actionDescription>TODO</InsidesReform.actionDescription>
+  <!-- EN: membrane vore -->
+  <InsidesReform.RMBLabel>TODO</InsidesReform.RMBLabel>
+  
+</LanguageData>

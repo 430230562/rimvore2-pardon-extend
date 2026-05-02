@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Vore Skip -->
+  <RV2_Gene_VoreSkip.label>吞噬传送</RV2_Gene_VoreSkip.label>
+  <!-- EN: Carriers can teleport a target into another target (either can be self). Body part and vore goal are selected randomly. -->
+  <RV2_Gene_VoreSkip.description>携带者可以将目标传送到另一个目标体内（可以是自己）。身体部位和吞噬目标随机选择。</RV2_Gene_VoreSkip.description>
+  
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Warmup speed -->
+  <WarmupSpeed.label>TODO</WarmupSpeed.label>
+  <!-- EN: These quirks determine how quickly their prepare to do something to their prey. -->
+  <WarmupSpeed.description>TODO</WarmupSpeed.description>
+  
+</LanguageData>

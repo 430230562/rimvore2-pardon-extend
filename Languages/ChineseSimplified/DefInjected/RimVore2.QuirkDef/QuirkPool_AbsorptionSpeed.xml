@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Slow Absorption -->
+  <AbsorptionSpeed_Bad.label>TODO</AbsorptionSpeed_Bad.label>
+  <!-- EN: [PAWN_label] absorbs nutrients only half as fast as most predators, taking longer to gain benefits from meals. -->
+  <AbsorptionSpeed_Bad.description>TODO</AbsorptionSpeed_Bad.description>
+  
+  <!-- EN: Godlike Absorption -->
+  <AbsorptionSpeed_Godlike.label>TODO</AbsorptionSpeed_Godlike.label>
+  <!-- EN: Through supernatural power or advanced bio-technology, [PAWN_label] absorbs energy and matter instantly, gaining full benefits the moment digestion begins. -->
+  <AbsorptionSpeed_Godlike.description>TODO</AbsorptionSpeed_Godlike.description>
+  
+  <!-- EN: Fast Absorption -->
+  <AbsorptionSpeed_Good.label>TODO</AbsorptionSpeed_Good.label>
+  <!-- EN: [PAWN_label] absorbs nutrients twice as fast as the average predator. -->
+  <AbsorptionSpeed_Good.description>TODO</AbsorptionSpeed_Good.description>
+  
+  <!-- EN: Normal absorption speed -->
+  <AbsorptionSpeed_Normal.label>TODO</AbsorptionSpeed_Normal.label>
+  <!-- EN: [PAWN_label] absorbs nutrients at a standard, unmodified rate. -->
+  <AbsorptionSpeed_Normal.description>TODO</AbsorptionSpeed_Normal.description>
+  
+  <!-- EN: Sluggish Absorption -->
+  <AbsorptionSpeed_VeryBad.label>TODO</AbsorptionSpeed_VeryBad.label>
+  <!-- EN: [PAWN_label] absorbs nutrients just one‑quarter as fast as normal, taking an extremely long time to benefit from digestion. -->
+  <AbsorptionSpeed_VeryBad.description>TODO</AbsorptionSpeed_VeryBad.description>
+  
+  <!-- EN: Rapid Absorption -->
+  <AbsorptionSpeed_VeryGood.label>TODO</AbsorptionSpeed_VeryGood.label>
+  <!-- EN: [PAWN_label] absorbs nutrients four times faster than most creatures, turning digested matter into usable energy at extreme speed. -->
+  <AbsorptionSpeed_VeryGood.description>TODO</AbsorptionSpeed_VeryGood.description>
+  
+</LanguageData>

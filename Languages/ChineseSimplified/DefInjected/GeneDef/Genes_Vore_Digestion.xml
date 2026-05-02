@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Indigestible -->
+  <RV2_Gene_QuirkForce_Cheat_Indigestible.label>TODO</RV2_Gene_QuirkForce_Cheat_Indigestible.label>
+  <!-- EN: This pawn is immune to digestion. Not immune to bullets, blades, explosions, or even external acid sprays, but certainly immune to digestion. -->
+  <RV2_Gene_QuirkForce_Cheat_Indigestible.description>TODO</RV2_Gene_QuirkForce_Cheat_Indigestible.description>
+  
+  <!-- EN: Instant digestion -->
+  <RV2_Gene_QuirkForce_Cheat_InstantDigestion.label>TODO</RV2_Gene_QuirkForce_Cheat_InstantDigestion.label>
+  <!-- EN: Only the pawn-tron reduces an entire preything into soup-like homogenate in 30 seconds. -->
+  <RV2_Gene_QuirkForce_Cheat_InstantDigestion.description>TODO</RV2_Gene_QuirkForce_Cheat_InstantDigestion.description>
+  
+  <!-- EN: Melty -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Bad.label>TODO</RV2_Gene_QuirkForce_DigestionResistance_Bad.label>
+  <!-- EN: This pawn melts under acid easily and won't last more than half as long in a hostile belly as most prey. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Bad.description>TODO</RV2_Gene_QuirkForce_DigestionResistance_Bad.description>
+  
+  <!-- EN: Acid-resistant -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Good.label>TODO</RV2_Gene_QuirkForce_DigestionResistance_Good.label>
+  <!-- EN: This pawn resists digestion well, and will last about twice as long as most prey in a hostile belly. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Good.description>TODO</RV2_Gene_QuirkForce_DigestionResistance_Good.description>
+  
+  <!-- EN: Normal acid resistance -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Normal.label>TODO</RV2_Gene_QuirkForce_DigestionResistance_Normal.label>
+  <!-- EN: This pawn is digested as easily as anyone else. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_Normal.description>TODO</RV2_Gene_QuirkForce_DigestionResistance_Normal.description>
+  
+  <!-- EN: Cotton candy -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryBad.label>TODO</RV2_Gene_QuirkForce_DigestionResistance_VeryBad.label>
+  <!-- EN: This pawn falls apart in stomach acid like cotton candy, and doesn't fare any better in other organs. They have maybe a quarter of the time to escape as normal prey. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryBad.description>TODO</RV2_Gene_QuirkForce_DigestionResistance_VeryBad.description>
+  
+  <!-- EN: Acid-proof -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryGood.label>TODO</RV2_Gene_QuirkForce_DigestionResistance_VeryGood.label>
+  <!-- EN: This pawn is very difficult to digest. Not impossible, but it'll take a while; about four times as long as most prey. -->
+  <RV2_Gene_QuirkForce_DigestionResistance_VeryGood.description>TODO</RV2_Gene_QuirkForce_DigestionResistance_VeryGood.description>
+  
+  <!-- EN: Weak acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Bad.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_Bad.label>
+  <!-- EN: This pawn takes about twice as long to digest live meals as most predators. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Bad.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_Bad.description>
+  
+  <!-- EN: Godlike Digestion -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Godlike.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_Godlike.label>
+  <!-- EN: Whether due to magic or a technology that's not yet understood, this pawn's digestive abilities are in a class of their own, capable of liquifying an entire Thrumbo in minutes. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Godlike.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_Godlike.description>
+  
+  <!-- EN: Potent acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Good.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_Good.label>
+  <!-- EN: This pawn can digest prey about twice as fast as most predators. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Good.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_Good.description>
+  
+  <!-- EN: Normal acid strength -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Normal.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_Normal.label>
+  <!-- EN: This pawn digests prey at a normal speed. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_Normal.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_Normal.description>
+  
+  <!-- EN: Watery acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryBad.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_VeryBad.label>
+  <!-- EN: This pawn takes about four times as long to digest prey as most predators. This pawn's food is liable to die of boredom before dying of melting. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryBad.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_VeryBad.description>
+  
+  <!-- EN: Scouring acid -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryGood.label>TODO</RV2_Gene_QuirkForce_DigestionStrength_VeryGood.label>
+  <!-- EN: This pawn can turn prey into nutrient soup in the blink of an eye- -or, at least, four times as fast as most predators. -->
+  <RV2_Gene_QuirkForce_DigestionStrength_VeryGood.description>TODO</RV2_Gene_QuirkForce_DigestionStrength_VeryGood.description>
+  
+</LanguageData>

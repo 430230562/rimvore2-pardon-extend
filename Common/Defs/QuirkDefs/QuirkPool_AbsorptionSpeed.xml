@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RimVore2.QuirkPoolDef>
+    <defName>AbsorptionSpeed</defName>
+    <label>Absorption speed</label>
+    <category>Digestion</category>
+    <description>These quirks determine how quickly a pawn absorbs nutrients, energy, and materials from digested prey into their own body, affecting gain rate.</description>
+    <generationOrder>4</generationOrder>
+    <poolType>PickOne</poolType>
+    <quirks>
+      <li>AbsorptionSpeed_Godlike</li>
+      <li>AbsorptionSpeed_VeryGood</li>
+      <li>AbsorptionSpeed_Good</li>
+      <li>AbsorptionSpeed_Normal</li>
+      <li>AbsorptionSpeed_Bad</li>
+      <li>AbsorptionSpeed_VeryBad</li>
+    </quirks>
+  </RimVore2.QuirkPoolDef>
+
+  <RimVore2.QuirkDef>
+    <defName>AbsorptionSpeed_Godlike</defName>
+    <label>Godlike Absorption</label>
+    <description>Through supernatural power or advanced bio-technology, [PAWN_label] absorbs energy and matter instantly, gaining full benefits the moment digestion begins.</description>
+    <rarity>VeryRare</rarity>
+    <comps>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>AbsorptionSpeed</modifierName>
+        <modifierValue>10</modifierValue>
+      </li>
+    </comps>
+  </RimVore2.QuirkDef>
+
+  <RimVore2.QuirkDef>
+    <defName>AbsorptionSpeed_VeryGood</defName>
+    <label>Rapid Absorption</label>
+    <description>[PAWN_label] absorbs nutrients four times faster than most creatures, turning digested matter into usable energy at extreme speed.</description>
+    <rarity>Rare</rarity>
+    <comps>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>AbsorptionSpeed</modifierName>
+        <modifierValue>4</modifierValue>
+      </li>
+    </comps>
+  </RimVore2.QuirkDef>
+
+  <RimVore2.QuirkDef>
+    <defName>AbsorptionSpeed_Good</defName>
+    <label>Fast Absorption</label>
+    <description>[PAWN_label] absorbs nutrients twice as fast as the average predator.</description>
+    <rarity>Common</rarity>
+    <comps>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>AbsorptionSpeed</modifierName>
+        <modifierValue>2</modifierValue>
+      </li>
+    </comps>
+  </RimVore2.QuirkDef>
+
+  <RimVore2.QuirkDef>
+    <defName>AbsorptionSpeed_Normal</defName>
+    <label>Normal absorption speed</label>
+    <hidden>true</hidden>
+    <description>[PAWN_label] absorbs nutrients at a standard, unmodified rate.</description>
+    <rarity>Abundant</rarity>
+  </RimVore2.QuirkDef>
+
+  <RimVore2.QuirkDef>
+    <defName>AbsorptionSpeed_Bad</defName>
+    <label>Slow Absorption</label>
+    <description>[PAWN_label] absorbs nutrients only half as fast as most predators, taking longer to gain benefits from meals.</description>
+    <rarity>Common</rarity>
+    <comps>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>AbsorptionSpeed</modifierName>
+        <modifierValue>0.5</modifierValue>
+      </li>
+    </comps>
+  </RimVore2.QuirkDef>
+
+  <RimVore2.QuirkDef>
+    <defName>AbsorptionSpeed_VeryBad</defName>
+    <label>Sluggish Absorption</label>
+    <description>[PAWN_label] absorbs nutrients just one‑quarter as fast as normal, taking an extremely long time to benefit from digestion.</description>
+    <rarity>Rare</rarity>
+    <comps>
+      <li Class="RimVore2.QuirkComp_ValueModifier">
+        <modifierName>AbsorptionSpeed</modifierName>
+        <modifierValue>0.25</modifierValue>
+      </li>
+    </comps>
+  </RimVore2.QuirkDef>
+</Defs>

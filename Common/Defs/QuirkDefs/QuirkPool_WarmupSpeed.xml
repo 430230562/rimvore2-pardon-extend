@@ -18,6 +18,19 @@
     </RimVore2.QuirkPoolDef>
 
     <RimVore2.QuirkDef>
+        <defName>Cheat_SkipWarmup</defName>
+        <label>No Warmup</label>
+        <description>[PAWN_label] need't to warmup,[PAWN_possessive] organs are operating efficiently at all times, ready to handle prey at any time</description>
+        <rarity>ForcedOnly</rarity>
+        <comps>
+            <li Class="RimVore2.QuirkComp_ValueModifier">
+                <modifierName>WarmupSpeed</modifierName>
+                <modifierValue>50</modifierValue>
+            </li>
+        </comps>
+    </RimVore2.QuirkDef>
+
+    <RimVore2.QuirkDef>
         <defName>WarmupSpeed_VeryFast</defName>
         <label>Blazing Warmup</label>
         <description>[PAWN_label] warms up to act on prey extremely quickly, ready to pounce and process them in record time.</description>

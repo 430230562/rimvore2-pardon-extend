@@ -159,4 +159,17 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <!-- Add new quirks to the Cheats quirk pool -->
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/RimVore2.QuirkPoolDef[defName="Cheats"]/quirks</xpath>
+        <value>
+          <li>Cheat_SkipWarmup</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
 </Patch>

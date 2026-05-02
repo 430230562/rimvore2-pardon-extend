@@ -21,6 +21,11 @@ namespace PRV2E
             }
 
             float totalSpeed = RV2Mod.Settings.cheats.VoreSpeedMultiplier * record.Predator.QuirkManager().ModifyValue("WarmupSpeed", 1f);
+            if(record.Predator.QuirkManager().ModifyValue("WarmupSpeed", 1f) >= 20 || totalSpeed >= 20)
+            {
+                progress = 1;
+                return true;
+            }
             int adaptedDuration = Math.Max(1, (int)(duration / totalSpeed));
             int currentlyPassed = record.CurrentVoreStage.PassedRareTicks;
             progress = CalculateProgress(currentlyPassed, adaptedDuration, 0);

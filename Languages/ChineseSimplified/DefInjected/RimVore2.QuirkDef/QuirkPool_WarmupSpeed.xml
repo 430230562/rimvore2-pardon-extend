@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Swift Warmup -->
+  <WarmupSpeed_Fast.label>TODO</WarmupSpeed_Fast.label>
+  <!-- EN: [PAWN_label] warms up to prey faster than most predators, able to prepare for digestion or capture with little delay. -->
+  <WarmupSpeed_Fast.description>TODO</WarmupSpeed_Fast.description>
+  
+  <!-- EN: Normal Warmup -->
+  <WarmupSpeed_Normal.label>TODO</WarmupSpeed_Normal.label>
+  <!-- EN: [PAWN_label] warms up to prey at a standard rate, matching the pace of most predatory peers. -->
+  <WarmupSpeed_Normal.description>TODO</WarmupSpeed_Normal.description>
+  
+  <!-- EN: Sluggish Warmup -->
+  <WarmupSpeed_Slow.label>TODO</WarmupSpeed_Slow.label>
+  <!-- EN: [PAWN_label] warms up to act on prey slowly, taking longer than average to prepare for capturing or digesting prey. -->
+  <WarmupSpeed_Slow.description>TODO</WarmupSpeed_Slow.description>
+  
+  <!-- EN: Blazing Warmup -->
+  <WarmupSpeed_VeryFast.label>TODO</WarmupSpeed_VeryFast.label>
+  <!-- EN: [PAWN_label] warms up to act on prey extremely quickly, ready to pounce and process them in record time. -->
+  <WarmupSpeed_VeryFast.description>TODO</WarmupSpeed_VeryFast.description>
+  
+  <!-- EN: Glacial Warmup -->
+  <WarmupSpeed_VerySlow.label>TODO</WarmupSpeed_VerySlow.label>
+  <!-- EN: [PAWN_label] warms up to prey extremely slowly, taking far longer than normal to ready their predatory instincts and actions. -->
+  <WarmupSpeed_VerySlow.description>TODO</WarmupSpeed_VerySlow.description>
+  
+</LanguageData>

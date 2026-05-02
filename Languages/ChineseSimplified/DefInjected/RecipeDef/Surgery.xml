@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: install digestion adjuster -->
+  <RV2_InstallDigestionAdjuster.label>TODO</RV2_InstallDigestionAdjuster.label>
+  <!-- EN: Install a digestion adjuster. -->
+  <RV2_InstallDigestionAdjuster.description>TODO</RV2_InstallDigestionAdjuster.description>
+  <!-- EN: Installing digestion adjuster. -->
+  <RV2_InstallDigestionAdjuster.jobString>TODO</RV2_InstallDigestionAdjuster.jobString>
+  
+</LanguageData>

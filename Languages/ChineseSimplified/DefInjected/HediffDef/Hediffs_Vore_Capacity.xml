@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Hammerspace -->
+  <RV2_Hediff_QuirkForce_Cheat_Hammerspace.label>次元空间</RV2_Hediff_QuirkForce_Cheat_Hammerspace.label>
+  <!-- EN: This pawn's body compresses its prey down to an incredible degree. -->
+  <RV2_Hediff_QuirkForce_Cheat_Hammerspace.description>TODO</RV2_Hediff_QuirkForce_Cheat_Hammerspace.description>
+  
+  <!-- EN: Infinite Capacity -->
+  <RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity.label>无限容量</RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity.label>
+  <!-- EN: This pawn doesn't know the meaning of the word "full". There's always room for more prey. -->
+  <RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity.description>TODO</RV2_Hediff_QuirkForce_Cheat_InfiniteCapacity.description>
+  
+  <!-- EN: Clumsy -->
+  <RV2_Hediff_QuirkForce_Mobility_Bad.label>笨拙的</RV2_Hediff_QuirkForce_Mobility_Bad.label>
+  <!-- EN: This pawn is unsteady with a big belly and prone to tumbling whenever its prey decide to kick around. -->
+  <RV2_Hediff_QuirkForce_Mobility_Bad.description>TODO</RV2_Hediff_QuirkForce_Mobility_Bad.description>
+  
+  <!-- EN: Godlike Mobility -->
+  <RV2_Hediff_QuirkForce_Mobility_Godlike.label>神级灵活性</RV2_Hediff_QuirkForce_Mobility_Godlike.label>
+  <!-- EN: This pawn makes walking around with the weight of multiple full grown people hanging off of it look effortless. -->
+  <RV2_Hediff_QuirkForce_Mobility_Godlike.description>TODO</RV2_Hediff_QuirkForce_Mobility_Godlike.description>
+  
+  <!-- EN: Nimble -->
+  <RV2_Hediff_QuirkForce_Mobility_Good.label>灵巧的</RV2_Hediff_QuirkForce_Mobility_Good.label>
+  <!-- EN: This pawn knows how to keep its balance with a bulging belly. -->
+  <RV2_Hediff_QuirkForce_Mobility_Good.description>TODO</RV2_Hediff_QuirkForce_Mobility_Good.description>
+  
+  <!-- EN: Normal mobility -->
+  <RV2_Hediff_QuirkForce_Mobility_Normal.label>正常灵活性</RV2_Hediff_QuirkForce_Mobility_Normal.label>
+  <!-- EN: This pawn is affected by its prey's weight like anyone else. -->
+  <RV2_Hediff_QuirkForce_Mobility_Normal.description>TODO</RV2_Hediff_QuirkForce_Mobility_Normal.description>
+  
+  <!-- EN: Sluggish -->
+  <RV2_Hediff_QuirkForce_Mobility_VeryBad.label>迟缓的</RV2_Hediff_QuirkForce_Mobility_VeryBad.label>
+  <!-- EN: This pawn can barely stay on its feet with a big, round belly, let alone jog around. -->
+  <RV2_Hediff_QuirkForce_Mobility_VeryBad.description>TODO</RV2_Hediff_QuirkForce_Mobility_VeryBad.description>
+  
+  <!-- EN: Acrobatic -->
+  <RV2_Hediff_QuirkForce_Mobility_VeryGood.label>极其灵活</RV2_Hediff_QuirkForce_Mobility_VeryGood.label>
+  <!-- EN: This pawn moves freely while full of prey, as though its belly wasn't there. -->
+  <RV2_Hediff_QuirkForce_Mobility_VeryGood.description>TODO</RV2_Hediff_QuirkForce_Mobility_VeryGood.description>
+  
+  <!-- EN: Tight -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Bad.label>紧凑的</RV2_Hediff_QuirkForce_StorageCapacity_Bad.label>
+  <!-- EN: This pawn struggles to fit as many prey inside itself as most of its predatory peers can. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Bad.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_Bad.description>
+  
+  <!-- EN: Godlike Capacity -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Godlike.label>神级容量</RV2_Hediff_QuirkForce_StorageCapacity_Godlike.label>
+  <!-- EN: This pawn's skin is supernaturally stretchy, able to expand to sizes that defy all logic and reason. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Godlike.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_Godlike.description>
+  
+  <!-- EN: Stretchy -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Good.label>富有弹性</RV2_Hediff_QuirkForce_StorageCapacity_Good.label>
+  <!-- EN: This pawn can stretch to fit more prey than the average predator. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Good.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_Good.description>
+  
+  <!-- EN: Normal capacity -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Normal.label>正常容量</RV2_Hediff_QuirkForce_StorageCapacity_Normal.label>
+  <!-- EN: This pawn can fit as many prey as anyone else. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_Normal.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_Normal.description>
+  
+  <!-- EN: Claustrophobic -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_VeryBad.label>局促不安的</RV2_Hediff_QuirkForce_StorageCapacity_VeryBad.label>
+  <!-- EN: This pawn struggles with a lack of capacity for prey and fills up fast. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_VeryBad.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_VeryBad.description>
+  
+  <!-- EN: Cavernous -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_VeryGood.label>大如洞窟</RV2_Hediff_QuirkForce_StorageCapacity_VeryGood.label>
+  <!-- EN: This pawn can stuff itself silly with prey and still have room for more, though even this pawn has limits. -->
+  <RV2_Hediff_QuirkForce_StorageCapacity_VeryGood.description>TODO</RV2_Hediff_QuirkForce_StorageCapacity_VeryGood.description>
+  
+</LanguageData>
