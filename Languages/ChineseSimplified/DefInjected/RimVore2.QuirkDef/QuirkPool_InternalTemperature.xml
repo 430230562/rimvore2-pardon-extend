@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: Absolute Zero -->
-  <InternalTemperature_AbsoluteZero.label>TODO</InternalTemperature_AbsoluteZero.label>
+  <InternalTemperature_AbsoluteZero.label>绝对零度</InternalTemperature_AbsoluteZero.label>
   <!-- EN: [PAWN_label] insides are at absolute zero (-273°C / -459°F), prey inside will be frozen solid instantly. -->
-  <InternalTemperature_AbsoluteZero.description>TODO</InternalTemperature_AbsoluteZero.description>
-  
+  <InternalTemperature_AbsoluteZero.description>[PAWN_label]的体内处于绝对零度（-273℃ / -459℉），进入体内的猎物会瞬间冻结成冰。</InternalTemperature_AbsoluteZero.description>
+
   <!-- EN: Scorching -->
-  <InternalTemperature_Scorching.label>TODO</InternalTemperature_Scorching.label>
+  <InternalTemperature_Scorching.label>灼热炼狱</InternalTemperature_Scorching.label>
   <!-- EN: [PAWN_label] insides are extremely hot (1000°C / 1832°F), any prey inside will be instantly cooked. -->
-  <InternalTemperature_Scorching.description>TODO</InternalTemperature_Scorching.description>
-  
+  <InternalTemperature_Scorching.description>[PAWN_label]的体内温度极高（1000℃ / 1832℉），任何进入体内的猎物都会瞬间被烤熟。</InternalTemperature_Scorching.description>
+
 </LanguageData>
