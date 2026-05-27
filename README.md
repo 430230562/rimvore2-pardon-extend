@@ -1,39 +1,51 @@
 # RimVore2 pardon's Extend (PRV2E)
 
-This is the repository for **RimVore2 pardon's Extend (PRV2E)** — a sub-mod of RimVore2.
+This is a **submod** for **RimVore2** — **RimVore2 pardon's Extend (PRV2E)** repository.
 
-中文版简介[CN_README.md](CN_README.md)
+Chinese version: [CN_README.md](CN_README.md)
 
 ---
 
 ## 🔥 Main Features
 
-- Adds several **genes related to vore**, including lines for capacity, mobility, digestion strength, anti-digestion strength, etc. (Does not yet cover all Quirks.)
-- Changes the **nutrition value of transformation products** and allows them to be further processed into food or **neutral amine**.
-- Makes some **vanilla traits affect grappling chance and grappling power**.
-- Alters the **Reform process mechanics** — now influenced by digestion strength and anti-digestion strength.
-- Allows **temporary storage, safekeeping, and entertainment in the uterus** to reduce prey age and cure age-related illnesses.
-- Overhauls the **Heal mechanism**, greatly increasing treatment speed.
-- Adds **new vore pathways**.
-- Miscellaneous tweaks:
-  - Soil fertility of rich soil
-  - Re-categorization of vore-enhancing devices
+- Added a series of **vore-related genes**, including:
+  - Capacity
+  - Mobility
+  - Digestion Strength
+  - Anti-Digestion Strength
+  - Conversion Efficiency
+  - Preheating Speed
+  - Absorption Speed
+- Added some new **Quirks**, including Preheating Speed and Absorption Speed.
+- Changed the **nutrition value of conversion products** and allowed them to be further processed into **food**, or **neutral amine, synthetic fibers**.
+- Made some **vanilla traits** also affect **grabbing chance** and **attack power**.
+- Changed the **Reform process mechanics** to be influenced by **Digestion Strength** and **Anti-Digestion Strength**.
+- Made **temporary storage, storage and amusement in the womb** reduce **prey's age** and cure **age-related diseases**.
+- Changed the **Heal mechanics**, **greatly increasing healing speed**.
+- Added some **vore pathways**.
+- Miscellaneous changes:
+  - Fertility of fertile soil
+  - Categorization and research requirements for vore enhancement devices
+  - Research requirements for reform device categorization
+  - And some **small balance adjustments**
 
 ---
 
 ## ⚠️ Issues
 
-- Obviously, this mod **greatly reduces game difficulty**. Not necessarily a critical issue, but worth noting.
-- **Gene metabolism rates are not well balanced** and might even involve some self-referential design. If you have suggestions for balance, feel free to propose them.
-- **I really can't make sprites.** 😭 If someone is willing to help create gene icons, I would be immensely grateful.
+- **Obviously**, this mod **greatly reduces game difficulty**. But in a sense, that's not the key issue.
+- **Gene metabolism rates are not very balanced**, and there seems to be some self-reference involved. If you have balance suggestions, **feel free to raise them**.
+- **I really cannot make textures** 😭. If any kind soul could help me with **gene icons**, I would be very grateful.
 
 ---
 
 ## 🚀 Future Plans
 
-- I'm considering a vore pathway that converts pawns into **cloth**, but haven't found a suitable organ to associate it with yet…
+- Thinking about a vore pathway that converts pawns into **cloth**, but there doesn't seem to be a suitable organ...
 
-## other submods
+---
+
+## Other submods
 
 - [Rimvore-2](https://gitlab.com/Nabber/rimvore-2)
 - [RimVore-2 (Overstuffed)](https://gitlab.com/MamaHorseteeth/rimvore-2-overstuffed)  
@@ -46,4 +58,4 @@ This is the repository for **RimVore2 pardon's Extend (PRV2E)** — a sub-mod of
 - [RimVore - 2Bulges](https://gitlab.com/whatif12/rutrix-bulges-continued)  
 - [RimVore-2 Interactions](https://gitlab.com/whatif12/rutrix-interactions-continued)  
 - [RimVore2 -Rut's Stuff](https://gitlab.com/whatif12/rutrix-misc-continued)  
-- [RimVore2 - Esegn's Additions](https://gitlab.com/ASarcasticDragon/RV2-Esegn-Additions)  
+- [RimVore2 - Esegn's Additions](https://gitlab.com/ASarcasticDragon/RV2-Esegn-Additions)
