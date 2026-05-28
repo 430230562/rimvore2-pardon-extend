@@ -85,7 +85,7 @@
       <li Class="PRV2E.RollModifier_LimitedStat">
         <target>Predator</target>
         <stat>Fertility</stat>
-        <minValue>0.25</minValue>
+        <min>0.25</min>
       </li>
     </strengthModifiers>
     <actionsOnSuccess>
@@ -104,7 +104,7 @@
       <li Class="PRV2E.RollModifier_LimitedStat">
         <target>Predator</target>
         <stat>Fertility</stat>
-        <minValue>0.25</minValue>
+        <min>0.25</min>
       </li>
     </strengthModifiers>
     <actionsOnSuccess>

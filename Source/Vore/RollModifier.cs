@@ -57,8 +57,8 @@ namespace PRV2E
         {
             base.ExposeData();
             Scribe_Defs.Look(ref stat, "stat");
-            Scribe_Values.Look(ref min, "minValue", 0f);
-            Scribe_Values.Look(ref max, "maxValue", 100f);
+            Scribe_Values.Look(ref min, "min", 0f);
+            Scribe_Values.Look(ref max, "max", 100f);
         }
     }
 }

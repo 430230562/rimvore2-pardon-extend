@@ -149,82 +149,98 @@
   </Operation>
 
   <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseBreakDownProgress"]/strengthModifiers</xpath>
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseBreakDownProgress"]</xpath>
     <value>
-      <li Class="RimVore2.RollModifier_Quirk">
-        <target>Predator</target>
-        <stat>AbsorptionSpeed</stat>
-      </li>
+      <strengthModifiers>
+        <li Class="RimVore2.RollModifier_Quirk">
+          <target>Predator</target>
+          <stat>AbsorptionSpeed</stat>
+        </li>
+      </strengthModifiers>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToPredatorFood"]/strengthModifiers</xpath>
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToPredatorFood"]</xpath>
     <value>
-      <li Class="RimVore2.RollModifier_Quirk">
-        <target>Predator</target>
-        <stat>AbsorptionSpeed</stat>
-      </li>
+      <strengthModifiers>
+        <li Class="RimVore2.RollModifier_Quirk">
+          <target>Predator</target>
+          <stat>AbsorptionSpeed</stat>
+        </li>
+      </strengthModifiers>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Lactify"]/strengthModifiers</xpath>
+    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Lactify"]</xpath>
     <value>
-      <li Class="RimVore2.RollModifier_Quirk">
-        <target>Predator</target>
-        <stat>AbsorptionSpeed</stat>
-      </li>
+      <strengthModifiers>
+        <li Class="RimVore2.RollModifier_Quirk">
+          <target>Predator</target>
+          <stat>AbsorptionSpeed</stat>
+        </li>
+      </strengthModifiers>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Spermify"]/strengthModifiers</xpath>
+    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Spermify"]</xpath>
     <value>
-      <li Class="RimVore2.RollModifier_Quirk">
-        <target>Predator</target>
-        <stat>AbsorptionSpeed</stat>
-      </li>
+      <strengthModifiers>
+        <li Class="RimVore2.RollModifier_Quirk">
+          <target>Predator</target>
+          <stat>AbsorptionSpeed</stat>
+        </li>
+      </strengthModifiers>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Lubrify"]/strengthModifiers</xpath>
+    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Lubrify"]</xpath>
     <value>
-      <li Class="RimVore2.RollModifier_Quirk">
-        <target>Predator</target>
-        <stat>AbsorptionSpeed</stat>
-      </li>
+      <strengthModifiers>
+        <li Class="RimVore2.RollModifier_Quirk">
+          <target>Predator</target>
+          <stat>AbsorptionSpeed</stat>
+        </li>
+      </strengthModifiers>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Ovify"]/strengthModifiers</xpath>
+    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Ovify"]</xpath>
     <value>
-      <li Class="RimVore2.RollModifier_Quirk">
-        <target>Predator</target>
-        <stat>AbsorptionSpeed</stat>
-      </li>
+      <strengthModifiers>
+        <li Class="RimVore2.RollModifier_Quirk">
+          <target>Predator</target>
+          <stat>AbsorptionSpeed</stat>
+        </li>
+      </strengthModifiers>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Oleify"]/strengthModifiers</xpath>
+    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Oleify"]</xpath>
     <value>
-      <li Class="RimVore2.RollModifier_Quirk">
-        <target>Predator</target>
-        <stat>AbsorptionSpeed</stat>
-      </li>
+      <strengthModifiers>
+        <li Class="RimVore2.RollModifier_Quirk">
+          <target>Predator</target>
+          <stat>AbsorptionSpeed</stat>
+        </li>
+      </strengthModifiers>
     </value>
   </Operation>
 
   <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Urify"]/strengthModifiers</xpath>
+    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Urify"]</xpath>
     <value>
-      <li Class="RimVore2.RollModifier_Quirk">
-        <target>Predator</target>
-        <stat>AbsorptionSpeed</stat>
-      </li>
+      <strengthModifiers>
+        <li Class="RimVore2.RollModifier_Quirk">
+          <target>Predator</target>
+          <stat>AbsorptionSpeed</stat>
+        </li>
+      </strengthModifiers>
     </value>
   </Operation>
 

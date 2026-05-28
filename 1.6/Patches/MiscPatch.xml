@@ -54,10 +54,19 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs/HediffDef[@Name='LightGenitals_GenitalBase']/stages/li</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/HediffDef[@Name='LightGenitals_GenitalBase']</xpath>
     <value>
-      <becomeVisible>false</becomeVisible>
+      <HediffDef Abstract="True" Name="LightGenitals_GenitalBase">
+        <isBad>false</isBad>
+        <everCurableByItem>false</everCurableByItem>
+        <initialSeverity>1</initialSeverity>
+        <stage>
+          <li>
+            <becomeVisible>false</becomeVisible>
+          </li>
+        </stage>
+      </HediffDef>
     </value>
   </Operation>
 

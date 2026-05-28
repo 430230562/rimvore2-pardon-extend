@@ -2,7 +2,7 @@
 <Patch>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/RecipeDef[defName='OralDrain']/postVoreMemories</xpath>
+        <xpath>/Defs/RimVore2.VorePathDef[defName='OralDrain']/postVoreMemories</xpath>
         <value>
             <postVoreMemories>
                 <predatorPostVoreSuccess>RV2_PredatorOralDrainSuccess</predatorPostVoreSuccess>
@@ -14,7 +14,7 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/RecipeDef[defName='AnalDrain']/postVoreMemories</xpath>
+        <xpath>/Defs/RimVore2.VorePathDef[defName='AnalDrain']/postVoreMemories</xpath>
         <value>
             <postVoreMemories>
                 <predatorPostVoreSuccess>RV2_PredatorAnalDrainSuccess</predatorPostVoreSuccess>
