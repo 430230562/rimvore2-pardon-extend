@@ -56,8 +56,9 @@
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToMilk"]</xpath>
     <value>
-      <RimVore2.RollPresetDef ParentName="CreateThing">
+      <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToMilk</defName>
+        <strength>0.01~0.03</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromDef">
             <name>PreyNutrition</name>
@@ -75,8 +76,9 @@
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToSperm"]</xpath>
     <value>
-      <RimVore2.RollPresetDef ParentName="CreateThing">
+      <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToSperm</defName>
+        <strength>0.01~0.03</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromDef">
             <name>PreyNutrition</name>
@@ -94,8 +96,9 @@
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToLube"]</xpath>
     <value>
-      <RimVore2.RollPresetDef ParentName="CreateThing">
+      <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToLube</defName>
+        <strength>0.01~0.03</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromDef">
             <name>PreyNutrition</name>
@@ -113,8 +116,9 @@
   <Operation Class="PatchOperationReplace" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToChemfuel"]</xpath>
     <value>
-      <RimVore2.RollPresetDef ParentName="CreateThing">
+      <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToChemfuel</defName>
+        <strength>0.01~0.03</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromDef">
             <name>PreyNutrition</name>
@@ -129,10 +133,27 @@
     </value>
   </Operation>
 
+  <Operation Class="PatchOperationReplace" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToEggs"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
+        <defName>ConvertNutritionToEggs</defName>
+        <strength>0.01~0.03</strength>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_CreateThingsFromEggComp">
+            <name>PreyNutrition</name>
+            <minValue>0</minValue>
+            <requiredNutrition>0.25</requiredNutrition>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
   <Operation Class="PatchOperationReplace" MayRequire='MisTF.Piss'>
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToUrine"]</xpath>
     <value>
-      <RimVore2.RollPresetDef ParentName="CreateThing">
+      <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToUrine</defName>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromDef">
@@ -148,99 +169,40 @@
     </value>
   </Operation>
 
-  <Operation Class='PatchOperationAdd'>
+  <Operation Class='PatchOperationReplace'>
     <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseBreakDownProgress"]</xpath>
     <value>
-      <strengthModifiers>
-        <li Class="RimVore2.RollModifier_Quirk">
-          <target>Predator</target>
-          <stat>AbsorptionSpeed</stat>
-        </li>
-      </strengthModifiers>
+      <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
+        <defName>IncreaseDigestionProgress</defName>
+        <strength>0.01~0.03</strength>
+
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_PassValue_Add">
+            <name>DigestionProgress</name>
+            <maxValue>1</maxValue>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
     </value>
   </Operation>
 
-  <Operation Class='PatchOperationAdd'>
+  <Operation Class='PatchOperationReplace'>
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToPredatorFood"]</xpath>
     <value>
-      <strengthModifiers>
-        <li Class="RimVore2.RollModifier_Quirk">
-          <target>Predator</target>
-          <stat>AbsorptionSpeed</stat>
-        </li>
-      </strengthModifiers>
-    </value>
-  </Operation>
-
-  <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Lactify"]</xpath>
-    <value>
-      <strengthModifiers>
-        <li Class="RimVore2.RollModifier_Quirk">
-          <target>Predator</target>
-          <stat>AbsorptionSpeed</stat>
-        </li>
-      </strengthModifiers>
-    </value>
-  </Operation>
-
-  <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Spermify"]</xpath>
-    <value>
-      <strengthModifiers>
-        <li Class="RimVore2.RollModifier_Quirk">
-          <target>Predator</target>
-          <stat>AbsorptionSpeed</stat>
-        </li>
-      </strengthModifiers>
-    </value>
-  </Operation>
-
-  <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Lubrify"]</xpath>
-    <value>
-      <strengthModifiers>
-        <li Class="RimVore2.RollModifier_Quirk">
-          <target>Predator</target>
-          <stat>AbsorptionSpeed</stat>
-        </li>
-      </strengthModifiers>
-    </value>
-  </Operation>
-
-  <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Ovify"]</xpath>
-    <value>
-      <strengthModifiers>
-        <li Class="RimVore2.RollModifier_Quirk">
-          <target>Predator</target>
-          <stat>AbsorptionSpeed</stat>
-        </li>
-      </strengthModifiers>
-    </value>
-  </Operation>
-
-  <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Oleify"]</xpath>
-    <value>
-      <strengthModifiers>
-        <li Class="RimVore2.RollModifier_Quirk">
-          <target>Predator</target>
-          <stat>AbsorptionSpeed</stat>
-        </li>
-      </strengthModifiers>
-    </value>
-  </Operation>
-
-  <Operation Class='PatchOperationAdd'>
-    <xpath>/Defs/RimVore2.RollPresetDef[partGoal="Urify"]</xpath>
-    <value>
-      <strengthModifiers>
-        <li Class="RimVore2.RollModifier_Quirk">
-          <target>Predator</target>
-          <stat>AbsorptionSpeed</stat>
-        </li>
-      </strengthModifiers>
+      <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
+        <defName>ConvertNutritionToPredatorFood</defName>
+        <strength>0.01~0.03</strength>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_IncreaseNeed">
+            <target>Predator</target>
+            <need>Food</need>
+          </li>
+          <li Class="RimVore2.RollAction_PassValue_Subtract">
+            <name>PreyNutrition</name>
+            <minValue>0</minValue>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
     </value>
   </Operation>
 

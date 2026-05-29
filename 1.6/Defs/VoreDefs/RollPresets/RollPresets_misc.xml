@@ -116,5 +116,21 @@
     </actionsOnSuccess>
   </RimVore2.RollPresetDef>
 
-
+<RimVore2.RollPresetDef Abstract="True" Name="Absorption_StrengthModifiers">
+    <strengthModifiers>
+      <li Class="RimVore2.RollModifier_VoreSpeed"/>
+      <li Class="RimVore2.RollModifier_SizeDifference">
+        <pawn>Predator</pawn>
+        <relationTo>Prey</relationTo>
+      </li>
+      <li Class="RimVore2.RollModifier_Capacity">
+        <target>Predator</target>
+        <capacity>Metabolism</capacity>
+      </li>
+      <li Class="RimVore2.RollModifier_Quirk">
+          <target>Predator</target>
+          <stat>AbsorptionSpeed</stat>
+        </li>
+    </strengthModifiers>
+  </RimVore2.RollPresetDef>
 </Defs>
