@@ -48,7 +48,7 @@
       <li Class="PRV2E.RollModifier_LimitedStat">
         <target>Predator</target>
         <stat>Fertility</stat>
-        <minValue>0.25</minValue>
+        <min>0.25</min>
       </li>
     </strengthModifiers>
     <actionsOnSuccess>
@@ -129,7 +129,7 @@
       </li>
       <li Class="RimVore2.RollModifier_Quirk">
           <target>Predator</target>
-          <stat>AbsorptionSpeed</stat>
+          <modifierName>AbsorptionSpeed</modifierName>
         </li>
     </strengthModifiers>
   </RimVore2.RollPresetDef>
