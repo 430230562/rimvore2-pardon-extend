@@ -58,7 +58,6 @@
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToMilk</defName>
-        <strength>0.01~0.03</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromDef">
             <name>PreyNutrition</name>
@@ -78,7 +77,6 @@
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToSperm</defName>
-        <strength>0.01~0.03</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromDef">
             <name>PreyNutrition</name>
@@ -98,7 +96,6 @@
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToLube</defName>
-        <strength>0.01~0.03</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromDef">
             <name>PreyNutrition</name>
@@ -118,7 +115,6 @@
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToChemfuel</defName>
-        <strength>0.01~0.03</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromDef">
             <name>PreyNutrition</name>
@@ -138,7 +134,6 @@
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToEggs</defName>
-        <strength>0.01~0.03</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_CreateThingsFromEggComp">
             <name>PreyNutrition</name>
@@ -173,12 +168,11 @@
     <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseBreakDownProgress"]</xpath>
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
-        <defName>IncreaseDigestionProgress</defName>
-        <strength>0.01~0.03</strength>
-
+        <defName>IncreaseBreakDownProgress</defName>
+        <strength>0.04</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_PassValue_Add">
-            <name>DigestionProgress</name>
+            <name>BreakDownProgress</name>
             <maxValue>1</maxValue>
           </li>
         </actionsOnSuccess>
@@ -191,11 +185,35 @@
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>ConvertNutritionToPredatorFood</defName>
-        <strength>0.01~0.03</strength>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_IncreaseNeed">
             <target>Predator</target>
             <need>Food</need>
+          </li>
+          <li Class="RimVore2.RollAction_PassValue_Subtract">
+            <name>PreyNutrition</name>
+            <minValue>0</minValue>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+  <Operation Class='PatchOperationReplace' mayRequire="Rutrix.RutsRimVoreStuff">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToPredatorFood_Slow"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="Drain_StrengthModifiers">
+        <defName>ConvertNutritionToPredatorFood_Slow</defName>
+        <strength>0.0033~0.01</strength>
+        <li Class="RimVore2.RollModifier_Quirk">
+          <target>Predator</target>
+          <modifierName>AbsorptionSpeed</modifierName>
+        </li>
+        <actionsOnSuccess>
+          <li Class="RV2R_RutsStuff.RollAction_IncreaseNeedLimited">
+            <target>Predator</target>
+            <need>Food</need>
+            <limit>0.75</limit>
           </li>
           <li Class="RimVore2.RollAction_PassValue_Subtract">
             <name>PreyNutrition</name>

@@ -97,7 +97,7 @@
     </postVoreMemories>
     <stages>
       <li>Tailmaw_Enter</li>
-      <li>TailThroat_Enter</li>
+      <li>Tailthroat_Enter</li>
       <li>Stomach_Warmup_Fast</li>
       <li>Stomach_Drain</li>
       <li>Stomach_SoftChurn</li>
