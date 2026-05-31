@@ -93,56 +93,64 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationReplace" MayRequire='Nabber.CumSlimes'>
-        <xpath>/Defs/RimVore2.VoreStageDef[defName="NCS_Testicles_Reform"]</xpath>
-        <value>
-            <RimVore2.VoreStageDef Name="NCS_Testicles_Reform" ParentName="Testicles_Base">
-                <defName>NCS_Testicles_Reform</defName>
-                <partGoal>Reform</partGoal>
-                <jumpKey>Testicles</jumpKey>
-                <canReverseDirection>true</canReverseDirection>
-                <predatorHediffDef>RV2_PreyInTesticlesReforming</predatorHediffDef>
-                <predatorThoughtDef>RV2_PreyInTesticlesReforming</predatorThoughtDef>
-                <onCycle>
-                    <rollPresets>
-                        <li>StealNeed_ForPrey_Food</li>
-                        <li>Heal_Prey</li>
-                        <li>Sound_Squish_Chance_30</li>
-                        <li>IncreaseReformProgress</li>
-                        <li>SkillAbsorb_Prey</li>
-                    </rollPresets>
-                </onCycle>
-                <onEnd>
-                    <actions>
-                        <li Class="RimVore2.RollAction_Reform">
-                            <!-- setting the resulting pawnKind / race ignores predator / prey races -->
-                            <resultingPawnKind>NCS_CumSlime</resultingPawnKind>
-                            <resultingRace>NCS_CumSlime</resultingRace>
-                            <!-- cum slimes are only female -->
-                            <fixedGender>Female</fixedGender>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Nabber.CumSlimes</li>  <!-- 要检测的模组名称 -->
+        </mods>
+        <match Class="PatchOperationReplace">
+            <xpath>/Defs/RimVore2.VoreStageDef[defName="NCS_Testicles_Reform"]</xpath>
+            <value>
+                <RimVore2.VoreStageDef Name="NCS_Testicles_Reform" ParentName="Testicles_Base">
+                    <defName>NCS_Testicles_Reform</defName>
+                    <partGoal>Reform</partGoal>
+                    <jumpKey>Testicles</jumpKey>
+                    <canReverseDirection>true</canReverseDirection>
+                    <predatorHediffDef>RV2_PreyInTesticlesReforming</predatorHediffDef>
+                    <predatorThoughtDef>RV2_PreyInTesticlesReforming</predatorThoughtDef>
+                    <onCycle>
+                        <rollPresets>
+                            <li>StealNeed_ForPrey_Food</li>
+                            <li>Heal_Prey</li>
+                            <li>Sound_Squish_Chance_30</li>
+                            <li>IncreaseReformProgress</li>
+                            <li>SkillAbsorb_Prey</li>
+                        </rollPresets>
+                    </onCycle>
+                    <onEnd>
+                        <actions>
+                            <li Class="RimVore2.RollAction_Reform">
+                                <!-- setting the resulting pawnKind / race ignores predator / prey
+                                races -->
+                                <resultingPawnKind>NCS_CumSlime</resultingPawnKind>
+                                <resultingRace>NCS_CumSlime</resultingRace>
+                                <!-- cum slimes are only female -->
+                                <fixedGender>Female</fixedGender>
+                            </li>
+                            <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
+                        </actions>
+                    </onEnd>
+                    <passConditions>
+                        <li Class="RimVore2.StagePassCondition_PassValue">
+                            <passValueName>ReformProgress</passValueName>
+                            <targetValue>25</targetValue>
                         </li>
-                        <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
-                    </actions>
-                </onEnd>
-                <passConditions>
-                    <li Class="RimVore2.StagePassCondition_PassValue">
-                        <passValueName>ReformProgress</passValueName>
-                        <targetValue>25</targetValue>
-                    </li>
-                </passConditions>
-            </RimVore2.VoreStageDef>
-        </value>
+                    </passConditions>
+                </RimVore2.VoreStageDef>
+            </value>
+        </match>
     </Operation>
 
 
     <!-- 批量：只修改 Class 属性，保留所有原有数据（duration等完全不变） -->
     <Operation Class="PatchOperationAttributeSet">
-        <xpath>/Defs/RimVore2.VoreStageDef[partGoal="WarmUp"]/passConditions/li[@Class="RimVore2.StagePassCondition_Timed"]</xpath>
+        <xpath>
+            /Defs/RimVore2.VoreStageDef[partGoal="WarmUp"]/passConditions/li[@Class="RimVore2.StagePassCondition_Timed"]</xpath>
         <attribute>Class</attribute>
         <value>PRV2E.StagePassCondition_Warmup_Quirk</value>
     </Operation>
     <Operation Class="PatchOperationAttributeSet">
-        <xpath>/Defs/RimVore2.VoreStageDef/passConditions/li[@Class="RimVore2.StagePassCondition_Warmup"]</xpath>
+        <xpath>
+            /Defs/RimVore2.VoreStageDef/passConditions/li[@Class="RimVore2.StagePassCondition_Warmup"]</xpath>
         <attribute>Class</attribute>
         <value>PRV2E.StagePassCondition_Warmup_Hediffs</value>
     </Operation>
