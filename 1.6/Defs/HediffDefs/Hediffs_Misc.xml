@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <HediffDef>
+        <defName>RV2_FasterRecover</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>faster recover</label>
+        <description>This pawn is vored and healed by another pawn.</description>
+        <initialSeverity>0.01</initialSeverity>
+        <maxSeverity>1.00</maxSeverity>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <priceImpact>false</priceImpact>
+        <comps>
+            <li Class="PRV2E.HediffCompProperties_DependOnHediff">
+                <hediffs>
+                    <li>RV2_CurrentlyVored</li>
+                </hediffs>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <statFactors>
+                    <ImmunityGainSpeed>1.05</ImmunityGainSpeed>
+                    <InjuryHealingFactor>1.2</InjuryHealingFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.25</minSeverity>
+                <statFactors>
+                    <ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+                    <InjuryHealingFactor>1.55</InjuryHealingFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.5</minSeverity>
+                <painFactor>0.90</painFactor>
+                <statFactors>
+                    <ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+                    <InjuryHealingFactor>1.85</InjuryHealingFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.75</minSeverity>
+                <painFactor>0.80</painFactor>
+                <statFactors>
+                    <ImmunityGainSpeed>1.3</ImmunityGainSpeed>
+                    <InjuryHealingFactor>2.35</InjuryHealingFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.90</minSeverity>
+                <painFactor>0.70</painFactor>
+                <socialFightChanceFactor>0.55</socialFightChanceFactor>
+                <statFactors>
+                    <ImmunityGainSpeed>1.35</ImmunityGainSpeed>
+                    <InjuryHealingFactor>2.65</InjuryHealingFactor>
+                </statFactors>
+            </li>
+            <li>
+                <minSeverity>0.95</minSeverity>
+                <painFactor>0.60</painFactor>
+                <statFactors>
+                    <ImmunityGainSpeed>1.4</ImmunityGainSpeed>
+                    <InjuryHealingFactor>3</InjuryHealingFactor>
+                </statFactors>
+                <regeneration>20</regeneration>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>RV2_Regression</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>regression</label>
+        <description>This pawn is in other pawn womb and regressed.\n This hediff can't let the age
+            of a pawn decrease below the age of adult.</description>
+        <initialSeverity>0.10</initialSeverity>
+        <maxSeverity>1.00</maxSeverity>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <priceImpact>false</priceImpact>
+        <comps>
+            <li Class="PRV2E.HediffCompProperties_Regression">
+                <RegressionStrength>30</RegressionStrength>
+                <limitMinAge>true</limitMinAge>
+            </li>
+            <li Class="PRV2E.HediffCompProperties_DependOnHediff">
+                <hediffs>
+                    <li>RV2_CurrentlyVored</li>
+                </hediffs>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath" />
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>RV2_UnlimitedRegression</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>unlimited regression</label>
+        <description>This pawn is being reformed in other pawn womb.\n This hediff may let the age
+            of a pawn decrease to zero.\n\n In some degrees,age decreasing can be regard as a type
+            of reform damage.</description>
+        <initialSeverity>0.10</initialSeverity>
+        <maxSeverity>6.00</maxSeverity>
+        <isBad>false</isBad>
+        <tendable>false</tendable>
+        <priceImpact>false</priceImpact>
+        <comps>
+            <li Class="PRV2E.HediffCompProperties_Regression">
+                <RegressionStrength>40</RegressionStrength>
+                <limitMinAge>false</limitMinAge>
+            </li>
+            <li Class="PRV2E.HediffCompProperties_DependOnHediff">
+                <hediffs>
+                    <li>RV2_CurrentlyVored</li>
+                </hediffs>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath" />
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>RV2_ScaleBodySize</defName>
+        <label>ScaleBodySize</label>
+        <defaultLabelColor>(0.8,0.4,0.4)</defaultLabelColor>
+        <hediffClass>HediffWithComps</hediffClass>
+        <initialSeverity>0.05</initialSeverity>
+        <comps>
+            <li Class="PRV2E.HediffCompProperties_ScaleBodySize">
+                <scaleFactor>1.0</scaleFactor>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0</minSeverity>
+            </li>
+            <!-- 0.05 ~ 0.10 -->
+            <li>
+                <minSeverity>0.05</minSeverity>
+                <statFactors>
+                    <BodySize>1.05</BodySize>
+                    <IncomingDamageFactor>0.98</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.10 ~ 0.15 -->
+            <li>
+                <minSeverity>0.10</minSeverity>
+                <statFactors>
+                    <BodySize>1.10</BodySize>
+                    <IncomingDamageFactor>0.95</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.15 ~ 0.20 -->
+            <li>
+                <minSeverity>0.15</minSeverity>
+                <statFactors>
+                    <BodySize>1.15</BodySize>
+                    <IncomingDamageFactor>0.92</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.20 ~ 0.25 -->
+            <li>
+                <minSeverity>0.20</minSeverity>
+                <statFactors>
+                    <BodySize>1.20</BodySize>
+                    <IncomingDamageFactor>0.89</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.25 ~ 0.30 -->
+            <li>
+                <minSeverity>0.25</minSeverity>
+                <statFactors>
+                    <BodySize>1.25</BodySize>
+                    <IncomingDamageFactor>0.86</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.30 ~ 0.35 -->
+            <li>
+                <minSeverity>0.30</minSeverity>
+                <statFactors>
+                    <BodySize>1.30</BodySize>
+                    <IncomingDamageFactor>0.83</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.35 ~ 0.40 -->
+            <li>
+                <minSeverity>0.35</minSeverity>
+                <statFactors>
+                    <BodySize>1.35</BodySize>
+                    <IncomingDamageFactor>0.80</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.40 ~ 0.45 -->
+            <li>
+                <minSeverity>0.40</minSeverity>
+                <statFactors>
+                    <BodySize>1.40</BodySize>
+                    <IncomingDamageFactor>0.77</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.45 ~ 0.50 -->
+            <li>
+                <minSeverity>0.45</minSeverity>
+                <statFactors>
+                    <BodySize>1.45</BodySize>
+                    <IncomingDamageFactor>0.74</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.50 ~ 0.55 -->
+            <li>
+                <minSeverity>0.50</minSeverity>
+                <statFactors>
+                    <BodySize>1.50</BodySize>
+                    <IncomingDamageFactor>0.71</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.55 ~ 0.60 -->
+            <li>
+                <minSeverity>0.55</minSeverity>
+                <statFactors>
+                    <BodySize>1.55</BodySize>
+                    <IncomingDamageFactor>0.68</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.60 ~ 0.65 -->
+            <li>
+                <minSeverity>0.60</minSeverity>
+                <statFactors>
+                    <BodySize>1.60</BodySize>
+                    <IncomingDamageFactor>0.65</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.65 ~ 0.70 -->
+            <li>
+                <minSeverity>0.65</minSeverity>
+                <statFactors>
+                    <BodySize>1.65</BodySize>
+                    <IncomingDamageFactor>0.62</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.70 ~ 0.75 -->
+            <li>
+                <minSeverity>0.70</minSeverity>
+                <statFactors>
+                    <BodySize>1.70</BodySize>
+                    <IncomingDamageFactor>0.59</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.75 ~ 0.80 -->
+            <li>
+                <minSeverity>0.75</minSeverity>
+                <statFactors>
+                    <BodySize>1.75</BodySize>
+                    <IncomingDamageFactor>0.56</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.80 ~ 0.85 -->
+            <li>
+                <minSeverity>0.80</minSeverity>
+                <statFactors>
+                    <BodySize>1.80</BodySize>
+                    <IncomingDamageFactor>0.53</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.85 ~ 0.90 -->
+            <li>
+                <minSeverity>0.85</minSeverity>
+                <statFactors>
+                    <BodySize>1.85</BodySize>
+                    <IncomingDamageFactor>0.50</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.90 ~ 0.95 -->
+            <li>
+                <minSeverity>0.90</minSeverity>
+                <statFactors>
+                    <BodySize>1.90</BodySize>
+                    <IncomingDamageFactor>0.47</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- 0.95 ~ 1.00 -->
+            <li>
+                <minSeverity>0.95</minSeverity>
+                <statFactors>
+                    <BodySize>1.95</BodySize>
+                    <IncomingDamageFactor>0.44</IncomingDamageFactor>
+                </statFactors>
+            </li>
+            <!-- severity = 1.0 时触发（若存在超过1.0仍生效） -->
+            <li>
+                <minSeverity>1.00</minSeverity>
+                <statFactors>
+                    <BodySize>2.00</BodySize>
+                    <IncomingDamageFactor>0.4</IncomingDamageFactor>
+                </statFactors>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>
