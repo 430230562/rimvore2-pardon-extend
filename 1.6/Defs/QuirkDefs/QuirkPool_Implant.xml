@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RimVore2.QuirkPoolDef>
+        <defName>Implant</defName>
+        <label>implant</label>
+        <category>Post-Vore</category>
+        <description>These quirks are added by implants. They modify the pawn's performance in vore mechanics, such as nutrition gain from prey, digestion speed, and mobility.</description>
+        <generationOrder>5</generationOrder>
+        <poolType>RollForEach</poolType>
+        <quirks>
+            <li>RV2_DigestionAdjuster</li>
+        </quirks>
+        <blockingKeywords>
+            <li>PawnIsAnimal</li>
+        </blockingKeywords>
+    </RimVore2.QuirkPoolDef>
+
+    <RimVore2.QuirkDef>
+        <defName>RV2_DigestionAdjuster</defName>
+        <label>digestion adjuster</label>
+        <description>An implant-derived quirk that enhances predation efficiency at the cost of mobility. As a predator, the pawn gains 2.5x nutrition from prey and digests them at 2x speed, suffers less 20% reduction in movement capacity.</description>
+        <comps>
+            <li Class="RimVore2.QuirkComp_ValueModifier">
+                <modifierName>PreyNutritionMultiplierAsPredator</modifierName>
+                <modifierValue>2.5</modifierValue>
+            </li>
+            <li Class="RimVore2.QuirkComp_CapacityOffsetModifier">
+                <capacity>Moving</capacity>
+                <modifierValue>0.8</modifierValue>
+            </li>
+            <li Class="RimVore2.QuirkComp_ValueModifier">
+                <modifierName>AbsorptionSpeed</modifierName>
+                <modifierValue>2</modifierValue>
+            </li>
+        </comps>
+        <rarity>ForcedOnly</rarity>
+    </RimVore2.QuirkDef>
+</Defs>

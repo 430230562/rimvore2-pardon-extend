@@ -4,7 +4,7 @@
         <defName>RV2_DigestionAdjuster</defName>
         <label>digestion adjuster</label>
         <labelNoun>a digestion adjuster</labelNoun>
-        <description>An installed digestion adjuster.</description>
+        <description>An implant-derived quirk that enhances predation efficiency at the cost of mobility. As a predator, the pawn gains 2.5x nutrition from prey and digests them at 2x speed, suffers less 20% reduction in movement capacity.</description>
         <descriptionHyperlinks>
             <ThingDef>RV2_DigestionAdjuster</ThingDef>
         </descriptionHyperlinks>
@@ -14,20 +14,13 @@
             <partEfficiency>1</partEfficiency>
             <betterThanNatural>true</betterThanNatural>
         </addedPartProps>
-        <comps>   
+        <comps>
             <li Class="RimVore2.HediffCompProperties_QuirkForcer">
                 <quirks>
+                    <li>RV2_DigestionAdjuster</li>
                     <li>ItemDamage_Spotless</li>
-                    <li>NutritionEfficiency_VeryGood</li>
                 </quirks>
             </li>
         </comps>
-        <stages>
-            <li>
-                <statFactors>
-                    <RV2_DigestionStrength>0.8</RV2_DigestionStrength>
-                </statFactors>
-            </li>
-        </stages>
     </HediffDef>
 </Defs>

@@ -3,7 +3,7 @@
 	<ThingDef ParentName="BodyPartBionicBase">
 		<defName>RV2_DigestionAdjuster</defName>
 		<label>digestion adjuster</label>
-		<description>An advanced body implant. Used to improve digest efficiency and decrease item damage, but also slower digest speed.</description>
+		<description>An implant-derived quirk that enhances predation efficiency at the cost of mobility. As a predator, the pawn gains 2.5x nutrition from prey and digests them at 2x speed, suffers less 20% reduction in movement capacity.</description>
 		<descriptionHyperlinks>
 			<RecipeDef>RV2_InstallDigestionAdjuster</RecipeDef>
 		</descriptionHyperlinks>
