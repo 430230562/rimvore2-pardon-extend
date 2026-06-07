@@ -4,8 +4,55 @@
 	<name>RimVore2-pardon's-Extend</name>
 	<author>Pardon</author>
 	<packageId>Pardon.PRV2E</packageId>
-	<description>添加了和吞噬有关的基因和植入物.</description>
-	<supportedVersions>
+	<!-- <description>添加了和吞噬有关的基因和植入物.</description> -->
+	<!-- See https://ludeon.com/forums/index.php?topic=43151.0 for description rich text -->
+	<description>
+		<![CDATA[<color=#E0D83C><size=20>RimVore2 pardon's Extend (PRV2E)</size></color>
+
+This is a <b>submod</b> for <b>RimVore 2</b> adding genes and expanding RV2 features.
+[ZH] 添加了和吞噬有关的基因和植入物.
+
+--------------------------------------------------
+
+<size=18>Main Features</size>
+
+- Added a series of <b>vore-related genes,</b> including:
+  -- Capacity
+  -- Mobility
+  -- Digestion Strength
+  -- Anti-Digestion Strength
+  -- Conversion Efficiency
+  -- Preheating Speed
+  -- Absorption Speed
+- Added some new <b>RV2 quirks,</b> including Preheating Speed and Absorption Speed.
+- Changed the <b>nutrition value of conversion products</b> and allowed them to be further processed into <b>food, neutroamine, or synthread.</b>
+- Made some <b>vanilla traits</b> also affect <i>grapple chance</i> and <i>grapple power.</i>
+- Changed the <b>reform process mechanics</b> to be influenced by <i>Digestion Strength</i> and <i>Anti-Digestion Strength.</i>
+- Made temporary hold, long-term storage, and pleasure vore goals in the womb <b>reduce prey's age</b> and <b>cure age-related diseases.</b>
+- Changed the <b>heal vore mechanics</b>, greatly increasing healing speed.
+- Added some <b>vore pathways.</b>
+- Miscellaneous changes:
+  -- Fertility of fertile soil
+  -- Categorization and research requirements for vore enhancement devices
+  -- Research requirements for reform device categorization
+  -- And some small balance adjustments
+
+--------------------------------------------------
+
+<size=18>Issues</size>
+
+- Obviously, this mod <i>greatly reduces game difficulty.</i> But in a sense, that's not the key issue.
+- Gene metabolism rates are not very balanced, and there seems to be some self-reference involved. If you have balance suggestions, <i>feel free to raise them</i>.
+- <b>I really cannot make textures.</b> If any kind soul could help me with <i>gene icons,</i> I would be very grateful.
+
+--------------------------------------------------
+
+<size=18>Future Plans</size>
+
+- Thinking about a vore pathway that converts pawns into <b>cloth</b>, but there doesn't seem to be a suitable organ...
+]]>
+	</description>
+<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
 	<modDependencies>
