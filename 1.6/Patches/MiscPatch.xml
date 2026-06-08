@@ -54,22 +54,6 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>rim.job.world</li>
-    </mods>
-    <nomatch Class="PatchOperationAdd">
-      <xpath>/Defs/HediffDef[@ParentName='LightGenitals_GenitalBase']</xpath>
-      <value>
-        <stage>
-          <li>
-            <becomeVisible>false</becomeVisible>
-          </li>
-        </stage>
-      </value>
-    </nomatch>
-  </Operation>
-
 
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/RecipeDef[@Name='RV2_MakeVoreEnabler_Base']</xpath>

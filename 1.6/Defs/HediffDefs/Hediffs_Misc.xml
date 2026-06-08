@@ -122,15 +122,17 @@
     <HediffDef>
         <defName>RV2_ScaleBodySize</defName>
         <label>ScaleBodySize</label>
+        <labelNoun>体型变化</labelNoun>
         <defaultLabelColor>(0.8,0.4,0.4)</defaultLabelColor>
         <hediffClass>HediffWithComps</hediffClass>
         <initialSeverity>0.05</initialSeverity>
-        <comps>
-            <li Class="PRV2E.HediffCompProperties_ScaleBodySize">
-                <scaleFactor>1.0</scaleFactor>
-            </li>
-        </comps>
+        <!-- <comps>
+        <li Class="PRV2E.HediffCompProperties_ScaleBodySize">
+            <scaleFactor>1.0</scaleFactor>
+        </li>
+    </comps> -->
         <stages>
+            <!-- 0 ~ 0.05（severity=0 时无效果） -->
             <li>
                 <minSeverity>0</minSeverity>
             </li>
@@ -139,6 +141,13 @@
                 <minSeverity>0.05</minSeverity>
                 <statFactors>
                     <BodySize>1.05</BodySize>
+                    <EatingSpeed>1.05</EatingSpeed>
+                    <MeatAmount>1.05</MeatAmount>
+                    <LeatherAmount>1.05</LeatherAmount>
+                    <MeleeDamageFactor>1.05</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.05</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.05</GeneralLaborSpeed>
+                    <CarryingCapacity>1.05</CarryingCapacity>
                     <IncomingDamageFactor>0.98</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -147,6 +156,13 @@
                 <minSeverity>0.10</minSeverity>
                 <statFactors>
                     <BodySize>1.10</BodySize>
+                    <EatingSpeed>1.10</EatingSpeed>
+                    <MeatAmount>1.10</MeatAmount>
+                    <LeatherAmount>1.10</LeatherAmount>
+                    <MeleeDamageFactor>1.10</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.10</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.10</GeneralLaborSpeed>
+                    <CarryingCapacity>1.10</CarryingCapacity>
                     <IncomingDamageFactor>0.95</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -155,6 +171,13 @@
                 <minSeverity>0.15</minSeverity>
                 <statFactors>
                     <BodySize>1.15</BodySize>
+                    <EatingSpeed>1.15</EatingSpeed>
+                    <MeatAmount>1.15</MeatAmount>
+                    <LeatherAmount>1.15</LeatherAmount>
+                    <MeleeDamageFactor>1.15</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.15</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.15</GeneralLaborSpeed>
+                    <CarryingCapacity>1.15</CarryingCapacity>
                     <IncomingDamageFactor>0.92</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -163,6 +186,13 @@
                 <minSeverity>0.20</minSeverity>
                 <statFactors>
                     <BodySize>1.20</BodySize>
+                    <EatingSpeed>1.20</EatingSpeed>
+                    <MeatAmount>1.20</MeatAmount>
+                    <LeatherAmount>1.20</LeatherAmount>
+                    <MeleeDamageFactor>1.20</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.20</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.20</GeneralLaborSpeed>
+                    <CarryingCapacity>1.20</CarryingCapacity>
                     <IncomingDamageFactor>0.89</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -171,6 +201,13 @@
                 <minSeverity>0.25</minSeverity>
                 <statFactors>
                     <BodySize>1.25</BodySize>
+                    <EatingSpeed>1.25</EatingSpeed>
+                    <MeatAmount>1.25</MeatAmount>
+                    <LeatherAmount>1.25</LeatherAmount>
+                    <MeleeDamageFactor>1.25</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.25</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.25</GeneralLaborSpeed>
+                    <CarryingCapacity>1.25</CarryingCapacity>
                     <IncomingDamageFactor>0.86</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -179,6 +216,13 @@
                 <minSeverity>0.30</minSeverity>
                 <statFactors>
                     <BodySize>1.30</BodySize>
+                    <EatingSpeed>1.30</EatingSpeed>
+                    <MeatAmount>1.30</MeatAmount>
+                    <LeatherAmount>1.30</LeatherAmount>
+                    <MeleeDamageFactor>1.30</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.30</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.30</GeneralLaborSpeed>
+                    <CarryingCapacity>1.30</CarryingCapacity>
                     <IncomingDamageFactor>0.83</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -187,6 +231,13 @@
                 <minSeverity>0.35</minSeverity>
                 <statFactors>
                     <BodySize>1.35</BodySize>
+                    <EatingSpeed>1.35</EatingSpeed>
+                    <MeatAmount>1.35</MeatAmount>
+                    <LeatherAmount>1.35</LeatherAmount>
+                    <MeleeDamageFactor>1.35</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.35</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.35</GeneralLaborSpeed>
+                    <CarryingCapacity>1.35</CarryingCapacity>
                     <IncomingDamageFactor>0.80</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -195,6 +246,13 @@
                 <minSeverity>0.40</minSeverity>
                 <statFactors>
                     <BodySize>1.40</BodySize>
+                    <EatingSpeed>1.40</EatingSpeed>
+                    <MeatAmount>1.40</MeatAmount>
+                    <LeatherAmount>1.40</LeatherAmount>
+                    <MeleeDamageFactor>1.40</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.40</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.40</GeneralLaborSpeed>
+                    <CarryingCapacity>1.40</CarryingCapacity>
                     <IncomingDamageFactor>0.77</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -203,6 +261,13 @@
                 <minSeverity>0.45</minSeverity>
                 <statFactors>
                     <BodySize>1.45</BodySize>
+                    <EatingSpeed>1.45</EatingSpeed>
+                    <MeatAmount>1.45</MeatAmount>
+                    <LeatherAmount>1.45</LeatherAmount>
+                    <MeleeDamageFactor>1.45</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.45</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.45</GeneralLaborSpeed>
+                    <CarryingCapacity>1.45</CarryingCapacity>
                     <IncomingDamageFactor>0.74</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -211,6 +276,13 @@
                 <minSeverity>0.50</minSeverity>
                 <statFactors>
                     <BodySize>1.50</BodySize>
+                    <EatingSpeed>1.50</EatingSpeed>
+                    <MeatAmount>1.50</MeatAmount>
+                    <LeatherAmount>1.50</LeatherAmount>
+                    <MeleeDamageFactor>1.50</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.50</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.50</GeneralLaborSpeed>
+                    <CarryingCapacity>1.50</CarryingCapacity>
                     <IncomingDamageFactor>0.71</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -219,6 +291,13 @@
                 <minSeverity>0.55</minSeverity>
                 <statFactors>
                     <BodySize>1.55</BodySize>
+                    <EatingSpeed>1.55</EatingSpeed>
+                    <MeatAmount>1.55</MeatAmount>
+                    <LeatherAmount>1.55</LeatherAmount>
+                    <MeleeDamageFactor>1.55</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.55</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.55</GeneralLaborSpeed>
+                    <CarryingCapacity>1.55</CarryingCapacity>
                     <IncomingDamageFactor>0.68</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -227,6 +306,13 @@
                 <minSeverity>0.60</minSeverity>
                 <statFactors>
                     <BodySize>1.60</BodySize>
+                    <EatingSpeed>1.60</EatingSpeed>
+                    <MeatAmount>1.60</MeatAmount>
+                    <LeatherAmount>1.60</LeatherAmount>
+                    <MeleeDamageFactor>1.60</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.60</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.60</GeneralLaborSpeed>
+                    <CarryingCapacity>1.60</CarryingCapacity>
                     <IncomingDamageFactor>0.65</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -235,6 +321,13 @@
                 <minSeverity>0.65</minSeverity>
                 <statFactors>
                     <BodySize>1.65</BodySize>
+                    <EatingSpeed>1.65</EatingSpeed>
+                    <MeatAmount>1.65</MeatAmount>
+                    <LeatherAmount>1.65</LeatherAmount>
+                    <MeleeDamageFactor>1.65</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.65</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.65</GeneralLaborSpeed>
+                    <CarryingCapacity>1.65</CarryingCapacity>
                     <IncomingDamageFactor>0.62</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -243,6 +336,13 @@
                 <minSeverity>0.70</minSeverity>
                 <statFactors>
                     <BodySize>1.70</BodySize>
+                    <EatingSpeed>1.70</EatingSpeed>
+                    <MeatAmount>1.70</MeatAmount>
+                    <LeatherAmount>1.70</LeatherAmount>
+                    <MeleeDamageFactor>1.70</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.70</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.70</GeneralLaborSpeed>
+                    <CarryingCapacity>1.70</CarryingCapacity>
                     <IncomingDamageFactor>0.59</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -251,6 +351,13 @@
                 <minSeverity>0.75</minSeverity>
                 <statFactors>
                     <BodySize>1.75</BodySize>
+                    <EatingSpeed>1.75</EatingSpeed>
+                    <MeatAmount>1.75</MeatAmount>
+                    <LeatherAmount>1.75</LeatherAmount>
+                    <MeleeDamageFactor>1.75</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.75</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.75</GeneralLaborSpeed>
+                    <CarryingCapacity>1.75</CarryingCapacity>
                     <IncomingDamageFactor>0.56</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -259,6 +366,13 @@
                 <minSeverity>0.80</minSeverity>
                 <statFactors>
                     <BodySize>1.80</BodySize>
+                    <EatingSpeed>1.80</EatingSpeed>
+                    <MeatAmount>1.80</MeatAmount>
+                    <LeatherAmount>1.80</LeatherAmount>
+                    <MeleeDamageFactor>1.80</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.80</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.80</GeneralLaborSpeed>
+                    <CarryingCapacity>1.80</CarryingCapacity>
                     <IncomingDamageFactor>0.53</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -267,6 +381,13 @@
                 <minSeverity>0.85</minSeverity>
                 <statFactors>
                     <BodySize>1.85</BodySize>
+                    <EatingSpeed>1.85</EatingSpeed>
+                    <MeatAmount>1.85</MeatAmount>
+                    <LeatherAmount>1.85</LeatherAmount>
+                    <MeleeDamageFactor>1.85</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.85</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.85</GeneralLaborSpeed>
+                    <CarryingCapacity>1.85</CarryingCapacity>
                     <IncomingDamageFactor>0.50</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -275,6 +396,13 @@
                 <minSeverity>0.90</minSeverity>
                 <statFactors>
                     <BodySize>1.90</BodySize>
+                    <EatingSpeed>1.90</EatingSpeed>
+                    <MeatAmount>1.90</MeatAmount>
+                    <LeatherAmount>1.90</LeatherAmount>
+                    <MeleeDamageFactor>1.90</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.90</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.90</GeneralLaborSpeed>
+                    <CarryingCapacity>1.90</CarryingCapacity>
                     <IncomingDamageFactor>0.47</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -283,15 +411,29 @@
                 <minSeverity>0.95</minSeverity>
                 <statFactors>
                     <BodySize>1.95</BodySize>
+                    <EatingSpeed>1.95</EatingSpeed>
+                    <MeatAmount>1.95</MeatAmount>
+                    <LeatherAmount>1.95</LeatherAmount>
+                    <MeleeDamageFactor>1.95</MeleeDamageFactor>
+                    <WorkSpeedGlobal>1.95</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>1.95</GeneralLaborSpeed>
+                    <CarryingCapacity>1.95</CarryingCapacity>
                     <IncomingDamageFactor>0.44</IncomingDamageFactor>
                 </statFactors>
             </li>
-            <!-- severity = 1.0 时触发（若存在超过1.0仍生效） -->
+            <!-- 1.00+ -->
             <li>
                 <minSeverity>1.00</minSeverity>
                 <statFactors>
                     <BodySize>2.00</BodySize>
-                    <IncomingDamageFactor>0.4</IncomingDamageFactor>
+                    <EatingSpeed>2.00</EatingSpeed>
+                    <MeatAmount>2.00</MeatAmount>
+                    <LeatherAmount>2.00</LeatherAmount>
+                    <MeleeDamageFactor>2.00</MeleeDamageFactor>
+                    <WorkSpeedGlobal>2.00</WorkSpeedGlobal>
+                    <GeneralLaborSpeed>2.00</GeneralLaborSpeed>
+                    <CarryingCapacity>2.00</CarryingCapacity>
+                    <IncomingDamageFactor>0.40</IncomingDamageFactor>
                 </statFactors>
             </li>
         </stages>

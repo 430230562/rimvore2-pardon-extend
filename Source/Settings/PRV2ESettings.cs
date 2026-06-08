@@ -7,7 +7,7 @@ using Verse;
 
 namespace PRV2E
 {
-    internal class PRV2ESettings: ModSettings
+    internal class PRV2ESettingsTab : ModSettings
     {
 
     }

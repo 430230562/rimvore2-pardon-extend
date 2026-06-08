@@ -1,4 +1,5 @@
 ﻿using RimVore2;
+using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -107,6 +108,46 @@ namespace PRV2E
             base.ExposeData();
 
             Scribe_Collections.Look(ref hediffs, "hediffs");
+        }
+    }
+
+    public class StagePassCondition_Age : TargetedStagePassCondition
+    {
+        public float targetAge = 0;
+
+        private float intialAge = -1;
+
+        public bool olderThan = true;
+
+        public override bool IsPassed(VoreTrackerRecord record, out float progress)
+        {
+            Pawn pawn = TargetPawn(record);
+            if (pawn == null)
+            {
+                progress = 0;
+                return false;
+            }
+            if (intialAge < 0)
+            {
+                intialAge = pawn.ageTracker.AgeBiologicalYearsFloat;
+            }
+
+            float age = pawn.ageTracker.AgeBiologicalYearsFloat;
+            bool isPassed = olderThan ? age >= targetAge : age <= targetAge;
+            progress = CalculateProgress(age, targetAge, intialAge);
+            return isPassed;
+        }
+
+        public override float AbstractDuration(StageWorker onCycle, StageWorker onStart)
+        {
+            return (targetAge - intialAge) * 60;
+        }
+
+        public override void ExposeData()
+        {
+            base.ExposeData();
+            Scribe_Values.Look(ref targetAge, "targetAge");
+            Scribe_Values.Look(ref olderThan, "olderThan");
         }
     }
 }
