@@ -107,6 +107,17 @@
                     <canReverseDirection>true</canReverseDirection>
                     <predatorHediffDef>RV2_PreyInTesticlesReforming</predatorHediffDef>
                     <predatorThoughtDef>RV2_PreyInTesticlesReforming</predatorThoughtDef>
+                    <onStart>
+                        <actions>
+                            <li Class="RimVore2.RollAction_PassValue_Set">
+                                <name>ReformProgress</name>
+                                <type>DigestionProgress</type>
+                            </li>
+                            <li Class="RimVore2.RollAction_ShowMote">
+                                <mote>RV2_Mote_BubblesLove</mote>
+                            </li>
+                        </actions>
+                    </onStart>
                     <onCycle>
                         <rollPresets>
                             <li>StealNeed_ForPrey_Food</li>

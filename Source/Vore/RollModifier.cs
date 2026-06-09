@@ -13,8 +13,8 @@ namespace PRV2E
     public class RollModifier_LimitedStat : TargetedRollModifier
     {
         public StatDef stat;
-        public float min;
-        public float max;
+        public float min = 0f;
+        public float max = 100f;
 
         protected override bool TryGetModifier(VoreTrackerRecord record, out float modifier)
         {
