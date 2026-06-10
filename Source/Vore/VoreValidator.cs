@@ -1,6 +1,7 @@
 ﻿using HarmonyLib;
 using RimVore2;
 using RimWorld;
+using System;
 using Verse;
 
 namespace PRV2E
@@ -15,8 +16,23 @@ namespace PRV2E
         // 3. 参数通过 Harmony 自动注入，使用 ref 接收返回值
         public static bool Prefix(Pawn pawn, ref float __result)
         {
+            float capacity = pawn.BodySize * pawn.GetStatValue(StatDef.Named("PRV2E_VoreBodySizeMultiple"));
+            capacity *= RV2Mod.Settings.cheats.BodySizeToVoreCapacity;
+            QuirkManager quirkManager = pawn.QuirkManager();
+            if (quirkManager != null)
+            {
+                if (quirkManager.HasComp<QuirkComp_ValueModifier>())
+                {
+                    capacity = quirkManager.ModifyValue("StorageCapacity", capacity);
+                }
+            }
+
+            capacity += pawn.GetStatValue(StatDef.Named("PRV2E_ExtraCapacity"));
+
+            capacity = Math.Max(capacity, RV2Mod.Settings.cheats.MinimumVoreCapacity);
+
             // 原有核心逻辑保留：用 StatDef "RV2_Capacity" 的值覆盖容量计算结果
-            __result = pawn.GetStatValue(StatDef.Named("RV2_Capacity"));
+            __result = capacity;
 
             // 返回 false 跳过原方法执行（原有逻辑不变）
             return false;

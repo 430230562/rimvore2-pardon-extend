@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Extra vore capacity -->
+  <PRV2E_ExtraCapacity.label>额外吞食容量</PRV2E_ExtraCapacity.label>
+  <!-- EN: Extra vore capacity added to the pawn's base capacity when calculating how many pawns
+  they can have inside them. -->
+  <PRV2E_ExtraCapacity.description>在计算一个角色体内可以容纳多少其他角色时，会添加到该角色基础容量上的额外吞食容量。</PRV2E_ExtraCapacity.description>
+
+  <!-- EN: Vore body size multiple -->
+  <PRV2E_VoreBodySizeMultiple.label>吞食体型倍数</PRV2E_VoreBodySizeMultiple.label>
+  <!-- EN: Multiplies the pawn's body size for the purposes of calculating how many pawns they can
+  have inside them. This is used for making certain pawns more or less effective at holding prey
+  based on their body size. -->
+  <PRV2E_VoreBodySizeMultiple.description>
+    在计算角色体内可容纳多少其他角色时，将该角色的体型乘以该倍数。此系数用于根据体型，使特定角色在容纳猎物时效果增强或减弱。</PRV2E_VoreBodySizeMultiple.description>
+
+</LanguageData>

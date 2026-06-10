@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: implant -->
+  <Implant.label>TODO</Implant.label>
+  <!-- EN: These quirks are added by implants. They modify the pawn's performance in vore mechanics, such as nutrition gain from prey, digestion speed, and mobility. -->
+  <Implant.description>TODO</Implant.description>
+  
+</LanguageData>

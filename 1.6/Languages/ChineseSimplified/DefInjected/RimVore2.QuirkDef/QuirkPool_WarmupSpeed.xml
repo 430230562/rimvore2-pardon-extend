@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: No Warmup -->
+  <Cheat_SkipWarmup.label>TODO</Cheat_SkipWarmup.label>
+  <!-- EN: [PAWN_label] need't to warmup,[PAWN_possessive] organs are operating efficiently at all times, ready to handle prey at any time -->
+  <Cheat_SkipWarmup.description>TODO</Cheat_SkipWarmup.description>
+  
   <!-- EN: Swift Warmup -->
   <WarmupSpeed_Fast.label>快速启动</WarmupSpeed_Fast.label>
-  <!-- EN: [PAWN_label] warms up to prey faster than most predators, able to prepare for digestion
-  or capture with little delay. -->
+  <!-- EN: [PAWN_label] warms up to prey faster than most predators, able to prepare for digestion or capture with little delay. -->
   <WarmupSpeed_Fast.description>[PAWN_label]对猎物的启动速度快于普通掠食者，几乎无需延迟即可准备捕食或消化。</WarmupSpeed_Fast.description>
-
+  
   <!-- EN: Normal Warmup -->
   <WarmupSpeed_Normal.label>正常启动</WarmupSpeed_Normal.label>
-  <!-- EN: [PAWN_label] warms up to prey at a standard rate, matching the pace of most predatory
-  peers. -->
+  <!-- EN: [PAWN_label] warms up to prey at a standard rate, matching the pace of most predatory peers. -->
   <WarmupSpeed_Normal.description>[PAWN_label]以标准速度启动，与大多数掠食者的节奏一致。</WarmupSpeed_Normal.description>
-
+  
   <!-- EN: Sluggish Warmup -->
   <WarmupSpeed_Slow.label>启动迟缓</WarmupSpeed_Slow.label>
-  <!-- EN: [PAWN_label] warms up to act on prey slowly, taking longer than average to prepare for
-  capturing or digesting prey. -->
+  <!-- EN: [PAWN_label] warms up to act on prey slowly, taking longer than average to prepare for capturing or digesting prey. -->
   <WarmupSpeed_Slow.description>[PAWN_label]对猎物的行动启动缓慢，准备捕食或消化所需时间长于平均水平。</WarmupSpeed_Slow.description>
-
+  
   <!-- EN: Blazing Warmup -->
   <WarmupSpeed_VeryFast.label>极速启动</WarmupSpeed_VeryFast.label>
-  <!-- EN: [PAWN_label] warms up to act on prey extremely quickly, ready to pounce and process them
-  in record time. -->
+  <!-- EN: [PAWN_label] warms up to act on prey extremely quickly, ready to pounce and process them in record time. -->
   <WarmupSpeed_VeryFast.description>[PAWN_label]对猎物的行动启动极快，能以最快速度完成处理准备。</WarmupSpeed_VeryFast.description>
-
+  
   <!-- EN: Glacial Warmup -->
   <WarmupSpeed_VerySlow.label>启动极慢</WarmupSpeed_VerySlow.label>
-  <!-- EN: [PAWN_label] warms up to prey extremely slowly, taking far longer than normal to ready
-  their predatory instincts and actions. -->
+  <!-- EN: [PAWN_label] warms up to prey extremely slowly, taking far longer than normal to ready their predatory instincts and actions. -->
   <WarmupSpeed_VerySlow.description>[PAWN_label]启动速度极慢，唤醒掠食本能并做好行动准备的时间远长于正常水平。</WarmupSpeed_VerySlow.description>
-
+  
 </LanguageData>

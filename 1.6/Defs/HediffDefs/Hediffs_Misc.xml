@@ -140,7 +140,7 @@
             <li>
                 <minSeverity>0.05</minSeverity>
                 <statFactors>
-                    <BodySize>1.05</BodySize>
+                    <MaxNutrition>1.05</MaxNutrition>
                     <EatingSpeed>1.05</EatingSpeed>
                     <MeatAmount>1.05</MeatAmount>
                     <LeatherAmount>1.05</LeatherAmount>
@@ -148,6 +148,10 @@
                     <WorkSpeedGlobal>1.05</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.05</GeneralLaborSpeed>
                     <CarryingCapacity>1.05</CarryingCapacity>
+                    <RV2_GrappleStrength_General>1.10</RV2_GrappleStrength_General>
+                    <!-- 仅显示效果 -->
+                    <RV2_Capacity>1.05</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.05</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.98</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -155,7 +159,7 @@
             <li>
                 <minSeverity>0.10</minSeverity>
                 <statFactors>
-                    <BodySize>1.10</BodySize>
+                    <MaxNutrition>1.10</MaxNutrition>
                     <EatingSpeed>1.10</EatingSpeed>
                     <MeatAmount>1.10</MeatAmount>
                     <LeatherAmount>1.10</LeatherAmount>
@@ -163,6 +167,9 @@
                     <WorkSpeedGlobal>1.10</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.10</GeneralLaborSpeed>
                     <CarryingCapacity>1.10</CarryingCapacity>
+                    <RV2_GrappleStrength_General>1.20</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.1</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.10</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.95</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -170,7 +177,7 @@
             <li>
                 <minSeverity>0.15</minSeverity>
                 <statFactors>
-                    <BodySize>1.15</BodySize>
+                    <MaxNutrition>1.15</MaxNutrition>
                     <EatingSpeed>1.15</EatingSpeed>
                     <MeatAmount>1.15</MeatAmount>
                     <LeatherAmount>1.15</LeatherAmount>
@@ -178,6 +185,9 @@
                     <WorkSpeedGlobal>1.15</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.15</GeneralLaborSpeed>
                     <CarryingCapacity>1.15</CarryingCapacity>
+                    <RV2_GrappleStrength_General>1.30</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.15</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.15</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.92</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -185,7 +195,7 @@
             <li>
                 <minSeverity>0.20</minSeverity>
                 <statFactors>
-                    <BodySize>1.20</BodySize>
+                    <MaxNutrition>1.20</MaxNutrition>
                     <EatingSpeed>1.20</EatingSpeed>
                     <MeatAmount>1.20</MeatAmount>
                     <LeatherAmount>1.20</LeatherAmount>
@@ -193,6 +203,9 @@
                     <WorkSpeedGlobal>1.20</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.20</GeneralLaborSpeed>
                     <CarryingCapacity>1.20</CarryingCapacity>
+                    <RV2_GrappleStrength_General>1.40</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.20</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.20</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.89</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -200,7 +213,7 @@
             <li>
                 <minSeverity>0.25</minSeverity>
                 <statFactors>
-                    <BodySize>1.25</BodySize>
+                    <MaxNutrition>1.25</MaxNutrition>
                     <EatingSpeed>1.25</EatingSpeed>
                     <MeatAmount>1.25</MeatAmount>
                     <LeatherAmount>1.25</LeatherAmount>
@@ -208,6 +221,9 @@
                     <WorkSpeedGlobal>1.25</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.25</GeneralLaborSpeed>
                     <CarryingCapacity>1.25</CarryingCapacity>
+                    <RV2_GrappleStrength_General>1.50</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.25</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.25</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.86</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -215,7 +231,7 @@
             <li>
                 <minSeverity>0.30</minSeverity>
                 <statFactors>
-                    <BodySize>1.30</BodySize>
+                    <MaxNutrition>1.30</MaxNutrition>
                     <EatingSpeed>1.30</EatingSpeed>
                     <MeatAmount>1.30</MeatAmount>
                     <LeatherAmount>1.30</LeatherAmount>
@@ -223,6 +239,9 @@
                     <WorkSpeedGlobal>1.30</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.30</GeneralLaborSpeed>
                     <CarryingCapacity>1.30</CarryingCapacity>
+                    <RV2_GrappleStrength_General>1.60</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.30</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.30</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.83</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -230,7 +249,7 @@
             <li>
                 <minSeverity>0.35</minSeverity>
                 <statFactors>
-                    <BodySize>1.35</BodySize>
+                    <MaxNutrition>1.35</MaxNutrition>
                     <EatingSpeed>1.35</EatingSpeed>
                     <MeatAmount>1.35</MeatAmount>
                     <LeatherAmount>1.35</LeatherAmount>
@@ -238,6 +257,9 @@
                     <WorkSpeedGlobal>1.35</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.35</GeneralLaborSpeed>
                     <CarryingCapacity>1.35</CarryingCapacity>
+                    <RV2_GrappleStrength_General>1.70</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.35</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.35</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.80</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -245,7 +267,7 @@
             <li>
                 <minSeverity>0.40</minSeverity>
                 <statFactors>
-                    <BodySize>1.40</BodySize>
+                    <MaxNutrition>1.40</MaxNutrition>
                     <EatingSpeed>1.40</EatingSpeed>
                     <MeatAmount>1.40</MeatAmount>
                     <LeatherAmount>1.40</LeatherAmount>
@@ -253,6 +275,9 @@
                     <WorkSpeedGlobal>1.40</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.40</GeneralLaborSpeed>
                     <CarryingCapacity>1.40</CarryingCapacity>
+                    <RV2_GrappleStrength_General>1.80</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.40</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.40</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.77</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -260,7 +285,7 @@
             <li>
                 <minSeverity>0.45</minSeverity>
                 <statFactors>
-                    <BodySize>1.45</BodySize>
+                    <MaxNutrition>1.45</MaxNutrition>
                     <EatingSpeed>1.45</EatingSpeed>
                     <MeatAmount>1.45</MeatAmount>
                     <LeatherAmount>1.45</LeatherAmount>
@@ -268,6 +293,9 @@
                     <WorkSpeedGlobal>1.45</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.45</GeneralLaborSpeed>
                     <CarryingCapacity>1.45</CarryingCapacity>
+                    <RV2_GrappleStrength_General>1.90</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.45</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.45</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.74</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -275,7 +303,7 @@
             <li>
                 <minSeverity>0.50</minSeverity>
                 <statFactors>
-                    <BodySize>1.50</BodySize>
+                    <MaxNutrition>1.50</MaxNutrition>
                     <EatingSpeed>1.50</EatingSpeed>
                     <MeatAmount>1.50</MeatAmount>
                     <LeatherAmount>1.50</LeatherAmount>
@@ -283,6 +311,9 @@
                     <WorkSpeedGlobal>1.50</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.50</GeneralLaborSpeed>
                     <CarryingCapacity>1.50</CarryingCapacity>
+                    <RV2_GrappleStrength_General>2.00</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.50</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.50</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.71</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -290,7 +321,7 @@
             <li>
                 <minSeverity>0.55</minSeverity>
                 <statFactors>
-                    <BodySize>1.55</BodySize>
+                    <MaxNutrition>1.55</MaxNutrition>
                     <EatingSpeed>1.55</EatingSpeed>
                     <MeatAmount>1.55</MeatAmount>
                     <LeatherAmount>1.55</LeatherAmount>
@@ -298,6 +329,9 @@
                     <WorkSpeedGlobal>1.55</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.55</GeneralLaborSpeed>
                     <CarryingCapacity>1.55</CarryingCapacity>
+                    <RV2_GrappleStrength_General>2.10</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.55</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.55</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.68</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -305,7 +339,7 @@
             <li>
                 <minSeverity>0.60</minSeverity>
                 <statFactors>
-                    <BodySize>1.60</BodySize>
+                    <MaxNutrition>1.60</MaxNutrition>
                     <EatingSpeed>1.60</EatingSpeed>
                     <MeatAmount>1.60</MeatAmount>
                     <LeatherAmount>1.60</LeatherAmount>
@@ -313,6 +347,9 @@
                     <WorkSpeedGlobal>1.60</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.60</GeneralLaborSpeed>
                     <CarryingCapacity>1.60</CarryingCapacity>
+                    <RV2_GrappleStrength_General>2.20</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.60</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.60</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.65</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -320,7 +357,7 @@
             <li>
                 <minSeverity>0.65</minSeverity>
                 <statFactors>
-                    <BodySize>1.65</BodySize>
+                    <MaxNutrition>1.65</MaxNutrition>
                     <EatingSpeed>1.65</EatingSpeed>
                     <MeatAmount>1.65</MeatAmount>
                     <LeatherAmount>1.65</LeatherAmount>
@@ -328,6 +365,9 @@
                     <WorkSpeedGlobal>1.65</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.65</GeneralLaborSpeed>
                     <CarryingCapacity>1.65</CarryingCapacity>
+                    <RV2_GrappleStrength_General>2.30</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.65</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.65</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.62</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -335,7 +375,7 @@
             <li>
                 <minSeverity>0.70</minSeverity>
                 <statFactors>
-                    <BodySize>1.70</BodySize>
+                    <MaxNutrition>1.70</MaxNutrition>
                     <EatingSpeed>1.70</EatingSpeed>
                     <MeatAmount>1.70</MeatAmount>
                     <LeatherAmount>1.70</LeatherAmount>
@@ -343,6 +383,9 @@
                     <WorkSpeedGlobal>1.70</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.70</GeneralLaborSpeed>
                     <CarryingCapacity>1.70</CarryingCapacity>
+                    <RV2_GrappleStrength_General>2.40</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.70</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.70</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.59</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -350,7 +393,7 @@
             <li>
                 <minSeverity>0.75</minSeverity>
                 <statFactors>
-                    <BodySize>1.75</BodySize>
+                    <MaxNutrition>1.75</MaxNutrition>
                     <EatingSpeed>1.75</EatingSpeed>
                     <MeatAmount>1.75</MeatAmount>
                     <LeatherAmount>1.75</LeatherAmount>
@@ -358,6 +401,9 @@
                     <WorkSpeedGlobal>1.75</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.75</GeneralLaborSpeed>
                     <CarryingCapacity>1.75</CarryingCapacity>
+                    <RV2_GrappleStrength_General>2.50</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.75</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.75</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.56</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -365,7 +411,7 @@
             <li>
                 <minSeverity>0.80</minSeverity>
                 <statFactors>
-                    <BodySize>1.80</BodySize>
+                    <MaxNutrition>1.80</MaxNutrition>
                     <EatingSpeed>1.80</EatingSpeed>
                     <MeatAmount>1.80</MeatAmount>
                     <LeatherAmount>1.80</LeatherAmount>
@@ -373,6 +419,9 @@
                     <WorkSpeedGlobal>1.80</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.80</GeneralLaborSpeed>
                     <CarryingCapacity>1.80</CarryingCapacity>
+                    <RV2_GrappleStrength_General>2.60</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.80</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.80</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.53</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -380,7 +429,7 @@
             <li>
                 <minSeverity>0.85</minSeverity>
                 <statFactors>
-                    <BodySize>1.85</BodySize>
+                    <MaxNutrition>1.85</MaxNutrition>
                     <EatingSpeed>1.85</EatingSpeed>
                     <MeatAmount>1.85</MeatAmount>
                     <LeatherAmount>1.85</LeatherAmount>
@@ -388,6 +437,9 @@
                     <WorkSpeedGlobal>1.85</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.85</GeneralLaborSpeed>
                     <CarryingCapacity>1.85</CarryingCapacity>
+                    <RV2_GrappleStrength_General>2.70</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.85</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.85</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.50</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -395,7 +447,7 @@
             <li>
                 <minSeverity>0.90</minSeverity>
                 <statFactors>
-                    <BodySize>1.90</BodySize>
+                    <MaxNutrition>1.90</MaxNutrition>
                     <EatingSpeed>1.90</EatingSpeed>
                     <MeatAmount>1.90</MeatAmount>
                     <LeatherAmount>1.90</LeatherAmount>
@@ -403,6 +455,9 @@
                     <WorkSpeedGlobal>1.90</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.90</GeneralLaborSpeed>
                     <CarryingCapacity>1.90</CarryingCapacity>
+                    <RV2_GrappleStrength_General>2.80</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.90</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.90</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.47</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -410,7 +465,7 @@
             <li>
                 <minSeverity>0.95</minSeverity>
                 <statFactors>
-                    <BodySize>1.95</BodySize>
+                    <MaxNutrition>1.95</MaxNutrition>
                     <EatingSpeed>1.95</EatingSpeed>
                     <MeatAmount>1.95</MeatAmount>
                     <LeatherAmount>1.95</LeatherAmount>
@@ -418,6 +473,9 @@
                     <WorkSpeedGlobal>1.95</WorkSpeedGlobal>
                     <GeneralLaborSpeed>1.95</GeneralLaborSpeed>
                     <CarryingCapacity>1.95</CarryingCapacity>
+                    <RV2_GrappleStrength_General>2.90</RV2_GrappleStrength_General>
+                    <RV2_Capacity>1.95</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>1.95</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.44</IncomingDamageFactor>
                 </statFactors>
             </li>
@@ -425,7 +483,7 @@
             <li>
                 <minSeverity>1.00</minSeverity>
                 <statFactors>
-                    <BodySize>2.00</BodySize>
+                    <MaxNutrition>2.00</MaxNutrition>
                     <EatingSpeed>2.00</EatingSpeed>
                     <MeatAmount>2.00</MeatAmount>
                     <LeatherAmount>2.00</LeatherAmount>
@@ -433,6 +491,9 @@
                     <WorkSpeedGlobal>2.00</WorkSpeedGlobal>
                     <GeneralLaborSpeed>2.00</GeneralLaborSpeed>
                     <CarryingCapacity>2.00</CarryingCapacity>
+                    <RV2_GrappleStrength_General>3.00</RV2_GrappleStrength_General>
+                    <RV2_Capacity>2.00</RV2_Capacity>
+                    <PRV2E_VoreBodySizeMultiple>2.00</PRV2E_VoreBodySizeMultiple>
                     <IncomingDamageFactor>0.40</IncomingDamageFactor>
                 </statFactors>
             </li>
