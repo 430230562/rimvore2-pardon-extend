@@ -27,7 +27,7 @@
   </RimVore2.VorePathDef>
 
   <RimVore2.VorePathDef ParentName="Drain_Base" MayRequire='Rutrix.RutsRimVoreStuff'>
-    <defName>MembraneDrain</defName>
+    <defName>InsidesDrain</defName>
     <label>(Drain) membrane inside</label>
     <RMBLabel>Membrane vore</RMBLabel>
     <actionDescription>{PREDATOR} will engulf and drain {PREY}</actionDescription>
@@ -51,8 +51,6 @@
     </stages>
     <defaultRequiredStruggles>60</defaultRequiredStruggles>
   </RimVore2.VorePathDef>
-
-  
 
   <RimVore2.VorePathDef ParentName="Drain_Base" MayRequire='Rutrix.RutsRimVoreStuff'>
     <defName>NavelDrain</defName>

@@ -390,6 +390,7 @@
         </stages>
     </ThoughtDef>
 
+<!-- ================== Tailmaw Reform ================== -->
     <ThoughtDef ParentName="RV2_VoreMemory_Base">
         <defName>RV2_PredatorMembraneReformSuccess</defName>
         <stages>
@@ -430,4 +431,6 @@
             </li>
         </stages>
     </ThoughtDef>
+
+    
 </Defs>

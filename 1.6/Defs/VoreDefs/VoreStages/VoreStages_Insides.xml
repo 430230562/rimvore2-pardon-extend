@@ -19,7 +19,75 @@
             <li Class="RimVore2.StagePassCondition_Warmup">
                 <duration>12</duration>
                 <hediffs>
-                <li>RV2_PreyInInsidesDrain</li>
+                    <li>RV2_PreyInInsidesDrain</li>
+                </hediffs>
+            </li>
+        </passConditions>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef Name='Insides_Contact' ParentName="Insides_Base">
+        <defName>Insides_Contact</defName>
+        <partGoal>Contact</partGoal>
+        <canReverseDirection>true</canReverseDirection>
+        <predatorHediffDef>RV2_PreyInInsidesContacting</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesContacting</predatorThoughtDef>
+        <onStart>
+            <actions>
+                <li Class="RimVore2.RollAction_RecordTale_VoreInitiation" />
+            </actions>
+        </onStart>
+        <onCycle>
+            <rollPresets>
+                <li>Sound_Squish_Chance_5</li>
+                <li>Sound_Slurp_Chance_5</li>
+                <li>IncreaseNeed_Predator_Comfort</li>
+            </rollPresets>
+        </onCycle>
+        <onEnd>
+            <actions>
+                <li Class="RimVore2.RollAction_PlaySound">
+                    <sound>RV2_Slurp</sound>
+                </li>
+            </actions>
+        </onEnd>
+        <passConditions Inherit="False">
+            <li Class="RimVore2.StagePassCondition_Timed">
+                <duration>8</duration>
+            </li>
+        </passConditions>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef Name="Insides_Loosen" ParentName="Insides_Base">
+        <defName>Insides_Loosen</defName>
+        <partGoal>Loosen</partGoal>
+        <canReverseDirection>true</canReverseDirection>
+        <predatorHediffDef>RV2_PreyInInsidesLoosening</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesLoosening</predatorThoughtDef>
+        <onStart>
+            <actions>
+                <li Class="RimVore2.RollAction_PlaySound">
+                    <sound>RV2_Slurp</sound>
+                </li>
+            </actions>
+        </onStart>
+        <onCycle>
+            <rollPresets>
+                <li>Sound_Squish_Chance_5</li>
+                <li>Sound_Slurp_Chance_5</li>
+            </rollPresets>
+        </onCycle>
+        <onEnd>
+            <actions>
+                <li Class="RimVore2.RollAction_PlaySound">
+                    <sound>RV2_Slurp</sound>
+                </li>
+            </actions>
+        </onEnd>
+        <passConditions>
+            <li Class="RimVore2.StagePassCondition_Warmup">
+                <duration>12</duration>
+                <hediffs>
+                    <li>RV2_PreyInInsidesAssimilating</li>
                 </hediffs>
             </li>
         </passConditions>
@@ -113,6 +181,86 @@
             <li Class="RimVore2.StagePassCondition_PassValue">
                 <passValueName>ReformProgress</passValueName>
                 <targetValue>50</targetValue>
+            </li>
+        </passConditions>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef Name="Insides_Amalgamate" ParentName="Insides_Base">
+        <defName>Insides_Amalgamate</defName>
+        <partGoal>Amalgamate</partGoal>
+        <canReverseDirection>true</canReverseDirection>
+        <predatorHediffDef>RV2_PreyInInsidesAmalgamating</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesAmalgamating</predatorThoughtDef>
+        <onStart>
+            <actions>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_KnotPink</mote>
+                </li>
+            </actions>
+        </onStart>
+        <onCycle>
+            <rollPresets>
+                <li>Sound_Squish_Chance_30</li>
+                <li>IncreaseNeed_Prey_Rest</li>
+                <li>StealNeed_ForPrey_Food</li>
+                <li>AddRegressionHediff</li>
+            </rollPresets>
+        </onCycle>
+        <onEnd>
+            <actions>
+                <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
+            </actions>
+        </onEnd>
+        <passConditions>
+            <li Class="RimVore2.StagePassCondition_Manual" />
+        </passConditions>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef Name="Insides_Assimilate" ParentName="Insides_Base">
+        <defName>Insides_Assimilate</defName>
+        <partGoal>Assimilate</partGoal>
+        <canReverseDirection>true</canReverseDirection>
+        <predatorHediffDef>RV2_PreyInInsidesAssimilating</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesAssimilating</predatorThoughtDef>
+        <onStart>
+            <actions>
+                <li Class="RimVore2.RollAction_PassValue_Set">
+                    <name>PreyNutrition</name>
+                    <type>PreyNutrition</type>
+                </li>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_KnotPink</mote>
+                </li>
+            </actions>
+        </onStart>
+        <onCycle>
+            <rollPresets>
+                <li>Mote_KnotPink</li>
+                <li>Sound_Churn_Chance_5</li>
+                <li>Sound_Squish_Chance_5</li>
+                <li>Sound_Moan_Chance_15</li>
+                <li>ConvertNutritionToPredatorFood</li>
+            </rollPresets>
+        </onCycle>
+        <onEnd>
+            <actions>
+                <li Class="RimVore2.RollAction_Digest">
+                    <damageDef>RV2_AssimilationAvulsion</damageDef>
+                </li>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_Skull</mote>
+                </li>
+                <li Class="RimVore2.RollAction_ShowMote">
+                    <mote>RV2_Mote_KnotPink</mote>
+                </li>
+                <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
+            </actions>
+        </onEnd>
+        <passConditions>
+            <li Class="RimVore2.StagePassCondition_PassValue">
+                <passValueName>PreyNutrition</passValueName>
+                <targetValue>0</targetValue>
+                <decreasing>true</decreasing>
             </li>
         </passConditions>
     </RimVore2.VoreStageDef>
@@ -214,5 +362,41 @@
                 </li>
             </actions>
         </onEnd>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef Name="Insides_Reshape" ParentName="Insides_Base">
+        <defName>Insides_Reshape</defName>
+        <partGoal>Reshape</partGoal>
+        <canReverseDirection>true</canReverseDirection>
+        <predatorHediffDef>RV2_PreyInInsidesReshaping</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesReshaping</predatorThoughtDef>
+        <onCycle>
+            <rollPresets>
+                <li>IncreaseNeed_Predator_Comfort</li>
+            </rollPresets>
+        </onCycle>
+        <passConditions Inherit="False">
+            <li Class="RimVore2.StagePassCondition_Timed">
+                <duration>4</duration>
+            </li>
+        </passConditions>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef Name="Insides_Purge" ParentName="Insides_Base">
+        <defName>Insides_Purge</defName>
+        <partGoal>Purge</partGoal>
+        <canReverseDirection>false</canReverseDirection>
+        <predatorHediffDef>RV2_PreyInInsidesPurging</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesPurging</predatorThoughtDef>
+        <onCycle>
+            <rollPresets>
+                <li>IncreaseNeed_Predator_Comfort</li>
+            </rollPresets>
+        </onCycle>
+        <passConditions Inherit="False">
+            <li Class="RimVore2.StagePassCondition_Timed">
+                <duration>4</duration>
+            </li>
+        </passConditions>
     </RimVore2.VoreStageDef>
 </Defs>

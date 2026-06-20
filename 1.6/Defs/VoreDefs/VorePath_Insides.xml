@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+
+    <!-- InsidesDrain见VorePath_Drain -->
+
     <RimVore2.VorePathDef MayRequire='MamaHorseteeth.RimVore2ExtraVores'>
         <defName>InsidesReform</defName>
         <label>(Reform) membrane inside</label>
-        <RMBLabel>membrane vore</RMBLabel>
+        <RMBLabel>Membrane vore</RMBLabel>
         <actionDescription>{PREDATOR} will reform {PREY} inside of them</actionDescription>
         <description>Reformation creates a new pawn inheriting attributes from both original prey
             and predator</description>
@@ -23,5 +26,66 @@
             <li>Membrane_Exit</li>
         </stages>
         <defaultRequiredStruggles>300</defaultRequiredStruggles>
+    </RimVore2.VorePathDef>
+
+    <RimVore2.VorePathDef MayRequire='MamaHorseteeth.RimVore2ExtraVores'
+        ParentName="Amalgamate_Base">
+        <defName>InsidesAmalgamate</defName>
+        <label>(Amalgamate) membrane inside</label>
+        <RMBLabel>Membrane vore</RMBLabel>
+        <actionDescription>{0} will meld {1} into themselves for storage</actionDescription>
+        <description>Inside amalgamation is where the predator reversibly absorbs the prey into
+            themselves for indefinite storage.</description>
+        <initTale>RV2_VoreInitiation_InsidesAmalgamate</initTale>
+        <exitTale>RV2_VoreExit_InsidesAmalgamate</exitTale>
+        <voreType>Membrane</voreType>
+        <postVoreMemories>
+            <predatorPostVoreSuccess>RV2_PredatorInsidesAmalgamateEnd</predatorPostVoreSuccess>
+            <preyPostVoreSuccess>RV2_PreyInsidesAmalgamateEnd</preyPostVoreSuccess>
+            <predatorPostVoreInterrupted>RV2_PredatorInsidesAmalgamateEnd</predatorPostVoreInterrupted>
+            <preyPostVoreInterrupted>RV2_PreyInsidesAmalgamateEnd</preyPostVoreInterrupted>
+        </postVoreMemories>
+        <stages>
+            <li>Membrane_Enter</li>
+            <li>Insides_Contact</li>
+            <li>Insides_Amalgamate</li>
+            <li>Insides_Reshape</li>
+            <li>Membrane_Exit</li>
+        </stages>
+        <defaultRequiredStruggles>100</defaultRequiredStruggles>
+    </RimVore2.VorePathDef>
+
+    <RimVore2.VorePathDef MayRequire='MamaHorseteeth.RimVore2ExtraVores'
+        ParentName="Assimilate_Base">
+        <defName>InsidesAssimilate</defName>
+        <label>(Assimilate) membrane inside</label>
+        <RMBLabel>Membrane vore</RMBLabel>
+        <actionDescription>{0} will assimilate {1} into themslves</actionDescription>
+        <description>Inside assimilation is where the predator permanently absorbs the prey into
+            themslves, feeding the predator</description>
+        <initTale>RV2_VoreInitiation_InsidesAssimilate</initTale>
+        <exitTale>RV2_VoreExit_InsidesAssimilate</exitTale>
+        <voreType>Membrane</voreType>
+        <voreProduct>
+            <selectableContainers>
+                <li>RV2_Container_None</li>
+                <li>RV2_Container_Sack</li>
+            </selectableContainers>
+            <destroyPrey>true</destroyPrey>
+        </voreProduct>
+        <postVoreMemories>
+            <predatorPostVoreSuccess>RV2_PredatorInsidesAssimilateSuccess</predatorPostVoreSuccess>
+            <predatorPostVoreInterrupted>RV2_PredatorInsidesAssimilateInterrupted</predatorPostVoreInterrupted>
+            <preyPostVoreInterrupted>RV2_PreyInsidesAssimilateInterrupted</preyPostVoreInterrupted>
+        </postVoreMemories>
+        <stages>
+            <li>Vagina_Enter</li>
+            <li>Insides_Contact</li>
+            <li>Insides_Loosen</li>
+            <li>Insides_Assimilate</li>
+            <li>Insides_Purge</li>
+            <li>Membrane_Dump</li>
+        </stages>
+        <defaultRequiredStruggles>100</defaultRequiredStruggles>
     </RimVore2.VorePathDef>
 </Defs>

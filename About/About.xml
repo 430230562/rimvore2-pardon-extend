@@ -70,6 +70,10 @@ This is a <b>submod</b> for <b>RimVore 2</b> adding genes and expanding RV2 feat
 			<packageId>Ludeon.RimWorld.Biotech</packageId>
 			<displayName>Biotech</displayName>
 		</li>
+		<li>
+		<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+		<displayName>Vanilla Expanded Framework</displayName>
+		</li>
 	</modDependencies>
 	<incompatibleWith>
 	</incompatibleWith>

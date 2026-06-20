@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+<!-- TailmawDrain见VorePath_Drain -->
+
   <RimVore2.VorePathDef ParentName="Digest_Base" MayRequire='MamaHorseteeth.RimVore2ExtraVores'>
     <defName>TailThroatDigest</defName>
     <label>(Digest) TailThroat</label>
