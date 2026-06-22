@@ -2,8 +2,8 @@
 <LanguageData>
   
   <!-- EN: Warmup speed -->
-  <WarmupSpeed.label>TODO</WarmupSpeed.label>
+  <WarmupSpeed.label>准备速度</WarmupSpeed.label>
   <!-- EN: These quirks determine how quickly their prepare to do something to their prey. -->
-  <WarmupSpeed.description>TODO</WarmupSpeed.description>
+  <WarmupSpeed.description>这些特质决定角色对猎物采取行动前的准备速度。</WarmupSpeed.description>
   
 </LanguageData>

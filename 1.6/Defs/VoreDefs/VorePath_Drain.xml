@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <RimVore2.VorePathDef ParentName="Drain_Base" MayRequire='Rutrix.RutsRimVoreStuff'>
+  <RimVore2.VorePathDef ParentName="Drain_Base" MayRequire='Rutrix.RutsRimVoreStuff'>
     <defName>CleavageDrain</defName>
     <label>(Drain) Cleavage-Hold</label>
     <RMBLabel>Cleavage vore</RMBLabel>
     <actionDescription>{PREDATOR} will drain {PREY} through their cleavage</actionDescription>
-    <description>Cleavage parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting.</description>
+    <description>Cleavage parasitism is where the predator swallows the prey into their stomach,
+      where they are drained of their energy. This process is safe, if exhausting.</description>
     <initTale>RV2_VoreInitiation_CleavageDrain</initTale>
     <exitTale>RV2_VoreExit_CleavageDrain</exitTale>
     <voreType>Cleavage</voreType>
@@ -31,7 +32,8 @@
     <label>(Drain) membrane inside</label>
     <RMBLabel>Membrane vore</RMBLabel>
     <actionDescription>{PREDATOR} will engulf and drain {PREY}</actionDescription>
-    <description>Membrane parasitisim is where the predator swallows the prey into their Insides, where they are drained of their energy. This process is safe, if exhausting.</description>
+    <description>Membrane parasitism is where the predator swallows the prey into their Insides,
+      where they are drained of their energy. This process is safe, if exhausting.</description>
     <initTale>RV2_VoreInitiation_MembraneDrain</initTale>
     <exitTale>RV2_VoreExit_MembraneDrain</exitTale>
     <voreType>Membrane</voreType>
@@ -57,7 +59,8 @@
     <label>(Drain) Navel</label>
     <RMBLabel>Navel vore</RMBLabel>
     <actionDescription>{PREDATOR} will drain {PREY} behind their navel</actionDescription>
-    <description>Navel parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting.</description>
+    <description>Navel parasitism is where the predator swallows the prey into their stomach, where
+      they are drained of their energy. This process is safe, if exhausting.</description>
     <initTale>RV2_VoreInitiation_NavelDrain</initTale>
     <exitTale>RV2_VoreExit_NavelDrain</exitTale>
     <voreType>Navel</voreType>
@@ -83,7 +86,8 @@
     <label>(Drain) Tailmaw</label>
     <RMBLabel>Tailmaw vore</RMBLabel>
     <actionDescription>{PREDATOR} will drain {PREY} through their tailmaw</actionDescription>
-    <description>Tailmaw parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting.</description>
+    <description>Tailmaw parasitism is where the predator swallows the prey into their stomach,
+      where they are drained of their energy. This process is safe, if exhausting.</description>
     <initTale>RV2_VoreInitiation_TailmawDrain</initTale>
     <exitTale>RV2_VoreExit_TailmawDrain</exitTale>
     <voreType>Tailmaw</voreType>

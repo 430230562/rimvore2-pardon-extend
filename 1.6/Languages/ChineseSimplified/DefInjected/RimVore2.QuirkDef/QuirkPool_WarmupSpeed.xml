@@ -2,9 +2,9 @@
 <LanguageData>
   
   <!-- EN: No Warmup -->
-  <Cheat_SkipWarmup.label>TODO</Cheat_SkipWarmup.label>
+  <Cheat_SkipWarmup.label>无需预热</Cheat_SkipWarmup.label>
   <!-- EN: [PAWN_label] need't to warmup,[PAWN_possessive] organs are operating efficiently at all times, ready to handle prey at any time -->
-  <Cheat_SkipWarmup.description>TODO</Cheat_SkipWarmup.description>
+  <Cheat_SkipWarmup.description>[PAWN_label]不需要启动,[PAWN_possessive]的器官永远全效运行,随时准备处理猎物</Cheat_SkipWarmup.description>
   
   <!-- EN: Swift Warmup -->
   <WarmupSpeed_Fast.label>快速启动</WarmupSpeed_Fast.label>
@@ -19,7 +19,7 @@
   <!-- EN: Sluggish Warmup -->
   <WarmupSpeed_Slow.label>启动迟缓</WarmupSpeed_Slow.label>
   <!-- EN: [PAWN_label] warms up to act on prey slowly, taking longer than average to prepare for capturing or digesting prey. -->
-  <WarmupSpeed_Slow.description>[PAWN_label]对猎物的行动启动缓慢，准备捕食或消化所需时间长于平均水平。</WarmupSpeed_Slow.description>
+  <WarmupSpeed_Slow.description>[PAWN_label]对猎物的行动启动缓慢，准备消化所需时间长于平均水平。</WarmupSpeed_Slow.description>
   
   <!-- EN: Blazing Warmup -->
   <WarmupSpeed_VeryFast.label>极速启动</WarmupSpeed_VeryFast.label>

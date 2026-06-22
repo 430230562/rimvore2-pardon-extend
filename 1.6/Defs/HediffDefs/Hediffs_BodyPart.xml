@@ -4,7 +4,7 @@
         <defName>RV2_DigestionAdjuster</defName>
         <label>digestion adjuster</label>
         <labelNoun>a digestion adjuster</labelNoun>
-        <description>An implant-derived quirk that enhances predation efficiency at the cost of mobility. As a predator, the pawn gains 2.5x nutrition from prey and digests them at 2x speed, suffers less 20% reduction in movement capacity.</description>
+        <description>An implant-derived quirk that enhances predation efficiency. As a predator, the pawn gains 2.5x nutrition from prey and digests them at 2x speed, suffers less 20% reduction in movement capacity.</description>
         <descriptionHyperlinks>
             <ThingDef>RV2_DigestionAdjuster</ThingDef>
         </descriptionHyperlinks>

@@ -8,8 +8,7 @@
         <label>(Reform) membrane inside</label>
         <RMBLabel>Membrane vore</RMBLabel>
         <actionDescription>{PREDATOR} will reform {PREY} inside of them</actionDescription>
-        <description>Reformation creates a new pawn inheriting attributes from both original prey
-            and predator</description>
+        <description>Reformation creates a new pawn inheriting attributes from both original prey and predator</description>
         <initTale>RV2_VoreInitiation_MembraneReform</initTale>
         <exitTale>RV2_VoreExit_MembraneReform</exitTale>
         <voreType>Membrane</voreType>
@@ -33,9 +32,7 @@
         <label>(Heal) membrane inside</label>
         <RMBLabel>Membrane vore</RMBLabel>
         <actionDescription>{PREDATOR} will heal {PREY} in themselves.</actionDescription>
-        <description>Healing vore will tend to a pawns wounds and slowly heal their damaged body
-            parts. Healing vore is relatively weak, so if you want to treat a pawn properly, use
-            medicine and a good doctor.</description>
+        <description>Healing vore will tend to a pawns wounds and slowly heal their damaged body parts. Healing vore is relatively weak, so if you want to treat a pawn properly, use medicine and a good doctor.</description>
         <voreType>Membrane</voreType>
         <initTale>RV2_VoreInitiation_MembraneHeal</initTale>
         <exitTale>RV2_VoreExit_MembraneHeal</exitTale>
@@ -59,16 +56,15 @@
         <label>(Amalgamate) membrane inside</label>
         <RMBLabel>Membrane vore</RMBLabel>
         <actionDescription>{0} will meld {1} into themselves for storage</actionDescription>
-        <description>Inside amalgamation is where the predator reversibly absorbs the prey into
-            themselves for indefinite storage.</description>
+        <description>Inside amalgamation is where the predator reversibly absorbs the prey into themselves for indefinite storage.</description>
         <initTale>RV2_VoreInitiation_InsidesAmalgamate</initTale>
         <exitTale>RV2_VoreExit_InsidesAmalgamate</exitTale>
         <voreType>Membrane</voreType>
         <postVoreMemories>
-            <predatorPostVoreSuccess>RV2_PredatorInsidesAmalgamateEnd</predatorPostVoreSuccess>
-            <preyPostVoreSuccess>RV2_PreyInsidesAmalgamateEnd</preyPostVoreSuccess>
-            <predatorPostVoreInterrupted>RV2_PredatorInsidesAmalgamateEnd</predatorPostVoreInterrupted>
-            <preyPostVoreInterrupted>RV2_PreyInsidesAmalgamateEnd</preyPostVoreInterrupted>
+            <predatorPostVoreSuccess>RV2_PredatorMembraneAmalgamateEnd</predatorPostVoreSuccess>
+            <preyPostVoreSuccess>RV2_PreyMembraneAmalgamateEnd</preyPostVoreSuccess>
+            <predatorPostVoreInterrupted>RV2_PredatorMembraneAmalgamateEnd</predatorPostVoreInterrupted>
+            <preyPostVoreInterrupted>RV2_PreyMembraneAmalgamateEnd</preyPostVoreInterrupted>
         </postVoreMemories>
         <stages>
             <li>Membrane_Enter</li>
@@ -86,10 +82,9 @@
         <label>(Assimilate) membrane inside</label>
         <RMBLabel>Membrane vore</RMBLabel>
         <actionDescription>{0} will assimilate {1} into themslves</actionDescription>
-        <description>Inside assimilation is where the predator permanently absorbs the prey into
-            themslves, feeding the predator</description>
-        <initTale>RV2_VoreInitiation_InsidesAssimilate</initTale>
-        <exitTale>RV2_VoreExit_InsidesAssimilate</exitTale>
+        <description>Inside assimilation is where the predator permanently absorbs the prey into themslves, feeding the predator</description>
+        <initTale>RV2_VoreInitiation_MembraneAssimilate</initTale>
+        <exitTale>RV2_VoreExit_MembraneAssimilate</exitTale>
         <voreType>Membrane</voreType>
         <voreProduct>
             <selectableContainers>
@@ -99,9 +94,9 @@
             <destroyPrey>true</destroyPrey>
         </voreProduct>
         <postVoreMemories>
-            <predatorPostVoreSuccess>RV2_PredatorInsidesAssimilateSuccess</predatorPostVoreSuccess>
-            <predatorPostVoreInterrupted>RV2_PredatorInsidesAssimilateInterrupted</predatorPostVoreInterrupted>
-            <preyPostVoreInterrupted>RV2_PreyInsidesAssimilateInterrupted</preyPostVoreInterrupted>
+            <predatorPostVoreSuccess>RV2_PredatorMembraneAssimilateSuccess</predatorPostVoreSuccess>
+            <predatorPostVoreInterrupted>RV2_PredatorMembraneAssimilateInterrupted</predatorPostVoreInterrupted>
+            <preyPostVoreInterrupted>RV2_PreyMembraneAssimilateInterrupted</preyPostVoreInterrupted>
         </postVoreMemories>
         <stages>
             <li>Vagina_Enter</li>

@@ -2,21 +2,21 @@
 <LanguageData>
   
   <!-- EN: (Digest) TailThroat -->
-  <TailThroatDigest.label>TODO</TailThroatDigest.label>
+  <TailThroatDigest.label>（消化）尾喉</TailThroatDigest.label>
   <!-- EN: TailThroat digestion is where a predator with a mouth in their tail swallows prey through said mouth, down to their tail-throat, for fatal digestion, feeding the predator and turning the prey into either fertilizer components or nothing at all. -->
-  <TailThroatDigest.description>TODO</TailThroatDigest.description>
+  <TailThroatDigest.description>尾喉消化是一种捕食方式：捕食者尾部生有口器，通过该口器将猎物吞入尾喉中进行致命消化。猎物最终化为肥料成分，或彻底消失无踪，以此滋养捕食者。</TailThroatDigest.description>
   <!-- EN: {0} will swallow and digest {1} in their tail-throat -->
-  <TailThroatDigest.actionDescription>TODO</TailThroatDigest.actionDescription>
+  <TailThroatDigest.actionDescription>{0}将吞下{1}并在尾喉中消化</TailThroatDigest.actionDescription>
   <!-- EN: Tail-throat vore -->
-  <TailThroatDigest.RMBLabel>TODO</TailThroatDigest.RMBLabel>
+  <TailThroatDigest.RMBLabel>尾喉吞噬</TailThroatDigest.RMBLabel>
   
   <!-- EN: (Heal) TailThroat -->
-  <TailThroatHeal.label>TODO</TailThroatHeal.label>
+  <TailThroatHeal.label>（治愈）尾喉</TailThroatHeal.label>
   <!-- EN: Healing vore will tend to a pawns wounds and slowly heal their damaged body parts. Healing vore is relatively weak, so if you want to treat a pawn properly, use medicine and a good doctor. -->
-  <TailThroatHeal.description>TODO</TailThroatHeal.description>
+  <TailThroatHeal.description>治愈吞噬会处理角色的伤口，并缓慢修复其受损的身体部位。治愈吞噬的效果相对有限，若想妥善治疗，还是用药和好医生更靠谱。</TailThroatHeal.description>
   <!-- EN: {PREDATOR} will heal {PREY} in their tail-throat -->
-  <TailThroatHeal.actionDescription>TODO</TailThroatHeal.actionDescription>
+  <TailThroatHeal.actionDescription>{PREDATOR}将在尾喉中治愈{PREY}</TailThroatHeal.actionDescription>
   <!-- EN: Tail-throat vore -->
-  <TailThroatHeal.RMBLabel>TODO</TailThroatHeal.RMBLabel>
+  <TailThroatHeal.RMBLabel>尾喉吞噬</TailThroatHeal.RMBLabel>
   
 </LanguageData>

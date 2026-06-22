@@ -2,193 +2,227 @@
 <LanguageData>
   
   <!-- EN: Anal draining of {0} interrupted -->
-  <RV2_PredatorAnalDrainInterrupted.stages.Anal_draining_of_interrupted.label>TODO</RV2_PredatorAnalDrainInterrupted.stages.Anal_draining_of_interrupted.label>
+  <RV2_PredatorAnalDrainInterrupted.stages.Anal_draining_of_interrupted.label>对{0}的肛门吸取被打断</RV2_PredatorAnalDrainInterrupted.stages.Anal_draining_of_interrupted.label>
   <!-- EN: I tried to drain {1} through my rear, but they escaped before I could\n                    absorb their energy. Now I'm left feeling empty. -->
-  <RV2_PredatorAnalDrainInterrupted.stages.Anal_draining_of_interrupted.description>TODO</RV2_PredatorAnalDrainInterrupted.stages.Anal_draining_of_interrupted.description>
+  <RV2_PredatorAnalDrainInterrupted.stages.Anal_draining_of_interrupted.description>我试图通过后穴吸取{1}的能量，但在我吸收之前他们就逃走了。现在我只感到一阵空虚。</RV2_PredatorAnalDrainInterrupted.stages.Anal_draining_of_interrupted.description>
   
   <!-- EN: Drained {0} anally -->
-  <RV2_PredatorAnalDrainSuccess.stages.Drained_anally.label>TODO</RV2_PredatorAnalDrainSuccess.stages.Drained_anally.label>
+  <RV2_PredatorAnalDrainSuccess.stages.Drained_anally.label>通过肛门吸取了{0}</RV2_PredatorAnalDrainSuccess.stages.Drained_anally.label>
   <!-- EN: I drew the energy right out of {1} through my rear end. They're weak\n                    but unharmed, and I feel so much stronger! -->
-  <RV2_PredatorAnalDrainSuccess.stages.Drained_anally.description>TODO</RV2_PredatorAnalDrainSuccess.stages.Drained_anally.description>
+  <RV2_PredatorAnalDrainSuccess.stages.Drained_anally.description>我通过后穴直接汲取了{1}的能量。他们虽然虚弱但并未受伤，而我感觉力量大增！</RV2_PredatorAnalDrainSuccess.stages.Drained_anally.description>
   
   <!-- EN: Cleavage draining of {0} interrupted -->
-  <RV2_PredatorCleavageDrainInterrupted.stages.Cleavage_draining_of_interrupted.label>TODO</RV2_PredatorCleavageDrainInterrupted.stages.Cleavage_draining_of_interrupted.label>
+  <RV2_PredatorCleavageDrainInterrupted.stages.Cleavage_draining_of_interrupted.label>对{0}的乳沟吸取被打断</RV2_PredatorCleavageDrainInterrupted.stages.Cleavage_draining_of_interrupted.label>
   <!-- EN: I tried to drain {1} through my cleavage, but they slipped away. Now my\n                    chest feels oddly empty. -->
-  <RV2_PredatorCleavageDrainInterrupted.stages.Cleavage_draining_of_interrupted.description>TODO</RV2_PredatorCleavageDrainInterrupted.stages.Cleavage_draining_of_interrupted.description>
+  <RV2_PredatorCleavageDrainInterrupted.stages.Cleavage_draining_of_interrupted.description>我试图通过乳沟吸取{1}，但他们溜走了。现在我的胸口感觉异常空虚。</RV2_PredatorCleavageDrainInterrupted.stages.Cleavage_draining_of_interrupted.description>
   
   <!-- EN: Drained {0} through cleavage -->
-  <RV2_PredatorCleavageDrainSuccess.stages.Drained_through_cleavage.label>TODO</RV2_PredatorCleavageDrainSuccess.stages.Drained_through_cleavage.label>
+  <RV2_PredatorCleavageDrainSuccess.stages.Drained_through_cleavage.label>通过乳沟吸取了{0}</RV2_PredatorCleavageDrainSuccess.stages.Drained_through_cleavage.label>
   <!-- EN: I pressed {1} between my breasts and drained their energy. They're limp\n                    but alive, and I feel revitalized! -->
-  <RV2_PredatorCleavageDrainSuccess.stages.Drained_through_cleavage.description>TODO</RV2_PredatorCleavageDrainSuccess.stages.Drained_through_cleavage.description>
+  <RV2_PredatorCleavageDrainSuccess.stages.Drained_through_cleavage.description>我将{1}夹在双乳之间并吸取了他们的能量。他们虽然瘫软但还活着，而我感到精神焕发！</RV2_PredatorCleavageDrainSuccess.stages.Drained_through_cleavage.description>
+  
+  <!-- EN: Heal {0} in gelatinous body. -->
+  <RV2_PredatorInInsidesHealing.stages.Heal_in_gelatinous_body.label>在胶质体内治愈{0}</RV2_PredatorInInsidesHealing.stages.Heal_in_gelatinous_body.label>
+  <!-- EN: Good as new! -->
+  <RV2_PredatorInInsidesHealing.stages.Heal_in_gelatinous_body.description>焕然一新！</RV2_PredatorInInsidesHealing.stages.Heal_in_gelatinous_body.description>
+  
+  <!-- EN: Reshaped {0} -->
+  <RV2_PredatorInsidesAmalgamateEnd.stages.Reshaped.label>重塑了{0}</RV2_PredatorInsidesAmalgamateEnd.stages.Reshaped.label>
+  <!-- EN: I reshaped {1} from myself. It was a unique experience, but I'm not sure how {1} feel about it. -->
+  <RV2_PredatorInsidesAmalgamateEnd.stages.Reshaped.description>我用自己的身体重塑了{1}。这是一次独特的体验，但我不确定{1}对此感觉如何。</RV2_PredatorInsidesAmalgamateEnd.stages.Reshaped.description>
+  
+  <!-- EN: Assimilation of {0} interrupted -->
+  <RV2_PredatorInsidesAssimilateInterrupted.stages.Assimilation_of_interrupted.label>对{0}的同化被打断</RV2_PredatorInsidesAssimilateInterrupted.stages.Assimilation_of_interrupted.label>
+  <!-- EN: I tried to assimilate {1} into myself, but they got away. -->
+  <RV2_PredatorInsidesAssimilateInterrupted.stages.Assimilation_of_interrupted.description>我试图将{1}同化到我体内，但他们逃走了。</RV2_PredatorInsidesAssimilateInterrupted.stages.Assimilation_of_interrupted.description>
+  
+  <!-- EN: Assimilated {0} -->
+  <RV2_PredatorInsidesAssimilateSuccess.stages.Assimilated.label>同化了{0}</RV2_PredatorInsidesAssimilateSuccess.stages.Assimilated.label>
+  <!-- EN: I engulfed and assimilated {1} into myself. So full... -->
+  <RV2_PredatorInsidesAssimilateSuccess.stages.Assimilated.description>我将{1}吞没并同化入体内。好充实……</RV2_PredatorInsidesAssimilateSuccess.stages.Assimilated.description>
   
   <!-- EN: Membrane draining of {0} interrupted -->
-  <RV2_PredatorMembraneDrainInterrupted.stages.Membrane_draining_of_interrupted.label>TODO</RV2_PredatorMembraneDrainInterrupted.stages.Membrane_draining_of_interrupted.label>
+  <RV2_PredatorMembraneDrainInterrupted.stages.Membrane_draining_of_interrupted.label>对{0}的吸取被打断</RV2_PredatorMembraneDrainInterrupted.stages.Membrane_draining_of_interrupted.label>
   <!-- EN: I tried to engulf and drain {1}, but they slipped away. I feel so\n                    empty... -->
-  <RV2_PredatorMembraneDrainInterrupted.stages.Membrane_draining_of_interrupted.description>TODO</RV2_PredatorMembraneDrainInterrupted.stages.Membrane_draining_of_interrupted.description>
+  <RV2_PredatorMembraneDrainInterrupted.stages.Membrane_draining_of_interrupted.description>我试图包覆并吸取{1}，但他们溜走了。我感觉好空虚……</RV2_PredatorMembraneDrainInterrupted.stages.Membrane_draining_of_interrupted.description>
   
   <!-- EN: Drained {0} through membrane -->
-  <RV2_PredatorMembraneDrainSuccess.stages.Drained_through_membrane.label>TODO</RV2_PredatorMembraneDrainSuccess.stages.Drained_through_membrane.label>
+  <RV2_PredatorMembraneDrainSuccess.stages.Drained_through_membrane.label>通过吸取了{0}</RV2_PredatorMembraneDrainSuccess.stages.Drained_through_membrane.label>
   <!-- EN: I engulfed {1} in my membrane and drained their energy. They're limp\n                    but alive, and I feel revitalized! -->
-  <RV2_PredatorMembraneDrainSuccess.stages.Drained_through_membrane.description>TODO</RV2_PredatorMembraneDrainSuccess.stages.Drained_through_membrane.description>
+  <RV2_PredatorMembraneDrainSuccess.stages.Drained_through_membrane.description>我用体膜包覆了{1}并吸取了他们的能量。他们虽然瘫软但还活着，而我感到精神焕发！</RV2_PredatorMembraneDrainSuccess.stages.Drained_through_membrane.description>
   
   <!-- EN: Rebirth of {0} interrupted -->
-  <RV2_PredatorMembraneReformInterrupted.stages.Rebirth_of_interrupted.label>TODO</RV2_PredatorMembraneReformInterrupted.stages.Rebirth_of_interrupted.label>
+  <RV2_PredatorMembraneReformInterrupted.stages.Rebirth_of_interrupted.label>对{0}的重生被打断</RV2_PredatorMembraneReformInterrupted.stages.Rebirth_of_interrupted.label>
   <!-- EN: How disappointing. -->
-  <RV2_PredatorMembraneReformInterrupted.stages.Rebirth_of_interrupted.description>TODO</RV2_PredatorMembraneReformInterrupted.stages.Rebirth_of_interrupted.description>
+  <RV2_PredatorMembraneReformInterrupted.stages.Rebirth_of_interrupted.description>真令人失望。</RV2_PredatorMembraneReformInterrupted.stages.Rebirth_of_interrupted.description>
   
   <!-- EN: Rebirthed {0} -->
-  <RV2_PredatorMembraneReformSuccess.stages.Rebirthed.label>TODO</RV2_PredatorMembraneReformSuccess.stages.Rebirthed.label>
+  <RV2_PredatorMembraneReformSuccess.stages.Rebirthed.label>重生了{0}</RV2_PredatorMembraneReformSuccess.stages.Rebirthed.label>
   <!-- EN: They look way better with my genes. -->
-  <RV2_PredatorMembraneReformSuccess.stages.Rebirthed.description>TODO</RV2_PredatorMembraneReformSuccess.stages.Rebirthed.description>
+  <RV2_PredatorMembraneReformSuccess.stages.Rebirthed.description>他们融合我的基因后看起来好多了。</RV2_PredatorMembraneReformSuccess.stages.Rebirthed.description>
   
   <!-- EN: Navel draining of {0} interrupted -->
-  <RV2_PredatorNavelDrainInterrupted.stages.Navel_draining_of_interrupted.label>TODO</RV2_PredatorNavelDrainInterrupted.stages.Navel_draining_of_interrupted.label>
+  <RV2_PredatorNavelDrainInterrupted.stages.Navel_draining_of_interrupted.label>对{0}的肚脐吸取被打断</RV2_PredatorNavelDrainInterrupted.stages.Navel_draining_of_interrupted.label>
   <!-- EN: I tried to drain {1} through my navel, but they wriggled free. Now my\n                    belly button feels so empty. -->
-  <RV2_PredatorNavelDrainInterrupted.stages.Navel_draining_of_interrupted.description>TODO</RV2_PredatorNavelDrainInterrupted.stages.Navel_draining_of_interrupted.description>
+  <RV2_PredatorNavelDrainInterrupted.stages.Navel_draining_of_interrupted.description>我试图通过肚脐吸取{1}，但他们扭动逃脱了。现在我的肚脐感觉空落落的。</RV2_PredatorNavelDrainInterrupted.stages.Navel_draining_of_interrupted.description>
   
   <!-- EN: Drained {0} through navel -->
-  <RV2_PredatorNavelDrainSuccess.stages.Drained_through_navel.label>TODO</RV2_PredatorNavelDrainSuccess.stages.Drained_through_navel.label>
+  <RV2_PredatorNavelDrainSuccess.stages.Drained_through_navel.label>通过肚脐吸取了{0}</RV2_PredatorNavelDrainSuccess.stages.Drained_through_navel.label>
   <!-- EN: I drew the energy right out of {1} through my navel. They're exhausted\n                    but safe, and I feel fantastic! -->
-  <RV2_PredatorNavelDrainSuccess.stages.Drained_through_navel.description>TODO</RV2_PredatorNavelDrainSuccess.stages.Drained_through_navel.description>
+  <RV2_PredatorNavelDrainSuccess.stages.Drained_through_navel.description>我通过肚脐直接汲取了{1}的能量。他们虽然精疲力竭但安然无恙，而我感觉棒极了！</RV2_PredatorNavelDrainSuccess.stages.Drained_through_navel.description>
   
   <!-- EN: Oral draining of {0} interrupted -->
-  <RV2_PredatorOralDrainInterrupted.stages.Oral_draining_of_interrupted.label>TODO</RV2_PredatorOralDrainInterrupted.stages.Oral_draining_of_interrupted.label>
+  <RV2_PredatorOralDrainInterrupted.stages.Oral_draining_of_interrupted.label>对{0}的口腔吸取被打断</RV2_PredatorOralDrainInterrupted.stages.Oral_draining_of_interrupted.label>
   <!-- EN: I tried to drain energy from {1}, but they got away before I could\n                    absorb anything. Now I'm hungry and frustrated. -->
-  <RV2_PredatorOralDrainInterrupted.stages.Oral_draining_of_interrupted.description>TODO</RV2_PredatorOralDrainInterrupted.stages.Oral_draining_of_interrupted.description>
+  <RV2_PredatorOralDrainInterrupted.stages.Oral_draining_of_interrupted.description>我试图从{1}身上吸取能量，但在我吸收之前他们就逃走了。现在我既饥饿又沮丧。</RV2_PredatorOralDrainInterrupted.stages.Oral_draining_of_interrupted.description>
   
   <!-- EN: Drained {0} orally -->
-  <RV2_PredatorOralDrainSuccess.stages.Drained_orally.label>TODO</RV2_PredatorOralDrainSuccess.stages.Drained_orally.label>
+  <RV2_PredatorOralDrainSuccess.stages.Drained_orally.label>通过口腔吸取了{0}</RV2_PredatorOralDrainSuccess.stages.Drained_orally.label>
   <!-- EN: I swallowed {1} and drained their energy through my stomach. They're\n                    exhausted but alive, and I feel wonderfully energized! -->
-  <RV2_PredatorOralDrainSuccess.stages.Drained_orally.description>TODO</RV2_PredatorOralDrainSuccess.stages.Drained_orally.description>
+  <RV2_PredatorOralDrainSuccess.stages.Drained_orally.description>我吞下了{1}并通过胃部吸取了他们的能量。他们虽然精疲力竭但还活着，而我感到精力充沛！</RV2_PredatorOralDrainSuccess.stages.Drained_orally.description>
   
   <!-- EN: Digestion of {0} in tail interrupted -->
   <RV2_PredatorTailmawDigestInterrupted.stages.Digestion_of_in_tail_interrupted.label>对{0}的尾口消化被打断</RV2_PredatorTailmawDigestInterrupted.stages.Digestion_of_in_tail_interrupted.label>
   <!-- EN: I tried to digest {1} in my tail. but they got away. *Now* what am I\n                    supposed to comfort my tail -->
-  <RV2_PredatorTailmawDigestInterrupted.stages.Digestion_of_in_tail_interrupted.description>试图用尾部吞食{1}未果。这下该吃什么好？</RV2_PredatorTailmawDigestInterrupted.stages.Digestion_of_in_tail_interrupted.description>
+  <RV2_PredatorTailmawDigestInterrupted.stages.Digestion_of_in_tail_interrupted.description>我试图用尾部吞食{1}，但他们逃走了。*现在*我该怎么安抚我的尾巴？</RV2_PredatorTailmawDigestInterrupted.stages.Digestion_of_in_tail_interrupted.description>
   
   <!-- EN: Digested {0} in tail -->
-  <RV2_PredatorTailmawDigestSuccess.stages.Digested_in_tail.label>通过尾口消化了{0}</RV2_PredatorTailmawDigestSuccess.stages.Digested_in_tail.label>
+  <RV2_PredatorTailmawDigestSuccess.stages.Digested_in_tail.label>用尾口消化了{0}</RV2_PredatorTailmawDigestSuccess.stages.Digested_in_tail.label>
   <!-- EN: I ate and digested {1} in my tail. A satisfying meal! -->
-  <RV2_PredatorTailmawDigestSuccess.stages.Digested_in_tail.description>用尾部的口器吞食了{1}。饱腹感十足！</RV2_PredatorTailmawDigestSuccess.stages.Digested_in_tail.description>
+  <RV2_PredatorTailmawDigestSuccess.stages.Digested_in_tail.description>我用尾部的口器吞食并消化了{1}。令人满足的一餐！</RV2_PredatorTailmawDigestSuccess.stages.Digested_in_tail.description>
   
-  <!-- EN: Tailmaw draining of {0} interrupted -->
-  <RV2_PredatorTailmawDrainInterrupted.stages.Tailmaw_draining_of_interrupted.label>TODO</RV2_PredatorTailmawDrainInterrupted.stages.Tailmaw_draining_of_interrupted.label>
+  <RV2_PredatorTailmawDrainInterrupted.stages.Tailmaw_draining_of_interrupted.label>对{0}的尾口吸取被打断</RV2_PredatorTailmawDrainInterrupted.stages.Tailmaw_draining_of_interrupted.label>
   <!-- EN: I tried to drain {1} with my tail, but they escaped. Now my tail feels so empty. -->
-  <RV2_PredatorTailmawDrainInterrupted.stages.Tailmaw_draining_of_interrupted.description>TODO</RV2_PredatorTailmawDrainInterrupted.stages.Tailmaw_draining_of_interrupted.description>
+  <RV2_PredatorTailmawDrainInterrupted.stages.Tailmaw_draining_of_interrupted.description>我试图用尾部吸取{1}的能量，但他们逃脱了。现在我的尾巴感觉好空虚。</RV2_PredatorTailmawDrainInterrupted.stages.Tailmaw_draining_of_interrupted.description>
   
   <!-- EN: Drained {0} through tailmaw -->
-  <RV2_PredatorTailmawDrainSuccess.stages.Drained_through_tailmaw.label>TODO</RV2_PredatorTailmawDrainSuccess.stages.Drained_through_tailmaw.label>
+  <RV2_PredatorTailmawDrainSuccess.stages.Drained_through_tailmaw.label>通过尾口吸取了{0}</RV2_PredatorTailmawDrainSuccess.stages.Drained_through_tailmaw.label>
   <!-- EN: The maw on my tail drained {1}'s energy completely. They're weak but unharmed, and I feel so much stronger! -->
-  <RV2_PredatorTailmawDrainSuccess.stages.Drained_through_tailmaw.description>TODO</RV2_PredatorTailmawDrainSuccess.stages.Drained_through_tailmaw.description>
+  <RV2_PredatorTailmawDrainSuccess.stages.Drained_through_tailmaw.description>我尾巴上的口器完全吸取了{1}的能量。他们虽然虚弱但并未受伤，而我感觉力量大增！</RV2_PredatorTailmawDrainSuccess.stages.Drained_through_tailmaw.description>
   
   <!-- EN: Heal {0} in tail -->
-  <RV2_PredatorTailmawHealSuccess.stages.Heal_in_tail.label>TODO</RV2_PredatorTailmawHealSuccess.stages.Heal_in_tail.label>
+  <RV2_PredatorTailmawHealSuccess.stages.Heal_in_tail.label>在尾部治愈{0}</RV2_PredatorTailmawHealSuccess.stages.Heal_in_tail.label>
   <!-- EN: Good as new! -->
-  <RV2_PredatorTailmawHealSuccess.stages.Heal_in_tail.description>TODO</RV2_PredatorTailmawHealSuccess.stages.Heal_in_tail.description>
+  <RV2_PredatorTailmawHealSuccess.stages.Heal_in_tail.description>焕然一新！</RV2_PredatorTailmawHealSuccess.stages.Heal_in_tail.description>
   
   <!-- EN: Reshaped {0} from womb -->
-  <RV2_PredatorWombAmalgamateEnd.stages.Reshaped_from_womb.label>TODO</RV2_PredatorWombAmalgamateEnd.stages.Reshaped_from_womb.label>
+  <RV2_PredatorWombAmalgamateEnd.stages.Reshaped_from_womb.label>从子宫重塑了{0}</RV2_PredatorWombAmalgamateEnd.stages.Reshaped_from_womb.label>
   <!-- EN: I reshaped {1} from my womb. It was a unique experience, but I'm not\n                    sure how {1} feel about it. -->
-  <RV2_PredatorWombAmalgamateEnd.stages.Reshaped_from_womb.description>TODO</RV2_PredatorWombAmalgamateEnd.stages.Reshaped_from_womb.description>
+  <RV2_PredatorWombAmalgamateEnd.stages.Reshaped_from_womb.description>我用子宫重塑了{1}。这是一次独特的体验，但我不确定{1}对此感觉如何。</RV2_PredatorWombAmalgamateEnd.stages.Reshaped_from_womb.description>
   
   <!-- EN: Assimilation of {0} in womb interrupted -->
-  <RV2_PredatorWombAssimilateInterrupted.stages.Assimilation_of_in_womb_interrupted.label>TODO</RV2_PredatorWombAssimilateInterrupted.stages.Assimilation_of_in_womb_interrupted.label>
+  <RV2_PredatorWombAssimilateInterrupted.stages.Assimilation_of_in_womb_interrupted.label>在子宫中对{0}的同化被打断</RV2_PredatorWombAssimilateInterrupted.stages.Assimilation_of_in_womb_interrupted.label>
   <!-- EN: I tried to assimilate {1} in my womb, but they got away. Now my womb\n                    feels empty and sad. -->
-  <RV2_PredatorWombAssimilateInterrupted.stages.Assimilation_of_in_womb_interrupted.description>TODO</RV2_PredatorWombAssimilateInterrupted.stages.Assimilation_of_in_womb_interrupted.description>
+  <RV2_PredatorWombAssimilateInterrupted.stages.Assimilation_of_in_womb_interrupted.description>我试图在子宫内同化{1}，但他们逃走了。现在我的子宫感到空虚和难过。</RV2_PredatorWombAssimilateInterrupted.stages.Assimilation_of_in_womb_interrupted.description>
   
   <!-- EN: Assimilated {0} in womb -->
-  <RV2_PredatorWombAssimilateSuccess.stages.Assimilated_in_womb.label>TODO</RV2_PredatorWombAssimilateSuccess.stages.Assimilated_in_womb.label>
+  <RV2_PredatorWombAssimilateSuccess.stages.Assimilated_in_womb.label>在子宫内同化了{0}</RV2_PredatorWombAssimilateSuccess.stages.Assimilated_in_womb.label>
   <!-- EN: I unbirthed and assimilated {1} into my womb. So full... -->
-  <RV2_PredatorWombAssimilateSuccess.stages.Assimilated_in_womb.description>TODO</RV2_PredatorWombAssimilateSuccess.stages.Assimilated_in_womb.description>
+  <RV2_PredatorWombAssimilateSuccess.stages.Assimilated_in_womb.description>我将{1}逆分娩并同化入我的子宫。好充实……</RV2_PredatorWombAssimilateSuccess.stages.Assimilated_in_womb.description>
   
   <!-- EN: Escaped anal draining -->
-  <RV2_PreyAnalDrainInterrupted.stages.Escaped_anal_draining.label>TODO</RV2_PreyAnalDrainInterrupted.stages.Escaped_anal_draining.label>
+  <RV2_PreyAnalDrainInterrupted.stages.Escaped_anal_draining.label>逃离了肛门吸取</RV2_PreyAnalDrainInterrupted.stages.Escaped_anal_draining.label>
   <!-- EN: {1} tried to drain me through their rear! I'm not butt-fuel! -->
-  <RV2_PreyAnalDrainInterrupted.stages.Escaped_anal_draining.description>TODO</RV2_PreyAnalDrainInterrupted.stages.Escaped_anal_draining.description>
+  <RV2_PreyAnalDrainInterrupted.stages.Escaped_anal_draining.description>{1}试图通过他们的后穴吸取我！我才不是屁股燃料！</RV2_PreyAnalDrainInterrupted.stages.Escaped_anal_draining.description>
   
   <!-- EN: Drained anally by {0} -->
-  <RV2_PreyAnalDrainSuccess.stages.Drained_anally_by.label>TODO</RV2_PreyAnalDrainSuccess.stages.Drained_anally_by.label>
+  <RV2_PreyAnalDrainSuccess.stages.Drained_anally_by.label>被{0}通过肛门吸取</RV2_PreyAnalDrainSuccess.stages.Drained_anally_by.label>
   <!-- EN: {1} drained my energy through their rear end. I'm utterly exhausted,\n                    but at least I'm still here. -->
-  <RV2_PreyAnalDrainSuccess.stages.Drained_anally_by.description>TODO</RV2_PreyAnalDrainSuccess.stages.Drained_anally_by.description>
+  <RV2_PreyAnalDrainSuccess.stages.Drained_anally_by.description>{1}通过他们的后穴吸取了我的能量。我完全精疲力竭，但至少我还活着。</RV2_PreyAnalDrainSuccess.stages.Drained_anally_by.description>
   
   <!-- EN: Escaped cleavage draining -->
-  <RV2_PreyCleavageDrainInterrupted.stages.Escaped_cleavage_draining.label>TODO</RV2_PreyCleavageDrainInterrupted.stages.Escaped_cleavage_draining.label>
+  <RV2_PreyCleavageDrainInterrupted.stages.Escaped_cleavage_draining.label>逃离了乳沟吸取</RV2_PreyCleavageDrainInterrupted.stages.Escaped_cleavage_draining.label>
   <!-- EN: {1} tried to drain me through their cleavage! I'm not just a snack for\n                    their chest! -->
-  <RV2_PreyCleavageDrainInterrupted.stages.Escaped_cleavage_draining.description>TODO</RV2_PreyCleavageDrainInterrupted.stages.Escaped_cleavage_draining.description>
+  <RV2_PreyCleavageDrainInterrupted.stages.Escaped_cleavage_draining.description>{1}试图通过他们的乳沟吸取我！我才不是他们胸前的点心！</RV2_PreyCleavageDrainInterrupted.stages.Escaped_cleavage_draining.description>
   
   <!-- EN: Drained by {0}'s cleavage -->
-  <RV2_PreyCleavageDrainSuccess.stages.Drained_by_s_cleavage.label>TODO</RV2_PreyCleavageDrainSuccess.stages.Drained_by_s_cleavage.label>
+  <RV2_PreyCleavageDrainSuccess.stages.Drained_by_s_cleavage.label>被{0}的乳沟吸取</RV2_PreyCleavageDrainSuccess.stages.Drained_by_s_cleavage.label>
   <!-- EN: {1} drained my energy through their cleavage. I'm completely drained,\n                    but at least I survived. -->
-  <RV2_PreyCleavageDrainSuccess.stages.Drained_by_s_cleavage.description>TODO</RV2_PreyCleavageDrainSuccess.stages.Drained_by_s_cleavage.description>
+  <RV2_PreyCleavageDrainSuccess.stages.Drained_by_s_cleavage.description>{1}通过他们的乳沟吸取了我的能量。我完全被吸干了，但至少我幸存了下来。</RV2_PreyCleavageDrainSuccess.stages.Drained_by_s_cleavage.description>
+  
+  <!-- EN: Healed by {0}'s gelatinous body. -->
+  <RV2_PreyInInsidesHealing.stages.Healed_by_s_gelatinous_body.label>被{0}的胶质体治愈</RV2_PreyInInsidesHealing.stages.Healed_by_s_gelatinous_body.label>
+  <!-- EN: I had a reinvigorating bath. -->
+  <RV2_PreyInInsidesHealing.stages.Healed_by_s_gelatinous_body.description>我享受了一次恢复精力的沐浴。</RV2_PreyInInsidesHealing.stages.Healed_by_s_gelatinous_body.description>
+  
+  <!-- EN: Reshaped from {0} -->
+  <RV2_PreyInsidesAmalgamateEnd.stages.Reshaped_from.label>从{0}被重塑</RV2_PreyInsidesAmalgamateEnd.stages.Reshaped_from.label>
+  <!-- EN: I have been reshaped from {1}. It was a unique experience. -->
+  <RV2_PreyInsidesAmalgamateEnd.stages.Reshaped_from.description>我被{1}重塑了。这是一次独特的经历。</RV2_PreyInsidesAmalgamateEnd.stages.Reshaped_from.description>
+  
+  <!-- EN: Escaped form {0}'s Assimilation -->
+  <RV2_PreyInsidesAssimilateInterrupted.stages.Escaped_form_s_Assimilation.label>逃离了{0}的同化</RV2_PreyInsidesAssimilateInterrupted.stages.Escaped_form_s_Assimilation.label>
+  <!-- EN: {1} tried to assimilate me into themselves, I don't wanna be fucked like that! -->
+  <RV2_PreyInsidesAssimilateInterrupted.stages.Escaped_form_s_Assimilation.description>{1}试图将我同化到他们体内，我才不要被那样搞！</RV2_PreyInsidesAssimilateInterrupted.stages.Escaped_form_s_Assimilation.description>
   
   <!-- EN: Escaped membrane draining -->
-  <RV2_PreyMembraneDrainInterrupted.stages.Escaped_membrane_draining.label>TODO</RV2_PreyMembraneDrainInterrupted.stages.Escaped_membrane_draining.label>
+  <RV2_PreyMembraneDrainInterrupted.stages.Escaped_membrane_draining.label>逃离了膜质吸取</RV2_PreyMembraneDrainInterrupted.stages.Escaped_membrane_draining.label>
   <!-- EN: {1} tried to engulf and drain me! What a violation! -->
-  <RV2_PreyMembraneDrainInterrupted.stages.Escaped_membrane_draining.description>TODO</RV2_PreyMembraneDrainInterrupted.stages.Escaped_membrane_draining.description>
+  <RV2_PreyMembraneDrainInterrupted.stages.Escaped_membrane_draining.description>{1}试图包覆并吸取我！真是严重的侵犯！</RV2_PreyMembraneDrainInterrupted.stages.Escaped_membrane_draining.description>
   
   <!-- EN: Drained by {0}'s membrane -->
-  <RV2_PreyMembraneDrainSuccess.stages.Drained_by_s_membrane.label>TODO</RV2_PreyMembraneDrainSuccess.stages.Drained_by_s_membrane.label>
+  <RV2_PreyMembraneDrainSuccess.stages.Drained_by_s_membrane.label>被{0}的膜质吸取</RV2_PreyMembraneDrainSuccess.stages.Drained_by_s_membrane.label>
   <!-- EN: {1} engulfed me in their membrane and drained my energy. I'm utterly\n                    exhausted, but at least I'm still here. -->
-  <RV2_PreyMembraneDrainSuccess.stages.Drained_by_s_membrane.description>TODO</RV2_PreyMembraneDrainSuccess.stages.Drained_by_s_membrane.description>
+  <RV2_PreyMembraneDrainSuccess.stages.Drained_by_s_membrane.description>{1}用他们的体膜包覆了我并吸取了我的能量。我完全精疲力竭，但至少我还活着。</RV2_PreyMembraneDrainSuccess.stages.Drained_by_s_membrane.description>
   
   <!-- EN: Rebirth by {0} interrupted -->
-  <RV2_PreyMembraneReformInterrupted.stages.Rebirth_by_interrupted.label>TODO</RV2_PreyMembraneReformInterrupted.stages.Rebirth_by_interrupted.label>
+  <RV2_PreyMembraneReformInterrupted.stages.Rebirth_by_interrupted.label>被{0}重生被打断</RV2_PreyMembraneReformInterrupted.stages.Rebirth_by_interrupted.label>
   <!-- EN: I was starting to lose myself... -->
-  <RV2_PreyMembraneReformInterrupted.stages.Rebirth_by_interrupted.description>TODO</RV2_PreyMembraneReformInterrupted.stages.Rebirth_by_interrupted.description>
+  <RV2_PreyMembraneReformInterrupted.stages.Rebirth_by_interrupted.description>我开始失去自我了……</RV2_PreyMembraneReformInterrupted.stages.Rebirth_by_interrupted.description>
   
   <!-- EN: Reborn by {0} -->
-  <RV2_PreyMembraneReformSuccess.stages.Reborn_by.label>TODO</RV2_PreyMembraneReformSuccess.stages.Reborn_by.label>
+  <RV2_PreyMembraneReformSuccess.stages.Reborn_by.label>被{0}重生</RV2_PreyMembraneReformSuccess.stages.Reborn_by.label>
   <!-- EN: Who... Who am I? -->
-  <RV2_PreyMembraneReformSuccess.stages.Reborn_by.description>TODO</RV2_PreyMembraneReformSuccess.stages.Reborn_by.description>
+  <RV2_PreyMembraneReformSuccess.stages.Reborn_by.description>我……我是谁？</RV2_PreyMembraneReformSuccess.stages.Reborn_by.description>
   
   <!-- EN: Escaped navel draining -->
-  <RV2_PreyNavelDrainInterrupted.stages.Escaped_navel_draining.label>TODO</RV2_PreyNavelDrainInterrupted.stages.Escaped_navel_draining.label>
+  <RV2_PreyNavelDrainInterrupted.stages.Escaped_navel_draining.label>逃离了肚脐吸取</RV2_PreyNavelDrainInterrupted.stages.Escaped_navel_draining.label>
   <!-- EN: {1} tried to drain me through their navel! I'm not belly button fuel! -->
-  <RV2_PreyNavelDrainInterrupted.stages.Escaped_navel_draining.description>TODO</RV2_PreyNavelDrainInterrupted.stages.Escaped_navel_draining.description>
+  <RV2_PreyNavelDrainInterrupted.stages.Escaped_navel_draining.description>{1}试图通过他们的肚脐吸取我！我才不是肚脐燃料！</RV2_PreyNavelDrainInterrupted.stages.Escaped_navel_draining.description>
   
   <!-- EN: Drained by {0}'s navel -->
-  <RV2_PreyNavelDrainSuccess.stages.Drained_by_s_navel.label>TODO</RV2_PreyNavelDrainSuccess.stages.Drained_by_s_navel.label>
+  <RV2_PreyNavelDrainSuccess.stages.Drained_by_s_navel.label>被{0}的肚脐吸取</RV2_PreyNavelDrainSuccess.stages.Drained_by_s_navel.label>
   <!-- EN: {1} drained my energy through their navel. I'm utterly exhausted, but at least I'm alive. -->
-  <RV2_PreyNavelDrainSuccess.stages.Drained_by_s_navel.description>TODO</RV2_PreyNavelDrainSuccess.stages.Drained_by_s_navel.description>
+  <RV2_PreyNavelDrainSuccess.stages.Drained_by_s_navel.description>{1}通过他们的肚脐吸取了我的能量。我完全精疲力竭，但至少我还活着。</RV2_PreyNavelDrainSuccess.stages.Drained_by_s_navel.description>
   
   <!-- EN: Escaped oral draining -->
-  <RV2_PreyOralDrainInterrupted.stages.Escaped_oral_draining.label>TODO</RV2_PreyOralDrainInterrupted.stages.Escaped_oral_draining.label>
+  <RV2_PreyOralDrainInterrupted.stages.Escaped_oral_draining.label>逃离了口腔吸取</RV2_PreyOralDrainInterrupted.stages.Escaped_oral_draining.label>
   <!-- EN: {1} tried to swallow and drain me! I'm not anyone's energy snack! -->
-  <RV2_PreyOralDrainInterrupted.stages.Escaped_oral_draining.description>TODO</RV2_PreyOralDrainInterrupted.stages.Escaped_oral_draining.description>
+  <RV2_PreyOralDrainInterrupted.stages.Escaped_oral_draining.description>{1}试图吞下并吸取我！我才不是任何人的能量零食！</RV2_PreyOralDrainInterrupted.stages.Escaped_oral_draining.description>
   
   <!-- EN: Drained orally by {0} -->
-  <RV2_PreyOralDrainSuccess.stages.Drained_orally_by.label>TODO</RV2_PreyOralDrainSuccess.stages.Drained_orally_by.label>
+  <RV2_PreyOralDrainSuccess.stages.Drained_orally_by.label>被{0}通过口腔吸取</RV2_PreyOralDrainSuccess.stages.Drained_orally_by.label>
   <!-- EN: {1} swallowed me and drained my energy. I'm completely exhausted, but\n                    at least I survived. -->
-  <RV2_PreyOralDrainSuccess.stages.Drained_orally_by.description>TODO</RV2_PreyOralDrainSuccess.stages.Drained_orally_by.description>
+  <RV2_PreyOralDrainSuccess.stages.Drained_orally_by.description>{1}吞下了我并吸取了我的能量。我完全精疲力竭，但至少我幸存了下来。</RV2_PreyOralDrainSuccess.stages.Drained_orally_by.description>
   
   <!-- EN: Escaped tail digestion -->
-  <RV2_PreyTailmawDigestInterrupted.stages.Escaped_tail_digestion.label>逃离尾口消化</RV2_PreyTailmawDigestInterrupted.stages.Escaped_tail_digestion.label>
+  <RV2_PreyTailmawDigestInterrupted.stages.Escaped_tail_digestion.label>逃离了尾口消化</RV2_PreyTailmawDigestInterrupted.stages.Escaped_tail_digestion.label>
   <!-- EN: {1} tried to eat me through their tail! I'm not food! -->
-  <RV2_PreyTailmawDigestInterrupted.stages.Escaped_tail_digestion.description>{1}居然想用尾巴吃掉我！我才不是尾食！</RV2_PreyTailmawDigestInterrupted.stages.Escaped_tail_digestion.description>
-  
+  <RV2_PreyTailmawDigestInterrupted.stages.Escaped_tail_digestion.description>{1}试图用他们的尾巴吃掉我！我才不是食物！</RV2_PreyTailmawDigestInterrupted.stages.Escaped_tail_digestion.description>
+
   <!-- EN: Escaped tailmaw draining -->
-  <RV2_PreyTailmawDrainInterrupted.stages.Escaped_tailmaw_draining.label>TODO</RV2_PreyTailmawDrainInterrupted.stages.Escaped_tailmaw_draining.label>
+  <RV2_PreyTailmawDrainInterrupted.stages.Escaped_tailmaw_draining.label>逃离了尾口吸取</RV2_PreyTailmawDrainInterrupted.stages.Escaped_tailmaw_draining.label>
   <!-- EN: {1} tried to drain me with their tail! I'm not tail-food! -->
-  <RV2_PreyTailmawDrainInterrupted.stages.Escaped_tailmaw_draining.description>TODO</RV2_PreyTailmawDrainInterrupted.stages.Escaped_tailmaw_draining.description>
+  <RV2_PreyTailmawDrainInterrupted.stages.Escaped_tailmaw_draining.description>{1}试图用他们的尾巴吸取我！我才不是尾巴的食物！</RV2_PreyTailmawDrainInterrupted.stages.Escaped_tailmaw_draining.description>
   
   <!-- EN: Drained by {0}'s tailmaw -->
-  <RV2_PreyTailmawDrainSuccess.stages.Drained_by_s_tailmaw.label>TODO</RV2_PreyTailmawDrainSuccess.stages.Drained_by_s_tailmaw.label>
+  <RV2_PreyTailmawDrainSuccess.stages.Drained_by_s_tailmaw.label>被{0}的尾口吸取</RV2_PreyTailmawDrainSuccess.stages.Drained_by_s_tailmaw.label>
   <!-- EN: {1} drained my energy through the maw on their tail. I'm completely exhausted, but at least I survived. -->
-  <RV2_PreyTailmawDrainSuccess.stages.Drained_by_s_tailmaw.description>TODO</RV2_PreyTailmawDrainSuccess.stages.Drained_by_s_tailmaw.description>
+  <RV2_PreyTailmawDrainSuccess.stages.Drained_by_s_tailmaw.description>{1}通过他们尾巴上的口器吸取了我的能量。我完全精疲力竭，但至少我幸存了下来。</RV2_PreyTailmawDrainSuccess.stages.Drained_by_s_tailmaw.description>
   
   <!-- EN: Healed by {0}'s tail -->
-  <RV2_PreyTailmawHealSuccess.stages.Healed_by_s_tail.label>TODO</RV2_PreyTailmawHealSuccess.stages.Healed_by_s_tail.label>
+  <RV2_PreyTailmawHealSuccess.stages.Healed_by_s_tail.label>被{0}的尾巴治愈</RV2_PreyTailmawHealSuccess.stages.Healed_by_s_tail.label>
   <!-- EN: I had a reinvigorating bath. -->
-  <RV2_PreyTailmawHealSuccess.stages.Healed_by_s_tail.description>TODO</RV2_PreyTailmawHealSuccess.stages.Healed_by_s_tail.description>
+  <RV2_PreyTailmawHealSuccess.stages.Healed_by_s_tail.description>我享受了一次恢复精力的沐浴。</RV2_PreyTailmawHealSuccess.stages.Healed_by_s_tail.description>
   
   <!-- EN: Reshaped from {0}'s womb -->
-  <RV2_PreyWombAmalgamateEnd.stages.Reshaped_from_s_womb.label>TODO</RV2_PreyWombAmalgamateEnd.stages.Reshaped_from_s_womb.label>
+  <RV2_PreyWombAmalgamateEnd.stages.Reshaped_from_s_womb.label>从{0}的子宫中被重塑</RV2_PreyWombAmalgamateEnd.stages.Reshaped_from_s_womb.label>
   <!-- EN: I have been reshaped from {1} womb. It was a unique experience, as if I\n                    had experienced how life is created. -->
-  <RV2_PreyWombAmalgamateEnd.stages.Reshaped_from_s_womb.description>TODO</RV2_PreyWombAmalgamateEnd.stages.Reshaped_from_s_womb.description>
+  <RV2_PreyWombAmalgamateEnd.stages.Reshaped_from_s_womb.description>我从{1}的子宫中被重塑。这是一次独特的经历，仿佛我亲历了生命是如何被创造的。</RV2_PreyWombAmalgamateEnd.stages.Reshaped_from_s_womb.description>
   
   <!-- EN: Escaped form {0}'s womb Assimilation -->
-  <RV2_PreyWombAssimilateInterrupted.stages.Escaped_form_s_womb_Assimilation.label>TODO</RV2_PreyWombAssimilateInterrupted.stages.Escaped_form_s_womb_Assimilation.label>
+  <RV2_PreyWombAssimilateInterrupted.stages.Escaped_form_s_womb_Assimilation.label>逃离了{0}的子宫同化</RV2_PreyWombAssimilateInterrupted.stages.Escaped_form_s_womb_Assimilation.label>
   <!-- EN: {1} tried to assimilate me into his womb, I don't wanna be fucked like\n                    that! -->
-  <RV2_PreyWombAssimilateInterrupted.stages.Escaped_form_s_womb_Assimilation.description>TODO</RV2_PreyWombAssimilateInterrupted.stages.Escaped_form_s_womb_Assimilation.description>
+  <RV2_PreyWombAssimilateInterrupted.stages.Escaped_form_s_womb_Assimilation.description>{1}试图将我同化到他的子宫里，我才不要被那样搞！</RV2_PreyWombAssimilateInterrupted.stages.Escaped_form_s_womb_Assimilation.description>
   
 </LanguageData>

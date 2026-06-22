@@ -2,28 +2,28 @@
 <LanguageData>
   
   <!-- EN: Drank urified pawn -->
-  <RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.label>TODO</RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.label>
+  <RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.label>饮用了爱液化猎物</RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.label>
   <!-- EN: It tasted fine. I could probably drink some more if I needed to. -->
-  <RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.description>TODO</RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.description>
+  <RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.description>味道还行。如果有需要的话，再来一些也没问题。</RV2_ConsumedDigestedPrey_Lube.stages.Drank_urified_pawn.description>
   
   <!-- EN: Disliked drinking urified pawn -->
-  <RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.label>TODO</RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.label>
+  <RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.label>不喜欢饮用爱液化猎物</RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.label>
   <!-- EN: Blech. Can't believe I just drank Lube. -->
-  <RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.description>TODO</RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.description>
+  <RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.description>呃。不敢相信我居然喝了这种东西。</RV2_ConsumedDigestedPrey_Lube_Bad.stages.Disliked_drinking_urified_pawn.description>
   
   <!-- EN: Liked drinking urified pawn -->
-  <RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.label>TODO</RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.label>
+  <RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.label>喜欢饮用爱液化猎物</RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.label>
   <!-- EN: That was quite good! It went down good, and left a fragrant aftertaste that left me wanting more. -->
-  <RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.description>TODO</RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.description>
+  <RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.description>相当不错！入口顺滑，回味芬芳，让人意犹未尽。</RV2_ConsumedDigestedPrey_Lube_Good.stages.Liked_drinking_urified_pawn.description>
   
   <!-- EN: Hated drinking urified pawn -->
-  <RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.label>TODO</RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.label>
+  <RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.label>厌恶饮用爱液化猎物</RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.label>
   <!-- EN: Ugh! The smell is still stuck in my throat... -->
-  <RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.description>TODO</RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.description>
+  <RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.description>呕！那股味道还卡在喉咙里散不掉……</RV2_ConsumedDigestedPrey_Lube_VeryBad.stages.Hated_drinking_urified_pawn.description>
   
   <!-- EN: Loved drinking urified pawn -->
-  <RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.label>TODO</RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.label>
+  <RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.label>沉醉于饮用爱液化猎物</RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.label>
   <!-- EN: The very nectar of the gods! It danced on my tongue like fine wine. I could drink that every day for the rest of my life! -->
-  <RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.description>TODO</RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.description>
+  <RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.description>简直是神之琼浆玉液！在舌尖上舞动如同陈年美酒。这辈子天天喝都愿意！</RV2_ConsumedDigestedPrey_Lube_VeryGood.stages.Loved_drinking_urified_pawn.description>
   
 </LanguageData>

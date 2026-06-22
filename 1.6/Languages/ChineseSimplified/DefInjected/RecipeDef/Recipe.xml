@@ -4,22 +4,22 @@
   <!-- EN: make neutroamine -->
   <RV2_MakeNeutroamine.label>提取中性胺</RV2_MakeNeutroamine.label>
   <!-- EN: Make a neutroamine. -->
-  <RV2_MakeNeutroamine.description>从吞噬产物中提取中性胺</RV2_MakeNeutroamine.description>
+  <RV2_MakeNeutroamine.description>从吞噬产物中提取中性胺。</RV2_MakeNeutroamine.description>
   <!-- EN: Making neutroamine. -->
   <RV2_MakeNeutroamine.jobString>正在提取中性胺。</RV2_MakeNeutroamine.jobString>
   
   <!-- EN: make neutroamine x 4 -->
-  <RV2_MakeNeutroamine4X.label>TODO</RV2_MakeNeutroamine4X.label>
+  <RV2_MakeNeutroamine4X.label>提取中性胺×4</RV2_MakeNeutroamine4X.label>
   <!-- EN: Make four neutroamines. -->
-  <RV2_MakeNeutroamine4X.description>TODO</RV2_MakeNeutroamine4X.description>
+  <RV2_MakeNeutroamine4X.description>从吞噬产物中提取四份中性胺。</RV2_MakeNeutroamine4X.description>
   <!-- EN: Making neutroamine. -->
-  <RV2_MakeNeutroamine4X.jobString>TODO</RV2_MakeNeutroamine4X.jobString>
+  <RV2_MakeNeutroamine4X.jobString>正在提取中性胺。</RV2_MakeNeutroamine4X.jobString>
   
   <!-- EN: make Synthread -->
-  <RV2_MakeSynthread.label>TODO</RV2_MakeSynthread.label>
+  <RV2_MakeSynthread.label>制作合成纤维</RV2_MakeSynthread.label>
   <!-- EN: Make a Synthread. -->
-  <RV2_MakeSynthread.description>TODO</RV2_MakeSynthread.description>
+  <RV2_MakeSynthread.description>从吞噬产物中制作合成纤维。</RV2_MakeSynthread.description>
   <!-- EN: Making Synthread. -->
-  <RV2_MakeSynthread.jobString>TODO</RV2_MakeSynthread.jobString>
+  <RV2_MakeSynthread.jobString>正在制作合成纤维。</RV2_MakeSynthread.jobString>
   
 </LanguageData>

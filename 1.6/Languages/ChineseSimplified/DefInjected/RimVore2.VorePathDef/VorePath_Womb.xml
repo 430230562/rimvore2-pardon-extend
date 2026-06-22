@@ -2,21 +2,21 @@
 <LanguageData>
   
   <!-- EN: (Amalgamate) Womb -->
-  <WombAmalgamate.label>TODO</WombAmalgamate.label>
+  <WombAmalgamate.label>（融合）子宫</WombAmalgamate.label>
   <!-- EN: Womb amalgamation is where the predator reversibly absorbs the prey into their womb for indefinite storage, (presently unrepresented in-game) making their underbelly puffier and more sensitive. -->
-  <WombAmalgamate.description>TODO</WombAmalgamate.description>
+  <WombAmalgamate.description>子宫融合是一种捕食方式：捕食者将猎物可逆地吸收进子宫中进行无限期储存（目前游戏中尚无视觉表现），使腹部更加鼓胀和敏感。</WombAmalgamate.description>
   <!-- EN: {0} will meld {1} into their womb for storage -->
-  <WombAmalgamate.actionDescription>TODO</WombAmalgamate.actionDescription>
+  <WombAmalgamate.actionDescription>{0}将把{1}融合进子宫中进行储存</WombAmalgamate.actionDescription>
   <!-- EN: Womb vore -->
-  <WombAmalgamate.RMBLabel>TODO</WombAmalgamate.RMBLabel>
+  <WombAmalgamate.RMBLabel>子宫吞噬</WombAmalgamate.RMBLabel>
   
   <!-- EN: (Assimilate) Womb -->
-  <WombAssimilate.label>TODO</WombAssimilate.label>
+  <WombAssimilate.label>（同化）子宫</WombAssimilate.label>
   <!-- EN: Womb assimilation is where the predator permanently absorbs the prey into their womb, feeding the predator and making their underbelly puffier and more sensitive. -->
-  <WombAssimilate.description>TODO</WombAssimilate.description>
+  <WombAssimilate.description>子宫同化是一种捕食方式：捕食者将猎物永久性地吸收进子宫中，以此滋养自身，同时使腹部更加鼓胀和敏感。</WombAssimilate.description>
   <!-- EN: {0} will assimilate {1} into their womb -->
-  <WombAssimilate.actionDescription>TODO</WombAssimilate.actionDescription>
+  <WombAssimilate.actionDescription>{0}将把{1}同化进子宫中</WombAssimilate.actionDescription>
   <!-- EN: Womb vore -->
-  <WombAssimilate.RMBLabel>TODO</WombAssimilate.RMBLabel>
+  <WombAssimilate.RMBLabel>子宫吞噬</WombAssimilate.RMBLabel>
   
 </LanguageData>

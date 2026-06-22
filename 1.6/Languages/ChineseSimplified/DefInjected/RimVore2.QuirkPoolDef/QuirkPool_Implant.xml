@@ -2,8 +2,8 @@
 <LanguageData>
   
   <!-- EN: implant -->
-  <Implant.label>TODO</Implant.label>
+  <Implant.label>植入物</Implant.label>
   <!-- EN: These quirks are added by implants. They modify the pawn's performance in vore mechanics, such as nutrition gain from prey, digestion speed, and mobility. -->
-  <Implant.description>TODO</Implant.description>
+  <Implant.description>这些特质由植入物赋予。它们会影响角色在吞噬机制中的各项表现，例如从猎物获取的营养量、消化速度以及移动能力。</Implant.description>
   
 </LanguageData>

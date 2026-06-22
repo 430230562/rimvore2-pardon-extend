@@ -2,23 +2,23 @@
 <LanguageData>
   
   <!-- EN: faster recover -->
-  <RV2_FasterRecover.label>愈合加速</RV2_FasterRecover.label>
+  <RV2_FasterRecover.label>加速愈合</RV2_FasterRecover.label>
   <!-- EN: This pawn is vored and healed by another pawn. -->
-  <RV2_FasterRecover.description>这个角色被捕食者吞进体内冶疗</RV2_FasterRecover.description>
+  <RV2_FasterRecover.description>这个角色被其他角色吞入体内进行疗伤。</RV2_FasterRecover.description>
   
   <!-- EN: regression -->
-  <RV2_Regression.label>TODO</RV2_Regression.label>
-  <!-- EN: This pawn is in other pawn womb and regressed.\n This hediff can't let the age\n            of a pawn decrease below the age of adult. -->
-  <RV2_Regression.description>TODO</RV2_Regression.description>
+  <RV2_Regression.label>逆生长</RV2_Regression.label>
+  <!-- EN: This pawn is in other pawn womb and regressed.\n This hediff can't let the age of a pawn decrease below the age of adult. -->
+  <RV2_Regression.description>这个角色身处其他角色的孕育器官中，正在经历逆生长。\n此状态不会让角色的年龄降低到成年年龄以下。</RV2_Regression.description>
   
   <!-- EN: ScaleBodySize -->
-  <RV2_ScaleBodySize.label>TODO</RV2_ScaleBodySize.label>
+  <RV2_ScaleBodySize.label>体型缩放</RV2_ScaleBodySize.label>
   <!-- EN: 体型变化 -->
-  <RV2_ScaleBodySize.labelNoun>TODO</RV2_ScaleBodySize.labelNoun>
+  <RV2_ScaleBodySize.labelNoun>体型缩放</RV2_ScaleBodySize.labelNoun>
   
   <!-- EN: unlimited regression -->
-  <RV2_UnlimitedRegression.label>TODO</RV2_UnlimitedRegression.label>
-  <!-- EN: This pawn is being reformed in other pawn womb.\n This hediff may let the age\n            of a pawn decrease to zero.\n\n In some degrees,age decreasing can be regard as a type\n            of reform damage. -->
-  <RV2_UnlimitedRegression.description>TODO</RV2_UnlimitedRegression.description>
+  <RV2_UnlimitedRegression.label>无限逆生长</RV2_UnlimitedRegression.label>
+  <!-- EN: This pawn is being reformed in other pawn womb.\n This hediff may let the age of a pawn decrease to zero.\n\n In some degrees,age decreasing can be regard as a type of reform damage. -->
+  <RV2_UnlimitedRegression.description>这个角色正在其他角色的孕育器官中被重塑。\n此状态可能让角色的年龄降至零岁。\n\n在某种程度上，年龄的降低可以被视为一种重塑损伤。</RV2_UnlimitedRegression.description>
   
 </LanguageData>

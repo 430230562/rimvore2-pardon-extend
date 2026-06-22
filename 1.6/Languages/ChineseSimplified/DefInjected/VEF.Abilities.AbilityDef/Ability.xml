@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-  
-  <!-- EN: Vore Skip -->
-  <RV2_Ability_VoreSkip.label>吞食折跃</RV2_Ability_VoreSkip.label>
-  <!-- EN: Teleport the target into another target (either can be self). Body part and vore goal are selected randomly. -->
-  <RV2_Ability_VoreSkip.description>将目标传送到另一个目标体内（任一方可为自身）。身体部位和吞食目标随机选择。</RV2_Ability_VoreSkip.description>
-  
-</LanguageData>

@@ -1,13 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
+  <!-- EN: (Amalgamate) membrane inside -->
+  <InsidesAmalgamate.label>（融合）表膜</InsidesAmalgamate.label>
+  <!-- EN: Inside amalgamation is where the predator reversibly absorbs the prey into\n            themselves
+  for indefinite storage. -->
+  <InsidesAmalgamate.description>体内融合是一种捕食方式：捕食者将猎物可逆地吸收进自身体内，进行无限期储存。</InsidesAmalgamate.description>
+  <!-- EN: {0} will meld {1} into themselves for storage -->
+  <InsidesAmalgamate.actionDescription>{0}将把{1}融合进体内进行储存</InsidesAmalgamate.actionDescription>
+  <!-- EN: Membrane vore -->
+  <InsidesAmalgamate.RMBLabel>表膜吞噬</InsidesAmalgamate.RMBLabel>
+
+  <!-- EN: (Assimilate) membrane inside -->
+  <InsidesAssimilate.label>（同化）表膜</InsidesAssimilate.label>
+  <!-- EN: Inside assimilation is where the predator permanently absorbs the prey into\n            themslves,
+  feeding the predator -->
+  <InsidesAssimilate.description>体内同化是一种捕食方式：捕食者将猎物永久性地吸收进自身体内，以此滋养自身。</InsidesAssimilate.description>
+  <!-- EN: {0} will assimilate {1} into themslves -->
+  <InsidesAssimilate.actionDescription>{0}将把{1}同化进自身体内</InsidesAssimilate.actionDescription>
+  <!-- EN: Membrane vore -->
+  <InsidesAssimilate.RMBLabel>表膜吞噬</InsidesAssimilate.RMBLabel>
+
+  <!-- EN: (Heal) membrane inside -->
+  <InsidesHeal.label>（治愈）表膜</InsidesHeal.label>
+  <!-- EN: Healing vore will tend to a pawns wounds and slowly heal their damaged body\n            parts.
+  Healing vore is relatively weak, so if you want to treat a pawn properly, use\n            medicine and a
+  good doctor. -->
+  <InsidesHeal.description>治愈吞噬会处理角色的伤口，并缓慢修复其受损的身体部位。治愈吞噬的效果相对有限，若想妥善治疗，还是用药和好医生更靠谱。</InsidesHeal.description>
+  <!-- EN: {PREDATOR} will heal {PREY} in themselves. -->
+  <InsidesHeal.actionDescription>{PREDATOR}将在体内治愈{PREY}</InsidesHeal.actionDescription>
+  <!-- EN: Membrane vore -->
+  <InsidesHeal.RMBLabel>表膜吞噬</InsidesHeal.RMBLabel>
+
   <!-- EN: (Reform) membrane inside -->
-  <InsidesReform.label>TODO</InsidesReform.label>
-  <!-- EN: Reformation creates a new pawn inheriting attributes from both original prey\n            and predator -->
-  <InsidesReform.description>TODO</InsidesReform.description>
+  <InsidesReform.label>（重塑）表膜</InsidesReform.label>
+  <!-- EN: Reformation creates a new pawn inheriting attributes from both original prey\n            and
+  predator -->
+  <InsidesReform.description>体内重塑会创造出一个全新的角色，继承原猎物和捕食者双方的属性。</InsidesReform.description>
   <!-- EN: {PREDATOR} will reform {PREY} inside of them -->
-  <InsidesReform.actionDescription>TODO</InsidesReform.actionDescription>
-  <!-- EN: membrane vore -->
-  <InsidesReform.RMBLabel>TODO</InsidesReform.RMBLabel>
-  
+  <InsidesReform.actionDescription>{PREDATOR}将在体内重塑{PREY}</InsidesReform.actionDescription>
+  <!-- EN: Membrane vore -->
+  <InsidesReform.RMBLabel>表膜吞噬</InsidesReform.RMBLabel>
+
 </LanguageData>
