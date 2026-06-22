@@ -90,4 +90,45 @@
       </include>
     </rulePack>
   </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_MembraneReform</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Reform</li>
+        <li>RV2_Type_Membrane</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_MembraneHeal</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Heal</li>
+        <li>RV2_Type_Membrane</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_InsidesAmalgamate</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Amalgamate</li>
+        <li>RV2_Type_Membrane</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_InsidesAssimilate</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_Assimilate</li>
+        <li>RV2_Type_Membrane</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
 </Defs>
