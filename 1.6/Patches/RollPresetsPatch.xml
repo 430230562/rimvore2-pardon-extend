@@ -72,7 +72,8 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationReplace">
+  <Operation
+    Class="PatchOperationReplace">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToSperm"]</xpath>
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
@@ -91,7 +92,8 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationReplace">
+  <Operation
+    Class="PatchOperationReplace">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToLube"]</xpath>
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
@@ -110,7 +112,8 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationReplace" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
+  <Operation
+    Class="PatchOperationReplace" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToChemfuel"]</xpath>
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
@@ -129,7 +132,8 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationReplace" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
+  <Operation
+    Class="PatchOperationReplace" MayRequire="MamaHorseteeth.RimVore2ExtraVores">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToEggs"]</xpath>
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
@@ -145,7 +149,8 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationReplace" MayRequire='MisTF.Piss'>
+  <Operation
+    Class="PatchOperationReplace" MayRequire='MisTF.Piss'>
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToUrine"]</xpath>
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
@@ -164,7 +169,8 @@
     </value>
   </Operation>
 
-  <Operation Class='PatchOperationReplace'>
+  <Operation
+    Class='PatchOperationReplace'>
     <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseBreakDownProgress"]</xpath>
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
@@ -180,7 +186,8 @@
     </value>
   </Operation>
 
-  <Operation Class='PatchOperationReplace'>
+  <Operation
+    Class='PatchOperationReplace'>
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToPredatorFood"]</xpath>
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
@@ -199,16 +206,19 @@
     </value>
   </Operation>
 
-  <Operation Class='PatchOperationReplace' mayRequire="Rutrix.RutsRimVoreStuff">
+  <Operation
+    Class='PatchOperationReplace' mayRequire="Rutrix.RutsRimVoreStuff">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToPredatorFood_Slow"]</xpath>
     <value>
       <RimVore2.RollPresetDef ParentName="Drain_StrengthModifiers">
         <defName>ConvertNutritionToPredatorFood_Slow</defName>
         <strength>0.0033~0.01</strength>
-        <li Class="RimVore2.RollModifier_Quirk">
-          <target>Predator</target>
-          <modifierName>AbsorptionSpeed</modifierName>
-        </li>
+        <strengthModifiers>
+          <li Class="RimVore2.RollModifier_Quirk">
+            <target>Predator</target>
+            <modifierName>AbsorptionSpeed</modifierName>
+          </li>
+        </strengthModifiers>
         <actionsOnSuccess>
           <li Class="RV2R_RutsStuff.RollAction_IncreaseNeedLimited">
             <target>Predator</target>
@@ -224,4 +234,94 @@
     </value>
   </Operation>
 
+  <Operation Class='PatchOperationReplace'>
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseNeed_Predator_Food"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
+        <defName>IncreaseNeed_Predator_Food</defName>
+        <strength>0.004~0.01</strength>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_IncreaseNeed">
+            <target>Predator</target>
+            <need>Food</need>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+  <Operation
+    Class='PatchOperationReplace' mayRequire="Rutrix.RutsRimVoreStuff">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseNeed_Predator_Food_Instant"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef>
+        <defName>IncreaseNeed_Predator_Food_Instant</defName>
+        <strength>0.15~0.25</strength>
+        <strengthModifiers>
+          <li Class="RimVore2.RollModifier_SizeDifference">
+            <pawn>Predator</pawn>
+            <relationTo>Prey</relationTo>
+          </li>
+          <li Class="RimVore2.RollModifier_Capacity">
+            <target>Predator</target>
+            <capacity>Metabolism</capacity>
+          </li>
+          <li Class="RimVore2.RollModifier_Quirk">
+            <target>Predator</target>
+            <modifierName>AbsorptionSpeed</modifierName>
+          </li>
+        </strengthModifiers>
+        <actionsOnSuccess>
+          <li Class="RV2R_RutsStuff.RollAction_IncreaseNeedLimited">
+            <target>Predator</target>
+            <need>Food</need>
+            <limit>0.75</limit>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+  <Operation
+    Class='PatchOperationReplace' mayRequire="Rutrix.RutsRimVoreStuff">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseNeed_Predator_Food_Limited"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef
+        ParentName="Absorption_StrengthModifiers">
+        <defName>IncreaseNeed_Predator_Food_Limited</defName>
+        <strength>0.003~0.01</strength>
+        <actionsOnSuccess>
+          <li Class="RV2R_RutsStuff.RollAction_IncreaseNeedLimited">
+            <target>Predator</target>
+            <need>Food</need>
+            <limit>0.75</limit>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
+
+  <Operation
+    Class='PatchOperationReplace' mayRequire="Rutrix.RutsRimVoreStuff">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="IncreaseNeed_Predator_Food_Lesser"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="Drain_StrengthModifiers">
+        <defName>IncreaseNeed_Predator_Food_Lesser</defName>
+        <strength>0.0025~0.0055</strength>
+        <strengthModifiers>
+          <li Class="RimVore2.RollModifier_Quirk">
+            <target>Predator</target>
+            <modifierName>AbsorptionSpeed</modifierName>
+          </li>
+        </strengthModifiers>
+        <actionsOnSuccess>
+          <li Class="RV2R_RutsStuff.RollAction_IncreaseNeedLimited">
+            <target>Predator</target>
+            <need>Food</need>
+            <limit>0.75</limit>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
 </Patch>

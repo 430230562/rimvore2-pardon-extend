@@ -432,5 +432,81 @@
         </stages>
     </ThoughtDef>
 
-    
+    <!-- inside heal -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorInInsidesHealing</defName>
+        <stages>
+            <li>
+                <label>Heal {0} in gelatinous body.</label>
+                <description>Good as new!</description>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyInInsidesHealing</defName>
+        <stages>
+            <li>
+                <label>Healed by {0}'s gelatinous body.</label>
+                <description>I had a reinvigorating bath.</description>
+                <baseMoodEffect>5</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!--Insides Amalgamate-->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorInsidesAmalgamateEnd</defName>
+        <durationDays Inherit="False">0.3</durationDays>
+        <stages>
+            <li>
+                <label>Reshaped {0}</label>
+                <description>I reshaped {1} from myself. It was a unique experience, but I'm not sure how {1} feel about it.</description>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyInsidesAmalgamateEnd</defName>
+        <durationDays Inherit="False">0.3</durationDays>
+        <stages>
+            <li>
+                <label>Reshaped from {0}</label>
+                <description>I have been reshaped from {1}. It was a unique experience.</description>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- Insides Assimilate -->
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorInsidesAssimilateSuccess</defName>
+        <stages>
+            <li>
+                <label>Assimilated {0}</label>
+                <description>I engulfed and assimilated {1} into myself. So full...</description>
+                <baseMoodEffect>8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PredatorInsidesAssimilateInterrupted</defName>
+        <stages>
+            <li>
+                <label>Assimilation of {0} interrupted</label>
+                <description>I tried to assimilate {1} into myself, but they got away.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef ParentName="RV2_VoreMemory_Base">
+        <defName>RV2_PreyInsidesAssimilateInterrupted</defName>
+        <stages>
+            <li>
+                <label>Escaped form {0}'s Assimilation</label>
+                <description>{1} tried to assimilate me into themselves, I don't wanna be fucked like that!</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
 </Defs>

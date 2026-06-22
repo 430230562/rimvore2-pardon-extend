@@ -84,7 +84,7 @@
     <partGoal>Heal</partGoal>
     <jumpKey>TailThroat</jumpKey>
     <canReverseDirection>true</canReverseDirection>
-    <predatorHediffDef>RV2_PreyInTailThroatHealing</predatorHediffDef>
+    <predatorHediffDef>RV2_PredatorInTailThroatHealing</predatorHediffDef>
     <predatorThoughtDef>RV2_PreyInTailThroatHealing</predatorThoughtDef>
     <onCycle>
       <rollPresets>

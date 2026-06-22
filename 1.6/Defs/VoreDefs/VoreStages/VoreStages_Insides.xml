@@ -16,7 +16,7 @@
             </rollPresets>
         </onCycle>
         <passConditions>
-            <li Class="RimVore2.StagePassCondition_Warmup">
+            <li Class="PRV2E.StagePassCondition_Warmup_Hediffs">
                 <duration>12</duration>
                 <hediffs>
                     <li>RV2_PreyInInsidesDrain</li>
@@ -181,6 +181,34 @@
             <li Class="RimVore2.StagePassCondition_PassValue">
                 <passValueName>ReformProgress</passValueName>
                 <targetValue>50</targetValue>
+            </li>
+        </passConditions>
+    </RimVore2.VoreStageDef>
+
+    <RimVore2.VoreStageDef Name="Insides_Heal" ParentName="Insides_Base">
+        <defName>Insides_Heal</defName>
+        <partGoal>Heal</partGoal>
+        <canReverseDirection>true</canReverseDirection>
+        <predatorHediffDef>RV2_PredatorInInsidesHealing</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInInsidesHealing</predatorThoughtDef>
+        <onCycle>
+            <rollPresets>
+                <li>Sound_Churn_10</li>
+                <li>IncreaseNeed_Prey_Rest</li>
+                <li>StealNeed_ForPrey_Food</li>
+                <li>Heal_Prey</li>
+                <!-- actions are interrupted here if predator has no food for healing -->
+                <li>Mote_Heal</li>
+            </rollPresets>
+        </onCycle>
+        <onEnd>
+            <actions>
+                <li Class="RimVore2.RollAction_RecordTale_GoalFinish" />
+            </actions>
+        </onEnd>
+        <passConditions>
+            <li Class="RimVore2.StagePassCondition_Healed">
+                <target>Prey</target>
             </li>
         </passConditions>
     </RimVore2.VoreStageDef>

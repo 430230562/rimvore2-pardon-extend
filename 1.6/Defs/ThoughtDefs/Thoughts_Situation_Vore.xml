@@ -394,4 +394,136 @@
       </li>
     </stages>
   </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesHealing</defName>
+    <stages>
+      <li>
+        <label>Healing prey in gelatinous body.</label>
+        <description>Let's get you patched up!</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>Healing multiple prey in gelatinous body.</label>
+        <description>Let's get you patched up!</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesContacting</defName>
+    <stages>
+      <li>
+        <label>Pre-absorption pleasure</label>
+        <description>Who says I can't play with my new part before I absorb them?</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pre-absorption pleasure</label>
+        <description>Everyone's thirsty for their new shape, huh?</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesLoosening</defName>
+    <stages>
+      <li>
+        <label>Loosening up to absorb prey</label>
+        <description>That's it, keep eating...~</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Loosening up to absorb multiple prey</label>
+        <description>They start to meld... inside me</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesAmalgamating</defName>
+    <stages>
+      <li>
+        <label>One prey amalgamated</label>
+        <description>Enjoy padding me...</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Two prey amalgamated</label>
+        <description>It's a start!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Three prey amalgamated</label>
+        <description>You're gonna make me so warm and soft!</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>Several prey amalgamated</label>
+        <description>I'm *drooling* at the thought of more...~</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesAssimilating</defName>
+    <stages>
+      <li>
+        <label>One prey assimilated</label>
+        <description>Enjoy padding me...</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Two prey assimilated into womb</label>
+        <description>It's a start!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Three prey assimilated into womb</label>
+        <description>You're gonna make me so warm and soft!</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Several prey assimilated into womb</label>
+        <description>I'm *drooling* at the thought of more...~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesReshaping</defName>
+    <stages>
+      <li>
+        <label>Reshaping prey from</label>
+        <description>I'll miss you...</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Reshaping multiple prey</label>
+        <description>I don't wanna be loose again!</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInInsidesPurging</defName>
+    <stages>
+      <li>
+        <label>Purging remains</label>
+        <description>Gotta work the air out!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Purging remains</label>
+        <description>I will remember what your contribute to me.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>
