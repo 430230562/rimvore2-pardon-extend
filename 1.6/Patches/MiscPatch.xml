@@ -95,9 +95,6 @@
     </value>
   </Operation>
   
-
-  
-
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/RecipeDef[@Name='RV2_MakeVoreEnabler_Base']</xpath>
     <value>

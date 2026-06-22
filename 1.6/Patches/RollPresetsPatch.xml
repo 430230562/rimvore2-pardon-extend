@@ -52,6 +52,20 @@
     </value>
   </Operation>
   -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToContainerItem"]</xpath>
+    <value>
+      <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
+        <defName>ConvertNutritionToContainerItem</defName>
+        <actionsOnSuccess>
+          <li Class="RimVore2.RollAction_CreateThingsFromContainer">
+            <name>PreyNutrition</name>
+            <minValue>0</minValue>
+          </li>
+        </actionsOnSuccess>
+      </RimVore2.RollPresetDef>
+    </value>
+  </Operation>
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="ConvertNutritionToMilk"]</xpath>
@@ -239,7 +253,12 @@
     <value>
       <RimVore2.RollPresetDef ParentName="Absorption_StrengthModifiers">
         <defName>IncreaseNeed_Predator_Food</defName>
-        <strength>0.004~0.01</strength>
+        <strength>1</strength>
+        <strengthModifiers>
+          <li Class='RimVore2.RollModifier_FoodFallRate'>
+            <target>Predator</target>
+          </li>
+        </strengthModifiers>
         <actionsOnSuccess>
           <li Class="RimVore2.RollAction_IncreaseNeed">
             <target>Predator</target>
