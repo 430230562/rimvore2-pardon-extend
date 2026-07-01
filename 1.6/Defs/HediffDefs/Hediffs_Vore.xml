@@ -81,6 +81,10 @@
 
     <!-- Insides -->
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
+        <defName>RV2_PreyInsidesWarming</defName>
+        <description>This pawn is preparing to do something to a pawn in their tail-throat.</description>
+    </HediffDef>
+    <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
         <defName>RV2_PreyInInsidesContacting</defName>
         <description>This pawn is having some form of intercourse in their gelatinous body, with intent to absorb.</description>
     </HediffDef>

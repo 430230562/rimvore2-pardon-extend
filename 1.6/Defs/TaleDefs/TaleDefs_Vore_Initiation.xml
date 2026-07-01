@@ -102,7 +102,7 @@
   </TaleDef>
 
   <TaleDef ParentName="RV2_VoreInitiation_Base">
-    <defName>RV2_VoreInitiation_InsidesAmalgamate</defName>
+    <defName>RV2_VoreInitiation_MembraneAmalgamate</defName>
     <rulePack>
       <include>
         <li>RV2_Goal_Amalgamate</li>
@@ -112,7 +112,7 @@
   </TaleDef>
 
   <TaleDef ParentName="RV2_VoreInitiation_Base">
-    <defName>RV2_VoreInitiation_InsidesAssimilate</defName>
+    <defName>RV2_VoreInitiation_MembraneAssimilate</defName>
     <rulePack>
       <include>
         <li>RV2_Goal_Assimilate</li>

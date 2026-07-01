@@ -291,6 +291,24 @@
     </stages>
   </ThoughtDef>
 
+  <!-- Insides -->
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInsidesWarming</defName>
+    <stages>
+      <li>
+        <label>Warming up insides for prey</label>
+        <description>Oh, the plans I have for you!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Warming up insides for multiple prey</label>
+        <description>Oh, the plans I have for you!</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
     <defName>RV2_PreyInInsidesDrain</defName>
     <stages>

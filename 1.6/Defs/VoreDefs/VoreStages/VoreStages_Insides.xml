@@ -189,7 +189,7 @@
         <defName>Insides_Heal</defName>
         <partGoal>Heal</partGoal>
         <canReverseDirection>true</canReverseDirection>
-        <predatorHediffDef>RV2_PredatorInInsidesHealing</predatorHediffDef>
+        <predatorHediffDef>RV2_PreyInInsidesHealing</predatorHediffDef>
         <predatorThoughtDef>RV2_PreyInInsidesHealing</predatorThoughtDef>
         <onCycle>
             <rollPresets>

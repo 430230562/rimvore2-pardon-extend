@@ -52,7 +52,7 @@ This is a <b>submod</b> for <b>RimVore 2</b> adding genes and expanding RV2 feat
 - Thinking about a vore pathway that converts pawns into <b>cloth</b>, but there doesn't seem to be a suitable organ...
 ]]>
 	</description>
-<supportedVersions>
+	<supportedVersions>
 		<li>1.6</li>
 	</supportedVersions>
 	<modDependencies>
@@ -71,12 +71,12 @@ This is a <b>submod</b> for <b>RimVore 2</b> adding genes and expanding RV2 feat
 			<displayName>Biotech</displayName>
 		</li>
 		<li>
-		<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-		<displayName>Vanilla Expanded Framework</displayName>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2023507013</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<incompatibleWith>
-	</incompatibleWith>
+	<incompatibleWith />
 	<loadAfter>
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Biotech</li>
@@ -87,7 +87,7 @@ This is a <b>submod</b> for <b>RimVore 2</b> adding genes and expanding RV2 feat
 		<li>imranfish.xmlextensions</li>
 
 		<li>erdelf.HumanoidAlienRaces</li>
-		
+
 		<li>Nabber.RimVore2</li>
 		<li>MamaHorseteeth.RimVore2ExtraVores</li>
 		<li>RimVore - 2Bulges</li>
