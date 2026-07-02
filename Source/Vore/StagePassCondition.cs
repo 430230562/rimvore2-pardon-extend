@@ -111,43 +111,59 @@ namespace PRV2E
         }
     }
 
-    public class StagePassCondition_Age : TargetedStagePassCondition
+    public class StagePassCondition_Reform : StagePassCondition_PassValue
     {
-        public float targetAge = 0;
+        public VoreRole target = VoreRole.Prey;
 
-        private float intialAge = -1;
+        public float targetValue = float.MinValue;
 
-        public bool olderThan = true;
+        protected Pawn TargetPawn(VoreTrackerRecord record) => record.GetPawnByRole(target);
+
+        public int targetAge = 0;
+
+        private long targetAgeTicks => targetAge * GenDate.TicksPerYear;
+
+        private long initialAgeTicks = -1;
 
         public override bool IsPassed(VoreTrackerRecord record, out float progress)
         {
-            Pawn pawn = TargetPawn(record);
-            if (pawn == null)
+            if(initialAgeTicks == -1)
             {
-                progress = 0;
-                return false;
-            }
-            if (intialAge < 0)
-            {
-                intialAge = pawn.ageTracker.AgeBiologicalYearsFloat;
+                initialAgeTicks = TargetPawn(record).ageTracker.AgeBiologicalTicks;
             }
 
-            float age = pawn.ageTracker.AgeBiologicalYearsFloat;
-            bool isPassed = olderThan ? age >= targetAge : age <= targetAge;
-            progress = CalculateProgress(age, targetAge, intialAge);
+            if (!record.PassValues.TryGetValue(passValueName, out float currentValue))
+            {
+                if (RV2Log.ShouldLog(true, "OngoingVore"))
+                    RV2Log.Message($"{record.LogLabel} - PassCondition_Reform, but record does not have PassValue {passValueName} set! Passing to prevent being stuck", true, "OngoingVore");
+                progress = -1;
+                return true;
+            }
+            if (!record.InitialPassValues.TryGetValue(passValueName, out float initialValue))
+            {
+                if (RV2Log.ShouldLog(true, "OngoingVore"))
+                    RV2Log.Message($"{record.LogLabel} - PassCondition_Reform, but record does not have InitialPassValue {passValueName} set! Passing to prevent being stuck", true, "OngoingVore");
+                progress = -1;
+                return true;
+            }
+            float passValueProgress = CalculateProgress(currentValue, targetValue, initialValue);
+            float ageProgress = CalculateProgress(TargetPawn(record).ageTracker.AgeBiologicalTicks, targetAgeTicks, initialAgeTicks);
+            progress = Math.Max(passValueProgress, ageProgress);
+
+            bool isPassed = (progress == 1);
+            if (RV2Log.ShouldLog(true, "OngoingVore"))
+                RV2Log.Message($"{record.LogLabel} - PassCondition_Reform pass value progress: {passValueProgress} ({currentValue}/{targetValue}), age progress: {ageProgress} ({TargetPawn(record).ageTracker.AgeBiologicalTicks}/{targetAgeTicks}), passed ? {isPassed}", true, "OngoingVore");
             return isPassed;
-        }
 
-        public override float AbstractDuration(StageWorker onCycle, StageWorker onStart)
-        {
-            return (targetAge - intialAge) * 60;
         }
 
         public override void ExposeData()
         {
             base.ExposeData();
+
+            Scribe_Values.Look(ref targetValue, "targetValue");
+            Scribe_Values.Look(ref target, "target");
             Scribe_Values.Look(ref targetAge, "targetAge");
-            Scribe_Values.Look(ref olderThan, "olderThan");
         }
     }
 }

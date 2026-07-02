@@ -101,13 +101,13 @@
             of a pawn decrease to zero.\n\n In some degrees,age decreasing can be regard as a type
             of reform damage.</description>
         <initialSeverity>0.10</initialSeverity>
-        <maxSeverity>6.00</maxSeverity>
+        <maxSeverity>10.00</maxSeverity>
         <isBad>false</isBad>
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
         <comps>
             <li Class="PRV2E.HediffCompProperties_Regression">
-                <RegressionStrength>40</RegressionStrength>
+                <RegressionStrength>30</RegressionStrength>
                 <limitMinAge>false</limitMinAge>
             </li>
             <li Class="PRV2E.HediffCompProperties_DependOnHediff">

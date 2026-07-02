@@ -35,10 +35,13 @@ namespace PRV2E
             {
                 if (Find.TickManager.TicksGame % 60 == 0)
                 {
-                    //更新描述文本
-                    AgingSpeed = 1f - Props.RegressionStrength * parent.Severity;
+                    float RegressionSpeed = Props.RegressionStrength * parent.Severity;
 
-                    Pawn.ageTracker.AgeBiologicalTicks = (long)Math.Max(Pawn.ageTracker.AgeBiologicalTicks - Props.RegressionStrength * parent.Severity * 60, 0);
+                    //更新描述文本
+                    AgingSpeed = 1f - RegressionSpeed;
+
+                    
+                    Pawn.ageTracker.AgeBiologicalTicks = (long)Math.Max(Pawn.ageTracker.AgeBiologicalTicks - RegressionSpeed * 60, 0);
 
                     foreach (Hediff hediff in Pawn.health.hediffSet.hediffs.Where((Hediff diff) => diff.def.chronic))
                     {

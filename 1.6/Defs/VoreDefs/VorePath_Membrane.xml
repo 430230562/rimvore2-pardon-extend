@@ -4,7 +4,7 @@
     <!-- InsidesDrain见VorePath_Drain -->
 
     <RimVore2.VorePathDef MayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>InsidesReform</defName>
+        <defName>MembraneReform</defName>
         <label>(Reform) membrane inside</label>
         <RMBLabel>Membrane vore</RMBLabel>
         <actionDescription>{PREDATOR} will reform {PREY} inside of them</actionDescription>
@@ -28,7 +28,7 @@
     </RimVore2.VorePathDef>
 
     <RimVore2.VorePathDef MayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>InsidesHeal</defName>
+        <defName>MembraneHeal</defName>
         <label>(Heal) membrane inside</label>
         <RMBLabel>Membrane vore</RMBLabel>
         <actionDescription>{PREDATOR} will heal {PREY} in themselves.</actionDescription>
@@ -52,7 +52,7 @@
 
     <RimVore2.VorePathDef MayRequire='MamaHorseteeth.RimVore2ExtraVores'
         ParentName="Amalgamate_Base">
-        <defName>InsidesAmalgamate</defName>
+        <defName>MembraneAmalgamate</defName>
         <label>(Amalgamate) membrane inside</label>
         <RMBLabel>Membrane vore</RMBLabel>
         <actionDescription>{0} will meld {1} into themselves for storage</actionDescription>
@@ -78,7 +78,7 @@
 
     <RimVore2.VorePathDef MayRequire='MamaHorseteeth.RimVore2ExtraVores'
         ParentName="Assimilate_Base">
-        <defName>InsidesAssimilate</defName>
+        <defName>MembraneAssimilate</defName>
         <label>(Assimilate) membrane inside</label>
         <RMBLabel>Membrane vore</RMBLabel>
         <actionDescription>{0} will assimilate {1} into themslves</actionDescription>

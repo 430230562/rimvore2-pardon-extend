@@ -54,29 +54,6 @@
     </value>
   </Operation>
 
-  <Operation Class="PatchOperationFindMod">
-    <mods>
-      <li>rim.job.world</li>
-    </mods>
-    <nomatch Class="PatchOperationReplace">
-      <xpath>/Defs/HediffDef[@Name='LightGenitals_GenitalBase']</xpath>
-      <value>
-        <HediffDef Abstract="True" Name="LightGenitals_GenitalBase">
-          <isBad>false</isBad>
-          <everCurableByItem>false</everCurableByItem>
-          <initialSeverity>1</initialSeverity>
-          <stages>
-            <li>
-              <minSeverity>0</minSeverity>
-              <becomeVisible>false</becomeVisible>
-            </li>
-          </stages>
-        </HediffDef>
-      </value>
-    </nomatch>
-  </Operation>
-
-
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/HediffDef[defName="RV2_CumReserves"]/stages/li[1]</xpath>
     <value>

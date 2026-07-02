@@ -80,7 +80,7 @@
 
   <RimVore2.RollPresetDef>
     <defName>AddRegressionHediff</defName>
-    <strength>0.05</strength>
+    <strength>0.04</strength>
     <strengthModifiers>
       <li Class="PRV2E.RollModifier_LimitedStat">
         <target>Predator</target>
@@ -99,7 +99,7 @@
 
   <RimVore2.RollPresetDef>
     <defName>AddUnlimitedRegressionHediff</defName>
-    <strength>0.05</strength>
+    <strength>0.04</strength>
     <strengthModifiers>
       <li Class="PRV2E.RollModifier_LimitedStat">
         <target>Predator</target>
