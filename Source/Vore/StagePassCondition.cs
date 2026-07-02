@@ -120,8 +120,8 @@ namespace PRV2E
         protected Pawn TargetPawn(VoreTrackerRecord record) => record.GetPawnByRole(target);
 
         public int targetAge = 0;
-
-        private long targetAgeTicks => targetAge * GenDate.TicksPerYear;
+        //或许需要一点缓冲
+        private long targetAgeTicks => targetAge * GenDate.TicksPerYear + 240;
 
         private long initialAgeTicks = -1;
 
@@ -147,10 +147,10 @@ namespace PRV2E
                 return true;
             }
             float passValueProgress = CalculateProgress(currentValue, targetValue, initialValue);
-            float ageProgress = CalculateProgress(TargetPawn(record).ageTracker.AgeBiologicalTicks, targetAgeTicks, initialAgeTicks);
+            float ageProgress = CalculateProgress(initialAgeTicks - TargetPawn(record).ageTracker.AgeBiologicalTicks, initialAgeTicks - targetAgeTicks, 0);
             progress = Math.Max(passValueProgress, ageProgress);
 
-            bool isPassed = (progress == 1);
+            bool isPassed = progress == 1;
             if (RV2Log.ShouldLog(true, "OngoingVore"))
                 RV2Log.Message($"{record.LogLabel} - PassCondition_Reform pass value progress: {passValueProgress} ({currentValue}/{targetValue}), age progress: {ageProgress} ({TargetPawn(record).ageTracker.AgeBiologicalTicks}/{targetAgeTicks}), passed ? {isPassed}", true, "OngoingVore");
             return isPassed;

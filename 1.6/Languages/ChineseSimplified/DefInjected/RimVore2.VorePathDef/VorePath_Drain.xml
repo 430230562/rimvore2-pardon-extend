@@ -1,40 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
+
   <!-- EN: (Drain) Cleavage-Hold -->
   <CleavageDrain.label>（吸取）乳沟</CleavageDrain.label>
-  <!-- EN: Cleavage parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting. -->
+  <!-- EN: Cleavage parasitisim is where the predator swallows the prey into their stomach, where
+  they are drained of their energy. This process is safe, if exhausting. -->
   <CleavageDrain.description>捕食者将猎物吞入胃中，从中吸取能量。这个过程虽然累人，但安全无害。</CleavageDrain.description>
   <!-- EN: {PREDATOR} will drain {PREY} through their cleavage -->
   <CleavageDrain.actionDescription>{PREDATOR}将通过乳沟将{PREY}整个吞下并吸取能量</CleavageDrain.actionDescription>
   <!-- EN: Cleavage vore -->
   <CleavageDrain.RMBLabel>乳沟吞噬</CleavageDrain.RMBLabel>
-  
+
   <!-- EN: (Drain) membrane inside -->
-  <InsidesDrain.label>（吸取）表膜</InsidesDrain.label>
-  <!-- EN: Membrane parasitisim is where the predator swallows the prey into their Insides, where they are drained of their energy. This process is safe, if exhausting. -->
-  <InsidesDrain.description>捕食者将猎物包裹进体内，从中吸取能量。这个过程虽然累人，但安全无害。</InsidesDrain.description>
+  <MembraneDrain.label>（吸取）表膜</MembraneDrain.label>
+  <!-- EN: Membrane parasitisim is where the predator swallows the prey into their Membrane, where
+  they are drained of their energy. This process is safe, if exhausting. -->
+  <MembraneDrain.description>捕食者将猎物包裹进体内，从中吸取能量。这个过程虽然累人，但安全无害。</MembraneDrain.description>
   <!-- EN: {PREDATOR} will engulf and drain {PREY} -->
-  <InsidesDrain.actionDescription>{PREDATOR}将包裹并吸取{PREY}的能量</InsidesDrain.actionDescription>
+  <MembraneDrain.actionDescription>{PREDATOR}将包裹并吸取{PREY}的能量</MembraneDrain.actionDescription>
   <!-- EN: Membrane vore -->
-  <InsidesDrain.RMBLabel>表膜吞噬</InsidesDrain.RMBLabel>
-  
+  <MembraneDrain.RMBLabel>表膜吞噬</MembraneDrain.RMBLabel>
+
   <!-- EN: (Drain) Navel -->
   <NavelDrain.label>（吸取）肚脐</NavelDrain.label>
-  <!-- EN: Navel parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting. -->
+  <!-- EN: Navel parasitisim is where the predator swallows the prey into their stomach, where they
+  are drained of their energy. This process is safe, if exhausting. -->
   <NavelDrain.description>捕食者将猎物通过肚脐吞入胃中，从中吸取能量。这个过程虽然累人，但安全无害。</NavelDrain.description>
   <!-- EN: {PREDATOR} will drain {PREY} behind their navel -->
   <NavelDrain.actionDescription>{PREDATOR}将通过肚脐将{PREY}整个吞下并吸取能量</NavelDrain.actionDescription>
   <!-- EN: Navel vore -->
   <NavelDrain.RMBLabel>肚脐吞噬</NavelDrain.RMBLabel>
-  
+
   <!-- EN: (Drain) Tailmaw -->
   <TailmawDrain.label>（吸取）尾口</TailmawDrain.label>
-  <!-- EN: Tailmaw parasitisim is where the predator swallows the prey into their stomach, where they are drained of their energy. This process is safe, if exhausting. -->
+  <!-- EN: Tailmaw parasitisim is where the predator swallows the prey into their stomach, where
+  they are drained of their energy. This process is safe, if exhausting. -->
   <TailmawDrain.description>捕食者将猎物通过尾口吞入胃中，从中吸取能量。这个过程虽然累人，但安全无害。</TailmawDrain.description>
   <!-- EN: {PREDATOR} will drain {PREY} through their tailmaw -->
   <TailmawDrain.actionDescription>{PREDATOR}将通过尾口将{PREY}整个吞下并吸取能量</TailmawDrain.actionDescription>
   <!-- EN: Tailmaw vore -->
   <TailmawDrain.RMBLabel>尾口吞噬</TailmawDrain.RMBLabel>
-  
+
 </LanguageData>
