@@ -310,7 +310,7 @@
 
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesDrain</defName>
+    <defName>RV2_PreyInsidesDrain</defName>
     <stages>
       <li>
         <label>Draining prey in insides</label>
@@ -336,7 +336,7 @@
   </ThoughtDef>
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesSoftChurning</defName>
+    <defName>RV2_PreyInsidesSoftChurning</defName>
     <stages>
       <li>
         <label>Churning prey in insides</label>
@@ -362,7 +362,7 @@
   </ThoughtDef>
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesSoftProcessing</defName>
+    <defName>RV2_PreyInsidesSoftProcessing</defName>
     <stages>
       <li>
         <label>Prey leaving insides</label>
@@ -388,7 +388,7 @@
   </ThoughtDef>
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesReforming</defName>
+    <defName>RV2_PreyInsidesReforming</defName>
     <stages>
       <li>
         <label>Reforming prey</label>
@@ -414,7 +414,7 @@
   </ThoughtDef>
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesHealing</defName>
+    <defName>RV2_PreyInsidesHealing</defName>
     <stages>
       <li>
         <label>Healing prey in gelatinous body.</label>
@@ -430,7 +430,7 @@
   </ThoughtDef>
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesContacting</defName>
+    <defName>RV2_PreyInsidesContacting</defName>
     <stages>
       <li>
         <label>Pre-absorption pleasure</label>
@@ -446,7 +446,7 @@
   </ThoughtDef>
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesLoosening</defName>
+    <defName>RV2_PreyInsidesLoosening</defName>
     <stages>
       <li>
         <label>Loosening up to absorb prey</label>
@@ -462,7 +462,7 @@
   </ThoughtDef>
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesAmalgamating</defName>
+    <defName>RV2_PreyInsidesAmalgamating</defName>
     <stages>
       <li>
         <label>One prey amalgamated</label>
@@ -488,7 +488,7 @@
   </ThoughtDef>
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesAssimilating</defName>
+    <defName>RV2_PreyInsidesAssimilating</defName>
     <stages>
       <li>
         <label>One prey assimilated</label>
@@ -514,7 +514,7 @@
   </ThoughtDef>
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesReshaping</defName>
+    <defName>RV2_PreyInsidesReshaping</defName>
     <stages>
       <li>
         <label>Reshaping prey from</label>
@@ -530,7 +530,7 @@
   </ThoughtDef>
 
   <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
-    <defName>RV2_PreyInInsidesPurging</defName>
+    <defName>RV2_PreyInsidesPurging</defName>
     <stages>
       <li>
         <label>Purging remains</label>

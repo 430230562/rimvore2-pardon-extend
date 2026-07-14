@@ -62,6 +62,10 @@ This is a <b>submod</b> for <b>RimVore 2</b> adding genes and expanding RV2 feat
 			<downloadUrl>https://gitlab.com/Nabber/rimvore-2.git</downloadUrl>
 		</li>
 		<li>
+			<packageId>MamaHorseteeth.RimVore2ExtraVores</packageId>
+			<displayName>RimVore-2 (Overstuffed)</displayName>
+		</li>
+		<li>
 			<packageId>brrainz.harmony</packageId>
 			<displayName>Harmony</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>

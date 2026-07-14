@@ -3,6 +3,7 @@ using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using Verse;
 
 namespace PRV2E
@@ -115,8 +116,6 @@ namespace PRV2E
     {
         public VoreRole target = VoreRole.Prey;
 
-        public float targetValue = float.MinValue;
-
         protected Pawn TargetPawn(VoreTrackerRecord record) => record.GetPawnByRole(target);
 
         public int targetAge = 0;
@@ -124,6 +123,17 @@ namespace PRV2E
         private long targetAgeTicks => targetAge * GenDate.TicksPerYear + 240;
 
         private long initialAgeTicks = -1;
+
+        private float targetValue
+        {
+            get
+            {
+                var field = typeof(StagePassCondition_PassValue)
+                    .GetField("targetValue",
+                        BindingFlags.NonPublic | BindingFlags.Instance);
+                return (float)field.GetValue(this);
+            }
+        }
 
         public override bool IsPassed(VoreTrackerRecord record, out float progress)
         {
@@ -161,7 +171,6 @@ namespace PRV2E
         {
             base.ExposeData();
 
-            Scribe_Values.Look(ref targetValue, "targetValue");
             Scribe_Values.Look(ref target, "target");
             Scribe_Values.Look(ref targetAge, "targetAge");
         }

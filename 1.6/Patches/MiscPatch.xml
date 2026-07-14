@@ -71,7 +71,7 @@
       </statFactors>
     </value>
   </Operation>
-  
+
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/RecipeDef[@Name='RV2_MakeVoreEnabler_Base']</xpath>
     <value>
@@ -100,6 +100,23 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/RecipeDef[@ParentName="RV2_MakeVoreEnabler_Base"]</xpath>
   </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RV2R_GoalEnabler_Drain"]</xpath>
+    <value>
+      <ThingDef ParentName="RV2_VoreEnabler_Base">
+        <defName>RV2R_GoalEnabler_Drain</defName>
+        <label>parasitic enzyme seeder</label>
+        <description>Special mechanites which enable specialized parasitic methods of obtaining
+          nourishment from prey.</description>
+        <descriptionHyperlinks>
+          <HediffDef>RV2R_GoalEnabler_Drain</HediffDef>
+        </descriptionHyperlinks>
+        <techLevel>Industrial</techLevel>
+      </ThingDef>
+    </value>
+  </Operation>
+
 
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[@Name="RV2_VoreEnabler_Base"]</xpath>
