@@ -57,8 +57,8 @@
         <RMBLabel>Membrane vore</RMBLabel>
         <actionDescription>{0} will meld {1} into themselves for storage</actionDescription>
         <description>Inside amalgamation is where the predator reversibly absorbs the prey into themselves for indefinite storage.</description>
-        <initTale>RV2_VoreInitiation_InsidesAmalgamate</initTale>
-        <exitTale>RV2_VoreExit_InsidesAmalgamate</exitTale>
+        <initTale>RV2_VoreInitiation_MembraneAmalgamate</initTale>
+        <exitTale>RV2_VoreExit_MembraneAmalgamate</exitTale>
         <voreType>Membrane</voreType>
         <postVoreMemories>
             <predatorPostVoreSuccess>RV2_PredatorMembraneAmalgamateEnd</predatorPostVoreSuccess>

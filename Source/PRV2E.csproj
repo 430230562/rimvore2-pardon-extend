@@ -63,6 +63,7 @@
     <Compile Include="Settings\PRV2ESettings.cs" />
     <Compile Include="Vore\RollModifier.cs" />
     <Compile Include="Vore\StagePassCondition.cs" />
+    <Compile Include="Vore\StruggleManager.cs" />
     <Compile Include="Vore\VoreValidator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

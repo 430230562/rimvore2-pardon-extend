@@ -122,7 +122,7 @@
     <HediffDef>
         <defName>RV2_ScaleBodySize</defName>
         <label>ScaleBodySize</label>
-        <labelNoun>体型变化</labelNoun>
+        <description>test</description>
         <defaultLabelColor>(0.8,0.4,0.4)</defaultLabelColor>
         <hediffClass>HediffWithComps</hediffClass>
         <initialSeverity>0.05</initialSeverity>
