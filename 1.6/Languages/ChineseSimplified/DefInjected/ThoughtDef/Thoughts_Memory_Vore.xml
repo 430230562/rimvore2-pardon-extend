@@ -177,20 +177,20 @@
     {1}通过他们的乳沟吸取了我的能量。我完全被吸干了，但至少我幸存了下来。</RV2_PreyCleavageDrainSuccess.stages.Drained_by_s_cleavage.description>
 
   <!-- EN: Healed by {0}'s gelatinous body. -->
-  <RV2_PreyInsidesHealing.stages.Healed_by_s_gelatinous_body.label>被{0}的胶质体治愈</RV2_PreyInsidesHealing.stages.Healed_by_s_gelatinous_body.label>
+  <RV2_PreyInsideHealing.stages.Healed_by_s_gelatinous_body.label>被{0}的胶质体治愈</RV2_PreyInsideHealing.stages.Healed_by_s_gelatinous_body.label>
   <!-- EN: I had a reinvigorating bath. -->
-  <RV2_PreyInsidesHealing.stages.Healed_by_s_gelatinous_body.description>我享受了一次恢复精力的沐浴。</RV2_PreyInsidesHealing.stages.Healed_by_s_gelatinous_body.description>
+  <RV2_PreyInsideHealing.stages.Healed_by_s_gelatinous_body.description>我享受了一次恢复精力的沐浴。</RV2_PreyInsideHealing.stages.Healed_by_s_gelatinous_body.description>
 
   <!-- EN: Reshaped from {0} -->
-  <RV2_PreyInsidesAmalgamateEnd.stages.Reshaped_from.label>从{0}被重塑</RV2_PreyInsidesAmalgamateEnd.stages.Reshaped_from.label>
+  <RV2_PreyInsideAmalgamateEnd.stages.Reshaped_from.label>从{0}被重塑</RV2_PreyInsideAmalgamateEnd.stages.Reshaped_from.label>
   <!-- EN: I have been reshaped from {1}. It was a unique experience. -->
-  <RV2_PreyInsidesAmalgamateEnd.stages.Reshaped_from.description>我被{1}重塑了。这是一次独特的经历。</RV2_PreyInsidesAmalgamateEnd.stages.Reshaped_from.description>
+  <RV2_PreyInsideAmalgamateEnd.stages.Reshaped_from.description>我被{1}重塑了。这是一次独特的经历。</RV2_PreyInsideAmalgamateEnd.stages.Reshaped_from.description>
 
   <!-- EN: Escaped form {0}'s Assimilation -->
-  <RV2_PreyInsidesAssimilateInterrupted.stages.Escaped_form_s_Assimilation.label>逃离了{0}的同化</RV2_PreyInsidesAssimilateInterrupted.stages.Escaped_form_s_Assimilation.label>
+  <RV2_PreyInsideAssimilateInterrupted.stages.Escaped_form_s_Assimilation.label>逃离了{0}的同化</RV2_PreyInsideAssimilateInterrupted.stages.Escaped_form_s_Assimilation.label>
   <!-- EN: {1} tried to assimilate me into themselves, I don't wanna be fucked like that! -->
-  <RV2_PreyInsidesAssimilateInterrupted.stages.Escaped_form_s_Assimilation.description>
-    {1}试图将我同化到他们体内，我才不要被那样搞！</RV2_PreyInsidesAssimilateInterrupted.stages.Escaped_form_s_Assimilation.description>
+  <RV2_PreyInsideAssimilateInterrupted.stages.Escaped_form_s_Assimilation.description>
+    {1}试图将我同化到他们体内，我才不要被那样搞！</RV2_PreyInsideAssimilateInterrupted.stages.Escaped_form_s_Assimilation.description>
 
   <!-- EN: Escaped membrane draining -->
   <RV2_PreyMembraneDrainInterrupted.stages.Escaped_membrane_draining.label>逃离了膜质吸取</RV2_PreyMembraneDrainInterrupted.stages.Escaped_membrane_draining.label>

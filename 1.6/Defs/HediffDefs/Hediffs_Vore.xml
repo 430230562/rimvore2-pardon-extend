@@ -87,47 +87,48 @@
     </HediffDef>
 
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesContacting</defName>
-        <description>This pawn is having some form of intercourse in their gelatinous body, with intent to absorb.</description>
+        <defName>RV2_PreyInsideContacting</defName>
+        <description>This pawn is having some form of intercourse in their gelatinous body, with
+            intent to absorb.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesLoosening</defName>
+        <defName>RV2_PreyInsideLoosening</defName>
         <description>This pawn is is warming up and loosening their body for absorption.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesDrain</defName>
+        <defName>RV2_PreyInsideDrain</defName>
         <description>This pawn is passivily draining living prey within their gelatinous body.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesReforming</defName>
+        <defName>RV2_PreyInsideReforming</defName>
         <description>This pawn is reforming a pawn within their gelatinous body.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesHealing</defName>
+        <defName>RV2_PreyInsideHealing</defName>
         <description>This pawn is healing a pawn within their gelatinous body.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesAmalgamating</defName>
+        <defName>RV2_PreyInsideAmalgamating</defName>
         <description>This pawn is storing absorbed prey as sapient body part.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesAssimilating</defName>
+        <defName>RV2_PreyInsideAssimilating</defName>
         <description>This pawn is fully-absorbing their prey into themselves.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesSoftChurning</defName>
+        <defName>RV2_PreyInsideSoftChurning</defName>
         <description>This pawn is passivily churning living prey within their gelatinous body.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesSoftProcessing</defName>
+        <defName>RV2_PreyInsideSoftProcessing</defName>
         <description>This pawn is absorbing energy from living prey within their gelatinous body.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesReshaping</defName>
+        <defName>RV2_PreyInsideReshaping</defName>
         <description>This pawn is reshaping prey stored as body part for release.</description>
     </HediffDef>
     <HediffDef ParentName="RV2_PreyInside" mayRequire='MamaHorseteeth.RimVore2ExtraVores'>
-        <defName>RV2_PreyInsidesPurging</defName>
+        <defName>RV2_PreyInsidePurging</defName>
         <description>This pawn is removing any unassimilated remains from themselves.</description>
     </HediffDef>
 

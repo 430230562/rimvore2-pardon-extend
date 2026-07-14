@@ -5,7 +5,7 @@
         <partGoal>WarmUp</partGoal>
         <canReverseDirection>true</canReverseDirection>
         <predatorHediffDef>RV2_PreyInsideWarming</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesWarming</predatorThoughtDef>
+        <predatorThoughtDef>RV2_PreyInsideWarming</predatorThoughtDef>
         <jumpKey>Insides</jumpKey>
         <onCycle>
             <rollPresets>
@@ -19,7 +19,7 @@
             <li Class="PRV2E.StagePassCondition_Warmup_Hediffs">
                 <duration>12</duration>
                 <hediffs>
-                    <li>RV2_PreyInsidesDrain</li>
+                    <li>RV2_PreyInsideDrain</li>
                 </hediffs>
             </li>
         </passConditions>
@@ -29,8 +29,8 @@
         <defName>Insides_Contact</defName>
         <partGoal>Contact</partGoal>
         <canReverseDirection>true</canReverseDirection>
-        <predatorHediffDef>RV2_PreyInsidesContacting</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesContacting</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsideContacting</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsideContacting</predatorThoughtDef>
         <onStart>
             <actions>
                 <li Class="RimVore2.RollAction_RecordTale_VoreInitiation" />
@@ -61,8 +61,8 @@
         <defName>Insides_Loosen</defName>
         <partGoal>Loosen</partGoal>
         <canReverseDirection>true</canReverseDirection>
-        <predatorHediffDef>RV2_PreyInsidesLoosening</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesLoosening</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsideLoosening</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsideLoosening</predatorThoughtDef>
         <onStart>
             <actions>
                 <li Class="RimVore2.RollAction_PlaySound">
@@ -87,7 +87,7 @@
             <li Class="RimVore2.StagePassCondition_Warmup">
                 <duration>12</duration>
                 <hediffs>
-                    <li>RV2_PreyInsidesAssimilating</li>
+                    <li>RV2_PreyInsideAssimilating</li>
                 </hediffs>
             </li>
         </passConditions>
@@ -97,8 +97,8 @@
         <defName>Insides_Drain</defName>
         <partGoal>Drain</partGoal>
         <canReverseDirection>true</canReverseDirection>
-        <predatorHediffDef>RV2_PreyInsidesDrain</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesDrain</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsideDrain</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsideDrain</predatorThoughtDef>
         <jumpKey>Insides</jumpKey>
         <onStart>
             <actions>
@@ -148,8 +148,8 @@
         <partGoal>Reform</partGoal>
         <jumpKey>Insides</jumpKey>
         <canReverseDirection>true</canReverseDirection>
-        <predatorHediffDef>RV2_PreyInsidesReforming</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesReforming</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsideReforming</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsideReforming</predatorThoughtDef>
         <onStart>
             <actions>
                 <li Class="RimVore2.RollAction_PassValue_Set">
@@ -189,8 +189,8 @@
         <defName>Insides_Heal</defName>
         <partGoal>Heal</partGoal>
         <canReverseDirection>true</canReverseDirection>
-        <predatorHediffDef>RV2_PreyInsidesHealing</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesHealing</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsideHealing</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsideHealing</predatorThoughtDef>
         <onCycle>
             <rollPresets>
                 <li>Sound_Churn_10</li>
@@ -217,8 +217,8 @@
         <defName>Insides_Amalgamate</defName>
         <partGoal>Amalgamate</partGoal>
         <canReverseDirection>true</canReverseDirection>
-        <predatorHediffDef>RV2_PreyInsidesAmalgamating</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesAmalgamating</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsideAmalgamating</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsideAmalgamating</predatorThoughtDef>
         <onStart>
             <actions>
                 <li Class="RimVore2.RollAction_ShowMote">
@@ -248,8 +248,8 @@
         <defName>Insides_Assimilate</defName>
         <partGoal>Assimilate</partGoal>
         <canReverseDirection>true</canReverseDirection>
-        <predatorHediffDef>RV2_PreyInsidesAssimilating</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesAssimilating</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsideAssimilating</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsideAssimilating</predatorThoughtDef>
         <onStart>
             <actions>
                 <li Class="RimVore2.RollAction_PassValue_Set">
@@ -297,8 +297,8 @@
         <defName>Insides_SoftChurn</defName>
         <partGoal>Churn</partGoal>
         <canReverseDirection>false</canReverseDirection>
-        <predatorHediffDef>RV2_PreyInsidesSoftChurning</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesSoftChurning</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsideSoftChurning</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsideSoftChurning</predatorThoughtDef>
         <onStart>
             <actions>
                 <li Class="RimVore2.RollAction_PassValue_Set">
@@ -344,8 +344,8 @@
 
     <RimVore2.VoreStageDef ParentName="Insides_Base">
         <defName>Insides_SoftProcess</defName>
-        <predatorHediffDef>RV2_PreyInsidesSoftProcessing</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesSoftProcessing</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsideSoftProcessing</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsideSoftProcessing</predatorThoughtDef>
         <partGoal>Pass</partGoal>
         <canReverseDirection>false</canReverseDirection>
         <onStart>
@@ -396,8 +396,8 @@
         <defName>Insides_Reshape</defName>
         <partGoal>Reshape</partGoal>
         <canReverseDirection>true</canReverseDirection>
-        <predatorHediffDef>RV2_PreyInsidesReshaping</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesReshaping</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsideReshaping</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsideReshaping</predatorThoughtDef>
         <onCycle>
             <rollPresets>
                 <li>IncreaseNeed_Predator_Comfort</li>
@@ -414,8 +414,8 @@
         <defName>Insides_Purge</defName>
         <partGoal>Purge</partGoal>
         <canReverseDirection>false</canReverseDirection>
-        <predatorHediffDef>RV2_PreyInsidesPurging</predatorHediffDef>
-        <predatorThoughtDef>RV2_PreyInsidesPurging</predatorThoughtDef>
+        <predatorHediffDef>RV2_PreyInsidePurging</predatorHediffDef>
+        <predatorThoughtDef>RV2_PreyInsidePurging</predatorThoughtDef>
         <onCycle>
             <rollPresets>
                 <li>IncreaseNeed_Predator_Comfort</li>

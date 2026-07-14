@@ -2,38 +2,38 @@
 <LanguageData>
 
   <!-- EN: This pawn is storing absorbed prey as sapient body part. -->
-  <RV2_PreyInsidesAmalgamating.description>TODO</RV2_PreyInsidesAmalgamating.description>
+  <RV2_PreyInsideAmalgamating.description>TODO</RV2_PreyInsideAmalgamating.description>
 
   <!-- EN: This pawn is fully-absorbing their prey into themselves. -->
-  <RV2_PreyInsidesAssimilating.description>TODO</RV2_PreyInsidesAssimilating.description>
+  <RV2_PreyInsideAssimilating.description>TODO</RV2_PreyInsideAssimilating.description>
 
   <!-- EN: This pawn is having some form of intercourse in their gelatinous body, with intent to
   absorb. -->
-  <RV2_PreyInsidesContacting.description>TODO</RV2_PreyInsidesContacting.description>
+  <RV2_PreyInsideContacting.description>TODO</RV2_PreyInsideContacting.description>
 
   <!-- EN: This pawn is passivily draining living prey within their gelatinous body. -->
-  <RV2_PreyInsidesDrain.description>TODO</RV2_PreyInsidesDrain.description>
+  <RV2_PreyInsideDrain.description>TODO</RV2_PreyInsideDrain.description>
 
   <!-- EN: This pawn is healing a pawn within their gelatinous body. -->
-  <RV2_PreyInsidesHealing.description>TODO</RV2_PreyInsidesHealing.description>
+  <RV2_PreyInsideHealing.description>TODO</RV2_PreyInsideHealing.description>
 
   <!-- EN: This pawn is is warming up and loosening their body for absorption. -->
-  <RV2_PreyInsidesLoosening.description>TODO</RV2_PreyInsidesLoosening.description>
+  <RV2_PreyInsideLoosening.description>TODO</RV2_PreyInsideLoosening.description>
 
   <!-- EN: This pawn is removing any unassimilated remains from themselves. -->
-  <RV2_PreyInsidesPurging.description>TODO</RV2_PreyInsidesPurging.description>
+  <RV2_PreyInsidePurging.description>TODO</RV2_PreyInsidePurging.description>
 
   <!-- EN: This pawn is reforming a pawn within their gelatinous body. -->
-  <RV2_PreyInsidesReforming.description>TODO</RV2_PreyInsidesReforming.description>
+  <RV2_PreyInsideReforming.description>TODO</RV2_PreyInsideReforming.description>
 
   <!-- EN: This pawn is reshaping prey stored as body part for release. -->
-  <RV2_PreyInsidesReshaping.description>TODO</RV2_PreyInsidesReshaping.description>
+  <RV2_PreyInsideReshaping.description>TODO</RV2_PreyInsideReshaping.description>
 
   <!-- EN: This pawn is passivily churning living prey within their gelatinous body. -->
-  <RV2_PreyInsidesSoftChurning.description>TODO</RV2_PreyInsidesSoftChurning.description>
+  <RV2_PreyInsideSoftChurning.description>TODO</RV2_PreyInsideSoftChurning.description>
 
   <!-- EN: This pawn is absorbing energy from living prey within their gelatinous body. -->
-  <RV2_PreyInsidesSoftProcessing.description>TODO</RV2_PreyInsidesSoftProcessing.description>
+  <RV2_PreyInsideSoftProcessing.description>TODO</RV2_PreyInsideSoftProcessing.description>
 
   <!-- EN: Prey in Tail Throat -->
   <RV2_PreyInTailThroatDigesting.label>TODO</RV2_PreyInTailThroatDigesting.label>
