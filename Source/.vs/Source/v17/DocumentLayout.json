@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rimvore2-pardon-extend\\source\\vore\\strugglemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|d:\\steam\\steamapps\\common\\rimworld\\mods\\rimvore2-pardon-extend\\source\\vore\\voreworkers\\rollaction\\rollaction_brainwash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|solutionrelative:vore\\voreworkers\\rollaction\\rollaction_brainwash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\vore\\strugglemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C8D3ABA7-1F82-4B68-8C6C-D1A158194F23}|PRV2E.csproj|solutionrelative:vore\\strugglemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,19 +31,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RollAction_Brainwash.cs",
+              "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\VoreWorkers\\RollAction\\RollAction_Brainwash.cs",
+              "RelativeDocumentMoniker": "Vore\\VoreWorkers\\RollAction\\RollAction_Brainwash.cs",
+              "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\VoreWorkers\\RollAction\\RollAction_Brainwash.cs",
+              "RelativeToolTip": "Vore\\VoreWorkers\\RollAction\\RollAction_Brainwash.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAywCIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T01:32:57.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StruggleManager.cs",
               "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\StruggleManager.cs",
               "RelativeDocumentMoniker": "Vore\\StruggleManager.cs",
               "ToolTip": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\StruggleManager.cs",
               "RelativeToolTip": "Vore\\StruggleManager.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAB4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAABUwCIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T12:10:10.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-13T12:10:10.916Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HediffComp_Regression.cs",
               "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Hediffs\\HediffComp_Regression.cs",
               "RelativeDocumentMoniker": "Hediffs\\HediffComp_Regression.cs",
@@ -51,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "StagePassCondition.cs",
               "DocumentMoniker": "D:\\steam\\steamapps\\common\\RimWorld\\Mods\\rimvore2-pardon-extend\\Source\\Vore\\StagePassCondition.cs",
               "RelativeDocumentMoniker": "Vore\\StagePassCondition.cs",

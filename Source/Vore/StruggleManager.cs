@@ -17,7 +17,11 @@ namespace PRV2E
         [HarmonyPostfix]
         private static void LearnMeleePostStruggle(VoreTrackerRecord ___record)
         {
+            
+
             Pawn prey = ___record.Prey, predator = ___record.Predator;
+
+            if (prey.skills == null || predator.skills == null) return;
 
             SkillRecord PreySkill = prey.skills.GetSkill(SkillDefOf.Melee), 
                 PredatorSkill = predator.skills.GetSkill(SkillDefOf.Melee);

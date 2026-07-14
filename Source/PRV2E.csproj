@@ -65,6 +65,7 @@
     <Compile Include="Vore\StagePassCondition.cs" />
     <Compile Include="Vore\StruggleManager.cs" />
     <Compile Include="Vore\VoreValidator.cs" />
+    <Compile Include="Vore\VoreWorkers\RollAction\RollAction_Brainwash.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
