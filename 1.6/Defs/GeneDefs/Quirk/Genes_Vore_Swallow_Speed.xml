@@ -7,7 +7,7 @@
         <label>Instant Swallow</label>
         <description>This pawn inhales prey like they are drowning and the prey are air.</description>
         <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
-        <iconPath>UI/Icons/Genes/Gene_SwallowInstant</iconPath>
+        <iconPath>UI/Icons/Genes/SwallowSpeed/Gene_SwallowInstant</iconPath>
         <modExtensions>
             <li Class="RimVore2.GeneDefExtension_ForcedHediff" MayRequire="pardon.prv2e">
                 <hediffs>
