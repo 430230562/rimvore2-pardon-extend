@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Swallow Speed: Instantaneous (via quirk) -->
+  <GeneDef>
+        <defName>RV2_Hediff_QuirkForce_Cheat_InstantSwallow</defName>
+        <label>Instant Swallow</label>
+        <description>This pawn inhales prey like they are drowning and the prey are air.</description>
+        <geneClass>RimVore2.Gene_ForcedHediff</geneClass>
+        <iconPath>UI/Icons/Genes/Gene_SwallowInstant</iconPath>
+        <modExtensions>
+            <li Class="RimVore2.GeneDefExtension_ForcedHediff" MayRequire="pardon.prv2e">
+                <hediffs>
+                    <li>RV2_Hediff_QuirkForce_Cheat_InstantSwallow</li>
+                </hediffs>
+                <removeHediffsOnGeneRemoval>true</removeHediffsOnGeneRemoval>
+            </li>
+        </modExtensions>
+        <exclusionTags>
+            <li>SwallowSpeed</li>
+        </exclusionTags>
+        <displayCategory>RV2_Vore_Digestion</displayCategory>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <biostatMet>0</biostatMet>
+        <biostatArc>2</biostatArc>
+    </GeneDef>
+
+</Defs>
