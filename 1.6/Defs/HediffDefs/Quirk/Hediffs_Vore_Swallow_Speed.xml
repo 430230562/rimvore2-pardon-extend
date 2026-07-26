@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Swallowing Speed Quirk Hediffs -->
+<Defs>
+
+<HediffDef ParentName="RV2_VoreEnabledPart_Base" MayRequire="nabber.rimvore2">
+        <defName>RV2_Hediff_QuirkForce_Cheat_InstantSwallow</defName>
+        <label>Instant Swallow</label>
+        <description>[PAWN_label] inhales prey like [PAWN_pronoun]'s drowning and the prey are air.</description>
+        <comps>
+            <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+                <quirks>
+                    <li>Cheat_InstantSwallow</li>
+                </quirks>
+            </li>
+        </comps>
+    </HediffDef>
+
+</Defs>
