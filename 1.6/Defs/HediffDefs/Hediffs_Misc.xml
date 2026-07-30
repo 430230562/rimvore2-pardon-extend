@@ -79,6 +79,7 @@
         <isBad>false</isBad>
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
+        <chronic>false</chronic>
         <comps>
             <li Class="PRV2E.HediffCompProperties_Regression">
                 <RegressionStrength>30</RegressionStrength>
@@ -105,6 +106,7 @@
         <isBad>false</isBad>
         <tendable>false</tendable>
         <priceImpact>false</priceImpact>
+        <chronic>false</chronic>
         <comps>
             <li Class="PRV2E.HediffCompProperties_Regression">
                 <RegressionStrength>30</RegressionStrength>

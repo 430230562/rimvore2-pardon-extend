@@ -76,21 +76,7 @@
     </Operation>
 
     <Operation Class='PatchOperationAdd'>
-        <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Store"]/onCycle/rollPresets</xpath>
-        <value>
-            <li>AddRegressionHediff</li>
-        </value>
-    </Operation>
-
-    <Operation Class='PatchOperationAdd'>
-        <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Pleasure"]/onCycle/rollPresets</xpath>
-        <value>
-            <li>AddRegressionHediff</li>
-        </value>
-    </Operation>
-
-    <Operation Class='PatchOperationAdd'>
-        <xpath>/Defs/RimVore2.VoreStageDef[@Name="Womb_Heal"]/onCycle/rollPresets</xpath>
+        <xpath>/Defs/RimVore2.VoreStageDef[@ParentName="Womb_Base" and not(@Name="Womb_Reform")]/onCycle/rollPresets</xpath>
         <value>
             <li>AddRegressionHediff</li>
         </value>

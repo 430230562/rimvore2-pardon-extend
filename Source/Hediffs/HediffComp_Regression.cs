@@ -43,11 +43,12 @@ namespace PRV2E
                     
                     Pawn.ageTracker.AgeBiologicalTicks = (long)Math.Max(Pawn.ageTracker.AgeBiologicalTicks - RegressionSpeed * 60, 0);
 
-                    foreach (Hediff hediff in Pawn.health.hediffSet.hediffs.Where((Hediff diff) => diff.def.chronic))
+                    foreach (Hediff hediff in Pawn.health.hediffSet.hediffs.Where((Hediff diff) => diff.def.chronic && diff != this.parent && diff.def != RV2_Common.VoredHediff))
                     {
                         if (Rand.Chance(0.0005f * mul - 0.5f))
                         {
                             Pawn.health.RemoveHediff(Pawn.health.hediffSet.GetFirstHediffOfDef(hediff.def, false));
+
                             mul = 0;
                         }
                         else if (hediff.TryGetComp<HediffComp_SeverityPerDay>() != null)
@@ -66,7 +67,7 @@ namespace PRV2E
             }
             else
             {
-                AgingSpeed = 1;
+                AgingSpeed = 0;
             }
         }
         public override string CompTipStringExtra => string.Concat("AgingSpeed".Translate() + ": x " + AgingSpeed);
