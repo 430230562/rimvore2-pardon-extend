@@ -8,7 +8,7 @@ English version: [README.md](README.md)
 
 ## 🔥 主要内容
 
-> 吞噬基因已经拆分至另一个submod —— **RimVore2 more genes (RV2MG)**，请前往 [RV2MG](https://github.com/430230562/RV2-more-genes) 下载。
+> 吞噬基因已经拆分至另一个submod —— **RimVore2 more genes (RV2MG)**，请前往 [RV2MG](https://github.com/430230562/RV2-moreGenes) 下载。
 
 - 增加了一些**新的Quirk**,包括**预热速度**和**吸收速度**。
 - 更改了**转化产物的营养值**，并使其可以进一步加工为**食品**，或者**中性胺,合成纤维**。
