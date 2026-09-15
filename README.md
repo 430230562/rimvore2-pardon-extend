@@ -8,7 +8,7 @@ This is a **submod** for **RimVore2** — **RimVore2 pardon's Extend (PRV2E)** r
 
 ## 🔥 Main Features
 
-> vore genes has been moved to another independent submod —— [RimVore2 more genes (RV2MG)](https://github.com/430230562/RV2-more-genes).
+> vore genes has been moved to another independent submod —— [RimVore2 more genes (RV2MG)](https://github.com/430230562/RV2-moreGenes).
 
 - Added some new **Quirks**, including Preheating Speed and Absorption Speed.
 - Changed the **nutrition value of conversion products** and allowed them to be further processed into **food**, or **neutral amine, synthetic fibers**.
