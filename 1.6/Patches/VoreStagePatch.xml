@@ -239,4 +239,27 @@
         <value>PRV2E.StagePassCondition_Warmup_Hediffs</value>
     </Operation>
 
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Ludeon.RimWorld.Ideology</li>
+        </mods>
+        <match Class="PatchOperationAttributeSet">
+            <xpath>
+                /Defs/RitualBehaviorDef[defName="RV2_ConsumptionRitual"]/stages/li/failTriggers/li[@Class="RimVore2.StageFailTrigger_PawnNotVored"]</xpath>
+            <attribute>Class</attribute>
+            <value>PRV2E.StageFailTrigger_PawnNotVored</value>
+        </match>
+    </Operation>
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Ludeon.RimWorld.Ideology</li>
+        </mods>
+        <match Class="PatchOperationAttributeSet">
+            <xpath>
+                /Defs/RitualBehaviorDef[defName="RV2_ConsumptionSacrifice"]/stages/li/failTriggers/li[@Class="RimVore2.StageFailTrigger_PawnNotVored"]</xpath>
+            <attribute>Class</attribute>
+            <value>PRV2E.StageFailTrigger_PawnNotVored</value>
+        </match>
+    </Operation>
+
 </Patch>
