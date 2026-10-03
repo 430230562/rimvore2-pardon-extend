@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Silk gland: goal enabler quirk, acquired through the implant. It is appended to the
+       main mod's Enablers_Goals_Core pool by a patch (see Patches/SilkGlandPatch.xml). -->
+  <RimVore2.QuirkDef>
+    <defName>Enablers_Core_Goal_ConvertSilk</defName>
+    <label>Silk-spinning enzymes</label>
+    <description>[PAWN_label] can break live prey down into living silk within [PAWN_possessive]
+      stomach.</description>
+    <rarity>ForcedOnly</rarity>
+    <comps>
+      <li Class="RimVore2.QuirkComp_VoreEnabler">
+        <selector>
+          <voreGoal>ConvertSilk</voreGoal>
+        </selector>
+      </li>
+    </comps>
+  </RimVore2.QuirkDef>
+</Defs>

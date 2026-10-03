@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: (Sericify) Oral -->
+  <OralConvertSilk.label>(丝化)口腔</OralConvertSilk.label>
+  <!-- EN: Oral sericification is where the predator swallows the prey into their stomach and breaks
+  them down into living silk, which is later regurgitated as a cocoon. This does not feed the
+  predator. -->
+  <OralConvertSilk.description>捕食者将猎物吞入胃中分解为生丝，最后以丝茧形式吐出。此过程不满足捕食者饥饿需求。</OralConvertSilk.description>
+  <!-- EN: {PREDATOR} will spin {PREY} into living silk -->
+  <OralConvertSilk.actionDescription>{PREDATOR}正试图将{PREY}转化为生丝</OralConvertSilk.actionDescription>
+  <!-- EN: Oral vore -->
+  <OralConvertSilk.RMBLabel>口腔吞噬(丝化)</OralConvertSilk.RMBLabel>
+
+  <!-- EN: (Sericify) Nipple -->
+  <NippleConvertSilk.label>(丝化)乳首</NippleConvertSilk.label>
+  <!-- EN: Nipple sericification is where the predator draws the prey in through their nipple and
+  into their breasts, breaking them down into living silk which is later ejected as a cocoon. This
+  does
+  not feed the predator. -->
+  <NippleConvertSilk.description>捕食者将猎物自乳首吸入乳房中分解为生丝，最后以丝茧形式排出。此过程不满足捕食者饥饿需求。</NippleConvertSilk.description>
+  <!-- EN: {PREDATOR} will spin {PREY} into living silk within their breasts -->
+  <NippleConvertSilk.actionDescription>{PREDATOR}正试图在乳房中将{PREY}纺成生丝</NippleConvertSilk.actionDescription>
+  <!-- EN: Nipple vore -->
+  <NippleConvertSilk.RMBLabel>乳首吞噬(丝化)</NippleConvertSilk.RMBLabel>
+
+</LanguageData>

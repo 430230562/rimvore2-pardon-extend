@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: silk gland implant -->
+  <RV2_GoalEnabler_ConvertSilk.label>绢丝腺</RV2_GoalEnabler_ConvertSilk.label>
+  <!-- EN: A bionic silk gland that can be installed into the abdomen or the chest. Whichever it is
+  grafted into, it lets a predator spin live prey down into living silk, which can be woven into
+  clothing. -->
+  <RV2_GoalEnabler_ConvertSilk.description>可植入腹部或胸部的仿生绢丝腺。无论植入何处，都能使捕食者将存活猎物纺成生丝，生丝可用于缝制衣物。</RV2_GoalEnabler_ConvertSilk.description>
+
+  <!-- EN: living silk -->
+  <RV2_Resource_Silk.label>生丝</RV2_Resource_Silk.label>
+  <!-- EN: A pale, glossy fiber spun from the dissolved remains of a living being.\nIt is light,
+  incredibly strong for its weight, and insulates well, making it excellent cloth. -->
+  <RV2_Resource_Silk.description>从溶解后的猎物残骸中纺出的淡色光泽纤维。\n轻盈坚韧、保暖性佳，是极佳的织物原料。</RV2_Resource_Silk.description>
+
+  <!-- EN: Silk cocoon -->
+  <RV2_Container_SilkCocoon.label>丝茧</RV2_Container_SilkCocoon.label>
+  <!-- EN: A glistening cocoon of living silk, spun around the undigested belongings of what used to
+  be
+  a living being. -->
+  <RV2_Container_SilkCocoon.description>一个晶莹的生丝茧，包裹着猎物未被消化的随身物品。</RV2_Container_SilkCocoon.description>
+
+</LanguageData>

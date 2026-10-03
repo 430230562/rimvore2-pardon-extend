@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef ParentName="RV2_InstallVoreEnabler_Base">
+    <defName>RV2_InstallGoalEnabler_ConvertSilk</defName>
+    <label>Install silk gland (abdomen)</label>
+    <description>Install a bionic silk gland into the stomach, allowing the pawn to convert prey
+      into living silk through oral sericification.</description>
+    <descriptionHyperlinks>
+      <ThingDef>RV2_GoalEnabler_ConvertSilk</ThingDef>
+      <HediffDef>RV2_GoalEnabler_ConvertSilk</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing silk gland.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RV2_GoalEnabler_ConvertSilk</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RV2_GoalEnabler_ConvertSilk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Stomach</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>RV2_GoalEnabler_ConvertSilk</addsHediff>
+  </RecipeDef>
+
+  <!-- Chest variant: same implant item, different surgery and hediff, unlocks the nipple silk path -->
+  <RecipeDef ParentName="RV2_InstallVoreEnabler_Base">
+    <defName>RV2_InstallGoalEnabler_ConvertSilkChest</defName>
+    <label>Install silk gland (chest)</label>
+    <description>Install a bionic silk gland into the chest, allowing the pawn to convert prey into
+      living silk through nipple sericification.</description>
+    <descriptionHyperlinks>
+      <ThingDef>RV2_GoalEnabler_ConvertSilk</ThingDef>
+      <HediffDef>RV2_GoalEnabler_ConvertSilkChest</HediffDef>
+    </descriptionHyperlinks>
+    <jobString>Installing thoracic silk gland.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>RV2_GoalEnabler_ConvertSilk</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>RV2_GoalEnabler_ConvertSilk</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Chest</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>RV2_GoalEnabler_ConvertSilkChest</addsHediff>
+  </RecipeDef>
+</Defs>

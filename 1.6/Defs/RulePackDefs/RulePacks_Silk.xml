@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>RV2_Goal_ConvertSilk</defName>
+    <include>
+      <li>RV2_Goal_Fatal</li>
+      <li>RV2_Goal_Convert</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>extraSentencePack->[RECIPIENT_nameDef] for [RV2_goalFinish_noun].</li>
+        <!-- RV2_goalProduct (convert) -->
+        <li>RV2_goalProduct->silk</li>
+        <li>RV2_goalProduct->living silk</li>
+        <li>RV2_goalProduct->spools of silk</li>
+        <!-- RV2_adverb -->
+        <li>RV2_adverb->patiently</li>
+        <li>RV2_adverb->lovingly</li>
+        <!-- RV2_adjective -->
+        <li>RV2_adjective->silky</li>
+        <!-- RV2_addendum -->
+        <li>RV2_addendum->to spin [PREY_definite] into silk</li>
+        <li>RV2_addendum->to wind [PREY_definite] into thread</li>
+        <!-- RV2_goalFinish_verb -->
+        <li>RV2_goalFinish_verb->spinning</li>
+        <!-- RV2_goalFinish_noun -->
+        <li>RV2_goalFinish_noun->sericification</li>
+        <!-- RV2_goalFinish_tale_noun -->
+        <li>RV2_goalFinish_tale_noun->[PREDATOR_definite] winding [PREY_definite] into silk</li>
+        <!-- RV2_goalFinish_image -->
+        <li>RV2_goalFinish_image->[PREY_definite] as a neat spool of [RV2_goalProduct]</li>
+        <li>RV2_goalFinish_image->a cocoon of [RV2_goalProduct] spun from [PREY_definite]</li>
+        <!-- RV2_goalFinish_desc_sentence -->
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

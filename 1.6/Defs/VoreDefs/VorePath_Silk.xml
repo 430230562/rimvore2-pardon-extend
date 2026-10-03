@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RimVore2.VorePathDef>
+    <defName>OralConvertSilk</defName>
+    <label>(Sericify) Oral</label>
+    <RMBLabel>Oral vore</RMBLabel>
+    <actionDescription>{PREDATOR} will spin {PREY} into living silk</actionDescription>
+    <description>Oral sericification is where the predator swallows the prey into their stomach and
+      breaks them down into living silk, which is later regurgitated as a cocoon. This does not feed
+      the predator.</description>
+    <initTale>RV2_VoreInitiation_OralConvertSilk</initTale>
+    <exitTale>RV2_VoreExit_OralConvertSilk</exitTale>
+    <voreGoal>ConvertSilk</voreGoal>
+    <voreType>Oral</voreType>
+    <voreProduct>
+      <destroyPrey>true</destroyPrey>
+      <selectableContainers>
+        <li>RV2_Container_SilkCocoon</li>
+        <li>RV2_Container_Sack</li>
+        <li>RV2_Container_None</li>
+      </selectableContainers>
+    </voreProduct>
+    <postVoreMemories>
+      <predatorPostVoreSuccess>RV2_PredatorOralConvertSilkSuccess</predatorPostVoreSuccess>
+      <predatorPostVoreInterrupted>RV2_PredatorOralConvertSilkInterrupted</predatorPostVoreInterrupted>
+      <preyPostVoreInterrupted>RV2_PreyOralConvertSilkInterrupted</preyPostVoreInterrupted>
+    </postVoreMemories>
+    <stages>
+      <li>Mouth_Enter</li>
+      <li>Stomach_Warmup</li>
+      <li>Stomach_DissolveSilk</li>
+      <li>Stomach_MushSilk</li>
+      <li>Stomach_Sericify</li>
+      <li>Mouth_Regurgitate</li>
+    </stages>
+    <defaultRequiredStruggles>60</defaultRequiredStruggles>
+  </RimVore2.VorePathDef>
+
+  <!-- Chest variant: only available when the silk gland is installed in the chest -->
+  <RimVore2.VorePathDef>
+    <defName>NippleConvertSilk</defName>
+    <label>(Sericify) Nipple</label>
+    <RMBLabel>Nipple vore</RMBLabel>
+    <actionDescription>{PREDATOR} will spin {PREY} into living silk within their breasts</actionDescription>
+    <description>Nipple sericification is where the predator draws the prey in through their nipple
+      and into their breasts, breaking them down into living silk which is later ejected as a
+      cocoon.
+      This does not feed the predator.</description>
+    <initTale>RV2_VoreInitiation_NippleConvertSilk</initTale>
+    <exitTale>RV2_VoreExit_NippleConvertSilk</exitTale>
+    <voreGoal>ConvertSilk</voreGoal>
+    <voreType>Nipple</voreType>
+    <voreProduct>
+      <destroyPrey>true</destroyPrey>
+      <selectableContainers>
+        <li>RV2_Container_SilkCocoon</li>
+        <li>RV2_Container_Sack</li>
+        <li>RV2_Container_None</li>
+      </selectableContainers>
+    </voreProduct>
+    <postVoreMemories>
+      <predatorPostVoreSuccess>RV2_PredatorNippleConvertSilkSuccess</predatorPostVoreSuccess>
+      <predatorPostVoreInterrupted>RV2_PredatorNippleConvertSilkInterrupted</predatorPostVoreInterrupted>
+      <preyPostVoreInterrupted>RV2_PreyNippleConvertSilkInterrupted</preyPostVoreInterrupted>
+    </postVoreMemories>
+    <stages>
+      <li>Nipple_Enter</li>
+      <li>Breasts_Warmup</li>
+      <li>Breasts_DissolveSilk</li>
+      <li>Breasts_MushSilk</li>
+      <li>Breasts_ConvertSilk</li>
+      <li>Nipple_Dump</li>
+    </stages>
+    <defaultRequiredStruggles>60</defaultRequiredStruggles>
+  </RimVore2.VorePathDef>
+</Defs>

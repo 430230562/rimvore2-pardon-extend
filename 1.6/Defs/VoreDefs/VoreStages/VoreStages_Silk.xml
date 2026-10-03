@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--
+    Silk gland vore stages.
+    Each stage requires the silk gland hediff to be installed on the matching body part, so the
+    abdominal gland only unlocks the oral path and the thoracic gland only unlocks the nipple path.
+    The hediff is matched by the "ConvertSilk" substring in its defName, scoped to a body part.
+  -->
+
+  <!-- ===== Abdominal (oral path) ===== -->
+
+  <RimVore2.VoreStageDef ParentName="Stomach_Base">
+    <defName>Stomach_DissolveSilk</defName>
+    <partGoal>Dissolve</partGoal>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInStomachDissolvingSilk</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInStomachDissolvingSilk</predatorThoughtDef>
+    <jumpKey>Stomach</jumpKey>
+    <requirements Inherit="False">
+      <li>
+        <target>Predator</target>
+        <requirements>
+          <li Class="RimVore2.Requirement_BodyPartAlias">
+            <bodyPartAlias>stomach</bodyPartAlias>
+          </li>
+          <li Class="RimVore2.Requirement_HediffAlias">
+            <bodyPartAlias>stomach</bodyPartAlias>
+            <hediffAlias>ConvertSilk</hediffAlias>
+          </li>
+        </requirements>
+      </li>
+    </requirements>
+    <onStart>
+      <actions>
+        <li Class="RimVore2.RollAction_PassValue_Set">
+          <name>DigestionProgress</name>
+          <type>DigestionProgress</type>
+        </li>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_BubbleDigest</mote>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Mote_BubbleDigest</li>
+        <li>Sound_Gurgle_Chance_5</li>
+        <li>IncreaseDigestionProgress</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_PlaySound">
+          <sound>RV2_Belch</sound>
+        </li>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_Skull</mote>
+        </li>
+        <li Class="RimVore2.RollAction_Digest">
+          <damageDef>RV2_SilkConversionEnzymes</damageDef>
+        </li>
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_PassValue">
+        <passValueName>DigestionProgress</passValueName>
+        <targetValue>1</targetValue>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <RimVore2.VoreStageDef ParentName="Stomach_Base">
+    <defName>Stomach_MushSilk</defName>
+    <partGoal>Mush</partGoal>
+    <canReverseDirection>false</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInStomachMushingSilk</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInStomachMushingSilk</predatorThoughtDef>
+    <requirements Inherit="False">
+      <li>
+        <target>Predator</target>
+        <requirements>
+          <li Class="RimVore2.Requirement_BodyPartAlias">
+            <bodyPartAlias>stomach</bodyPartAlias>
+          </li>
+          <li Class="RimVore2.Requirement_HediffAlias">
+            <bodyPartAlias>stomach</bodyPartAlias>
+            <hediffAlias>ConvertSilk</hediffAlias>
+          </li>
+        </requirements>
+      </li>
+    </requirements>
+    <onStart>
+      <actions>
+        <li Class="RimVore2.RollAction_PassValue_Set">
+          <name>BreakDownProgress</name>
+          <value>0</value>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Mote_BubbleDigest</li>
+        <li>Sound_Gurgle_Chance_5</li>
+        <li>IncreaseBreakDownProgress</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_BubblesDigest</mote>
+        </li>
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_PassValue">
+        <passValueName>BreakDownProgress</passValueName>
+        <targetValue>1</targetValue>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <RimVore2.VoreStageDef ParentName="Stomach_Base">
+    <defName>Stomach_Sericify</defName>
+    <partGoal>Sericify</partGoal>
+    <canReverseDirection>false</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInStomachSericifying</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInStomachSericifying</predatorThoughtDef>
+    <requirements Inherit="False">
+      <li>
+        <target>Predator</target>
+        <requirements>
+          <li Class="RimVore2.Requirement_BodyPartAlias">
+            <bodyPartAlias>stomach</bodyPartAlias>
+          </li>
+          <li Class="RimVore2.Requirement_HediffAlias">
+            <bodyPartAlias>stomach</bodyPartAlias>
+            <hediffAlias>ConvertSilk</hediffAlias>
+          </li>
+        </requirements>
+      </li>
+    </requirements>
+    <onStart>
+      <actions>
+        <li Class="RimVore2.RollAction_PassValue_Set">
+          <name>PreyNutrition</name>
+          <type>PreyNutrition</type>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Sound_Churn_Chance_5</li>
+        <li>Mote_BubbleDigest</li>
+        <li>ConvertNutritionToSilk</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_BubblesDigest</mote>
+        </li>
+        <li Class="RimVore2.RollAction_PlaySound">
+          <sound>RV2_Moan</sound>
+        </li>
+        <li class="RimVore2.RollAction_RecordTale_GoalFinish"/>
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_PassValue">
+        <passValueName>PreyNutrition</passValueName>
+        <targetValue>0</targetValue>
+        <decreasing>true</decreasing>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <!-- ===== Thoracic (nipple path) ===== -->
+
+  <RimVore2.VoreStageDef ParentName="Breasts_Base">
+    <defName>Breasts_DissolveSilk</defName>
+    <partGoal>Dissolve</partGoal>
+    <canReverseDirection>true</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInBreastsDissolvingSilk</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInBreastsDissolvingSilk</predatorThoughtDef>
+    <jumpKey>Breasts</jumpKey>
+    <requirements Inherit="False">
+      <li>
+        <target>Predator</target>
+        <requirements>
+          <li Class="RimVore2.Requirement_HediffAlias">
+            <bodyPartAlias>chest</bodyPartAlias>
+            <hediffAlias>breasts</hediffAlias>
+            <minSeverity>0.02</minSeverity>
+          </li>
+          <li Class="RimVore2.Requirement_HediffAlias">
+            <bodyPartAlias>chest</bodyPartAlias>
+            <hediffAlias>ConvertSilk</hediffAlias>
+          </li>
+        </requirements>
+      </li>
+    </requirements>
+    <onStart>
+      <actions>
+        <li Class="RimVore2.RollAction_PassValue_Set">
+          <name>DigestionProgress</name>
+          <type>DigestionProgress</type>
+        </li>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_BubbleDigest</mote>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Mote_BubbleDigest</li>
+        <li>Sound_Gurgle_Chance_5</li>
+        <li>IncreaseDigestionProgress</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_Skull</mote>
+        </li>
+        <li Class="RimVore2.RollAction_Digest">
+          <damageDef>RV2_SilkConversionEnzymes</damageDef>
+        </li>
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_PassValue">
+        <passValueName>DigestionProgress</passValueName>
+        <targetValue>1</targetValue>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <RimVore2.VoreStageDef ParentName="Breasts_Base">
+    <defName>Breasts_MushSilk</defName>
+    <partGoal>Mush</partGoal>
+    <canReverseDirection>false</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInBreastsMushingSilk</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInBreastsMushingSilk</predatorThoughtDef>
+    <requirements Inherit="False">
+      <li>
+        <target>Predator</target>
+        <requirements>
+          <li Class="RimVore2.Requirement_HediffAlias">
+            <bodyPartAlias>chest</bodyPartAlias>
+            <hediffAlias>breasts</hediffAlias>
+            <minSeverity>0.02</minSeverity>
+          </li>
+          <li Class="RimVore2.Requirement_HediffAlias">
+            <bodyPartAlias>chest</bodyPartAlias>
+            <hediffAlias>ConvertSilk</hediffAlias>
+          </li>
+        </requirements>
+      </li>
+    </requirements>
+    <onStart>
+      <actions>
+        <li class="RimVore2.RollAction_PassValue_Set">
+          <name>BreakDownProgress</name>
+          <value>0</value>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Mote_BubbleDigest</li>
+        <li>Sound_Gurgle_Chance_5</li>
+        <li>IncreaseBreakDownProgress</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li Class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_BubblesDigest</mote>
+        </li>
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_PassValue">
+        <passValueName>BreakDownProgress</passValueName>
+        <targetValue>1</targetValue>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+
+  <RimVore2.VoreStageDef ParentName="Breasts_Base">
+    <defName>Breasts_ConvertSilk</defName>
+    <partGoal>Sericify</partGoal>
+    <canReverseDirection>false</canReverseDirection>
+    <predatorHediffDef>RV2_PreyInBreastsSericifying</predatorHediffDef>
+    <predatorThoughtDef>RV2_PreyInBreastsSericifying</predatorThoughtDef>
+    <requirements Inherit="False">
+      <li>
+        <target>Predator</target>
+        <requirements>
+          <li Class="RimVore2.Requirement_HediffAlias">
+            <bodyPartAlias>chest</bodyPartAlias>
+            <hediffAlias>breasts</hediffAlias>
+            <minSeverity>0.02</minSeverity>
+          </li>
+          <li Class="RimVore2.Requirement_HediffAlias">
+            <bodyPartAlias>chest</bodyPartAlias>
+            <hediffAlias>ConvertSilk</hediffAlias>
+          </li>
+        </requirements>
+      </li>
+    </requirements>
+    <onStart>
+      <actions>
+        <li class="RimVore2.RollAction_PassValue_Set">
+          <name>PreyNutrition</name>
+          <type>PreyNutrition</type>
+        </li>
+      </actions>
+    </onStart>
+    <onCycle>
+      <rollPresets>
+        <li>Sound_Churn_Chance_5</li>
+        <li>Mote_BubbleDigest</li>
+        <li>ConvertNutritionToSilk</li>
+      </rollPresets>
+    </onCycle>
+    <onEnd>
+      <actions>
+        <li class="RimVore2.RollAction_ShowMote">
+          <mote>RV2_Mote_BubblesDigest</mote>
+        </li>
+        <li Class="RimVore2.RollAction_PlaySound">
+          <sound>RV2_Moan</sound>
+        </li>
+        <li class="RimVore2.RollAction_RecordTale_GoalFinish"/>
+      </actions>
+    </onEnd>
+    <passConditions>
+      <li Class="RimVore2.StagePassCondition_PassValue">
+        <passValueName>PreyNutrition</passValueName>
+        <targetValue>0</targetValue>
+        <decreasing>true</decreasing>
+      </li>
+    </passConditions>
+  </RimVore2.VoreStageDef>
+</Defs>

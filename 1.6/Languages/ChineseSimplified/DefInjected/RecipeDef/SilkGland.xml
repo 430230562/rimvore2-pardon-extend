@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Install silk gland (abdomen) -->
+  <RV2_InstallGoalEnabler_ConvertSilk.label>安装绢丝腺（腹部）</RV2_InstallGoalEnabler_ConvertSilk.label>
+  <!-- EN: Install a bionic silk gland into the stomach, allowing the pawn to convert prey into
+  living silk through oral sericification. -->
+  <RV2_InstallGoalEnabler_ConvertSilk.description>将仿生绢丝腺植入胃部，使角色能够通过口腔丝化将猎物转化为生丝。</RV2_InstallGoalEnabler_ConvertSilk.description>
+  <!-- EN: Installing silk gland. -->
+  <RV2_InstallGoalEnabler_ConvertSilk.jobString>正在安装绢丝腺。</RV2_InstallGoalEnabler_ConvertSilk.jobString>
+
+  <!-- EN: Install silk gland (chest) -->
+  <RV2_InstallGoalEnabler_ConvertSilkChest.label>安装绢丝腺（胸部）</RV2_InstallGoalEnabler_ConvertSilkChest.label>
+  <!-- EN: Install a bionic silk gland into the chest, allowing the pawn to convert prey into raw
+  silk through nipple sericification. -->
+  <RV2_InstallGoalEnabler_ConvertSilkChest.description>将仿生绢丝腺植入胸部，使角色能够通过乳首丝化将猎物转化为生丝。</RV2_InstallGoalEnabler_ConvertSilkChest.description>
+  <!-- EN: Installing thoracic silk gland. -->
+  <RV2_InstallGoalEnabler_ConvertSilkChest.jobString>正在安装胸部绢丝腺。</RV2_InstallGoalEnabler_ConvertSilkChest.jobString>
+
+</LanguageData>

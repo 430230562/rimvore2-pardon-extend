@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef ParentName="RV2_Acid_Base">
+    <defName>RV2_SilkConversionEnzymes</defName>
+    <label>Damage caused by sericification.</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <makesBlood>false</makesBlood>
+    <deathMessage>{0} has been spun into silk.</deathMessage>
+    <hediff>RV2_SilkConversionEnzymes</hediff>
+    <defaultDamage>50</defaultDamage>
+    <defaultArmorPenetration>1.5</defaultArmorPenetration>
+  </DamageDef>
+</Defs>

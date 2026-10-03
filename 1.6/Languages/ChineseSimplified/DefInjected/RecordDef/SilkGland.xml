@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Vore: Sericify Predator -->
+  <RV2_Goal_ConvertSilk_Predator.label>吞噬记录：捕食者(丝化)</RV2_Goal_ConvertSilk_Predator.label>
+  <!-- EN: The number of times I have converted someone into living silk. -->
+  <RV2_Goal_ConvertSilk_Predator.description>将猎物转化为生丝的次数。</RV2_Goal_ConvertSilk_Predator.description>
+
+  <!-- EN: Vore: Sericify Prey -->
+  <RV2_Goal_ConvertSilk_Prey.label>吞噬记录：猎物(丝化)</RV2_Goal_ConvertSilk_Prey.label>
+  <!-- EN: The number of times I have been converted into living silk. -->
+  <RV2_Goal_ConvertSilk_Prey.description>被转化为生丝的次数。</RV2_Goal_ConvertSilk_Prey.description>
+
+</LanguageData>

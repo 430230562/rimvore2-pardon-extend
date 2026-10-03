@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TaleDef ParentName="RV2_GoalFinish_Base">
+    <defName>RV2_GoalFinish_ConvertSilk</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_ConvertSilk</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_OralConvertSilk</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_ConvertSilk</li>
+        <li>RV2_Type_Oral</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreExit_Base">
+    <defName>RV2_VoreExit_OralConvertSilk</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_ConvertSilk</li>
+        <li>RV2_Type_Oral</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreInitiation_Base">
+    <defName>RV2_VoreInitiation_NippleConvertSilk</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_ConvertSilk</li>
+        <li>RV2_Type_Nipple</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+
+  <TaleDef ParentName="RV2_VoreExit_Base">
+    <defName>RV2_VoreExit_NippleConvertSilk</defName>
+    <rulePack>
+      <include>
+        <li>RV2_Goal_ConvertSilk</li>
+        <li>RV2_Type_Nipple</li>
+      </include>
+    </rulePack>
+  </TaleDef>
+</Defs>

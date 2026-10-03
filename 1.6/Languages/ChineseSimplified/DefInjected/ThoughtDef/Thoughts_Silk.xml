@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- ===== Situation thoughts ===== -->
+
+  <!-- EN: Dissolving prey for silk -->
+  <RV2_PreyInStomachDissolvingSilk.stages.Dissolving_prey_for_silk.label>为纺丝而分解猎物</RV2_PreyInStomachDissolvingSilk.stages.Dissolving_prey_for_silk.label>
+  <!-- EN: Soaking them in silk enzymes before the spinning begins... -->
+  <RV2_PreyInStomachDissolvingSilk.stages.Dissolving_prey_for_silk.description>在纺丝开始前，先把它们泡进丝化酶里……</RV2_PreyInStomachDissolvingSilk.stages.Dissolving_prey_for_silk.description>
+  <!-- EN: Dissolving two prey for silk -->
+  <RV2_PreyInStomachDissolvingSilk.stages.Dissolving_two_prey_for_silk.label>为纺丝而分解两只猎物</RV2_PreyInStomachDissolvingSilk.stages.Dissolving_two_prey_for_silk.label>
+  <RV2_PreyInStomachDissolvingSilk.stages.Dissolving_two_prey_for_silk.description>原料充足，够纺好一阵子了！</RV2_PreyInStomachDissolvingSilk.stages.Dissolving_two_prey_for_silk.description>
+  <!-- EN: Dissolving three prey for silk -->
+  <RV2_PreyInStomachDissolvingSilk.stages.Dissolving_three_prey_for_silk.label>为纺丝而分解三只猎物</RV2_PreyInStomachDissolvingSilk.stages.Dissolving_three_prey_for_silk.label>
+  <RV2_PreyInStomachDissolvingSilk.stages.Dissolving_three_prey_for_silk.description>我的胃已经像个小纺纱厂了。</RV2_PreyInStomachDissolvingSilk.stages.Dissolving_three_prey_for_silk.description>
+  <!-- EN: Dissolving several prey for silk -->
+  <RV2_PreyInStomachDissolvingSilk.stages.Dissolving_several_prey_for_silk.label>为纺丝而分解多只猎物</RV2_PreyInStomachDissolvingSilk.stages.Dissolving_several_prey_for_silk.label>
+  <RV2_PreyInStomachDissolvingSilk.stages.Dissolving_several_prey_for_silk.description>丝丝缕缕，皆出自我的腹中！~</RV2_PreyInStomachDissolvingSilk.stages.Dissolving_several_prey_for_silk.description>
+
+  <!-- EN: Pulping prey for silk -->
+  <RV2_PreyInStomachMushingSilk.stages.Pulping_prey_for_silk.label>为纺丝而研磨猎物</RV2_PreyInStomachMushingSilk.stages.Pulping_prey_for_silk.label>
+  <!-- EN: Working them into an even, spinnable pulp... -->
+  <RV2_PreyInStomachMushingSilk.stages.Pulping_prey_for_silk.description>把它们揉成均匀、可纺的浆料……</RV2_PreyInStomachMushingSilk.stages.Pulping_prey_for_silk.description>
+  <!-- EN: Pulping two prey for silk -->
+  <RV2_PreyInStomachMushingSilk.stages.Pulping_two_prey_for_silk.label>为纺丝而研磨两只猎物</RV2_PreyInStomachMushingSilk.stages.Pulping_two_prey_for_silk.label>
+  <RV2_PreyInStomachMushingSilk.stages.Pulping_two_prey_for_silk.description>这种翻搅感竟然莫名地令人满足。</RV2_PreyInStomachMushingSilk.stages.Pulping_two_prey_for_silk.description>
+  <!-- EN: Pulping three prey for silk -->
+  <RV2_PreyInStomachMushingSilk.stages.Pulping_three_prey_for_silk.label>为纺丝而研磨三只猎物</RV2_PreyInStomachMushingSilk.stages.Pulping_three_prey_for_silk.label>
+  <RV2_PreyInStomachMushingSilk.stages.Pulping_three_prey_for_silk.description>我的肠道正为这些纤维加班加点。</RV2_PreyInStomachMushingSilk.stages.Pulping_three_prey_for_silk.description>
+  <!-- EN: Pulping several prey for silk -->
+  <RV2_PreyInStomachMushingSilk.stages.Pulping_several_prey_for_silk.label>为纺丝而研磨多只猎物</RV2_PreyInStomachMushingSilk.stages.Pulping_several_prey_for_silk.label>
+  <RV2_PreyInStomachMushingSilk.stages.Pulping_several_prey_for_silk.description>这么多丝，全来自那些乖乖入口的小家伙！~</RV2_PreyInStomachMushingSilk.stages.Pulping_several_prey_for_silk.description>
+
+  <!-- EN: Spinning prey into silk -->
+  <RV2_PreyInStomachSericifying.stages.Spinning_prey_into_silk.label>将猎物纺成生丝</RV2_PreyInStomachSericifying.stages.Spinning_prey_into_silk.label>
+  <!-- EN: Every last bit of them, wound into silk. -->
+  <RV2_PreyInStomachSericifying.stages.Spinning_prey_into_silk.description>它们的每一寸，都被卷成了丝。</RV2_PreyInStomachSericifying.stages.Spinning_prey_into_silk.description>
+  <!-- EN: Spinning two prey into silk -->
+  <RV2_PreyInStomachSericifying.stages.Spinning_two_prey_into_silk.label>将两只猎物纺成生丝</RV2_PreyInStomachSericifying.stages.Spinning_two_prey_into_silk.label>
+  <RV2_PreyInStomachSericifying.stages.Spinning_two_prey_into_silk.description>已经有两茧的丝线了！</RV2_PreyInStomachSericifying.stages.Spinning_two_prey_into_silk.description>
+  <!-- EN: Spinning three prey into silk -->
+  <RV2_PreyInStomachSericifying.stages.Spinning_three_prey_into_silk.label>将三只猎物纺成生丝</RV2_PreyInStomachSericifying.stages.Spinning_three_prey_into_silk.label>
+  <RV2_PreyInStomachSericifying.stages.Spinning_three_prey_into_silk.description>我腹中的纺机永不停歇。</RV2_PreyInStomachSericifying.stages.Spinning_three_prey_into_silk.description>
+  <!-- EN: Spinning several prey into silk -->
+  <RV2_PreyInStomachSericifying.stages.Spinning_several_prey_into_silk.label>将多只猎物纺成生丝</RV2_PreyInStomachSericifying.stages.Spinning_several_prey_into_silk.label>
+  <RV2_PreyInStomachSericifying.stages.Spinning_several_prey_into_silk.description>以后我再也不用买布料了！~</RV2_PreyInStomachSericifying.stages.Spinning_several_prey_into_silk.description>
+
+  <!-- ===== Post vore memories ===== -->
+
+  <!-- EN: Spun {0} into silk -->
+  <RV2_PredatorOralConvertSilkSuccess.stages.Spun_into_silk.label>将{0}纺成了生丝</RV2_PredatorOralConvertSilkSuccess.stages.Spun_into_silk.label>
+  <!-- EN: I swallowed {1} and let them dissolve, then spun the rest into a lovely skein of silk. -->
+  <RV2_PredatorOralConvertSilkSuccess.stages.Spun_into_silk.description>我吞下{1}，任其溶解，再把剩余纺成一绞漂亮的生丝。</RV2_PredatorOralConvertSilkSuccess.stages.Spun_into_silk.description>
+
+  <!-- EN: Silk spinning of {0} interrupted -->
+  <RV2_PredatorOralConvertSilkInterrupted.stages.Silk_spinning_of_interrupted.label>{0}的丝化被打断</RV2_PredatorOralConvertSilkInterrupted.stages.Silk_spinning_of_interrupted.label>
+  <!-- EN: I tried to spin {1} down into silk, but they struggled free. What a waste of good fiber. -->
+  <RV2_PredatorOralConvertSilkInterrupted.stages.Silk_spinning_of_interrupted.description>我本想将{1}纺成生丝，却让它挣脱了。真是浪费了上好的纤维。</RV2_PredatorOralConvertSilkInterrupted.stages.Silk_spinning_of_interrupted.description>
+
+  <!-- EN: Escaped silk spinning by {0} -->
+  <RV2_PreyOralConvertSilkInterrupted.stages.Escaped_silk_spinning_by.label>从{0}的丝化中逃脱</RV2_PreyOralConvertSilkInterrupted.stages.Escaped_silk_spinning_by.label>
+  <!-- EN: {1} tried to spin me into silk! I am not a spool of thread! -->
+  <RV2_PreyOralConvertSilkInterrupted.stages.Escaped_silk_spinning_by.description>{1}竟想把我纺成生丝！我可不是一卷丝线！</RV2_PreyOralConvertSilkInterrupted.stages.Escaped_silk_spinning_by.description>
+
+  <!-- ===== Wearing silk clothing (scales with vore product preference) ===== -->
+
+  <!-- EN: Adoring this prey-silk outfit -->
+  <RV2_WearingSilkVoreProduct.stages.Adoring_this_preysilk_outfit.label>钟爱这身生丝衣物</RV2_WearingSilkVoreProduct.stages.Adoring_this_preysilk_outfit.label>
+  <!-- EN: Being dressed in something that used to be living prey is simply divine. -->
+  <RV2_WearingSilkVoreProduct.stages.Adoring_this_preysilk_outfit.description>穿着由猎物纺成的衣物，简直是人间至福。</RV2_WearingSilkVoreProduct.stages.Adoring_this_preysilk_outfit.description>
+
+  <!-- EN: Enjoying this prey-silk outfit -->
+  <RV2_WearingSilkVoreProduct.stages.Enjoying_this_preysilk_outfit.label>喜爱这身生丝衣物</RV2_WearingSilkVoreProduct.stages.Enjoying_this_preysilk_outfit.label>
+  <!-- EN: Knowing what this silk was spun from makes it feel that much nicer against my skin. -->
+  <RV2_WearingSilkVoreProduct.stages.Enjoying_this_preysilk_outfit.description>一想到这生丝的来历，贴身穿起来就更舒服了。</RV2_WearingSilkVoreProduct.stages.Enjoying_this_preysilk_outfit.description>
+
+  <!-- EN: Wearing a prey-silk outfit -->
+  <RV2_WearingSilkVoreProduct.stages.Wearing_a_preysilk_outfit.label>穿着生丝衣物</RV2_WearingSilkVoreProduct.stages.Wearing_a_preysilk_outfit.label>
+  <!-- EN: Just clothes, nothing more. -->
+  <RV2_WearingSilkVoreProduct.stages.Wearing_a_preysilk_outfit.description>不过是件衣服罢了。</RV2_WearingSilkVoreProduct.stages.Wearing_a_preysilk_outfit.description>
+
+  <!-- EN: Uneasy in this prey-silk outfit -->
+  <RV2_WearingSilkVoreProduct.stages.Uneasy_in_this_preysilk_outfit.label>穿着生丝衣物感到不适</RV2_WearingSilkVoreProduct.stages.Uneasy_in_this_preysilk_outfit.label>
+  <!-- EN: I would rather not think about what this fabric is made of. -->
+  <RV2_WearingSilkVoreProduct.stages.Uneasy_in_this_preysilk_outfit.description>我不愿去想这布料到底是什么做的。</RV2_WearingSilkVoreProduct.stages.Uneasy_in_this_preysilk_outfit.description>
+
+  <!-- EN: Disgusted by this prey-silk outfit -->
+  <RV2_WearingSilkVoreProduct.stages.Disgusted_by_this_preysilk_outfit.label>厌恶这身生丝衣物</RV2_WearingSilkVoreProduct.stages.Disgusted_by_this_preysilk_outfit.label>
+  <!-- EN: Wearing the churned remains of another person is utterly revolting. I want this off me. -->
+  <RV2_WearingSilkVoreProduct.stages.Disgusted_by_this_preysilk_outfit.description>身上穿着由他人转化而成的布料，实在令人作呕。我只想立刻脱掉它。</RV2_WearingSilkVoreProduct.stages.Disgusted_by_this_preysilk_outfit.description>
+
+  <!-- ===== Chest variant situation thoughts ===== -->
+
+  <!-- EN: Dissolving prey in breasts for silk -->
+  <RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_prey_in_breasts_for_silk.label>在乳房中为纺丝而分解猎物</RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_prey_in_breasts_for_silk.label>
+  <!-- EN: Soaking them in silk enzymes within my chest before the spinning begins... -->
+  <RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_prey_in_breasts_for_silk.description>在纺丝开始前，先把它们泡进胸中的丝化酶里……</RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_prey_in_breasts_for_silk.description>
+  <!-- EN: Dissolving two prey in breasts for silk -->
+  <RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_two_prey_in_breasts_for_silk.label>在乳房中为纺丝而分解两只猎物</RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_two_prey_in_breasts_for_silk.label>
+  <!-- EN: My chest is warm and busy with raw material! -->
+  <RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_two_prey_in_breasts_for_silk.description>我的胸口暖暖的，满满都是原料！</RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_two_prey_in_breasts_for_silk.description>
+  <!-- EN: Dissolving three prey in breasts for silk -->
+  <RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_three_prey_in_breasts_for_silk.label>在乳房中为纺丝而分解三只猎物</RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_three_prey_in_breasts_for_silk.label>
+  <!-- EN: So much churning right against my heart. -->
+  <RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_three_prey_in_breasts_for_silk.description>紧贴着心口翻搅，感觉真强烈。</RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_three_prey_in_breasts_for_silk.description>
+  <!-- EN: Dissolving several prey in breasts for silk -->
+  <RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_several_prey_in_breasts_for_silk.label>在乳房中为纺丝而分解多只猎物</RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_several_prey_in_breasts_for_silk.label>
+  <!-- EN: Thread after thread, all from my bosom!~ -->
+  <RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_several_prey_in_breasts_for_silk.description>丝丝缕缕，皆出自我的胸口！~</RV2_PreyInBreastsDissolvingSilk.stages.Dissolving_several_prey_in_breasts_for_silk.description>
+
+  <!-- EN: Pulping prey in breasts for silk -->
+  <RV2_PreyInBreastsMushingSilk.stages.Pulping_prey_in_breasts_for_silk.label>在乳房中为纺丝而研磨猎物</RV2_PreyInBreastsMushingSilk.stages.Pulping_prey_in_breasts_for_silk.label>
+  <!-- EN: Working them into an even, spinnable pulp against my ribs... -->
+  <RV2_PreyInBreastsMushingSilk.stages.Pulping_prey_in_breasts_for_silk.description>贴着我肋骨把它们揉成均匀、可纺的浆料……</RV2_PreyInBreastsMushingSilk.stages.Pulping_prey_in_breasts_for_silk.description>
+  <!-- EN: Pulping two prey in breasts for silk -->
+  <RV2_PreyInBreastsMushingSilk.stages.Pulping_two_prey_in_breasts_for_silk.label>在乳房中为纺丝而研磨两只猎物</RV2_PreyInBreastsMushingSilk.stages.Pulping_two_prey_in_breasts_for_silk.label>
+  <!-- EN: My breasts feel heavy with the fiber. -->
+  <RV2_PreyInBreastsMushingSilk.stages.Pulping_two_prey_in_breasts_for_silk.description>乳汁之外，还有纤维让我的乳房沉甸甸的。</RV2_PreyInBreastsMushingSilk.stages.Pulping_two_prey_in_breasts_for_silk.description>
+  <!-- EN: Pulping three prey in breasts for silk -->
+  <RV2_PreyInBreastsMushingSilk.stages.Pulping_three_prey_in_breasts_for_silk.label>在乳房中为纺丝而研磨三只猎物</RV2_PreyInBreastsMushingSilk.stages.Pulping_three_prey_in_breasts_for_silk.label>
+  <!-- EN: Every squeeze works the silk a little finer. -->
+  <RV2_PreyInBreastsMushingSilk.stages.Pulping_three_prey_in_breasts_for_silk.description>每一次揉挤，都让丝更细一分。</RV2_PreyInBreastsMushingSilk.stages.Pulping_three_prey_in_breasts_for_silk.description>
+  <!-- EN: Pulping several prey in breasts for silk -->
+  <RV2_PreyInBreastsMushingSilk.stages.Pulping_several_prey_in_breasts_for_silk.label>在乳房中为纺丝而研磨多只猎物</RV2_PreyInBreastsMushingSilk.stages.Pulping_several_prey_in_breasts_for_silk.label>
+  <!-- EN: Such a full, warm bosom full of silk!~ -->
+  <RV2_PreyInBreastsMushingSilk.stages.Pulping_several_prey_in_breasts_for_silk.description>鼓鼓暖暖的胸口里，全都是丝！~</RV2_PreyInBreastsMushingSilk.stages.Pulping_several_prey_in_breasts_for_silk.description>
+
+  <!-- EN: Spinning prey into silk in breasts -->
+  <RV2_PreyInBreastsSericifying.stages.Spinning_prey_into_silk_in_breasts.label>在乳房中将猎物纺成生丝</RV2_PreyInBreastsSericifying.stages.Spinning_prey_into_silk_in_breasts.label>
+  <!-- EN: Every last bit of them, wound into silk within my chest. -->
+  <RV2_PreyInBreastsSericifying.stages.Spinning_prey_into_silk_in_breasts.description>它们的每一寸，都在我胸中被卷成了丝。</RV2_PreyInBreastsSericifying.stages.Spinning_prey_into_silk_in_breasts.description>
+  <!-- EN: Spinning two prey into silk in breasts -->
+  <RV2_PreyInBreastsSericifying.stages.Spinning_two_prey_into_silk_in_breasts.label>在乳房中将两只猎物纺成生丝</RV2_PreyInBreastsSericifying.stages.Spinning_two_prey_into_silk_in_breasts.label>
+  <!-- EN: Two cocoons' worth, right under my skin! -->
+  <RV2_PreyInBreastsSericifying.stages.Spinning_two_prey_into_silk_in_breasts.description>足足两茧的丝，就藏在皮肤之下！</RV2_PreyInBreastsSericifying.stages.Spinning_two_prey_into_silk_in_breasts.description>
+  <!-- EN: Spinning three prey into silk in breasts -->
+  <RV2_PreyInBreastsSericifying.stages.Spinning_three_prey_into_silk_in_breasts.label>在乳房中将三只猎物纺成生丝</RV2_PreyInBreastsSericifying.stages.Spinning_three_prey_into_silk_in_breasts.label>
+  <!-- EN: The little mill in my chest never stops. -->
+  <RV2_PreyInBreastsSericifying.stages.Spinning_three_prey_into_silk_in_breasts.description>我胸口里的小纺机永不停歇。</RV2_PreyInBreastsSericifying.stages.Spinning_three_prey_into_silk_in_breasts.description>
+  <!-- EN: Spinning several prey into silk in breasts -->
+  <RV2_PreyInBreastsSericifying.stages.Spinning_several_prey_into_silk_in_breasts.label>在乳房中将多只猎物纺成生丝</RV2_PreyInBreastsSericifying.stages.Spinning_several_prey_into_silk_in_breasts.label>
+  <!-- EN: I could clothe an army from my own chest!~ -->
+  <RV2_PreyInBreastsSericifying.stages.Spinning_several_prey_into_silk_in_breasts.description>光靠我的胸口就能给一支军队做衣服！~</RV2_PreyInBreastsSericifying.stages.Spinning_several_prey_into_silk_in_breasts.description>
+
+  <!-- ===== Chest variant memories ===== -->
+
+  <!-- EN: Spun {0} into silk in my breasts -->
+  <RV2_PredatorNippleConvertSilkSuccess.stages.Spun_into_silk_in_my_breasts.label>在乳房中将{0}纺成了生丝</RV2_PredatorNippleConvertSilkSuccess.stages.Spun_into_silk_in_my_breasts.label>
+  <!-- EN: I drew {1} into my chest and let them dissolve, then spun what remained into a lovely skein of silk. -->
+  <RV2_PredatorNippleConvertSilkSuccess.stages.Spun_into_silk_in_my_breasts.description>我把{1}吸入胸中任其溶解，再把剩余纺成一绞漂亮的生丝。</RV2_PredatorNippleConvertSilkSuccess.stages.Spun_into_silk_in_my_breasts.description>
+
+  <!-- EN: Silk spinning of {0} in breasts interrupted -->
+  <RV2_PredatorNippleConvertSilkInterrupted.stages.Silk_spinning_of_in_breasts_interrupted.label>{0}的乳房丝化被打断</RV2_PredatorNippleConvertSilkInterrupted.stages.Silk_spinning_of_in_breasts_interrupted.label>
+  <!-- EN: I tried to spin {1} down into silk inside my chest, but they struggled free. Such a waste of good fiber. -->
+  <RV2_PredatorNippleConvertSilkInterrupted.stages.Silk_spinning_of_in_breasts_interrupted.description>我本想将{1}在胸中纺成生丝，却让它挣脱了。真是浪费了上好的纤维。</RV2_PredatorNippleConvertSilkInterrupted.stages.Silk_spinning_of_in_breasts_interrupted.description>
+
+  <!-- EN: Escaped silk spinning by {0}'s breasts -->
+  <RV2_PreyNippleConvertSilkInterrupted.stages.Escaped_silk_spinning_by_s_breasts.label>从{0}的乳房丝化中逃脱</RV2_PreyNippleConvertSilkInterrupted.stages.Escaped_silk_spinning_by_s_breasts.label>
+  <!-- EN: {1} tried to spin me into silk inside their chest! I am not a spool of thread! -->
+  <RV2_PreyNippleConvertSilkInterrupted.stages.Escaped_silk_spinning_by_s_breasts.description>{1}竟想在胸中把我纺成生丝！我可不是一卷丝线！</RV2_PreyNippleConvertSilkInterrupted.stages.Escaped_silk_spinning_by_s_breasts.description>
+
+</LanguageData>

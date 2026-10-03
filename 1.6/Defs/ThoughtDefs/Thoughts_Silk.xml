@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Predator situation thoughts while spinning prey into silk -->
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInStomachDissolvingSilk</defName>
+    <stages>
+      <li>
+        <label>Dissolving prey for silk</label>
+        <description>Soaking them in silk enzymes before the spinning begins...</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Dissolving two prey for silk</label>
+        <description>Plenty of raw material to work with!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Dissolving three prey for silk</label>
+        <description>My stomach is a regular spinning mill already.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Dissolving several prey for silk</label>
+        <description>Thread after thread, all from my belly!~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInStomachMushingSilk</defName>
+    <stages>
+      <li>
+        <label>Pulping prey for silk</label>
+        <description>Working them into an even, spinnable pulp...</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pulping two prey for silk</label>
+        <description>The churning is oddly satisfying.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pulping three prey for silk</label>
+        <description>My guts are working overtime on the fiber.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pulping several prey for silk</label>
+        <description>All this silk, and all from willing little morsels!~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInStomachSericifying</defName>
+    <stages>
+      <li>
+        <label>Spinning prey into silk</label>
+        <description>Every last bit of them, wound into silk.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Spinning two prey into silk</label>
+        <description>Two cocoons' worth of thread already!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Spinning three prey into silk</label>
+        <description>The mill in my belly never stops.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Spinning several prey into silk</label>
+        <description>I'll never need to buy fabric again!~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Predator situation thoughts for the chest variant -->
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInBreastsDissolvingSilk</defName>
+    <stages>
+      <li>
+        <label>Dissolving prey in breasts for silk</label>
+        <description>Soaking them in silk enzymes within my chest before the spinning begins...</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Dissolving two prey in breasts for silk</label>
+        <description>My chest is warm and busy with raw material!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Dissolving three prey in breasts for silk</label>
+        <description>So much churning right against my heart.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Dissolving several prey in breasts for silk</label>
+        <description>Thread after thread, all from my bosom!~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInBreastsMushingSilk</defName>
+    <stages>
+      <li>
+        <label>Pulping prey in breasts for silk</label>
+        <description>Working them into an even, spinnable pulp against my ribs...</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pulping two prey in breasts for silk</label>
+        <description>My breasts feel heavy with the fiber.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pulping three prey in breasts for silk</label>
+        <description>Every squeeze works the silk a little finer.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Pulping several prey in breasts for silk</label>
+        <description>Such a full, warm bosom full of silk!~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="RV2_VoreThoughtSituationBase">
+    <defName>RV2_PreyInBreastsSericifying</defName>
+    <stages>
+      <li>
+        <label>Spinning prey into silk in breasts</label>
+        <description>Every last bit of them, wound into silk within my chest.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>Spinning two prey into silk in breasts</label>
+        <description>Two cocoons' worth, right under my skin!</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+      <li>
+        <label>Spinning three prey into silk in breasts</label>
+        <description>The little mill in my chest never stops.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+      <li>
+        <label>Spinning several prey into silk in breasts</label>
+        <description>I could clothe an army from my own chest!~</description>
+        <baseMoodEffect>20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Post vore memories -->
+  <ThoughtDef ParentName="RV2_VoreMemory_Base">
+    <defName>RV2_PredatorOralConvertSilkSuccess</defName>
+    <stages>
+      <li>
+        <label>Spun {0} into silk</label>
+        <description>I swallowed {1} and let them dissolve, then spun the rest into a lovely skein of silk.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="RV2_VoreMemory_Base">
+    <defName>RV2_PredatorOralConvertSilkInterrupted</defName>
+    <stages>
+      <li>
+        <label>Silk spinning of {0} interrupted</label>
+        <description>I tried to spin {1} down into silk, but they struggled free. What a waste of good fiber.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="RV2_VoreMemory_Base">
+    <defName>RV2_PreyOralConvertSilkInterrupted</defName>
+    <stages>
+      <li>
+        <label>Escaped silk spinning by {0}</label>
+        <description>{1} tried to spin me into silk! I am not a spool of thread!</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Post vore memories for the chest variant -->
+  <ThoughtDef ParentName="RV2_VoreMemory_Base">
+    <defName>RV2_PredatorNippleConvertSilkSuccess</defName>
+    <stages>
+      <li>
+        <label>Spun {0} into silk in my breasts</label>
+        <description>I drew {1} into my chest and let them dissolve, then spun what remained into a lovely skein of silk.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="RV2_VoreMemory_Base">
+    <defName>RV2_PredatorNippleConvertSilkInterrupted</defName>
+    <stages>
+      <li>
+        <label>Silk spinning of {0} in breasts interrupted</label>
+        <description>I tried to spin {1} down into silk inside my chest, but they struggled free. Such a waste of good fiber.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef ParentName="RV2_VoreMemory_Base">
+    <defName>RV2_PreyNippleConvertSilkInterrupted</defName>
+    <stages>
+      <li>
+        <label>Escaped silk spinning by {0}'s breasts</label>
+        <description>{1} tried to spin me into silk inside their chest! I am not a spool of thread!</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!-- Mood while wearing silk clothing. The active stage is chosen by
+       PRV2E.ThoughtWorker_WearingSilk from the pawn's vore product preference quirk. -->
+  <ThoughtDef>
+    <defName>RV2_WearingSilkVoreProduct</defName>
+    <thoughtClass>Thought_Situational</thoughtClass>
+    <workerClass>PRV2E.ThoughtWorker_WearingSilk</workerClass>
+    <stages>
+      <li>
+        <label>Adoring this prey-silk outfit</label>
+        <description>Being dressed in something that used to be living prey is simply divine.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+      <li>
+        <label>Enjoying this prey-silk outfit</label>
+        <description>Knowing what this silk was spun from makes it feel that much nicer against my skin.</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Wearing a prey-silk outfit</label>
+        <description>Just clothes, nothing more.</description>
+        <baseMoodEffect>0</baseMoodEffect>
+      </li>
+      <li>
+        <label>Uneasy in this prey-silk outfit</label>
+        <description>I would rather not think about what this fabric is made of.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+      <li>
+        <label>Disgusted by this prey-silk outfit</label>
+        <description>Wearing the churned remains of another person is utterly revolting. I want this off me.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

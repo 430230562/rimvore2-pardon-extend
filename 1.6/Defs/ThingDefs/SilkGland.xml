@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- The implant item. Inherits the mod-wide RV2_VoreEnabler_Base recipeMaker / category / tech
+       level patches, so it is crafted at a machining table after Vore Enabler research. -->
+  <ThingDef ParentName="RV2_VoreEnabler_Base">
+    <defName>RV2_GoalEnabler_ConvertSilk</defName>
+    <label>silk gland implant</label>
+    <description>A bionic silk gland that can be installed into the abdomen or the chest. Whichever
+      it is grafted into, it lets a predator spin live prey down into living silk, which can be
+      woven into clothing.</description>
+    <descriptionHyperlinks>
+      <RecipeDef>RV2_InstallGoalEnabler_ConvertSilk</RecipeDef>
+      <RecipeDef>RV2_InstallGoalEnabler_ConvertSilkChest</RecipeDef>
+      <HediffDef>RV2_GoalEnabler_ConvertSilk</HediffDef>
+    </descriptionHyperlinks>
+    <statBases>
+      <MarketValue>420</MarketValue>
+      <Mass>1.5</Mass>
+    </statBases>
+  </ThingDef>
+
+  <!-- living silk, a fabric usable in tailoring -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>RV2_Resource_Silk</defName>
+    <label>living silk</label>
+    <description>A pale, glossy fiber spun from the dissolved remains of a living being.\nIt is
+      light, incredibly strong for its weight, and insulates well, making it excellent cloth.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Synthread</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <MarketValue>3.5</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>0.4</Flammability>
+      <DeteriorationRate>3</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.60</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.15</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.50</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <burnableByRecipe>true</burnableByRecipe>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <stuffProps>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.10</commonality>
+      <color>(238,232,212)</color>
+      <allowColorGenerators>true</allowColorGenerators>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+      <statFactors>
+        <Flammability>0.4</Flammability>
+        <MaxHitPoints>1.2</MaxHitPoints>
+        <Beauty>3</Beauty>
+      </statFactors>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <modExtensions>
+      <li Class="RimVore2.ThingDef_VoreProductFlag" />
+    </modExtensions>
+  </ThingDef>
+
+  <!-- Regurgitated cocoon holding the prey's undigested belongings -->
+  <ThingDef ParentName="RV2_Container_Base">
+    <defName>RV2_Container_SilkCocoon</defName>
+    <description Inherit="False">A glistening cocoon of living silk, spun around the undigested
+      belongings of what used to be a living being.</description>
+    <label>Silk cocoon</label>
+    <graphicData>
+      <texPath>Things/VoreResultContainers/Base</texPath>
+      <color>(238,232,212)</color>
+    </graphicData>
+  </ThingDef>
+</Defs>

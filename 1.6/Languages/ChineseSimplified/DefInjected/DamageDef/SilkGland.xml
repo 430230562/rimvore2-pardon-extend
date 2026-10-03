@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Damage caused by sericification. -->
+  <RV2_SilkConversionEnzymes.label>丝化伤害</RV2_SilkConversionEnzymes.label>
+  <!-- EN: {0} has been spun into silk. -->
+  <RV2_SilkConversionEnzymes.deathMessage>{0}被纺成了生丝</RV2_SilkConversionEnzymes.deathMessage>
+
+</LanguageData>

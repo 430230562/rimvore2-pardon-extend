@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Silk gland implant -->
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>RV2_GoalEnabler_ConvertSilk</defName>
+    <label>abdominal silk gland</label>
+    <description>An implanted bionic silk gland grafted into the abdomen. Its spinning organ
+      registers prey inside the stomach down into living silk, which is later regurgitated as a
+      spinnable cocoon.</description>
+    <spawnThingOnRemoved>RV2_GoalEnabler_ConvertSilk</spawnThingOnRemoved>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Enablers_Core_Goal_ConvertSilk</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Chest variant of the same implant: installed into the chest instead of the abdomen -->
+  <HediffDef ParentName="ImplantHediffBase">
+    <defName>RV2_GoalEnabler_ConvertSilkChest</defName>
+    <label>thoracic silk gland</label>
+    <description>An implanted bionic silk gland grafted into the chest. Its spinning organ registers
+      prey held within the breasts down into living silk, which is later ejected as a spinnable
+      cocoon.</description>
+    <spawnThingOnRemoved>RV2_GoalEnabler_ConvertSilk</spawnThingOnRemoved>
+    <comps>
+      <li Class="RimVore2.HediffCompProperties_QuirkForcer">
+        <quirks>
+          <li>Enablers_Core_Goal_ConvertSilk</li>
+        </quirks>
+      </li>
+    </comps>
+  </HediffDef>
+
+  <!-- Conversion injuries -->
+  <HediffDef Abstract="True" Name="RV2SilkConversionEnzymesBase" ParentName="RV2AcidBase">
+    <label>Partly sericified</label>
+    <comps>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>Sericification-scarred</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <destroyedLabel>Spun into silk</destroyedLabel>
+      <destroyedOutLabel>Spun into silk</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+
+  <HediffDef ParentName="RV2SilkConversionEnzymesBase">
+    <defName>RV2_SilkConversionEnzymes</defName>
+    <labelNoun>Sericifying enzymes</labelNoun>
+  </HediffDef>
+
+  <!-- Predator situation hediffs -->
+  <HediffDef ParentName="RV2_PreyInStomach">
+    <defName>RV2_PreyInStomachDissolvingSilk</defName>
+    <description>This pawn is dissolving live prey within their stomach to prepare them for silk
+      spinning.</description>
+  </HediffDef>
+  <HediffDef ParentName="RV2_PreyInStomach">
+    <defName>RV2_PreyInStomachMushingSilk</defName>
+    <description>This pawn is breaking down a pulpy mass of prey inside their stomach.</description>
+  </HediffDef>
+  <HediffDef ParentName="RV2_PreyInStomach">
+    <defName>RV2_PreyInStomachSericifying</defName>
+    <description>This pawn is spinning the remains of their prey into living silk.</description>
+  </HediffDef>
+
+  <!-- Predator situation hediffs for the chest variant -->
+  <HediffDef ParentName="RV2_PreyInBreasts">
+    <defName>RV2_PreyInBreastsDissolvingSilk</defName>
+    <description>This pawn is dissolving live prey within their breasts to prepare them for silk
+      spinning.</description>
+  </HediffDef>
+  <HediffDef ParentName="RV2_PreyInBreasts">
+    <defName>RV2_PreyInBreastsMushingSilk</defName>
+    <description>This pawn is breaking down a pulpy mass of prey inside their breasts.</description>
+  </HediffDef>
+  <HediffDef ParentName="RV2_PreyInBreasts">
+    <defName>RV2_PreyInBreastsSericifying</defName>
+    <description>This pawn is spinning the remains of their prey into living silk within their
+      breasts.</description>
+  </HediffDef>
+</Defs>

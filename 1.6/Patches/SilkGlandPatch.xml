@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Register the silk goal enabler into the main mod's goal enabler pool, so the quirk
+       has a pool and can be granted by the implant. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/RimVore2.QuirkPoolDef[defName="Enablers_Goals_Core"]/quirks</xpath>
+    <value>
+      <li>Enablers_Core_Goal_ConvertSilk</li>
+    </value>
+  </Operation>
+</Patch>

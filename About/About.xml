@@ -23,6 +23,7 @@ This is a <b>submod</b> for <b>RimVore 2</b> adding genes and expanding RV2 feat
 - Made temporary hold, long-term storage, and pleasure vore goals in the womb <b>reduce prey's age</b> and <b>cure age-related diseases.</b>
 - Changed the <b>heal vore mechanics</b>, greatly increasing healing speed.
 - Added some <b>vore pathways.</b>
+- Added the <b>silk gland</b>, an abdomen implant that unlocks an oral pathway converting prey into <b>living silk</b> cloth. Pawns wearing silk gain or lose mood based on their <b>vore product preference</b>.
 - Miscellaneous changes:
   -- Fertility of fertile soil
   -- Categorization and research requirements for vore enhancement devices
@@ -41,7 +42,8 @@ This is a <b>submod</b> for <b>RimVore 2</b> adding genes and expanding RV2 feat
 
 <size=18>Future Plans</size>
 
-- Thinking about a vore pathway that converts pawns into <b>cloth</b>, but there doesn't seem to be a suitable organ...
+- ~~A vore pathway that converts pawns into <b>cloth</b>~~ - <b>implemented</b> as the <b>silk gland</b> implant (see Main Features).
+- More vore pathways and implants are planned.
 ]]>
 	</description>
 	<supportedVersions>

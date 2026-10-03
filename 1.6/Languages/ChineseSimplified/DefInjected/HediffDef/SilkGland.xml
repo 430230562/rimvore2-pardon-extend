@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: abdominal silk gland -->
+  <RV2_GoalEnabler_ConvertSilk.label>腹部绢丝腺</RV2_GoalEnabler_ConvertSilk.label>
+  <!-- EN: An implanted bionic silk gland grafted into the abdomen. Its spinning organ registers
+  prey inside the stomach down into living silk, which is later regurgitated as a spinnable cocoon. -->
+  <RV2_GoalEnabler_ConvertSilk.description>移植到腹部的仿生绢丝腺。其纺丝器官能将胃中的猎物分解为生丝，随后以可纺织的丝茧形式吐出。</RV2_GoalEnabler_ConvertSilk.description>
+
+  <!-- EN: thoracic silk gland -->
+  <RV2_GoalEnabler_ConvertSilkChest.label>胸部绢丝腺</RV2_GoalEnabler_ConvertSilkChest.label>
+  <!-- EN: An implanted bionic silk gland grafted into the chest. Its spinning organ registers prey
+  held within the breasts down into living silk, which is later ejected as a spinnable cocoon. -->
+  <RV2_GoalEnabler_ConvertSilkChest.description>移植到胸部的仿生绢丝腺。其纺丝器官能将乳房中的猎物分解为生丝，随后以可纺织的丝茧形式排出。</RV2_GoalEnabler_ConvertSilkChest.description>
+
+  <!-- EN: Partly sericified -->
+  <RV2_SilkConversionEnzymes.label>部分丝化</RV2_SilkConversionEnzymes.label>
+  <!-- EN: Damage caused by digestion. -->
+  <RV2_SilkConversionEnzymes.description>因丝化转化而受到的损伤</RV2_SilkConversionEnzymes.description>
+  <!-- EN: tended -->
+  <RV2_SilkConversionEnzymes.comps.HediffComp_TendDuration.labelSolidTendedWell>已护理</RV2_SilkConversionEnzymes.comps.HediffComp_TendDuration.labelSolidTendedWell>
+  <!-- EN: bandaged -->
+  <RV2_SilkConversionEnzymes.comps.HediffComp_TendDuration.labelTendedWell>已治疗</RV2_SilkConversionEnzymes.comps.HediffComp_TendDuration.labelTendedWell>
+  <!-- EN: tended -->
+  <RV2_SilkConversionEnzymes.comps.HediffComp_TendDuration.labelTendedWellInner>已护理</RV2_SilkConversionEnzymes.comps.HediffComp_TendDuration.labelTendedWellInner>
+  <!-- EN: Sericification-scarred -->
+  <RV2_SilkConversionEnzymes.comps.HediffComp_GetsPermanent.permanentLabel>丝化转化痕迹</RV2_SilkConversionEnzymes.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Spun into silk -->
+  <RV2_SilkConversionEnzymes.injuryProps.destroyedLabel>完全丝化</RV2_SilkConversionEnzymes.injuryProps.destroyedLabel>
+  <!-- EN: Spun into silk -->
+  <RV2_SilkConversionEnzymes.injuryProps.destroyedOutLabel>完全丝化</RV2_SilkConversionEnzymes.injuryProps.destroyedOutLabel>
+  <!-- EN: Sericifying enzymes -->
+  <RV2_SilkConversionEnzymes.labelNoun>丝化酶</RV2_SilkConversionEnzymes.labelNoun>
+
+  <!-- EN: This pawn is dissolving live prey within their stomach to prepare them for silk spinning. -->
+  <RV2_PreyInStomachDissolvingSilk.description>该角色正在胃中分解存活猎物，为纺丝做准备。</RV2_PreyInStomachDissolvingSilk.description>
+  <!-- EN: This pawn is breaking down a pulpy mass of prey inside their stomach. -->
+  <RV2_PreyInStomachMushingSilk.description>该角色正在胃中将猎物搅成糊状。</RV2_PreyInStomachMushingSilk.description>
+  <!-- EN: This pawn is spinning the remains of their prey into living silk. -->
+  <RV2_PreyInStomachSericifying.description>该角色正在将猎物残骸纺成生丝。</RV2_PreyInStomachSericifying.description>
+
+  <!-- EN: This pawn is dissolving live prey within their breasts to prepare them for silk spinning. -->
+  <RV2_PreyInBreastsDissolvingSilk.description>该角色正在乳房中分解存活猎物，为纺丝做准备。</RV2_PreyInBreastsDissolvingSilk.description>
+  <!-- EN: This pawn is breaking down a pulpy mass of prey inside their breasts. -->
+  <RV2_PreyInBreastsMushingSilk.description>该角色正在乳房中将猎物搅成糊状。</RV2_PreyInBreastsMushingSilk.description>
+  <!-- EN: This pawn is spinning the remains of their prey into living silk within their breasts. -->
+  <RV2_PreyInBreastsSericifying.description>该角色正在乳房中将猎物残骸纺成生丝。</RV2_PreyInBreastsSericifying.description>
+
+</LanguageData>

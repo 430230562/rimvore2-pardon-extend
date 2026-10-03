@@ -17,6 +17,7 @@ This is a **submod** for **RimVore2** — **RimVore2 pardon's Extend (PRV2E)** r
 - Made **temporary storage, storage and amusement in the womb** reduce **prey's age** and cure **age-related diseases**.
 - Changed the **Heal mechanics**, **greatly increasing healing speed**.
 - Added some **vore pathways**.
+- Added the **silk gland**, an abdomen implant that unlocks an oral pathway converting prey into **living silk** cloth. Pawns wearing silk gain or lose mood based on their **vore product preference**.
 - Miscellaneous changes:
   - Fertility of fertile soil
   - Categorization and research requirements for vore enhancement devices
@@ -35,7 +36,8 @@ This is a **submod** for **RimVore2** — **RimVore2 pardon's Extend (PRV2E)** r
 
 ## 🚀 Future Plans
 
-- Thinking about a vore pathway that converts pawns into **cloth**, but there doesn't seem to be a suitable organ...
+- ~~A vore pathway that converts pawns into **cloth**~~ - **implemented** as the **silk gland** implant (see Main Features).
+- More vore pathways and implants are planned.
 
 ---
 

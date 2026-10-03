@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Silk gland: part goal + vore goal for converting prey into living silk -->
+  <RimVore2.PartGoalDef>
+    <defName>Sericify</defName>
+    <label>Sericify</label>
+  </RimVore2.PartGoalDef>
+
+  <RimVore2.VoreGoalDef>
+    <defName>ConvertSilk</defName>
+    <label>Sericify</label>
+    <goalFinishTale>RV2_GoalFinish_ConvertSilk</goalFinishTale>
+    <goalFinishRecordPredator>RV2_Goal_ConvertSilk_Predator</goalFinishRecordPredator>
+    <goalFinishRecordPrey>RV2_Goal_ConvertSilk_Prey</goalFinishRecordPrey>
+    <relatedRulePacks>
+      <li>RV2_Goal_ConvertSilk</li>
+    </relatedRulePacks>
+    <requiredDesignations>
+      <li>fatal</li>
+    </requiredDesignations>
+  </RimVore2.VoreGoalDef>
+</Defs>

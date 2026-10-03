@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecordDef>
+    <defName>RV2_Goal_ConvertSilk_Predator</defName>
+    <label>Vore: Sericify Predator</label>
+    <description>The number of times I have converted someone into living silk.</description>
+    <type>Int</type>
+  </RecordDef>
+  <RecordDef>
+    <defName>RV2_Goal_ConvertSilk_Prey</defName>
+    <label>Vore: Sericify Prey</label>
+    <description>The number of times I have been converted into living silk.</description>
+    <type>Int</type>
+  </RecordDef>
+</Defs>

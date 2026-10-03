@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <!-- EN: Silk-spinning enzymes -->
+  <Enablers_Core_Goal_ConvertSilk.label>纺丝酶</Enablers_Core_Goal_ConvertSilk.label>
+  <!-- EN: [PAWN_label] can break live prey down into living silk within [PAWN_possessive] stomach. -->
+  <Enablers_Core_Goal_ConvertSilk.description>[PAWN_label]能够在胃中将存活的猎物分解为生丝。</Enablers_Core_Goal_ConvertSilk.description>
+
+</LanguageData>
