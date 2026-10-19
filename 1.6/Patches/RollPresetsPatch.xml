@@ -4,7 +4,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/RimVore2.RollPresetDef[defName="Heal_Prey"]</xpath>
     <value>
-      <RimVore2.RollPresetDef ParentName="IncreaseHediff">
+      <RimVore2.RollPresetDef>
         <defName>Heal_Prey</defName>
         <strengthModifiers>
           <li Class="RimVore2.RollModifier_Stat">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--
     Silk gland vore stages.
@@ -106,7 +106,7 @@
     </onCycle>
     <onEnd>
       <actions>
-        <li class="RimVore2.RollAction_ShowMote">
+        <li Class="RimVore2.RollAction_ShowMote">
           <mote>RV2_Mote_BubblesDigest</mote>
         </li>
       </actions>
@@ -162,7 +162,7 @@
         <li Class="RimVore2.RollAction_PlaySound">
           <sound>RV2_Moan</sound>
         </li>
-        <li class="RimVore2.RollAction_RecordTale_GoalFinish"/>
+        <li Class="RimVore2.RollAction_RecordTale_GoalFinish"/>
       </actions>
     </onEnd>
     <passConditions>
@@ -259,7 +259,7 @@
     </requirements>
     <onStart>
       <actions>
-        <li class="RimVore2.RollAction_PassValue_Set">
+        <li Class="RimVore2.RollAction_PassValue_Set">
           <name>BreakDownProgress</name>
           <value>0</value>
         </li>
@@ -311,7 +311,7 @@
     </requirements>
     <onStart>
       <actions>
-        <li class="RimVore2.RollAction_PassValue_Set">
+        <li Class="RimVore2.RollAction_PassValue_Set">
           <name>PreyNutrition</name>
           <type>PreyNutrition</type>
         </li>
@@ -326,13 +326,13 @@
     </onCycle>
     <onEnd>
       <actions>
-        <li class="RimVore2.RollAction_ShowMote">
+        <li Class="RimVore2.RollAction_ShowMote">
           <mote>RV2_Mote_BubblesDigest</mote>
         </li>
         <li Class="RimVore2.RollAction_PlaySound">
           <sound>RV2_Moan</sound>
         </li>
-        <li class="RimVore2.RollAction_RecordTale_GoalFinish"/>
+        <li Class="RimVore2.RollAction_RecordTale_GoalFinish"/>
       </actions>
     </onEnd>
     <passConditions>
