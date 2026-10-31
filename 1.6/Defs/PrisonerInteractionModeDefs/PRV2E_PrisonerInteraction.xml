@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PrisonerInteractionModeDef>
+    <defName>PRV2E_InBodyCell</defName>
+    <label>in-body cell</label>
+    <description>A capable colonist will transfer the prisoner into their body and keep them stored there with non-lethal storage vore. The prisoner's bed is freed once they are inside.</description>
+    <listOrder>80</listOrder>
+  </PrisonerInteractionModeDef>
+</Defs>

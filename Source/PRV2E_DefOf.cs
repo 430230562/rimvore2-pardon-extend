@@ -12,6 +12,8 @@ namespace PRV2E
         //public static SoundDef LBD_Dragon_Fire_Ability_Maintain;
         //public static JobDef LBD_Job_Dragon_Launch_FireBall;
 
+        public static PrisonerInteractionModeDef PRV2E_InBodyCell;
+
         static PRV2E_DefOf()
         {
             DefOfHelper.EnsureInitializedInCtor(typeof(PRV2E_DefOf));

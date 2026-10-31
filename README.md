@@ -18,6 +18,7 @@ This is a **submod** for **RimVore2** — **RimVore2 pardon's Extend (PRV2E)** r
 - Changed the **Heal mechanics**, **greatly increasing healing speed**.
 - Added some **vore pathways**.
 - Added the **silk gland**, an abdomen implant that unlocks an oral pathway converting prey into **living silk** cloth. Pawns wearing silk gain or lose mood based on their **vore product preference**.
+- Added the **in-body cell** prisoner interaction mode: a capable colonist automatically takes the prisoner into their body and keeps them stored there, freeing the prisoner's bed.
 - Miscellaneous changes:
   - Fertility of fertile soil
   - Categorization and research requirements for vore enhancement devices
