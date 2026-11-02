@@ -69,7 +69,7 @@
     <Compile Include="PRV2EMod.cs" />
     <Compile Include="PRV2E_DefOf.cs" />
     <Compile Include="Prisoners\GameComponent_InBodyCell.cs" />
-    <Compile Include="Prisoners\InBodyCellUtility.cs" />
+    <Compile Include="Prisoners\PrisonerVoreUtility.cs" />
     <Compile Include="Prisoners\Patch_PreVoreUtility_PopulateRecord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings\PatchOperationCheckSetting.cs" />

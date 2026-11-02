@@ -19,6 +19,7 @@ This is a **submod** for **RimVore2** — **RimVore2 pardon's Extend (PRV2E)** r
 - Added some **vore pathways**.
 - Added the **silk gland**, an abdomen implant that unlocks an oral pathway converting prey into **living silk** cloth. Pawns wearing silk gain or lose mood based on their **vore product preference**.
 - Added the **in-body cell** prisoner interaction mode: a capable colonist automatically takes the prisoner into their body and keeps them stored there, freeing the prisoner's bed.
+- Added the **conversion material** prisoner interaction mode: a capable colonist swallows the prisoner and converts them into vore product using a conversion goal (lubrify, lactify, spermify, ...). The prisoner is consumed, so they must be allowed to be fatally vored by the active RimVore2 rules.
 - Miscellaneous changes:
   - Fertility of fertile soil
   - Categorization and research requirements for vore enhancement devices

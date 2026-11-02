@@ -4,4 +4,8 @@
   <PRV2E_InBodyCell.label>体内牢房</PRV2E_InBodyCell.label>
   <!-- EN: A capable colonist will transfer the prisoner into their body and keep them stored there with non-lethal storage vore. The prisoner's bed is freed once they are inside. -->
   <PRV2E_InBodyCell.description>由符合条件的殖民者将囚犯转移进自己体内，并使用非致命的储存目标长期关押；囚犯进入体内后会释放其原床位的占用。</PRV2E_InBodyCell.description>
+  <!-- EN: conversion material -->
+  <PRV2E_ConvertMaterial.label>转化原料</PRV2E_ConvertMaterial.label>
+  <!-- EN: A capable colonist will swallow the prisoner and convert them into vore product with a conversion goal (lubrify, lactify, spermify, ...). This is fatal: the prisoner will not survive. -->
+  <PRV2E_ConvertMaterial.description>由符合条件的殖民者吞下囚犯，并使用以 Convert 开头的目标（润滑、泌乳、精化等）将其转化为吞噬产物。这是致命目标，囚犯无法生还。</PRV2E_ConvertMaterial.description>
 </LanguageData>

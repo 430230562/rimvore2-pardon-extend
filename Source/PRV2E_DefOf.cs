@@ -13,6 +13,7 @@ namespace PRV2E
         //public static JobDef LBD_Job_Dragon_Launch_FireBall;
 
         public static PrisonerInteractionModeDef PRV2E_InBodyCell;
+        public static PrisonerInteractionModeDef PRV2E_ConvertMaterial;
 
         static PRV2E_DefOf()
         {

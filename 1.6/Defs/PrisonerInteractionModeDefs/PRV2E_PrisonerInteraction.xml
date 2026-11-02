@@ -6,4 +6,10 @@
     <description>A capable colonist will transfer the prisoner into their body and keep them stored there with non-lethal storage vore. The prisoner's bed is freed once they are inside.</description>
     <listOrder>80</listOrder>
   </PrisonerInteractionModeDef>
+  <PrisonerInteractionModeDef>
+    <defName>PRV2E_ConvertMaterial</defName>
+    <label>conversion material</label>
+    <description>A capable colonist will swallow the prisoner and convert them into vore product with a conversion goal (lubrify, lactify, spermify, ...). This is fatal: the prisoner will not survive.</description>
+    <listOrder>81</listOrder>
+  </PrisonerInteractionModeDef>
 </Defs>
