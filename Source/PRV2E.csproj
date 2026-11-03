@@ -68,6 +68,7 @@
     <Compile Include="Hediffs\HediffComp_ScaleBodySize.cs" />
     <Compile Include="PRV2EMod.cs" />
     <Compile Include="PRV2E_DefOf.cs" />
+    <Compile Include="Patches\Patch_FloatMenuOptionProvider_Vore_GetStageJumpOption.cs" />
     <Compile Include="Prisoners\GameComponent_InBodyCell.cs" />
     <Compile Include="Prisoners\PrisonerVoreUtility.cs" />
     <Compile Include="Prisoners\Patch_PreVoreUtility_PopulateRecord.cs" />
